@@ -8,6 +8,13 @@ Unique key strategy:
   - source: lowercase category name (claude, codex, deepseek, etc.)
   - slug: extracted from URL path (last meaningful segment)
   This prevents duplicates even when posts are refetched.
+
+Sources using headless browser (Playwright):
+  - DeepSeek, Cursor, Perplexity, xAI (JS-rendered pages)
+Sources using requests + BeautifulSoup:
+  - Anthropic, OpenAI Codex, Kimi, Qwen, OpenClaw, Ollama
+Sources using RSS:
+  - Gemma/DeepMind
 """
 
 import json
@@ -27,6 +34,57 @@ CUTOFF_DATE = "2025-01-01"
 HEADERS = {
     "User-Agent": "AI-News-Aggregator/1.0 (https://github.com/kusandriadi/ai-blog)"
 }
+
+# Playwright browser instance (lazy-loaded)
+_browser = None
+_playwright = None
+
+
+def get_browser():
+    """Lazy-load Playwright browser. Returns browser instance."""
+    global _browser, _playwright
+    if _browser is None:
+        from playwright.sync_api import sync_playwright
+        _playwright = sync_playwright().start()
+        _browser = _playwright.chromium.launch(headless=True)
+        print("  Playwright browser launched")
+    return _browser
+
+
+def close_browser():
+    """Close Playwright browser if it was opened."""
+    global _browser, _playwright
+    if _browser:
+        _browser.close()
+        _browser = None
+    if _playwright:
+        _playwright.stop()
+        _playwright = None
+
+
+def fetch_with_playwright(url: str, wait_selector: str = None, scroll: bool = True, timeout: int = 30000) -> str:
+    """Fetch a JS-rendered page using Playwright. Returns page HTML."""
+    browser = get_browser()
+    context = browser.new_context(
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    )
+    page = context.new_page()
+    try:
+        page.goto(url, wait_until="networkidle", timeout=timeout)
+        if wait_selector:
+            try:
+                page.wait_for_selector(wait_selector, timeout=10000)
+            except Exception:
+                pass  # selector might not exist, continue anyway
+        if scroll:
+            # Scroll down to trigger lazy-loaded content
+            for _ in range(5):
+                page.evaluate("window.scrollBy(0, window.innerHeight)")
+                page.wait_for_timeout(800)
+        html = page.content()
+    finally:
+        context.close()
+    return html
 
 
 def slug_from_url(url: str) -> str:
@@ -70,41 +128,43 @@ def add_post(posts_map: dict, source: str, title: str, date: str, url: str, desc
 
 
 # ---------------------------------------------------------------------------
-# Fetchers for each source
+# Fetchers using requests + BeautifulSoup
 # ---------------------------------------------------------------------------
 
 def fetch_anthropic(posts_map: dict):
-    """Fetch Claude/Anthropic blog posts by scraping the blog page."""
+    """Fetch Claude/Anthropic blog + research posts."""
     print("Fetching: Anthropic (Claude)...")
     try:
-        resp = requests.get("https://www.anthropic.com/blog", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        for base_url in ["https://www.anthropic.com/blog", "https://www.anthropic.com/research"]:
+            resp = requests.get(base_url, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
 
-        for a in soup.select("a[href*='/blog/']"):
-            href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
-                continue
-            url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+            link_pattern = "/blog/" if "/blog" in base_url else "/research/"
+            for a in soup.select(f"a[href*='{link_pattern}']"):
+                href = a.get("href", "")
+                if not href or href in (link_pattern, link_pattern.rstrip("/")):
+                    continue
+                url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
 
-            title_el = a.select_one("h3, h2, [class*='title'], [class*='heading']")
-            title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
-            if not title or len(title) < 5:
-                continue
+                title_el = a.select_one("h3, h2, [class*='title'], [class*='heading']")
+                title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
+                if not title or len(title) < 5:
+                    continue
 
-            date_el = a.select_one("time, [class*='date']")
-            date_str = ""
-            if date_el:
-                date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
-                date_str = parse_date(date_text)
+                date_el = a.select_one("time, [class*='date']")
+                date_str = ""
+                if date_el:
+                    date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+                    date_str = parse_date(date_text)
 
-            desc_el = a.select_one("p, [class*='desc'], [class*='excerpt']")
-            desc = desc_el.get_text(strip=True) if desc_el else ""
+                desc_el = a.select_one("p, [class*='desc'], [class*='excerpt']")
+                desc = desc_el.get_text(strip=True) if desc_el else ""
 
-            if not date_str:
-                date_str = "2026-01-01"  # placeholder
+                if not date_str:
+                    date_str = "2026-01-01"
 
-            add_post(posts_map, "claude", title, date_str, url, desc)
+                add_post(posts_map, "claude", title, date_str, url, desc)
 
         print(f"  Found posts from Anthropic")
     except Exception as e:
@@ -141,28 +201,6 @@ def fetch_openai_codex(posts_map: dict):
         print(f"  Error fetching OpenAI Codex: {e}")
 
 
-def fetch_deepseek(posts_map: dict):
-    """Fetch DeepSeek blog posts."""
-    print("Fetching: DeepSeek...")
-    try:
-        resp = requests.get("https://deepseek.ai/blog", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-
-        for a in soup.select("a[href*='/blog/']"):
-            href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
-                continue
-            url = href if href.startswith("http") else f"https://deepseek.ai{href}"
-            title = a.get_text(strip=True)
-            if title and len(title) > 3:
-                add_post(posts_map, "deepseek", title, "2025-01-01", url, "")
-
-        print(f"  Found posts from DeepSeek")
-    except Exception as e:
-        print(f"  Error fetching DeepSeek: {e}")
-
-
 def fetch_gemma(posts_map: dict):
     """Fetch Gemma/DeepMind posts via RSS feed."""
     print("Fetching: Gemma (DeepMind RSS)...")
@@ -176,11 +214,13 @@ def fetch_gemma(posts_map: dict):
             link = item.findtext("link", "").strip()
             pub_date = item.findtext("pubDate", "")
             desc = item.findtext("description", "").strip()
+            # Strip HTML from description
+            if desc:
+                desc = BeautifulSoup(desc, "html.parser").get_text(strip=True)[:200]
 
             date_str = parse_rss_date(pub_date)
             if title and link:
-                # Filter for Gemma-related or include all DeepMind posts
-                add_post(posts_map, "gemma", title, date_str, link, desc[:200])
+                add_post(posts_map, "gemma", title, date_str, link, desc)
 
         print(f"  Found posts from DeepMind RSS")
     except Exception as e:
@@ -197,7 +237,7 @@ def fetch_kimi(posts_map: dict):
 
         for a in soup.select("a[href*='/blog/']"):
             href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
+            if not href or href in ("/blog", "/blog/"):
                 continue
             url = href if href.startswith("http") else f"https://www.kimi.com{href}"
             title = a.get_text(strip=True)
@@ -214,27 +254,38 @@ def fetch_kimi(posts_map: dict):
 
 
 def fetch_qwen(posts_map: dict):
-    """Fetch Qwen blog posts from GitHub Pages."""
+    """Fetch Qwen blog posts from GitHub Pages (all pages)."""
     print("Fetching: Qwen...")
     try:
-        resp = requests.get("https://qwenlm.github.io/blog/", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        page_num = 1
+        while page_num <= 10:  # safety limit
+            url_page = "https://qwenlm.github.io/blog/" if page_num == 1 else f"https://qwenlm.github.io/blog/page/{page_num}/"
+            resp = requests.get(url_page, headers=HEADERS, timeout=30)
+            if resp.status_code == 404:
+                break
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
 
-        for a in soup.select("a[href*='/blog/']"):
-            href = a.get("href", "")
-            if not href or href == "/blog/" or href == "/blog":
-                continue
-            url = href if href.startswith("http") else f"https://qwenlm.github.io{href}"
-            title = a.get_text(strip=True)
+            found = 0
+            for a in soup.select("a[href*='/blog/']"):
+                href = a.get("href", "")
+                if not href or href in ("/blog/", "/blog") or "/page/" in href:
+                    continue
+                url = href if href.startswith("http") else f"https://qwenlm.github.io{href}"
+                title = a.get_text(strip=True)
 
-            date_el = a.find_parent().select_one("time, [class*='date'], .post-date") if a.find_parent() else None
-            date_str = parse_date(date_el.get_text(strip=True)) if date_el else ""
+                date_el = a.find_parent().select_one("time, [class*='date'], .post-date") if a.find_parent() else None
+                date_str = parse_date(date_el.get_text(strip=True)) if date_el else ""
 
-            if title and len(title) > 3:
-                add_post(posts_map, "qwen", title, date_str or "2025-01-01", url, "")
+                if title and len(title) > 3:
+                    add_post(posts_map, "qwen", title, date_str or "2025-01-01", url, "")
+                    found += 1
 
-        print(f"  Found posts from Qwen")
+            if found == 0:
+                break
+            page_num += 1
+
+        print(f"  Found posts from Qwen ({page_num - 1} pages)")
     except Exception as e:
         print(f"  Error fetching Qwen: {e}")
 
@@ -249,7 +300,7 @@ def fetch_openclaw(posts_map: dict):
 
         for a in soup.select("a[href*='/blog/']"):
             href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
+            if not href or href in ("/blog", "/blog/"):
                 continue
             url = href if href.startswith("http") else f"https://openclaw.ai{href}"
             title_el = a.select_one("h2, h3, [class*='title']")
@@ -279,7 +330,7 @@ def fetch_ollama(posts_map: dict):
 
         for a in soup.select("a[href*='/blog/']"):
             href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
+            if not href or href in ("/blog", "/blog/"):
                 continue
             url = href if href.startswith("http") else f"https://ollama.com{href}"
             title_el = a.select_one("h2, h3, [class*='title'], span")
@@ -296,26 +347,75 @@ def fetch_ollama(posts_map: dict):
         print(f"  Error fetching Ollama: {e}")
 
 
-def fetch_cursor(posts_map: dict):
-    """Fetch Cursor blog posts."""
-    print("Fetching: Cursor...")
+# ---------------------------------------------------------------------------
+# Fetchers using Playwright (JS-rendered pages)
+# ---------------------------------------------------------------------------
+
+def fetch_deepseek(posts_map: dict):
+    """Fetch DeepSeek blog posts using headless browser."""
+    print("Fetching: DeepSeek (Playwright)...")
     try:
-        resp = requests.get("https://cursor.com/blog", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        html = fetch_with_playwright("https://deepseek.ai/blog", wait_selector="a[href*='/blog/']")
+        soup = BeautifulSoup(html, "html.parser")
 
         for a in soup.select("a[href*='/blog/']"):
             href = a.get("href", "")
-            if not href or href == "/blog" or href == "/blog/":
+            if not href or href in ("/blog", "/blog/"):
+                continue
+            url = href if href.startswith("http") else f"https://deepseek.ai{href}"
+            title_el = a.select_one("h2, h3, [class*='title'], [class*='heading'], span")
+            title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
+            # Clean up title - remove extra whitespace
+            title = " ".join(title.split())
+
+            date_el = a.select_one("time, [class*='date'], [class*='time']")
+            if not date_el:
+                parent = a.find_parent()
+                if parent:
+                    date_el = parent.select_one("time, [class*='date'], [class*='time']")
+            date_str = ""
+            if date_el:
+                date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+                date_str = parse_date(date_text)
+
+            desc_el = a.select_one("p, [class*='desc'], [class*='summary']")
+            desc = desc_el.get_text(strip=True) if desc_el else ""
+
+            if title and len(title) > 3:
+                add_post(posts_map, "deepseek", title, date_str or "2025-01-01", url, desc)
+
+        print(f"  Found posts from DeepSeek")
+    except Exception as e:
+        print(f"  Error fetching DeepSeek: {e}")
+
+
+def fetch_cursor(posts_map: dict):
+    """Fetch Cursor blog posts using headless browser."""
+    print("Fetching: Cursor (Playwright)...")
+    try:
+        html = fetch_with_playwright("https://cursor.com/blog", wait_selector="a[href*='/blog/']", scroll=True)
+        soup = BeautifulSoup(html, "html.parser")
+
+        for a in soup.select("a[href*='/blog/']"):
+            href = a.get("href", "")
+            if not href or href in ("/blog", "/blog/"):
                 continue
             url = href if href.startswith("http") else f"https://cursor.com{href}"
             title_el = a.select_one("h2, h3, [class*='title']")
             title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
+            title = " ".join(title.split())
 
             date_el = a.select_one("time, [class*='date']")
-            date_str = parse_date(date_el.get_text(strip=True)) if date_el else ""
+            if not date_el:
+                parent = a.find_parent()
+                if parent:
+                    date_el = parent.select_one("time, [class*='date']")
+            date_str = ""
+            if date_el:
+                date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+                date_str = parse_date(date_text)
 
-            desc_el = a.select_one("p")
+            desc_el = a.select_one("p, [class*='desc']")
             desc = desc_el.get_text(strip=True) if desc_el else ""
 
             if title and len(title) > 3:
@@ -327,22 +427,36 @@ def fetch_cursor(posts_map: dict):
 
 
 def fetch_perplexity(posts_map: dict):
-    """Fetch Perplexity hub posts."""
-    print("Fetching: Perplexity...")
+    """Fetch Perplexity hub posts using headless browser."""
+    print("Fetching: Perplexity (Playwright)...")
     try:
-        resp = requests.get("https://www.perplexity.ai/hub", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        html = fetch_with_playwright("https://www.perplexity.ai/hub", wait_selector="a[href*='/hub/']", scroll=True)
+        soup = BeautifulSoup(html, "html.parser")
 
         for a in soup.select("a[href*='/hub/']"):
             href = a.get("href", "")
-            if not href or href == "/hub" or href == "/hub/":
+            if not href or href in ("/hub", "/hub/"):
                 continue
             url = href if href.startswith("http") else f"https://www.perplexity.ai{href}"
-            title = a.get_text(strip=True)
+            title_el = a.select_one("h2, h3, [class*='title'], [class*='heading']")
+            title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
+            title = " ".join(title.split())
+
+            date_el = a.select_one("time, [class*='date']")
+            if not date_el:
+                parent = a.find_parent()
+                if parent:
+                    date_el = parent.select_one("time, [class*='date']")
+            date_str = ""
+            if date_el:
+                date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+                date_str = parse_date(date_text)
+
+            desc_el = a.select_one("p, [class*='desc']")
+            desc = desc_el.get_text(strip=True) if desc_el else ""
 
             if title and len(title) > 3:
-                add_post(posts_map, "perplexity", title, "2025-01-01", url, "")
+                add_post(posts_map, "perplexity", title, date_str or "2025-01-01", url, desc)
 
         print(f"  Found posts from Perplexity")
     except Exception as e:
@@ -350,25 +464,36 @@ def fetch_perplexity(posts_map: dict):
 
 
 def fetch_xai(posts_map: dict):
-    """Fetch xAI news."""
-    print("Fetching: xAI...")
+    """Fetch xAI news using headless browser."""
+    print("Fetching: xAI (Playwright)...")
     try:
-        resp = requests.get("https://x.ai/news", headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        html = fetch_with_playwright("https://x.ai/news", wait_selector="a[href*='/news/']", scroll=True)
+        soup = BeautifulSoup(html, "html.parser")
 
         for a in soup.select("a[href*='/news/']"):
             href = a.get("href", "")
-            if not href or href == "/news" or href == "/news/":
+            if not href or href in ("/news", "/news/"):
                 continue
             url = href if href.startswith("http") else f"https://x.ai{href}"
-            title = a.get_text(strip=True)
+            title_el = a.select_one("h2, h3, [class*='title'], [class*='heading']")
+            title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)
+            title = " ".join(title.split())
 
-            date_el = a.find_parent().select_one("time, [class*='date']") if a.find_parent() else None
-            date_str = parse_date(date_el.get_text(strip=True)) if date_el else ""
+            date_el = a.select_one("time, [class*='date']")
+            if not date_el:
+                parent = a.find_parent()
+                if parent:
+                    date_el = parent.select_one("time, [class*='date']")
+            date_str = ""
+            if date_el:
+                date_text = date_el.get("datetime", "") or date_el.get_text(strip=True)
+                date_str = parse_date(date_text)
+
+            desc_el = a.select_one("p, [class*='desc']")
+            desc = desc_el.get_text(strip=True) if desc_el else ""
 
             if title and len(title) > 3:
-                add_post(posts_map, "xai", title, date_str or "2025-01-01", url, "")
+                add_post(posts_map, "xai", title, date_str or "2025-01-01", url, desc)
 
         print(f"  Found posts from xAI")
     except Exception as e:
@@ -448,26 +573,41 @@ def main():
     existing_count = len(posts_map)
     print(f"Loaded {existing_count} existing posts\n")
 
-    fetchers = [
+    # --- Standard fetchers (requests + BS4) ---
+    standard_fetchers = [
         fetch_anthropic,
         fetch_openai_codex,
-        fetch_deepseek,
         fetch_gemma,
         fetch_kimi,
         fetch_qwen,
         fetch_openclaw,
         fetch_ollama,
-        fetch_cursor,
-        fetch_perplexity,
-        fetch_xai,
     ]
 
-    for fetcher in fetchers:
+    for fetcher in standard_fetchers:
         try:
             fetcher(posts_map)
         except Exception as e:
             print(f"  Unexpected error in {fetcher.__name__}: {e}")
         print()
+
+    # --- Playwright fetchers (JS-rendered pages) ---
+    playwright_fetchers = [
+        fetch_deepseek,
+        fetch_cursor,
+        fetch_perplexity,
+        fetch_xai,
+    ]
+
+    print("--- Headless browser fetchers ---\n")
+    for fetcher in playwright_fetchers:
+        try:
+            fetcher(posts_map)
+        except Exception as e:
+            print(f"  Unexpected error in {fetcher.__name__}: {e}")
+        print()
+
+    close_browser()
 
     new_count = len(posts_map) - existing_count
     print("=" * 50)

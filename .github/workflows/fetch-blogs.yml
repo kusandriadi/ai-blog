@@ -20,7 +20,9 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium --with-deps
 
       - name: Fetch blog posts
         run: python scripts/fetch_blogs.py
