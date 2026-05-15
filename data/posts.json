@@ -16,14 +16,6 @@
     "description": "Major collaboration focused on global development applications."
   },
   {
-    "id": "claude:2028-ai-leadership",
-    "title": "2028: Two scenarios for global AI leadership",
-    "date": "2026-05-14",
-    "url": "https://www.anthropic.com/research/2028-ai-leadership",
-    "source": "claude",
-    "description": ""
-  },
-  {
     "id": "openclaw:openai-models-in-openclaw-done-right",
     "title": "OpenAI Models in OpenClaw, Done Right",
     "date": "2026-05-14",
@@ -85,38 +77,6 @@
     "date": "2026-05-11",
     "url": "https://cursor.com/blog/topic/customers",
     "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "claude:teaching-claude-why",
-    "title": "Teaching Claude why",
-    "date": "2026-05-08",
-    "url": "https://www.anthropic.com/research/teaching-claude-why",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:natural-language-autoencoders",
-    "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
-    "date": "2026-05-07",
-    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:anthropic-institute-agenda",
-    "title": "Focus areas for The Anthropic Institute",
-    "date": "2026-05-07",
-    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:donating-open-source-petri",
-    "title": "Donating our open-source alignment tool",
-    "date": "2026-05-07",
-    "url": "https://www.anthropic.com/research/donating-open-source-petri",
-    "source": "claude",
     "description": ""
   },
   {
@@ -208,14 +168,6 @@
     "description": "May 4, 2026"
   },
   {
-    "id": "claude:claude-personal-guidance",
-    "title": "How people ask Claude for personal guidance",
-    "date": "2026-04-30",
-    "url": "https://www.anthropic.com/research/claude-personal-guidance",
-    "source": "claude",
-    "description": ""
-  },
-  {
     "id": "openclaw:openclaw-security-in-public",
     "title": "How OpenClaw Got Safer in Public",
     "date": "2026-04-30",
@@ -254,14 +206,6 @@
     "url": "https://cursor.com/blog/typescript-sdk",
     "source": "cursor",
     "description": "Build programmatic agents with the Cursor SDK"
-  },
-  {
-    "id": "claude:Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-    "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
-    "date": "2026-04-29",
-    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-    "source": "claude",
-    "description": ""
   },
   {
     "id": "claude:claude-for-creative-work",
@@ -310,22 +254,6 @@
     "url": "https://cursor.com/blog/nab",
     "source": "cursor",
     "description": "National Australia Bank accelerates legacy migrations with Cursor"
-  },
-  {
-    "id": "claude:economic-index-survey-announcement",
-    "title": "Announcing the Anthropic Economic Index Survey",
-    "date": "2026-04-22",
-    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:81k-economics",
-    "title": "What 81,000 people told us about the economics of AI",
-    "date": "2026-04-22",
-    "url": "https://www.anthropic.com/research/81k-economics",
-    "source": "claude",
-    "description": ""
   },
   {
     "id": "gemma:decoupled-diloco",
@@ -438,14 +366,6 @@
     "url": "https://www.anthropic.com/news/narasimhan-board",
     "source": "claude",
     "description": "Anthropic's Long-Term Benefit Trust board expansion."
-  },
-  {
-    "id": "claude:automated-alignment-researchers",
-    "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
-    "date": "2026-04-14",
-    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
-    "source": "claude",
-    "description": ""
   },
   {
     "id": "cursor:multi-agent-kernels",
@@ -1256,14 +1176,6 @@
     "description": ""
   },
   {
-    "id": "claude:claude-new-constitution",
-    "title": "Claude's New Constitution",
-    "date": "2026-01-22",
-    "url": "https://www.anthropic.com/news/claude-new-constitution",
-    "source": "claude",
-    "description": "Updated behavioral guidelines and principles framework."
-  },
-  {
     "id": "gemma:d4rt-teaching-ai-to-see-the-world-in-four-dimensions",
     "title": "D4RT: Teaching AI to see the world in four dimensions",
     "date": "2026-01-16",
@@ -1325,38 +1237,6 @@
     "date": "2026-01-01",
     "url": "https://cursor.com/blog/self-driving-codebases",
     "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "claude:alignment",
-    "title": "Alignment",
-    "date": "2026-01-01",
-    "url": "https://www.anthropic.com/research/team/alignment",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:economic-research",
-    "title": "Economic Research",
-    "date": "2026-01-01",
-    "url": "https://www.anthropic.com/research/team/economic-research",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:interpretability",
-    "title": "Interpretability",
-    "date": "2026-01-01",
-    "url": "https://www.anthropic.com/research/team/interpretability",
-    "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "claude:societal-impacts",
-    "title": "Societal Impacts",
-    "date": "2026-01-01",
-    "url": "https://www.anthropic.com/research/team/societal-impacts",
-    "source": "claude",
     "description": ""
   },
   {
@@ -2432,6 +2312,14 @@
     "description": "May 20, 2025"
   },
   {
+    "id": "claude:2028-ai-leadership",
+    "title": "2028: Two scenarios for global AI leadership",
+    "date": "2025-05-14",
+    "url": "https://www.anthropic.com/research/2028-ai-leadership",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "gemma:alphaevolve",
     "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
     "date": "2025-05-14",
@@ -2448,12 +2336,44 @@
     "description": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators"
   },
   {
+    "id": "claude:teaching-claude-why",
+    "title": "Teaching Claude why",
+    "date": "2025-05-08",
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "perplexity:perplexity-partners-with-wiley-to-power-educational-ai-search",
     "title": "Perplexity Partners with Wiley to Power Educational AI SearchMay 8, 2025CompanyEnterprise",
     "date": "2025-05-08",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-partners-with-wiley-to-power-educational-ai-search",
     "source": "perplexity",
     "description": "May 8, 2025"
+  },
+  {
+    "id": "claude:natural-language-autoencoders",
+    "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:anthropic-institute-agenda",
+    "title": "Focus areas for The Anthropic Institute",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:donating-open-source-petri",
+    "title": "Donating our open-source alignment tool",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/donating-open-source-petri",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "gemma:gemini-25-pro-coding",
@@ -2494,6 +2414,14 @@
     "url": "https://www.perplexity.ai/hub/blog/rl-training-for-math-reasoning",
     "source": "perplexity",
     "description": "May 5, 2025"
+  },
+  {
+    "id": "claude:claude-personal-guidance",
+    "title": "How people ask Claude for personal guidance",
+    "date": "2025-04-30",
+    "url": "https://www.anthropic.com/research/claude-personal-guidance",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "claude:bioinformatics-biomysterybench",
@@ -2542,6 +2470,22 @@
     "url": "https://www.perplexity.ai/hub/blog/announcing-our-global-partnership-with-motorola",
     "source": "perplexity",
     "description": "Apr 24, 2025"
+  },
+  {
+    "id": "claude:economic-index-survey-announcement",
+    "title": "Announcing the Anthropic Economic Index Survey",
+    "date": "2025-04-22",
+    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:81k-economics",
+    "title": "What 81,000 people told us about the economics of AI",
+    "date": "2025-04-22",
+    "url": "https://www.anthropic.com/research/81k-economics",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "perplexity:choice-is-the-remedy",
@@ -2606,6 +2550,14 @@
     "url": "https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
     "source": "gemma",
     "description": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips."
+  },
+  {
+    "id": "claude:automated-alignment-researchers",
+    "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+    "date": "2025-04-14",
+    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "gemma:dolphingemma",
