@@ -309,7 +309,7 @@
     "date": "2026-02-04",
     "url": "https://www.anthropic.com/blog/claude-is-a-space-to-think",
     "source": "claude",
-    "description": "Commitment to ad-free Claude: advertising incentives are incompatible with a genuinely helpful AI assistant."
+    "description": "Commitment to ad-free Claude."
   },
   {
     "id": "claude:apple-xcode-claude-agent-sdk",
@@ -352,20 +352,300 @@
     "description": "Updated behavioral guidelines and principles framework."
   },
   {
-    "id": "codex:skills-agents-sdk",
-    "title": "Using skills to accelerate OSS maintenance",
-    "date": "2025-03-09",
-    "url": "https://developers.openai.com/blog/skills-agents-sdk",
-    "source": "codex",
-    "description": "Using skills and GitHub Actions to optimize Codex workflows in the OpenAI Agents SDK repos."
+    "id": "claude:project-vend-2",
+    "title": "Project Vend: Phase two",
+    "date": "2025-12-18",
+    "url": "https://www.anthropic.com/research/project-vend-2",
+    "source": "claude",
+    "description": "Second phase of Project Vend research initiative."
   },
   {
-    "id": "codex:building-frontend-uis-with-codex-and-figma",
-    "title": "Building frontend UIs with Codex and Figma",
-    "date": "2025-02-26",
-    "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
+    "id": "claude:anthropic-interviewer",
+    "title": "Anthropic Interviewer: What 1,250 professionals told us about working with AI",
+    "date": "2025-12-02",
+    "url": "https://www.anthropic.com/research/anthropic-interviewer",
+    "source": "claude",
+    "description": "Survey of 1,250 professionals on working with AI."
+  },
+  {
+    "id": "claude:how-ai-is-transforming-work-at-anthropic",
+    "title": "How AI is transforming work at Anthropic",
+    "date": "2025-12-02",
+    "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+    "source": "claude",
+    "description": "Internal study on AI transformation of work."
+  },
+  {
+    "id": "claude:2028-ai-leadership",
+    "title": "2028: Two scenarios for global AI leadership",
+    "date": "2025-05-14",
+    "url": "https://www.anthropic.com/research/2028-ai-leadership",
+    "source": "claude",
+    "description": "Analysis of two possible trajectories for global AI leadership."
+  },
+  {
+    "id": "claude:teaching-claude-why",
+    "title": "Teaching Claude why",
+    "date": "2025-05-08",
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "source": "claude",
+    "description": "Research on teaching Claude reasoning through explanations."
+  },
+  {
+    "id": "claude:natural-language-autoencoders",
+    "title": "Natural Language Autoencoders: Turning Claude's thoughts into text",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "source": "claude",
+    "description": "Turning Claude's internal representations into human-readable text."
+  },
+  {
+    "id": "claude:anthropic-institute-agenda",
+    "title": "Focus areas for The Anthropic Institute",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+    "source": "claude",
+    "description": "Research agenda and focus areas for The Anthropic Institute."
+  },
+  {
+    "id": "claude:donating-open-source-petri",
+    "title": "Donating our open-source alignment tool",
+    "date": "2025-05-07",
+    "url": "https://www.anthropic.com/research/donating-open-source-petri",
+    "source": "claude",
+    "description": "Open-sourcing alignment research tools."
+  },
+  {
+    "id": "claude:claude-personal-guidance",
+    "title": "How people ask Claude for personal guidance",
+    "date": "2025-04-30",
+    "url": "https://www.anthropic.com/research/claude-personal-guidance",
+    "source": "claude",
+    "description": "Research on how users seek personal guidance from Claude."
+  },
+  {
+    "id": "claude:bioinformatics-biomysterybench",
+    "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench",
+    "date": "2025-04-29",
+    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "source": "claude",
+    "description": "Benchmarking Claude's bioinformatics research capabilities."
+  },
+  {
+    "id": "claude:economic-index-survey-announcement",
+    "title": "Announcing the Anthropic Economic Index Survey",
+    "date": "2025-04-22",
+    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "source": "claude",
+    "description": "Launch of survey tracking AI's economic impact."
+  },
+  {
+    "id": "claude:81k-economics",
+    "title": "What 81,000 people told us about the economics of AI",
+    "date": "2025-04-22",
+    "url": "https://www.anthropic.com/research/81k-economics",
+    "source": "claude",
+    "description": "Large-scale survey on AI's economic implications."
+  },
+  {
+    "id": "claude:automated-alignment-researchers",
+    "title": "Automated Alignment Researchers",
+    "date": "2025-04-14",
+    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+    "source": "claude",
+    "description": "Using large language models to scale scalable oversight."
+  },
+  {
+    "id": "claude:trustworthy-agents",
+    "title": "Trustworthy agents in practice",
+    "date": "2025-04-09",
+    "url": "https://www.anthropic.com/research/trustworthy-agents",
+    "source": "claude",
+    "description": "Research on building trustworthy AI agents."
+  },
+  {
+    "id": "claude:emotion-concepts-function",
+    "title": "Emotion concepts and their function in a large language model",
+    "date": "2025-04-02",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "source": "claude",
+    "description": "Research on emotion representations in LLMs."
+  },
+  {
+    "id": "claude:how-australia-uses-claude",
+    "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
+    "date": "2025-03-31",
+    "url": "https://www.anthropic.com/research/how-australia-uses-claude",
+    "source": "claude",
+    "description": "Regional analysis of Claude usage in Australia."
+  },
+  {
+    "id": "claude:economic-index-march-report",
+    "title": "Anthropic Economic Index report: Learning curves",
+    "date": "2025-03-24",
+    "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "source": "claude",
+    "description": "Economic index report focusing on learning curves."
+  },
+  {
+    "id": "claude:introducing-anthropic-science",
+    "title": "Introducing our Science Blog",
+    "date": "2025-03-23",
+    "url": "https://www.anthropic.com/research/introducing-anthropic-science",
+    "source": "claude",
+    "description": "Launch of Anthropic's dedicated science blog."
+  },
+  {
+    "id": "claude:long-running-claude",
+    "title": "Long-running Claude for scientific computing",
+    "date": "2025-03-23",
+    "url": "https://www.anthropic.com/research/long-running-Claude",
+    "source": "claude",
+    "description": "Using Claude for long-running scientific computing tasks."
+  },
+  {
+    "id": "claude:diff-tool",
+    "title": "A 'diff' tool for AI: Finding behavioral differences in new models",
+    "date": "2025-03-13",
+    "url": "https://www.anthropic.com/research/diff-tool",
+    "source": "claude",
+    "description": "Tool for comparing behavioral differences between AI models."
+  },
+  {
+    "id": "claude:mozilla-firefox-security-research",
+    "title": "Partnering with Mozilla to improve Firefox's security",
+    "date": "2025-03-06",
+    "url": "https://www.anthropic.com/research/mozilla-firefox-security",
+    "source": "claude",
+    "description": "Collaboration with Mozilla on browser security research."
+  },
+  {
+    "id": "claude:labor-market-impacts",
+    "title": "Labor market impacts of AI: A new measure and early evidence",
+    "date": "2025-03-05",
+    "url": "https://www.anthropic.com/research/labor-market-impacts",
+    "source": "claude",
+    "description": "Measuring AI's impact on labor markets."
+  },
+  {
+    "id": "claude:deprecation-updates-opus-3",
+    "title": "An update on our model deprecation commitments for Claude Opus 3",
+    "date": "2025-02-25",
+    "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+    "source": "claude",
+    "description": "Model deprecation timeline and commitments."
+  },
+  {
+    "id": "claude:AI-fluency-index",
+    "title": "Anthropic Education Report: The AI Fluency Index",
+    "date": "2025-02-23",
+    "url": "https://www.anthropic.com/research/AI-fluency-index",
+    "source": "claude",
+    "description": "Education report measuring AI literacy and fluency."
+  },
+  {
+    "id": "claude:persona-selection-model",
+    "title": "The persona selection model",
+    "date": "2025-02-23",
+    "url": "https://www.anthropic.com/research/persona-selection-model",
+    "source": "claude",
+    "description": "Research on how Claude selects and maintains personas."
+  },
+  {
+    "id": "claude:measuring-agent-autonomy",
+    "title": "Measuring AI agent autonomy in practice",
+    "date": "2025-02-18",
+    "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "source": "claude",
+    "description": "Frameworks for measuring AI agent autonomy."
+  },
+  {
+    "id": "claude:india-brief-economic-index",
+    "title": "India Country Brief: The Anthropic Economic Index",
+    "date": "2025-02-16",
+    "url": "https://www.anthropic.com/research/india-brief-economic-index",
+    "source": "claude",
+    "description": "India-specific analysis from the Anthropic Economic Index."
+  },
+  {
+    "id": "claude:AI-assistance-coding-skills",
+    "title": "How AI assistance impacts the formation of coding skills",
+    "date": "2025-01-29",
+    "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+    "source": "claude",
+    "description": "Research on AI's impact on learning to code."
+  },
+  {
+    "id": "claude:disempowerment-patterns",
+    "title": "Disempowerment patterns in real-world AI usage",
+    "date": "2025-01-28",
+    "url": "https://www.anthropic.com/research/disempowerment-patterns",
+    "source": "claude",
+    "description": "Patterns where AI use leads to user disempowerment."
+  },
+  {
+    "id": "claude:claude-new-constitution-research",
+    "title": "Claude's new constitution",
+    "date": "2025-01-22",
+    "url": "https://www.anthropic.com/research/claude-new-constitution",
+    "source": "claude",
+    "description": "Research behind Claude's updated constitutional guidelines."
+  },
+  {
+    "id": "claude:assistant-axis",
+    "title": "The assistant axis: situating and stabilizing the character of large language models",
+    "date": "2025-01-19",
+    "url": "https://www.anthropic.com/research/assistant-axis",
+    "source": "claude",
+    "description": "Research on LLM character stabilization."
+  },
+  {
+    "id": "claude:economic-index-primitives",
+    "title": "Anthropic Economic Index: New building blocks for understanding AI use",
+    "date": "2025-01-15",
+    "url": "https://www.anthropic.com/research/economic-index-primitives",
+    "source": "claude",
+    "description": "Framework for understanding economic patterns of AI usage."
+  },
+  {
+    "id": "claude:next-generation-constitutional-classifiers",
+    "title": "Next-generation Constitutional Classifiers",
+    "date": "2025-01-09",
+    "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+    "source": "claude",
+    "description": "More efficient protection against universal jailbreaks."
+  },
+  {
+    "id": "codex:skyscanner-codex-jetbrains-mcp",
+    "title": "Supercharging Codex with JetBrains MCP at Skyscanner",
+    "date": "2025-01-11",
+    "url": "https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp",
     "source": "codex",
-    "description": "Use Codex and Figma to bring real, running interfaces into Figma, refine them, and bring changes back to Codex."
+    "description": "How Skyscanner uses Codex with JetBrains MCP integration."
+  },
+  {
+    "id": "codex:eval-skills",
+    "title": "Testing Agent Skills Systematically with Evals",
+    "date": "2025-01-22",
+    "url": "https://developers.openai.com/blog/eval-skills",
+    "source": "codex",
+    "description": "A practical guide to turning agent skills into something you can test, score, and improve."
+  },
+  {
+    "id": "codex:15-lessons-building-chatgpt-apps",
+    "title": "15 lessons learned building ChatGPT Apps",
+    "date": "2025-02-04",
+    "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
+    "source": "codex",
+    "description": "Lessons from building ChatGPT-powered applications."
+  },
+  {
+    "id": "codex:skills-shell-tips",
+    "title": "Shell + Skills + Compaction: Tips for long-running agents",
+    "date": "2025-02-11",
+    "url": "https://developers.openai.com/blog/skills-shell-tips",
+    "source": "codex",
+    "description": "Tips for building long-running agents that do real work."
   },
   {
     "id": "codex:run-long-horizon-tasks-with-codex",
@@ -376,12 +656,44 @@
     "description": "Guide on running long-duration tasks with Codex."
   },
   {
-    "id": "codex:eval-skills",
-    "title": "Testing Agent Skills Systematically with Evals",
-    "date": "2025-01-22",
-    "url": "https://developers.openai.com/blog/eval-skills",
+    "id": "codex:building-frontend-uis-with-codex-and-figma",
+    "title": "Building frontend UIs with Codex and Figma",
+    "date": "2025-02-26",
+    "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
     "source": "codex",
-    "description": "A practical guide to turning agent skills into something you can test, score, and improve over time."
+    "description": "Use Codex and Figma to bring real interfaces into Figma and back."
+  },
+  {
+    "id": "codex:skills-agents-sdk",
+    "title": "Using skills to accelerate OSS maintenance",
+    "date": "2025-03-09",
+    "url": "https://developers.openai.com/blog/skills-agents-sdk",
+    "source": "codex",
+    "description": "Using skills and GitHub Actions to optimize Codex workflows."
+  },
+  {
+    "id": "codex:one-year-of-responses",
+    "title": "From prompts to products: One year of Responses",
+    "date": "2025-03-11",
+    "url": "https://developers.openai.com/blog/one-year-of-responses",
+    "source": "codex",
+    "description": "Retrospective on one year of the Responses API."
+  },
+  {
+    "id": "codex:designing-delightful-frontends-with-gpt-5-4",
+    "title": "Designing delightful frontends with GPT-5.4",
+    "date": "2025-03-20",
+    "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
+    "source": "codex",
+    "description": "Using GPT-5.4 for frontend design and development."
+  },
+  {
+    "id": "codex:realtime-perplexity-computer",
+    "title": "How Perplexity Brought Voice Search to Millions Using the Realtime API",
+    "date": "2025-03-25",
+    "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
+    "source": "codex",
+    "description": "Perplexity's implementation of voice search using OpenAI's Realtime API."
   },
   {
     "id": "deepseek:deepseek-guide-2026",
@@ -390,6 +702,214 @@
     "url": "https://deepseek.ai/blog/deepseek-guide-2026",
     "source": "deepseek",
     "description": "DeepSeek's comprehensive AI guide for 2026."
+  },
+  {
+    "id": "gemma:alphagenome",
+    "title": "AlphaGenome: AI for better understanding the genome",
+    "date": "2025-06-25",
+    "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+    "source": "gemma",
+    "description": "AI-powered genomic understanding tool."
+  },
+  {
+    "id": "gemma:gemini-robotics-on-device",
+    "title": "Gemini Robotics On-Device brings AI to local robotic devices",
+    "date": "2025-06-24",
+    "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+    "source": "gemma",
+    "description": "AI for local robotic devices."
+  },
+  {
+    "id": "gemma:gemini-25-updates",
+    "title": "Gemini 2.5: Updates to our family of thinking models",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/",
+    "source": "gemma",
+    "description": "Updates to the Gemini 2.5 model family."
+  },
+  {
+    "id": "gemma:expanding-gemini-25",
+    "title": "We're expanding our Gemini 2.5 family of models",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/",
+    "source": "gemma",
+    "description": "Expansion of the Gemini 2.5 model family."
+  },
+  {
+    "id": "gemma:tropical-cyclone-prediction",
+    "title": "How we're supporting better tropical cyclone prediction with AI",
+    "date": "2025-06-12",
+    "url": "https://deepmind.google/blog/how-were-supporting-better-tropical-cyclone-prediction-with-ai/",
+    "source": "gemma",
+    "description": "AI-powered weather prediction research."
+  },
+  {
+    "id": "gemma:advanced-audio-dialog-gemini-25",
+    "title": "Advanced audio dialog and generation with Gemini 2.5",
+    "date": "2025-06-03",
+    "url": "https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
+    "source": "gemma",
+    "description": "Audio capabilities in Gemini 2.5."
+  },
+  {
+    "id": "gemma:generative-media-models",
+    "title": "Fuel your creativity with new generative media models and tools",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/fuel-your-creativity-with-new-generative-media-models-and-tools/",
+    "source": "gemma",
+    "description": "New generative media models for creative work."
+  },
+  {
+    "id": "gemma:gemma-3n-preview",
+    "title": "Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/",
+    "source": "gemma",
+    "description": "Mobile-first efficient AI model."
+  },
+  {
+    "id": "gemma:gemini-25-even-better",
+    "title": "Gemini 2.5: Our most intelligent models are getting even better",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/",
+    "source": "gemma",
+    "description": "Improvements to Gemini 2.5 models."
+  },
+  {
+    "id": "gemma:synthid-detector",
+    "title": "SynthID Detector - a new portal to help identify AI-generated content",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/",
+    "source": "gemma",
+    "description": "Portal for identifying AI-generated content."
+  },
+  {
+    "id": "gemma:advancing-geminis-security-safeguards",
+    "title": "Advancing Gemini's security safeguards",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/advancing-geminis-security-safeguards/",
+    "source": "gemma",
+    "description": "Security improvements for Gemini models."
+  },
+  {
+    "id": "gemma:universal-ai-assistant",
+    "title": "Our vision for building a universal AI assistant",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/",
+    "source": "gemma",
+    "description": "DeepMind's vision for universal AI assistance."
+  },
+  {
+    "id": "gemma:alphaevolve",
+    "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+    "date": "2025-05-14",
+    "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "source": "gemma",
+    "description": "Coding agent powered by Gemini for algorithm design."
+  },
+  {
+    "id": "gemma:gemini-25-pro-coding",
+    "title": "Gemini 2.5 Pro Preview: even better coding performance",
+    "date": "2025-05-06",
+    "url": "https://deepmind.google/blog/gemini-25-pro-preview-even-better-coding-performance/",
+    "source": "gemma",
+    "description": "Improved coding capabilities in Gemini 2.5 Pro."
+  },
+  {
+    "id": "gemma:gemini-25-pro-web-apps",
+    "title": "Build rich, interactive web apps with an updated Gemini 2.5 Pro",
+    "date": "2025-05-06",
+    "url": "https://deepmind.google/blog/build-rich-interactive-web-apps-with-an-updated-gemini-25-pro/",
+    "source": "gemma",
+    "description": "Building web apps with Gemini 2.5 Pro."
+  },
+  {
+    "id": "gemma:music-ai-sandbox",
+    "title": "Music AI Sandbox, now with new features and broader access",
+    "date": "2025-04-24",
+    "url": "https://deepmind.google/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+    "source": "gemma",
+    "description": "Music AI creation tool updates."
+  },
+  {
+    "id": "gemma:gemini-25-flash",
+    "title": "Introducing Gemini 2.5 Flash",
+    "date": "2025-04-17",
+    "url": "https://deepmind.google/blog/introducing-gemini-2-5-flash/",
+    "source": "gemma",
+    "description": "Fast and efficient Gemini 2.5 Flash model."
+  },
+  {
+    "id": "gemma:veo-2-gemini-whisk",
+    "title": "Generate videos in Gemini and Whisk with Veo 2",
+    "date": "2025-04-15",
+    "url": "https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
+    "source": "gemma",
+    "description": "Video generation with Veo 2."
+  },
+  {
+    "id": "gemma:dolphingemma",
+    "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+    "date": "2025-04-14",
+    "url": "https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
+    "source": "gemma",
+    "description": "AI-powered dolphin communication research."
+  },
+  {
+    "id": "gemma:responsible-path-to-agi",
+    "title": "Taking a responsible path to AGI",
+    "date": "2025-04-02",
+    "url": "https://deepmind.google/blog/taking-a-responsible-path-to-agi/",
+    "source": "gemma",
+    "description": "DeepMind's approach to responsible AGI development."
+  },
+  {
+    "id": "gemma:cybersecurity-threats-advanced-ai",
+    "title": "Evaluating potential cybersecurity threats of advanced AI",
+    "date": "2025-04-02",
+    "url": "https://deepmind.google/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/",
+    "source": "gemma",
+    "description": "Assessment of AI cybersecurity risks."
+  },
+  {
+    "id": "gemma:gemini-25-most-intelligent",
+    "title": "Gemini 2.5: Our most intelligent AI model",
+    "date": "2025-03-25",
+    "url": "https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/",
+    "source": "gemma",
+    "description": "Launch of Gemini 2.5."
+  },
+  {
+    "id": "gemma:gemini-robotics",
+    "title": "Gemini Robotics brings AI into the physical world",
+    "date": "2025-03-12",
+    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "source": "gemma",
+    "description": "AI-powered robotics platform."
+  },
+  {
+    "id": "gemma:gemini-20-flash-image-generation",
+    "title": "Experiment with Gemini 2.0 Flash native image generation",
+    "date": "2025-03-12",
+    "url": "https://deepmind.google/blog/experiment-with-gemini-20-flash-native-image-generation/",
+    "source": "gemma",
+    "description": "Native image generation in Gemini 2.0 Flash."
+  },
+  {
+    "id": "gemma:introducing-gemma-3",
+    "title": "Introducing Gemma 3",
+    "date": "2025-03-12",
+    "url": "https://deepmind.google/blog/introducing-gemma-3/",
+    "source": "gemma",
+    "description": "Launch of the Gemma 3 open model."
+  },
+  {
+    "id": "gemma:gemini-20-flash-and-flash-lite",
+    "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+    "date": "2025-02-25",
+    "url": "https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/",
+    "source": "gemma",
+    "description": "Developer launch of Gemini 2.0 Flash and Flash-Lite."
   },
   {
     "id": "gemma:medgemma-1-5-4b",
@@ -405,7 +925,7 @@
     "date": "2026-01-15",
     "url": "https://deepmind.google/blog/innovation-and-ai/technology/developers-tools/translategemma/",
     "source": "gemma",
-    "description": "Collection enabling communication across 55 languages through specialized translation models."
+    "description": "Translation models across 55 languages."
   },
   {
     "id": "gemma:gemma-scope-2",
@@ -413,7 +933,7 @@
     "date": "2025-12-15",
     "url": "https://deepmind.google/deepmind/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
     "source": "gemma",
-    "description": "Helping the AI safety community deepen understanding of complex language model behavior."
+    "description": "AI safety community tool for understanding LLM behavior."
   },
   {
     "id": "gemma:functiongemma",
@@ -421,7 +941,7 @@
     "date": "2025-12-15",
     "url": "https://deepmind.google/blog/technology/developers/functiongemma/",
     "source": "gemma",
-    "description": "Specialized model enabling bespoke function calling capabilities for edge deployment."
+    "description": "Specialized model for function calling at the edge."
   },
   {
     "id": "gemma:t5gemma-2",
@@ -429,7 +949,7 @@
     "date": "2025-12-15",
     "url": "https://deepmind.google/research/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
     "source": "gemma",
-    "description": "Next generation of encoder-decoder models for enhanced contextual processing."
+    "description": "Next generation encoder-decoder models."
   },
   {
     "id": "kimi:kimi-k1-5",
@@ -437,7 +957,79 @@
     "date": "2025-01-20",
     "url": "https://www.kimi.com/blog/kimi-k1-5",
     "source": "kimi",
-    "description": "Explores reinforcement learning techniques applied to large language models at scale."
+    "description": "Reinforcement learning techniques applied to LLMs at scale."
+  },
+  {
+    "id": "kimi:moonlight-muon",
+    "title": "Muon is Scalable for LLM Training",
+    "date": "2025-02-23",
+    "url": "https://github.com/MoonshotAI/Moonlight",
+    "source": "kimi",
+    "description": "Scalable optimization for LLM training."
+  },
+  {
+    "id": "kimi:moba",
+    "title": "MoBA: Mixture of Block Attention",
+    "date": "2025-02-18",
+    "url": "https://github.com/MoonshotAI/MoBA",
+    "source": "kimi",
+    "description": "Novel attention mechanism for efficient LLM processing."
+  },
+  {
+    "id": "kimi:kimi-vl",
+    "title": "Kimi-VL",
+    "date": "2025-04-10",
+    "url": "https://github.com/MoonshotAI/Kimi-VL",
+    "source": "kimi",
+    "description": "Vision-language model from Moonshot AI."
+  },
+  {
+    "id": "kimi:kimina-prover-preview",
+    "title": "Kimina-Prover Preview",
+    "date": "2025-04-15",
+    "url": "https://github.com/MoonshotAI/Kimina-Prover-Preview",
+    "source": "kimi",
+    "description": "Mathematical theorem proving with AI."
+  },
+  {
+    "id": "kimi:kimi-audio",
+    "title": "Kimi-Audio",
+    "date": "2025-04-26",
+    "url": "https://github.com/MoonshotAI/Kimi-Audio",
+    "source": "kimi",
+    "description": "Audio processing and generation model."
+  },
+  {
+    "id": "kimi:kimi-dev",
+    "title": "Kimi-Dev",
+    "date": "2025-06-17",
+    "url": "https://github.com/MoonshotAI/Kimi-Dev",
+    "source": "kimi",
+    "description": "AI-powered software development agent."
+  },
+  {
+    "id": "kimi:kimi-researcher",
+    "title": "Kimi-Researcher",
+    "date": "2025-06-20",
+    "url": "https://moonshotai.github.io/Kimi-Researcher/",
+    "source": "kimi",
+    "description": "AI research assistant."
+  },
+  {
+    "id": "kimi:kimi-k2",
+    "title": "Kimi K2",
+    "date": "2025-07-11",
+    "url": "https://www.kimi.com/blog/kimi-k2",
+    "source": "kimi",
+    "description": "Major model release from Moonshot AI."
+  },
+  {
+    "id": "kimi:kimi-k2-instruct-0905",
+    "title": "Kimi-K2-Instruct-0905",
+    "date": "2025-09-05",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+    "source": "kimi",
+    "description": "Updated instruction-tuned Kimi K2 model."
   },
   {
     "id": "kimi:kimi-k2-thinking",
@@ -445,39 +1037,7 @@
     "date": "2025-11-06",
     "url": "https://www.kimi.com/blog/kimi-k2-thinking",
     "source": "kimi",
-    "description": "An open-source thinking model advancing reasoning capabilities."
-  },
-  {
-    "id": "kimi:kimi-k2-6",
-    "title": "Kimi K2.6",
-    "date": "2026-04-20",
-    "url": "https://www.kimi.com/blog/kimi-k2-6",
-    "source": "kimi",
-    "description": "Advancing open-source coding capabilities."
-  },
-  {
-    "id": "kimi:agent-swarm",
-    "title": "Agent Swarm",
-    "date": "2026-02-09",
-    "url": "https://www.kimi.com/blog/agent-swarm",
-    "source": "kimi",
-    "description": "Scale Out, Not Just Up - distributed agent systems."
-  },
-  {
-    "id": "kimi:worldvqa",
-    "title": "WorldVQA",
-    "date": "2026-02-03",
-    "url": "https://www.kimi.com/blog/worldvqa",
-    "source": "kimi",
-    "description": "Atomic World Knowledge in MLLMs for visual question answering."
-  },
-  {
-    "id": "kimi:kimi-k2-5",
-    "title": "Kimi K2.5",
-    "date": "2026-01-27",
-    "url": "https://www.kimi.com/blog/kimi-k2-5",
-    "source": "kimi",
-    "description": "Introduces visual agentic intelligence enhancements."
+    "description": "Open-source thinking model for reasoning."
   },
   {
     "id": "kimi:kimi-vendor-verifier",
@@ -485,39 +1045,159 @@
     "date": "2026-01-22",
     "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
     "source": "kimi",
-    "description": "Rebuilding the Chain of Trust for vendor verification systems."
+    "description": "Rebuilding the Chain of Trust."
   },
   {
-    "id": "qwen:qwen3guard",
-    "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-    "date": "2025-09-23",
-    "url": "https://qwenlm.github.io/blog/qwen3guard/",
-    "source": "qwen",
-    "description": "First safety guardrail model in the Qwen family with precise safety detection for prompts and responses."
+    "id": "kimi:kimi-k2-5",
+    "title": "Kimi K2.5",
+    "date": "2026-01-27",
+    "url": "https://www.kimi.com/blog/kimi-k2-5",
+    "source": "kimi",
+    "description": "Visual agentic intelligence."
   },
   {
-    "id": "qwen:qwen-image-edit",
-    "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-    "date": "2025-08-19",
-    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-    "source": "qwen",
-    "description": "Image editing model extending Qwen-Image capabilities with text editing features."
+    "id": "kimi:worldvqa",
+    "title": "WorldVQA",
+    "date": "2026-02-03",
+    "url": "https://www.kimi.com/blog/worldvqa",
+    "source": "kimi",
+    "description": "Atomic World Knowledge in MLLMs."
   },
   {
-    "id": "qwen:qwen-image",
-    "title": "Qwen-Image: Crafting with Native Text Rendering",
-    "date": "2025-08-04",
-    "url": "https://qwenlm.github.io/blog/qwen-image/",
-    "source": "qwen",
-    "description": "A 20B image foundation model excelling at complex text rendering and precise image editing."
+    "id": "kimi:agent-swarm",
+    "title": "Agent Swarm",
+    "date": "2026-02-09",
+    "url": "https://www.kimi.com/blog/agent-swarm",
+    "source": "kimi",
+    "description": "Distributed agent systems - Scale Out, Not Just Up."
   },
   {
-    "id": "qwen:gspo",
-    "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
-    "date": "2025-07-27",
-    "url": "https://qwenlm.github.io/blog/gspo/",
+    "id": "kimi:kimi-k2-6",
+    "title": "Kimi K2.6",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-k2-6",
+    "source": "kimi",
+    "description": "Advancing open-source coding."
+  },
+  {
+    "id": "qwen:qwen2.5-math-prm",
+    "title": "Towards Effective Process Supervision in Mathematical Reasoning",
+    "date": "2025-01-14",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-math-prm/",
     "source": "qwen",
-    "description": "Group Sequence Policy Optimization algorithm for stable, scalable RL training."
+    "description": "Process supervision for mathematical reasoning."
+  },
+  {
+    "id": "qwen:global-load-balance",
+    "title": "Global-batch load balance: almost free lunch to improve your MoE LLM training",
+    "date": "2025-01-21",
+    "url": "https://qwenlm.github.io/blog/global-load-balance/",
+    "source": "qwen",
+    "description": "Training optimization for MoE language models."
+  },
+  {
+    "id": "qwen:qwen2.5-vl",
+    "title": "Qwen2.5 VL",
+    "date": "2025-01-26",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+    "source": "qwen",
+    "description": "Vision-language model release."
+  },
+  {
+    "id": "qwen:qwen2.5-1m",
+    "title": "Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens",
+    "date": "2025-01-27",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-1m/",
+    "source": "qwen",
+    "description": "Million-token context length model."
+  },
+  {
+    "id": "qwen:qwen2.5-max",
+    "title": "Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model",
+    "date": "2025-01-28",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-max/",
+    "source": "qwen",
+    "description": "Large-scale Mixture of Experts model."
+  },
+  {
+    "id": "qwen:qwq-max-preview",
+    "title": "QwQ-Max-Preview",
+    "date": "2025-02-25",
+    "url": "https://qwenlm.github.io/blog/qwq-max-preview/",
+    "source": "qwen",
+    "description": "Preview of QwQ reasoning model."
+  },
+  {
+    "id": "qwen:qwq-32b",
+    "title": "QwQ-32B: Embracing the Power of Reinforcement Learning",
+    "date": "2025-03-06",
+    "url": "https://qwenlm.github.io/blog/qwq-32b/",
+    "source": "qwen",
+    "description": "32B reasoning model powered by RL."
+  },
+  {
+    "id": "qwen:qwen2.5-vl-32b",
+    "title": "Qwen2.5-VL-32B: Smarter and Lighter",
+    "date": "2025-03-24",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-vl-32b/",
+    "source": "qwen",
+    "description": "Efficient 32B vision-language model."
+  },
+  {
+    "id": "qwen:qwen2.5-omni",
+    "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!",
+    "date": "2025-03-27",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+    "source": "qwen",
+    "description": "Multimodal omni model."
+  },
+  {
+    "id": "qwen:qvq-max-preview",
+    "title": "QVQ-Max: Think with Evidence",
+    "date": "2025-03-28",
+    "url": "https://qwenlm.github.io/blog/qvq-max-preview/",
+    "source": "qwen",
+    "description": "Visual reasoning model."
+  },
+  {
+    "id": "qwen:qwen3",
+    "title": "Qwen3: Think Deeper, Act Faster",
+    "date": "2025-04-29",
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "source": "qwen",
+    "description": "Major model release with deeper reasoning."
+  },
+  {
+    "id": "qwen:qwen3-embedding",
+    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+    "date": "2025-06-05",
+    "url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+    "source": "qwen",
+    "description": "Text embedding and reranking models."
+  },
+  {
+    "id": "qwen:qwen-vlo",
+    "title": "Qwen VLo: From Understanding the World to Depicting It",
+    "date": "2025-06-26",
+    "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+    "source": "qwen",
+    "description": "Vision-language model for world understanding and depiction."
+  },
+  {
+    "id": "qwen:qwen-tts",
+    "title": "Time to Speak Some Dialects, Qwen-TTS!",
+    "date": "2025-06-27",
+    "url": "https://qwenlm.github.io/blog/qwen-tts/",
+    "source": "qwen",
+    "description": "Text-to-speech with dialect support."
+  },
+  {
+    "id": "qwen:qwen3-coder",
+    "title": "Qwen3-Coder: Agentic Coding in the World",
+    "date": "2025-07-22",
+    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "source": "qwen",
+    "description": "Agentic coding model."
   },
   {
     "id": "qwen:qwen-mt",
@@ -525,7 +1205,31 @@
     "date": "2025-07-24",
     "url": "https://qwenlm.github.io/blog/qwen-mt/",
     "source": "qwen",
-    "description": "Multilingual translation supporting 92 major official languages with RL enhancements."
+    "description": "Translation supporting 92 major languages."
+  },
+  {
+    "id": "qwen:qwen-image",
+    "title": "Qwen-Image: Crafting with Native Text Rendering",
+    "date": "2025-08-04",
+    "url": "https://qwenlm.github.io/blog/qwen-image/",
+    "source": "qwen",
+    "description": "20B image foundation model."
+  },
+  {
+    "id": "qwen:qwen-image-edit",
+    "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+    "date": "2025-08-19",
+    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+    "source": "qwen",
+    "description": "Image editing model."
+  },
+  {
+    "id": "qwen:qwen3guard",
+    "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+    "date": "2025-09-23",
+    "url": "https://qwenlm.github.io/blog/qwen3guard/",
+    "source": "qwen",
+    "description": "Safety guardrail model for prompts and responses."
   },
   {
     "id": "openclaw:openai-models-in-openclaw-done-right",
@@ -533,7 +1237,7 @@
     "date": "2026-05-14",
     "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
     "source": "openclaw",
-    "description": "OpenClaw now runs OpenAI agent turns through the native Codex app-server harness by default."
+    "description": "OpenClaw now runs OpenAI agent turns through native Codex harness."
   },
   {
     "id": "openclaw:openclaw-rough-week",
@@ -541,7 +1245,7 @@
     "date": "2026-05-05",
     "url": "https://openclaw.ai/blog/openclaw-rough-week",
     "source": "openclaw",
-    "description": "Covers issues around the 2026.4.24 and 2026.4.29 releases, explaining the reasoning and upcoming changes."
+    "description": "Post-mortem on 2026.4.24 and 2026.4.29 releases."
   },
   {
     "id": "openclaw:openclaw-security-in-public",
@@ -549,7 +1253,7 @@
     "date": "2026-04-30",
     "url": "https://openclaw.ai/blog/openclaw-security-in-public",
     "source": "openclaw",
-    "description": "The work behind the world's most-watched open source personal AI agent."
+    "description": "Security behind the open source personal AI agent."
   },
   {
     "id": "openclaw:virustotal-partnership",
@@ -557,7 +1261,7 @@
     "date": "2026-02-07",
     "url": "https://openclaw.ai/blog/virustotal-partnership",
     "source": "openclaw",
-    "description": "ClawHub skills are now scanned by VirusTotal's threat intelligence platform."
+    "description": "ClawHub skills scanned by VirusTotal."
   },
   {
     "id": "openclaw:introducing-openclaw",
@@ -565,71 +1269,7 @@
     "date": "2026-01-29",
     "url": "https://openclaw.ai/blog/introducing-openclaw",
     "source": "openclaw",
-    "description": "Documents the evolution from Clawd to Moltbot to OpenClaw."
-  },
-  {
-    "id": "ollama:mlx",
-    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
-    "date": "2026-03-30",
-    "url": "https://ollama.com/blog/mlx",
-    "source": "ollama",
-    "description": "Preview of the fastest way to run Ollama on Apple silicon using Apple's ML framework."
-  },
-  {
-    "id": "ollama:openclaw-tutorial",
-    "title": "The simplest and fastest way to setup OpenClaw",
-    "date": "2026-02-23",
-    "url": "https://ollama.com/blog/openclaw-tutorial",
-    "source": "ollama",
-    "description": "Setup OpenClaw in under two minutes with a single Ollama command."
-  },
-  {
-    "id": "ollama:web-search-subagents-claude-code",
-    "title": "Subagents and web search in Claude Code",
-    "date": "2026-02-16",
-    "url": "https://ollama.com/blog/web-search-subagents-claude-code",
-    "source": "ollama",
-    "description": "Ollama now supports subagents and web search capabilities within Claude Code."
-  },
-  {
-    "id": "ollama:openclaw",
-    "title": "OpenClaw",
-    "date": "2026-02-01",
-    "url": "https://ollama.com/blog/openclaw",
-    "source": "ollama",
-    "description": "OpenClaw is a personal AI assistant that connects your messaging apps to local AI coding agents."
-  },
-  {
-    "id": "ollama:launch",
-    "title": "ollama launch",
-    "date": "2026-01-23",
-    "url": "https://ollama.com/blog/launch",
-    "source": "ollama",
-    "description": "New command enabling setup and execution of coding tools like Claude Code."
-  },
-  {
-    "id": "ollama:image-generation",
-    "title": "Image generation (experimental)",
-    "date": "2026-01-20",
-    "url": "https://ollama.com/blog/image-generation",
-    "source": "ollama",
-    "description": "Local image generation capability on macOS."
-  },
-  {
-    "id": "ollama:claude",
-    "title": "Claude Code with Anthropic API compatibility",
-    "date": "2026-01-16",
-    "url": "https://ollama.com/blog/claude",
-    "source": "ollama",
-    "description": "Ollama achieves compatibility with Anthropic's Messages API for using Claude Code with open models."
-  },
-  {
-    "id": "ollama:codex",
-    "title": "OpenAI Codex with Ollama",
-    "date": "2026-01-15",
-    "url": "https://ollama.com/blog/codex",
-    "source": "ollama",
-    "description": "Open models now work with OpenAI's Codex CLI through Ollama."
+    "description": "Evolution from Clawd to Moltbot to OpenClaw."
   },
   {
     "id": "ollama:minions",
@@ -637,231 +1277,239 @@
     "date": "2025-02-25",
     "url": "https://ollama.com/blog/minions",
     "source": "ollama",
-    "description": "Research-backed approach enabling small local models to collaborate with cloud-based larger models."
+    "description": "Small local models collaborating with cloud-based larger models."
   },
   {
-    "id": "cursor:cloud-agent-development-environments",
-    "title": "Development environments for your cloud agents",
-    "date": "2026-05-13",
-    "url": "https://cursor.com/blog/cloud-agent-development-environments",
-    "source": "cursor",
-    "description": "Explores infrastructure setup for cloud-based agent operations."
+    "id": "ollama:multimodal-models",
+    "title": "Ollama's new engine for multimodal models",
+    "date": "2025-05-15",
+    "url": "https://ollama.com/blog/multimodal-models",
+    "source": "ollama",
+    "description": "New engine supporting multimodal model inference."
   },
   {
-    "id": "cursor:may-2026-bugbot-changes",
-    "title": "Updates to Bugbot for Teams and Individuals",
-    "date": "2026-05-11",
-    "url": "https://cursor.com/blog/may-2026-bugbot-changes",
-    "source": "cursor",
-    "description": "Changes to the code review tool's team and individual tiers."
+    "id": "ollama:streaming-tool",
+    "title": "Streaming responses with tool calling",
+    "date": "2025-05-28",
+    "url": "https://ollama.com/blog/streaming-tool",
+    "source": "ollama",
+    "description": "Streaming responses with tool calling support."
   },
   {
-    "id": "cursor:bootstrapping-composer-with-autoinstall",
-    "title": "Bootstrapping Composer with autoinstall",
-    "date": "2026-05-06",
-    "url": "https://cursor.com/blog/bootstrapping-composer-with-autoinstall",
-    "source": "cursor",
-    "description": "Automated initialization of the Composer model."
+    "id": "ollama:thinking",
+    "title": "Thinking",
+    "date": "2025-05-30",
+    "url": "https://ollama.com/blog/thinking",
+    "source": "ollama",
+    "description": "Thinking/reasoning capabilities in Ollama."
   },
   {
-    "id": "cursor:continually-improving-agent-harness",
-    "title": "Continually improving our agent harness",
-    "date": "2026-04-30",
-    "url": "https://cursor.com/blog/continually-improving-agent-harness",
-    "source": "cursor",
-    "description": "Updates on ongoing enhancements to agent execution framework."
+    "id": "ollama:secureminions",
+    "title": "Secure Minions: private collaboration between Ollama and frontier models",
+    "date": "2025-06-03",
+    "url": "https://ollama.com/blog/secureminions",
+    "source": "ollama",
+    "description": "Private collaboration between local and cloud models."
   },
   {
-    "id": "cursor:typescript-sdk",
-    "title": "Build programmatic agents with the Cursor SDK",
-    "date": "2026-04-29",
-    "url": "https://cursor.com/blog/typescript-sdk",
-    "source": "cursor",
-    "description": "Guide for creating autonomous agents using TypeScript tooling."
+    "id": "ollama:new-app",
+    "title": "Ollama's new app",
+    "date": "2025-07-30",
+    "url": "https://ollama.com/blog/new-app",
+    "source": "ollama",
+    "description": "Redesigned Ollama application."
   },
   {
-    "id": "cursor:spacex-model-training",
-    "title": "Cursor partners with SpaceX on model training",
-    "date": "2026-04-21",
-    "url": "https://cursor.com/blog/spacex-model-training",
-    "source": "cursor",
-    "description": "Partnership with SpaceX on AI model development."
+    "id": "ollama:gpt-oss",
+    "title": "OpenAI gpt-oss",
+    "date": "2025-08-05",
+    "url": "https://ollama.com/blog/gpt-oss",
+    "source": "ollama",
+    "description": "Running OpenAI's open-source GPT models."
   },
   {
-    "id": "cursor:app-stability",
-    "title": "Keeping the Cursor app stable",
-    "date": "2026-04-21",
-    "url": "https://cursor.com/blog/app-stability",
-    "source": "cursor",
-    "description": "Reliability improvements and stability maintenance strategies."
+    "id": "ollama:cloud-models",
+    "title": "Cloud models",
+    "date": "2025-09-19",
+    "url": "https://ollama.com/blog/cloud-models",
+    "source": "ollama",
+    "description": "Cloud model support in Ollama."
   },
   {
-    "id": "cursor:better-models-ambitious-work",
-    "title": "Better AI models enable more ambitious work",
-    "date": "2026-04-15",
-    "url": "https://cursor.com/blog/better-models-ambitious-work",
-    "source": "cursor",
-    "description": "Analysis of how improved LLMs expand development possibilities."
+    "id": "ollama:new-model-scheduling",
+    "title": "New model scheduling",
+    "date": "2025-09-23",
+    "url": "https://ollama.com/blog/new-model-scheduling",
+    "source": "ollama",
+    "description": "Improved model scheduling system."
   },
   {
-    "id": "cursor:canvas",
-    "title": "Interact with agent-created visualizations in canvases",
-    "date": "2026-04-15",
-    "url": "https://cursor.com/blog/canvas",
-    "source": "cursor",
-    "description": "Feature allowing interaction with visual outputs from agents."
+    "id": "ollama:web-search",
+    "title": "Web search",
+    "date": "2025-09-24",
+    "url": "https://ollama.com/blog/web-search",
+    "source": "ollama",
+    "description": "Web search integration."
   },
   {
-    "id": "cursor:multi-agent-kernels",
-    "title": "Speeding up GPU kernels by 38% with a multi-agent system",
-    "date": "2026-04-14",
-    "url": "https://cursor.com/blog/multi-agent-kernels",
-    "source": "cursor",
-    "description": "Performance optimization through coordinated multi-agent processing."
+    "id": "ollama:nvidia-spark",
+    "title": "NVIDIA DGX Spark",
+    "date": "2025-10-13",
+    "url": "https://ollama.com/blog/nvidia-spark",
+    "source": "ollama",
+    "description": "Support for NVIDIA DGX Spark hardware."
   },
   {
-    "id": "cursor:bugbot-learning",
-    "title": "Bugbot now self-improves with learned rules",
-    "date": "2026-04-08",
-    "url": "https://cursor.com/blog/bugbot-learning",
-    "source": "cursor",
-    "description": "Code review automation that learns and adapts to codebase patterns."
+    "id": "ollama:qwen3-vl",
+    "title": "Qwen3-VL",
+    "date": "2025-10-14",
+    "url": "https://ollama.com/blog/qwen3-vl",
+    "source": "ollama",
+    "description": "Running Qwen3-VL models locally."
   },
   {
-    "id": "cursor:warp-decode",
-    "title": "Better MoE model inference with warp decode",
-    "date": "2026-04-06",
-    "url": "https://cursor.com/blog/warp-decode",
-    "source": "cursor",
-    "description": "Optimization technique for mixture-of-experts model inference."
+    "id": "ollama:coding-models",
+    "title": "New coding models & integrations",
+    "date": "2025-10-16",
+    "url": "https://ollama.com/blog/coding-models",
+    "source": "ollama",
+    "description": "New coding-focused models and integrations."
   },
   {
-    "id": "cursor:cursor-3",
-    "title": "Meet the new Cursor",
-    "date": "2026-04-02",
-    "url": "https://cursor.com/blog/cursor-3",
-    "source": "cursor",
-    "description": "Cursor 3 is a unified workspace for building software with agents."
+    "id": "ollama:nvidia-spark-performance",
+    "title": "NVIDIA DGX Spark performance",
+    "date": "2025-10-23",
+    "url": "https://ollama.com/blog/nvidia-spark-performance",
+    "source": "ollama",
+    "description": "Performance benchmarks on NVIDIA DGX Spark."
   },
   {
-    "id": "cursor:composer-2-technical-report",
-    "title": "A technical report on Composer 2",
-    "date": "2026-03-27",
-    "url": "https://cursor.com/blog/composer-2-technical-report",
-    "source": "cursor",
-    "description": "In-depth technical analysis of Composer 2 architecture."
+    "id": "ollama:minimax-m2",
+    "title": "MiniMax M2",
+    "date": "2025-10-28",
+    "url": "https://ollama.com/blog/minimax-m2",
+    "source": "ollama",
+    "description": "Running MiniMax M2 model locally."
   },
   {
-    "id": "cursor:real-time-rl-for-composer",
-    "title": "Improving Composer through real-time RL",
-    "date": "2026-03-26",
-    "url": "https://cursor.com/blog/real-time-rl-for-composer",
-    "source": "cursor",
-    "description": "Reinforcement learning techniques for live model enhancement."
+    "id": "ollama:gpt-oss-safeguard",
+    "title": "OpenAI gpt-oss-safeguard",
+    "date": "2025-10-29",
+    "url": "https://ollama.com/blog/gpt-oss-safeguard",
+    "source": "ollama",
+    "description": "OpenAI's open-source safety model."
   },
   {
-    "id": "cursor:self-hosted-cloud-agents",
-    "title": "Run cloud agents in your own infrastructure",
-    "date": "2026-03-25",
-    "url": "https://cursor.com/blog/self-hosted-cloud-agents",
-    "source": "cursor",
-    "description": "Self-hosted deployment options for autonomous agents."
+    "id": "ollama:codex",
+    "title": "OpenAI Codex with Ollama",
+    "date": "2026-01-15",
+    "url": "https://ollama.com/blog/codex",
+    "source": "ollama",
+    "description": "Open models with OpenAI's Codex CLI."
   },
   {
-    "id": "cursor:fast-regex-search",
-    "title": "Fast regex search: indexing text for agent tools",
-    "date": "2026-03-23",
-    "url": "https://cursor.com/blog/fast-regex-search",
-    "source": "cursor",
-    "description": "Indexing strategy enabling efficient pattern matching for agents."
+    "id": "ollama:claude",
+    "title": "Claude Code with Anthropic API compatibility",
+    "date": "2026-01-16",
+    "url": "https://ollama.com/blog/claude",
+    "source": "ollama",
+    "description": "Anthropic Messages API compatibility."
   },
   {
-    "id": "cursor:composer-2",
-    "title": "Introducing Composer 2",
-    "date": "2026-03-19",
-    "url": "https://cursor.com/blog/composer-2",
-    "source": "cursor",
-    "description": "Frontier-level coding with strong CursorBench results."
+    "id": "ollama:image-generation",
+    "title": "Image generation (experimental)",
+    "date": "2026-01-20",
+    "url": "https://ollama.com/blog/image-generation",
+    "source": "ollama",
+    "description": "Local image generation capability."
   },
   {
-    "id": "cursor:self-summarization",
-    "title": "Training Composer for longer horizons",
-    "date": "2026-03-17",
-    "url": "https://cursor.com/blog/self-summarization",
-    "source": "cursor",
-    "description": "Techniques expanding agent task planning capabilities."
+    "id": "ollama:launch",
+    "title": "ollama launch",
+    "date": "2026-01-23",
+    "url": "https://ollama.com/blog/launch",
+    "source": "ollama",
+    "description": "New command for setup and execution of coding tools."
   },
   {
-    "id": "cursor:security-agents",
-    "title": "Securing our codebase with autonomous agents",
-    "date": "2026-03-16",
-    "url": "https://cursor.com/blog/security-agents",
-    "source": "cursor",
-    "description": "Automated security scanning through agent-based analysis."
+    "id": "ollama:openclaw",
+    "title": "OpenClaw",
+    "date": "2026-02-01",
+    "url": "https://ollama.com/blog/openclaw",
+    "source": "ollama",
+    "description": "Personal AI assistant connecting messaging apps to local AI."
   },
   {
-    "id": "cursor:cursorbench",
-    "title": "How we compare model quality in Cursor",
-    "date": "2026-03-11",
-    "url": "https://cursor.com/blog/cursorbench",
-    "source": "cursor",
-    "description": "Hybrid online-offline eval process for quality assessment."
+    "id": "ollama:web-search-subagents-claude-code",
+    "title": "Subagents and web search in Claude Code",
+    "date": "2026-02-16",
+    "url": "https://ollama.com/blog/web-search-subagents-claude-code",
+    "source": "ollama",
+    "description": "Subagents and web search in Claude Code."
   },
   {
-    "id": "cursor:new-plugins",
-    "title": "Over 30 new plugins join the Cursor Marketplace",
-    "date": "2026-03-11",
-    "url": "https://cursor.com/blog/new-plugins",
-    "source": "cursor",
-    "description": "Marketplace expansion with expanded plugin ecosystem."
+    "id": "ollama:openclaw-tutorial",
+    "title": "The simplest and fastest way to setup OpenClaw",
+    "date": "2026-02-23",
+    "url": "https://ollama.com/blog/openclaw-tutorial",
+    "source": "ollama",
+    "description": "Setup OpenClaw in under two minutes."
   },
   {
-    "id": "cursor:automations",
-    "title": "Build agents that run automatically",
-    "date": "2026-03-05",
-    "url": "https://cursor.com/blog/automations",
-    "source": "cursor",
-    "description": "Creation and execution of self-triggering autonomous workflows."
+    "id": "ollama:mlx",
+    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+    "date": "2026-03-30",
+    "url": "https://ollama.com/blog/mlx",
+    "source": "ollama",
+    "description": "MLX-powered Ollama on Apple Silicon."
   },
   {
-    "id": "cursor:jetbrains-acp",
-    "title": "Cursor is now available in JetBrains IDEs",
-    "date": "2026-03-04",
-    "url": "https://cursor.com/blog/jetbrains-acp",
+    "id": "cursor:secure-codebase-indexing",
+    "title": "Securely indexing large codebases",
+    "date": "2026-01-27",
+    "url": "https://cursor.com/blog/secure-codebase-indexing",
     "source": "cursor",
-    "description": "IDE integration expanding development environment support."
+    "description": "Privacy-preserving codebase search infrastructure."
   },
   {
-    "id": "cursor:cursor-support",
-    "title": "How technical support at Cursor uses Cursor",
-    "date": "2026-03-03",
-    "url": "https://cursor.com/blog/cursor-support",
+    "id": "cursor:self-driving-codebases",
+    "title": "Towards self-driving codebases",
+    "date": "2026-02-05",
+    "url": "https://cursor.com/blog/self-driving-codebases",
     "source": "cursor",
-    "description": "Internal case study of tool adoption in support operations."
+    "description": "Vision for autonomous repository management."
   },
   {
-    "id": "cursor:third-era",
-    "title": "The third era of AI software development",
-    "date": "2026-02-26",
-    "url": "https://cursor.com/blog/third-era",
+    "id": "cursor:composer-1-5",
+    "title": "Introducing Composer 1.5",
+    "date": "2026-02-09",
+    "url": "https://cursor.com/blog/composer-1-5",
     "source": "cursor",
-    "description": "Autonomous cloud agents take on larger tasks over longer timescales."
+    "description": "Enhancement to composition model."
   },
   {
-    "id": "cursor:bugbot-autofix",
-    "title": "Closing the code review loop with Bugbot Autofix",
-    "date": "2026-02-26",
-    "url": "https://cursor.com/blog/bugbot-autofix",
+    "id": "cursor:increased-agent-usage",
+    "title": "Increased usage for agents",
+    "date": "2026-02-11",
+    "url": "https://cursor.com/blog/increased-agent-usage",
     "source": "cursor",
-    "description": "Automated code correction closing review workflow cycle."
+    "description": "Agent adoption trends."
   },
   {
-    "id": "cursor:agent-computer-use",
-    "title": "Cursor agents can now control their own computers",
-    "date": "2026-02-24",
-    "url": "https://cursor.com/blog/agent-computer-use",
+    "id": "cursor:long-running-agents",
+    "title": "Expanding our long-running agents research preview",
+    "date": "2026-02-12",
+    "url": "https://cursor.com/blog/long-running-agents",
     "source": "cursor",
-    "description": "Extended agent capabilities for direct system interaction."
+    "description": "Extended-duration agent capabilities."
+  },
+  {
+    "id": "cursor:marketplace",
+    "title": "Extend Cursor with plugins",
+    "date": "2026-02-17",
+    "url": "https://cursor.com/blog/marketplace",
+    "source": "cursor",
+    "description": "Plugin architecture for extensibility."
   },
   {
     "id": "cursor:agent-sandboxing",
@@ -872,51 +1520,227 @@
     "description": "Security architecture for isolated agent execution."
   },
   {
-    "id": "cursor:marketplace",
-    "title": "Extend Cursor with plugins",
-    "date": "2026-02-17",
-    "url": "https://cursor.com/blog/marketplace",
+    "id": "cursor:agent-computer-use",
+    "title": "Cursor agents can now control their own computers",
+    "date": "2026-02-24",
+    "url": "https://cursor.com/blog/agent-computer-use",
     "source": "cursor",
-    "description": "Introduction to extensibility through plugin architecture."
+    "description": "Direct system interaction for agents."
   },
   {
-    "id": "cursor:long-running-agents",
-    "title": "Expanding our long-running agents research preview",
-    "date": "2026-02-12",
-    "url": "https://cursor.com/blog/long-running-agents",
+    "id": "cursor:bugbot-autofix",
+    "title": "Closing the code review loop with Bugbot Autofix",
+    "date": "2026-02-26",
+    "url": "https://cursor.com/blog/bugbot-autofix",
     "source": "cursor",
-    "description": "Expansion of extended-duration agent capabilities."
+    "description": "Automated code correction."
   },
   {
-    "id": "cursor:increased-agent-usage",
-    "title": "Increased usage for agents",
-    "date": "2026-02-11",
-    "url": "https://cursor.com/blog/increased-agent-usage",
+    "id": "cursor:third-era",
+    "title": "The third era of AI software development",
+    "date": "2026-02-26",
+    "url": "https://cursor.com/blog/third-era",
     "source": "cursor",
-    "description": "Adoption trends and usage pattern observations."
+    "description": "Autonomous cloud agents for larger tasks."
   },
   {
-    "id": "cursor:composer-1-5",
-    "title": "Introducing Composer 1.5",
-    "date": "2026-02-09",
-    "url": "https://cursor.com/blog/composer-1-5",
+    "id": "cursor:cursor-support",
+    "title": "How technical support at Cursor uses Cursor",
+    "date": "2026-03-03",
+    "url": "https://cursor.com/blog/cursor-support",
     "source": "cursor",
-    "description": "Incremental enhancement to composition model."
+    "description": "Internal case study of Cursor adoption."
   },
   {
-    "id": "cursor:self-driving-codebases",
-    "title": "Towards self-driving codebases",
-    "date": "2026-02-05",
-    "url": "https://cursor.com/blog/self-driving-codebases",
+    "id": "cursor:jetbrains-acp",
+    "title": "Cursor is now available in JetBrains IDEs",
+    "date": "2026-03-04",
+    "url": "https://cursor.com/blog/jetbrains-acp",
     "source": "cursor",
-    "description": "Vision for fully autonomous repository management systems."
+    "description": "JetBrains IDE integration."
   },
   {
-    "id": "cursor:secure-codebase-indexing",
-    "title": "Securely indexing large codebases",
-    "date": "2026-01-27",
-    "url": "https://cursor.com/blog/secure-codebase-indexing",
+    "id": "cursor:automations",
+    "title": "Build agents that run automatically",
+    "date": "2026-03-05",
+    "url": "https://cursor.com/blog/automations",
     "source": "cursor",
-    "description": "Privacy-preserving approach to codebase search infrastructure."
+    "description": "Self-triggering autonomous workflows."
+  },
+  {
+    "id": "cursor:cursorbench",
+    "title": "How we compare model quality in Cursor",
+    "date": "2026-03-11",
+    "url": "https://cursor.com/blog/cursorbench",
+    "source": "cursor",
+    "description": "Hybrid eval process for quality assessment."
+  },
+  {
+    "id": "cursor:new-plugins",
+    "title": "Over 30 new plugins join the Cursor Marketplace",
+    "date": "2026-03-11",
+    "url": "https://cursor.com/blog/new-plugins",
+    "source": "cursor",
+    "description": "Marketplace expansion."
+  },
+  {
+    "id": "cursor:security-agents",
+    "title": "Securing our codebase with autonomous agents",
+    "date": "2026-03-16",
+    "url": "https://cursor.com/blog/security-agents",
+    "source": "cursor",
+    "description": "Automated security scanning."
+  },
+  {
+    "id": "cursor:self-summarization",
+    "title": "Training Composer for longer horizons",
+    "date": "2026-03-17",
+    "url": "https://cursor.com/blog/self-summarization",
+    "source": "cursor",
+    "description": "Expanding agent task planning."
+  },
+  {
+    "id": "cursor:composer-2",
+    "title": "Introducing Composer 2",
+    "date": "2026-03-19",
+    "url": "https://cursor.com/blog/composer-2",
+    "source": "cursor",
+    "description": "Frontier-level coding with strong CursorBench results."
+  },
+  {
+    "id": "cursor:fast-regex-search",
+    "title": "Fast regex search: indexing text for agent tools",
+    "date": "2026-03-23",
+    "url": "https://cursor.com/blog/fast-regex-search",
+    "source": "cursor",
+    "description": "Efficient pattern matching for agents."
+  },
+  {
+    "id": "cursor:self-hosted-cloud-agents",
+    "title": "Run cloud agents in your own infrastructure",
+    "date": "2026-03-25",
+    "url": "https://cursor.com/blog/self-hosted-cloud-agents",
+    "source": "cursor",
+    "description": "Self-hosted deployment for agents."
+  },
+  {
+    "id": "cursor:real-time-rl-for-composer",
+    "title": "Improving Composer through real-time RL",
+    "date": "2026-03-26",
+    "url": "https://cursor.com/blog/real-time-rl-for-composer",
+    "source": "cursor",
+    "description": "RL techniques for model enhancement."
+  },
+  {
+    "id": "cursor:composer-2-technical-report",
+    "title": "A technical report on Composer 2",
+    "date": "2026-03-27",
+    "url": "https://cursor.com/blog/composer-2-technical-report",
+    "source": "cursor",
+    "description": "Technical analysis of Composer 2."
+  },
+  {
+    "id": "cursor:cursor-3",
+    "title": "Meet the new Cursor",
+    "date": "2026-04-02",
+    "url": "https://cursor.com/blog/cursor-3",
+    "source": "cursor",
+    "description": "Cursor 3 - unified workspace with agents."
+  },
+  {
+    "id": "cursor:warp-decode",
+    "title": "Better MoE model inference with warp decode",
+    "date": "2026-04-06",
+    "url": "https://cursor.com/blog/warp-decode",
+    "source": "cursor",
+    "description": "MoE model inference optimization."
+  },
+  {
+    "id": "cursor:bugbot-learning",
+    "title": "Bugbot now self-improves with learned rules",
+    "date": "2026-04-08",
+    "url": "https://cursor.com/blog/bugbot-learning",
+    "source": "cursor",
+    "description": "Self-improving code review automation."
+  },
+  {
+    "id": "cursor:multi-agent-kernels",
+    "title": "Speeding up GPU kernels by 38% with a multi-agent system",
+    "date": "2026-04-14",
+    "url": "https://cursor.com/blog/multi-agent-kernels",
+    "source": "cursor",
+    "description": "Multi-agent GPU optimization."
+  },
+  {
+    "id": "cursor:better-models-ambitious-work",
+    "title": "Better AI models enable more ambitious work",
+    "date": "2026-04-15",
+    "url": "https://cursor.com/blog/better-models-ambitious-work",
+    "source": "cursor",
+    "description": "How improved LLMs expand possibilities."
+  },
+  {
+    "id": "cursor:canvas",
+    "title": "Interact with agent-created visualizations in canvases",
+    "date": "2026-04-15",
+    "url": "https://cursor.com/blog/canvas",
+    "source": "cursor",
+    "description": "Interactive visual outputs from agents."
+  },
+  {
+    "id": "cursor:app-stability",
+    "title": "Keeping the Cursor app stable",
+    "date": "2026-04-21",
+    "url": "https://cursor.com/blog/app-stability",
+    "source": "cursor",
+    "description": "Reliability and stability improvements."
+  },
+  {
+    "id": "cursor:spacex-model-training",
+    "title": "Cursor partners with SpaceX on model training",
+    "date": "2026-04-21",
+    "url": "https://cursor.com/blog/spacex-model-training",
+    "source": "cursor",
+    "description": "SpaceX partnership for AI model development."
+  },
+  {
+    "id": "cursor:typescript-sdk",
+    "title": "Build programmatic agents with the Cursor SDK",
+    "date": "2026-04-29",
+    "url": "https://cursor.com/blog/typescript-sdk",
+    "source": "cursor",
+    "description": "TypeScript SDK for autonomous agents."
+  },
+  {
+    "id": "cursor:continually-improving-agent-harness",
+    "title": "Continually improving our agent harness",
+    "date": "2026-04-30",
+    "url": "https://cursor.com/blog/continually-improving-agent-harness",
+    "source": "cursor",
+    "description": "Agent execution framework updates."
+  },
+  {
+    "id": "cursor:bootstrapping-composer-with-autoinstall",
+    "title": "Bootstrapping Composer with autoinstall",
+    "date": "2026-05-06",
+    "url": "https://cursor.com/blog/bootstrapping-composer-with-autoinstall",
+    "source": "cursor",
+    "description": "Automated Composer initialization."
+  },
+  {
+    "id": "cursor:may-2026-bugbot-changes",
+    "title": "Updates to Bugbot for Teams and Individuals",
+    "date": "2026-05-11",
+    "url": "https://cursor.com/blog/may-2026-bugbot-changes",
+    "source": "cursor",
+    "description": "Bugbot team and individual tier changes."
+  },
+  {
+    "id": "cursor:cloud-agent-development-environments",
+    "title": "Development environments for your cloud agents",
+    "date": "2026-05-13",
+    "url": "https://cursor.com/blog/cloud-agent-development-environments",
+    "source": "cursor",
+    "description": "Cloud-based agent infrastructure."
   }
 ]
