@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News - Blog Aggregator</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --surface-hover: #1a1a1a;
+      --border: #2a2a2a;
+      --text: #e5e5e5;
+      --text-muted: #888;
+      --accent: #3b82f6;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+
+    .header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .header h1 span { color: var(--accent); }
+
+    .filters {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.15s;
+      text-transform: capitalize;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .filter-btn .count {
+      font-size: 0.7rem;
+      opacity: 0.7;
+      margin-left: 0.25rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+    }
+
+    .stats {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .post-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .post {
+      display: flex;
+      gap: 1rem;
+      padding: 0.85rem 1rem;
+      border-radius: 8px;
+      transition: background 0.15s;
+      text-decoration: none;
+      color: inherit;
+      align-items: baseline;
+    }
+
+    .post:hover {
+      background: var(--surface-hover);
+    }
+
+    .post-date {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      min-width: 80px;
+      flex-shrink: 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .post-source {
+      font-size: 0.65rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      min-width: 70px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .source-claude { background: #d9770620; color: #f59e0b; }
+    .source-codex { background: #10b98120; color: #10b981; }
+    .source-deepseek { background: #6366f120; color: #818cf8; }
+    .source-gemma { background: #3b82f620; color: #60a5fa; }
+    .source-kimi { background: #ec489920; color: #f472b6; }
+    .source-qwen { background: #8b5cf620; color: #a78bfa; }
+    .source-openclaw { background: #ef444420; color: #f87171; }
+    .source-ollama { background: #f9731620; color: #fb923c; }
+    .source-cursor { background: #06b6d420; color: #22d3ee; }
+    .source-perplexity { background: #14b8a620; color: #2dd4bf; }
+    .source-xai { background: #e5e5e520; color: #d4d4d4; }
+
+    .post-title {
+      font-size: 0.9rem;
+      flex: 1;
+    }
+
+    .post-desc {
+      display: none;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-muted);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 640px) {
+      .header { padding: 1rem; }
+      .container { padding: 1rem; }
+      .post { flex-wrap: wrap; gap: 0.5rem; }
+      .post-date { min-width: auto; }
+      .post-source { min-width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><span>AI</span> News</h1>
+    <div class="filters" id="filters"></div>
+  </div>
+
+  <div class="container">
+    <div class="stats" id="stats"></div>
+    <div class="post-list" id="posts"></div>
+    <div class="empty-state" id="empty" style="display:none">No posts found.</div>
+  </div>
+
+  <div class="footer">
+    Aggregated from Claude, Codex, DeepSeek, Gemma, Kimi, Qwen, OpenClaw, Ollama, Cursor, Perplexity, xAI.
+    <br>Auto-updated every 6 hours.
+  </div>
+
+  <script>
+    const SOURCES = {
+      all: 'All',
+      claude: 'Claude',
+      codex: 'Codex',
+      deepseek: 'DeepSeek',
+      gemma: 'Gemma',
+      kimi: 'Kimi',
+      qwen: 'Qwen',
+      openclaw: 'OpenClaw',
+      ollama: 'Ollama',
+      cursor: 'Cursor',
+      perplexity: 'Perplexity',
+      xai: 'xAI'
+    };
+
+    let posts = [];
+    let currentFilter = 'all';
+
+    async function loadPosts() {
+      try {
+        const resp = await fetch('data/posts.json');
+        posts = await resp.json();
+        posts.sort((a, b) => b.date.localeCompare(a.date));
+        renderFilters();
+        renderPosts();
+      } catch (e) {
+        document.getElementById('empty').style.display = 'block';
+        document.getElementById('empty').textContent = 'Failed to load posts.';
+      }
+    }
+
+    function renderFilters() {
+      const filtersEl = document.getElementById('filters');
+      const counts = { all: posts.length };
+      posts.forEach(p => {
+        counts[p.source] = (counts[p.source] || 0) + 1;
+      });
+
+      filtersEl.innerHTML = Object.entries(SOURCES).map(([key, label]) => {
+        const count = counts[key] || 0;
+        if (key !== 'all' && count === 0) return '';
+        return `<button class="filter-btn ${key === currentFilter ? 'active' : ''}" data-filter="${key}">
+          ${label}<span class="count">${count}</span>
+        </button>`;
+      }).join('');
+
+      filtersEl.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentFilter = btn.dataset.filter;
+          renderFilters();
+          renderPosts();
+          history.replaceState(null, '', currentFilter === 'all' ? './' : `?source=${currentFilter}`);
+        });
+      });
+    }
+
+    function renderPosts() {
+      const filtered = currentFilter === 'all' ? posts : posts.filter(p => p.source === currentFilter);
+      const postsEl = document.getElementById('posts');
+      const emptyEl = document.getElementById('empty');
+      const statsEl = document.getElementById('stats');
+
+      statsEl.textContent = `${filtered.length} posts`;
+
+      if (filtered.length === 0) {
+        postsEl.innerHTML = '';
+        emptyEl.style.display = 'block';
+        return;
+      }
+
+      emptyEl.style.display = 'none';
+      postsEl.innerHTML = filtered.map(p => `
+        <a class="post" href="${p.url}" target="_blank" rel="noopener" title="${p.description || ''}">
+          <span class="post-date">${p.date}</span>
+          <span class="post-source source-${p.source}">${p.source}</span>
+          <span class="post-title">${p.title}</span>
+        </a>
+      `).join('');
+    }
+
+    // Read filter from URL
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('source') && SOURCES[params.get('source')]) {
+      currentFilter = params.get('source');
+    }
+
+    loadPosts();
+  </script>
+</body>
+</html>
