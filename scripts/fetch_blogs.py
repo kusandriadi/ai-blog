@@ -163,18 +163,25 @@ def extract_body(url: str, use_playwright: bool = False) -> str:
 PLAYWRIGHT_SOURCES = {"deepseek", "cursor", "perplexity", "xai"}
 
 
+MAX_BODY_FETCH_PER_RUN = 30  # Limit to avoid GitHub Actions timeout
+
+
 def fetch_bodies(posts_map: dict):
-    """Fetch body content for posts that don't have it yet."""
-    missing = [p for p in posts_map.values() if not p.get("body")]
+    """Fetch body content for posts that don't have it yet. Limited per run."""
+    missing = [p for p in posts_map.values() if "body" not in p]
     if not missing:
         print("All posts already have body content.")
         return
 
-    print(f"Fetching body for {len(missing)} posts...")
+    # Prioritize newest posts first
+    missing.sort(key=lambda p: p["date"], reverse=True)
+    batch = missing[:MAX_BODY_FETCH_PER_RUN]
+
+    print(f"Fetching body for {len(batch)}/{len(missing)} posts (limit {MAX_BODY_FETCH_PER_RUN}/run)...")
     fetched = 0
-    for i, post in enumerate(missing):
+    for i, post in enumerate(batch):
         use_pw = post["source"] in PLAYWRIGHT_SOURCES
-        print(f"  [{i+1}/{len(missing)}] {post['source']}: {post['title'][:50]}...")
+        print(f"  [{i+1}/{len(batch)}] {post['source']}: {post['title'][:50]}...")
         body = extract_body(post["url"], use_playwright=use_pw)
         if body:
             post["body"] = body
@@ -182,7 +189,7 @@ def fetch_bodies(posts_map: dict):
         else:
             post["body"] = ""  # mark as attempted
 
-    print(f"  Fetched body for {fetched}/{len(missing)} posts")
+    print(f"  Fetched body for {fetched}/{len(batch)} posts ({len(missing) - len(batch)} remaining)")
 
 
 def clean_url(url: str) -> str:
