@@ -25,7 +25,7 @@
   },
   {
     "id": "perplexity:computer-brings-data-science-to-every-team",
-    "title": "Computer brings data science to every teamMay 14, 2026Updates",
+    "title": "Computer brings data science to every team",
     "date": "2026-05-14",
     "url": "https://www.perplexity.ai/hub/blog/computer-brings-data-science-to-every-team",
     "source": "perplexity",
@@ -49,7 +49,7 @@
   },
   {
     "id": "perplexity:how-we-built-security-into-computer",
-    "title": "How We Built Security Into ComputerMay 13, 2026Security",
+    "title": "How We Built Security Into Computer",
     "date": "2026-05-13",
     "url": "https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer",
     "source": "perplexity",
@@ -72,16 +72,8 @@
     "description": "Beyond efficiency: PayPal expands what's possible to build with AI"
   },
   {
-    "id": "cursor:customers",
-    "title": "View all stories →",
-    "date": "2026-05-11",
-    "url": "https://cursor.com/blog/topic/customers",
-    "source": "cursor",
-    "description": ""
-  },
-  {
     "id": "perplexity:personal-computer-is-available-to-all-mac-users",
-    "title": "Personal Computer is Available to All Mac UsersMay 7, 2026CompanyUpdates",
+    "title": "Personal Computer is Available to All Mac Users",
     "date": "2026-05-07",
     "url": "https://www.perplexity.ai/hub/blog/personal-computer-is-available-to-all-mac-users",
     "source": "perplexity",
@@ -113,7 +105,7 @@
   },
   {
     "id": "perplexity:introducing-finance-search-in-the-agent-api",
-    "title": "Introducing Finance Search in the Agent APIMay 6, 2026CompanyDevelopersUpdates",
+    "title": "Introducing Finance Search in the Agent API",
     "date": "2026-05-06",
     "url": "https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api",
     "source": "perplexity",
@@ -137,7 +129,7 @@
   },
   {
     "id": "perplexity:computer-for-professional-finance",
-    "title": "Computer for Professional FinanceMay 5, 2026CompanyUpdatesEnterprise",
+    "title": "Computer for Professional Finance",
     "date": "2026-05-05",
     "url": "https://www.perplexity.ai/hub/blog/computer-for-professional-finance",
     "source": "perplexity",
@@ -145,7 +137,7 @@
   },
   {
     "id": "perplexity:announcing-premium-health-sources",
-    "title": "Announcing Premium Health SourcesMay 5, 2026CompanyUpdates",
+    "title": "Announcing Premium Health Sources",
     "date": "2026-05-05",
     "url": "https://www.perplexity.ai/hub/blog/announcing-premium-health-sources",
     "source": "perplexity",
@@ -161,7 +153,7 @@
   },
   {
     "id": "perplexity:computer-in-teams-is-here",
-    "title": "Computer in Teams is hereMay 4, 2026Updates",
+    "title": "Computer in Teams is here",
     "date": "2026-05-04",
     "url": "https://www.perplexity.ai/hub/blog/computer-in-teams-is-here",
     "source": "perplexity",
@@ -193,7 +185,7 @@
   },
   {
     "id": "perplexity:computer-at-work",
-    "title": "Computer at WorkApr 30, 2026CompanyUpdates",
+    "title": "Computer at Work",
     "date": "2026-04-30",
     "url": "https://www.perplexity.ai/hub/blog/computer-at-work",
     "source": "perplexity",
@@ -265,7 +257,7 @@
   },
   {
     "id": "perplexity:how-perplexity-builds-accuracy-into-frontier-ai",
-    "title": "How Perplexity Builds Accuracy into Frontier AIApr 22, 2026ResearchCompany",
+    "title": "How Perplexity Builds Accuracy into Frontier AI",
     "date": "2026-04-22",
     "url": "https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai",
     "source": "perplexity",
@@ -385,7 +377,7 @@
   },
   {
     "id": "perplexity:plaid-integration-provides-full-view-of-personal-finances",
-    "title": "Computer is Now Your Personal CFOApr 9, 2026Updates",
+    "title": "Computer is Now Your Personal CFO",
     "date": "2026-04-09",
     "url": "https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
     "source": "perplexity",
@@ -441,7 +433,7 @@
   },
   {
     "id": "perplexity:introducing-computer-for-taxes",
-    "title": "Introducing Computer for TaxesApr 2, 2026Company",
+    "title": "Introducing Computer for Taxes",
     "date": "2026-04-02",
     "url": "https://www.perplexity.ai/hub/blog/introducing-computer-for-taxes",
     "source": "perplexity",
@@ -449,7 +441,7 @@
   },
   {
     "id": "perplexity:computer-in-slack-from-shared-context-to-finished-work",
-    "title": "Computer in Slack: From Shared Context to Finished WorkApr 1, 2026Company",
+    "title": "Computer in Slack: From Shared Context to Finished Work",
     "date": "2026-04-01",
     "url": "https://www.perplexity.ai/hub/blog/computer-in-slack-from-shared-context-to-finished-work",
     "source": "perplexity",
@@ -465,11 +457,19 @@
   },
   {
     "id": "perplexity:announcing-the-secure-intelligence-institute",
-    "title": "Announcing the Secure Intelligence InstituteMar 31, 2026CompanySecurity",
+    "title": "Announcing the Secure Intelligence Institute",
     "date": "2026-03-31",
     "url": "https://www.perplexity.ai/hub/blog/announcing-the-secure-intelligence-institute",
     "source": "perplexity",
     "description": "Mar 31, 2026"
+  },
+  {
+    "id": "ollama:mlx",
+    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+    "date": "2026-03-30",
+    "url": "https://ollama.com/blog/mlx",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "gemma:ai-pointer",
@@ -505,7 +505,7 @@
   },
   {
     "id": "perplexity:perplexity-apis-power-ai-browsing-on-samsung-devices",
-    "title": "Perplexity APIs Power AI Browsing on Samsung DevicesMar 26, 2026Company",
+    "title": "Perplexity APIs Power AI Browsing on Samsung Devices",
     "date": "2026-03-26",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-apis-power-ai-browsing-on-samsung-devices",
     "source": "perplexity",
@@ -553,7 +553,7 @@
   },
   {
     "id": "perplexity:introducing-the-perplexity-health-advisory-board",
-    "title": "Introducing the Perplexity Health Advisory BoardMar 19, 2026CompanyUpdates",
+    "title": "Introducing the Perplexity Health Advisory Board",
     "date": "2026-03-19",
     "url": "https://www.perplexity.ai/hub/blog/introducing-the-perplexity-health-advisory-board",
     "source": "perplexity",
@@ -561,7 +561,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-health",
-    "title": "Introducing Perplexity HealthMar 19, 2026CompanyUpdates",
+    "title": "Introducing Perplexity Health",
     "date": "2026-03-19",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-health",
     "source": "perplexity",
@@ -577,7 +577,7 @@
   },
   {
     "id": "perplexity:meet-comet-for-ios",
-    "title": "Comet is Now Available on iOSMar 18, 2026Updates",
+    "title": "Comet is Now Available on iOS",
     "date": "2026-03-18",
     "url": "https://www.perplexity.ai/hub/blog/meet-comet-for-ios",
     "source": "perplexity",
@@ -601,7 +601,7 @@
   },
   {
     "id": "perplexity:comet-enterprise-is-here",
-    "title": "Comet Enterprise is hereMar 17, 2026Enterprise",
+    "title": "Comet Enterprise is here",
     "date": "2026-03-17",
     "url": "https://www.perplexity.ai/hub/blog/comet-enterprise-is-here",
     "source": "perplexity",
@@ -616,16 +616,8 @@
     "description": "Automated security scanning."
   },
   {
-    "id": "cursor:press",
-    "title": "View all press →",
-    "date": "2026-03-16",
-    "url": "https://cursor.com/blog/topic/press",
-    "source": "cursor",
-    "description": ""
-  },
-  {
     "id": "perplexity:perplexity-joins-the-nvidia-nemotron-coalition",
-    "title": "Perplexity Joins the NVIDIA Nemotron CoalitionMar 16, 2026Company",
+    "title": "Perplexity Joins the NVIDIA Nemotron Coalition",
     "date": "2026-03-16",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-joins-the-nvidia-nemotron-coalition",
     "source": "perplexity",
@@ -641,7 +633,7 @@
   },
   {
     "id": "perplexity:announcing-premium-sources",
-    "title": "Announcing Premium SourcesMar 12, 2026CompanyUpdates",
+    "title": "Announcing Premium Sources",
     "date": "2026-03-12",
     "url": "https://www.perplexity.ai/hub/blog/announcing-premium-sources",
     "source": "perplexity",
@@ -649,7 +641,7 @@
   },
   {
     "id": "perplexity:computer-for-enterprise",
-    "title": "Computer for EnterpriseMar 12, 2026Enterprise",
+    "title": "Computer for Enterprise",
     "date": "2026-03-12",
     "url": "https://www.perplexity.ai/hub/blog/computer-for-enterprise",
     "source": "perplexity",
@@ -681,7 +673,7 @@
   },
   {
     "id": "perplexity:sandbox-api-isolated-code-execution-for-ai-agents",
-    "title": "Sandbox API: Isolated Code Execution for AI AgentsMar 11, 2026Developers",
+    "title": "Sandbox API: Isolated Code Execution for AI Agents",
     "date": "2026-03-11",
     "url": "https://www.perplexity.ai/hub/blog/sandbox-api-isolated-code-execution-for-ai-agents",
     "source": "perplexity",
@@ -689,7 +681,7 @@
   },
   {
     "id": "perplexity:search-api-better-extraction-dynamic-benchmarks",
-    "title": "Search API: Better Extraction, Dynamic BenchmarksMar 11, 2026Developers",
+    "title": "Search API: Better Extraction, Dynamic Benchmarks",
     "date": "2026-03-11",
     "url": "https://www.perplexity.ai/hub/blog/search-api-better-extraction-dynamic-benchmarks",
     "source": "perplexity",
@@ -697,7 +689,7 @@
   },
   {
     "id": "perplexity:agent-api-a-managed-runtime-for-agentic-workflows",
-    "title": "Agent API: A Managed Runtime for Agentic WorkflowsMar 11, 2026Developers",
+    "title": "Agent API: A Managed Runtime for Agentic Workflows",
     "date": "2026-03-11",
     "url": "https://www.perplexity.ai/hub/blog/agent-api-a-managed-runtime-for-agentic-workflows",
     "source": "perplexity",
@@ -705,7 +697,7 @@
   },
   {
     "id": "perplexity:everything-is-computer",
-    "title": "Everything is ComputerMar 11, 2026CompanyUpdatesEnterprise",
+    "title": "Everything is Computer",
     "date": "2026-03-11",
     "url": "https://www.perplexity.ai/hub/blog/everything-is-computer",
     "source": "perplexity",
@@ -777,7 +769,7 @@
   },
   {
     "id": "perplexity:the-ai-is-the-computer",
-    "title": "The AI is the ComputerMar 3, 2026CompanyUpdates",
+    "title": "The AI is the Computer",
     "date": "2026-03-03",
     "url": "https://www.perplexity.ai/hub/blog/the-ai-is-the-computer",
     "source": "perplexity",
@@ -833,7 +825,7 @@
   },
   {
     "id": "perplexity:perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker",
-    "title": "Perplexity APIs deliver powerful AI to the world’s largest Android device makerFeb 26, 2026Company",
+    "title": "Perplexity APIs deliver powerful AI to the world’s largest Android device maker",
     "date": "2026-02-26",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker",
     "source": "perplexity",
@@ -849,7 +841,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-computer",
-    "title": "Introducing Perplexity ComputerFeb 25, 2026CompanyUpdates",
+    "title": "Introducing Perplexity Computer",
     "date": "2026-02-25",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-computer",
     "source": "perplexity",
@@ -880,6 +872,14 @@
     "description": "Security research on model theft prevention mechanisms."
   },
   {
+    "id": "ollama:openclaw-tutorial",
+    "title": "The simplest and fastest way to setup OpenClaw",
+    "date": "2026-02-23",
+    "url": "https://ollama.com/blog/openclaw-tutorial",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "claude:claude-code-security",
     "title": "Claude Code Security",
     "date": "2026-02-20",
@@ -889,7 +889,7 @@
   },
   {
     "id": "perplexity:how-we-built-security-into-comet-from-day-one",
-    "title": "How We Built Security Into Comet From Day OneFeb 20, 2026Security",
+    "title": "How We Built Security Into Comet From Day One",
     "date": "2026-02-20",
     "url": "https://www.perplexity.ai/hub/blog/how-we-built-security-into-comet-from-day-one",
     "source": "perplexity",
@@ -958,6 +958,14 @@
     "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
     "source": "claude",
     "description": "India regional expansion with local partnerships."
+  },
+  {
+    "id": "ollama:web-search-subagents-claude-code",
+    "title": "Subagents and web search in Claude Code",
+    "date": "2026-02-16",
+    "url": "https://ollama.com/blog/web-search-subagents-claude-code",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "claude:anthropic-codepath-partnership",
@@ -1065,11 +1073,19 @@
   },
   {
     "id": "perplexity:introducing-model-council",
-    "title": "Introducing Model CouncilFeb 5, 2026Company",
+    "title": "Introducing Model Council",
     "date": "2026-02-05",
     "url": "https://www.perplexity.ai/hub/blog/introducing-model-council",
     "source": "perplexity",
     "description": "Feb 5, 2026"
+  },
+  {
+    "id": "cursor:self-driving-codebases",
+    "title": "Read more →",
+    "date": "2026-02-05",
+    "url": "https://cursor.com/blog/self-driving-codebases",
+    "source": "cursor",
+    "description": ""
   },
   {
     "id": "claude:claude-is-a-space-to-think",
@@ -1097,7 +1113,7 @@
   },
   {
     "id": "perplexity:inside-the-rise-of-enterprise-ai-model-switching",
-    "title": "Inside the Rise of Enterprise AI Model-SwitchingFeb 3, 2026CompanyEnterprise",
+    "title": "Inside the Rise of Enterprise AI Model-Switching",
     "date": "2026-02-03",
     "url": "https://www.perplexity.ai/hub/blog/inside-the-rise-of-enterprise-ai-model-switching",
     "source": "perplexity",
@@ -1110,6 +1126,14 @@
     "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
     "source": "claude",
     "description": "Scientific discovery acceleration collaboration."
+  },
+  {
+    "id": "ollama:openclaw",
+    "title": "OpenClaw",
+    "date": "2026-02-01",
+    "url": "https://ollama.com/blog/openclaw",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "openclaw:introducing-openclaw",
@@ -1161,11 +1185,19 @@
   },
   {
     "id": "perplexity:finish-your-annual-plan-faster-with-perplexity",
-    "title": "Finish Your Annual Plan Faster With PerplexityJan 26, 2026Enterprise",
+    "title": "Finish Your Annual Plan Faster With Perplexity",
     "date": "2026-01-26",
     "url": "https://www.perplexity.ai/hub/blog/finish-your-annual-plan-faster-with-perplexity",
     "source": "perplexity",
     "description": "Jan 26, 2026"
+  },
+  {
+    "id": "ollama:launch",
+    "title": "ollama launch",
+    "date": "2026-01-23",
+    "url": "https://ollama.com/blog/launch",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "kimi:kimi-vendor-verifier",
@@ -1176,12 +1208,28 @@
     "description": ""
   },
   {
+    "id": "ollama:image-generation",
+    "title": "Image generation (experimental)",
+    "date": "2026-01-20",
+    "url": "https://ollama.com/blog/image-generation",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "gemma:d4rt-teaching-ai-to-see-the-world-in-four-dimensions",
     "title": "D4RT: Teaching AI to see the world in four dimensions",
     "date": "2026-01-16",
     "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
     "source": "gemma",
     "description": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods."
+  },
+  {
+    "id": "ollama:claude",
+    "title": "Claude Code with Anthropic API compatibility",
+    "date": "2026-01-16",
+    "url": "https://ollama.com/blog/claude",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "gemma:medgemma-1-5-4b",
@@ -1201,11 +1249,19 @@
   },
   {
     "id": "perplexity:happy-25th-birthday-wikipedia",
-    "title": "Happy 25th Birthday, WikipediaJan 15, 2026Company",
+    "title": "Happy 25th Birthday, Wikipedia",
     "date": "2026-01-15",
     "url": "https://www.perplexity.ai/hub/blog/happy-25th-birthday-wikipedia",
     "source": "perplexity",
     "description": "Jan 15, 2026"
+  },
+  {
+    "id": "ollama:codex",
+    "title": "OpenAI Codex with Ollama",
+    "date": "2026-01-15",
+    "url": "https://ollama.com/blog/codex",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "gemma:veo-3-1-ingredients-to-video-more-consistency-creativity-and-control",
@@ -1217,7 +1273,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-for-public-safety-organizations",
-    "title": "Introducing Perplexity for Public Safety OrganizationsJan 8, 2026CompanyUpdates",
+    "title": "Introducing Perplexity for Public Safety Organizations",
     "date": "2026-01-08",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-for-public-safety-organizations",
     "source": "perplexity",
@@ -1230,46 +1286,6 @@
     "url": "https://deepseek.ai/blog/deepseek-guide-2026",
     "source": "deepseek",
     "description": "DeepSeek's comprehensive AI guide for 2026."
-  },
-  {
-    "id": "cursor:self-driving-codebases",
-    "title": "Read more →",
-    "date": "2026-01-01",
-    "url": "https://cursor.com/blog/self-driving-codebases",
-    "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "cursor:product",
-    "title": "product",
-    "date": "2026-01-01",
-    "url": "https://cursor.com/blog/topic/product",
-    "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "cursor:research",
-    "title": "research",
-    "date": "2026-01-01",
-    "url": "https://cursor.com/blog/topic/research",
-    "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "cursor:company",
-    "title": "company",
-    "date": "2026-01-01",
-    "url": "https://cursor.com/blog/topic/company",
-    "source": "cursor",
-    "description": ""
-  },
-  {
-    "id": "cursor:ideas",
-    "title": "ideas",
-    "date": "2026-01-01",
-    "url": "https://cursor.com/blog/topic/ideas",
-    "source": "cursor",
-    "description": ""
   },
   {
     "id": "gemma:googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
@@ -1361,7 +1377,7 @@
   },
   {
     "id": "perplexity:how-people-use-ai-agents",
-    "title": "How People Use AI AgentsDec 9, 2025UpdatesCompany",
+    "title": "How People Use AI Agents",
     "date": "2025-12-09",
     "url": "https://www.perplexity.ai/hub/blog/how-people-use-ai-agents",
     "source": "perplexity",
@@ -1377,7 +1393,7 @@
   },
   {
     "id": "perplexity:perplexity-x-cristiano-ronaldo",
-    "title": "Perplexity x Cristiano RonaldoDec 4, 2025Company",
+    "title": "Perplexity x Cristiano Ronaldo",
     "date": "2025-12-04",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-x-cristiano-ronaldo",
     "source": "perplexity",
@@ -1401,7 +1417,7 @@
   },
   {
     "id": "perplexity:building-safer-ai-browsers-with-browsesafe",
-    "title": "Building Safer AI Browsers with BrowseSafeDec 2, 2025ResearchSecurity",
+    "title": "Building Safer AI Browsers with BrowseSafe",
     "date": "2025-12-02",
     "url": "https://www.perplexity.ai/hub/blog/building-safer-ai-browsers-with-browsesafe",
     "source": "perplexity",
@@ -1409,7 +1425,7 @@
   },
   {
     "id": "perplexity:introducing-ai-assistants-with-memory",
-    "title": "Introducing AI assistants with memoryNov 26, 2025CompanyUpdates",
+    "title": "Introducing AI assistants with memory",
     "date": "2025-11-26",
     "url": "https://www.perplexity.ai/hub/blog/introducing-ai-assistants-with-memory",
     "source": "perplexity",
@@ -1433,7 +1449,7 @@
   },
   {
     "id": "perplexity:shopping-that-puts-you-first",
-    "title": "Shopping That Puts You FirstNov 25, 2025CompanyUpdates",
+    "title": "Shopping That Puts You First",
     "date": "2025-11-25",
     "url": "https://www.perplexity.ai/hub/blog/shopping-that-puts-you-first",
     "source": "perplexity",
@@ -1473,7 +1489,7 @@
   },
   {
     "id": "perplexity:comet-for-android-is-here",
-    "title": "Comet for Android is HereNov 20, 2025Updates",
+    "title": "Comet for Android is Here",
     "date": "2025-11-20",
     "url": "https://www.perplexity.ai/hub/blog/comet-for-android-is-here",
     "source": "perplexity",
@@ -1481,7 +1497,7 @@
   },
   {
     "id": "perplexity:announcing-our-partnership-with-the-united-states-government",
-    "title": "Announcing our Partnership with the United States GovernmentNov 19, 2025CompanyEnterpriseSecurityUpdates",
+    "title": "Announcing our Partnership with the United States Government",
     "date": "2025-11-19",
     "url": "https://www.perplexity.ai/hub/blog/announcing-our-partnership-with-the-united-states-government",
     "source": "perplexity",
@@ -1529,7 +1545,7 @@
   },
   {
     "id": "perplexity:comet-assistant-puts-you-in-control",
-    "title": "Comet Assistant puts you in controlNov 14, 2025CompanySecurityUpdates",
+    "title": "Comet Assistant puts you in control",
     "date": "2025-11-14",
     "url": "https://www.perplexity.ai/hub/blog/comet-assistant-puts-you-in-control",
     "source": "perplexity",
@@ -1569,7 +1585,7 @@
   },
   {
     "id": "perplexity:the-new-comet-assistant",
-    "title": "The New Comet AssistantNov 6, 2025CompanyUpdates",
+    "title": "The New Comet Assistant",
     "date": "2025-11-06",
     "url": "https://www.perplexity.ai/hub/blog/the-new-comet-assistant",
     "source": "perplexity",
@@ -1585,7 +1601,7 @@
   },
   {
     "id": "perplexity:bullying-is-not-innovation",
-    "title": "Bullying is Not InnovationNov 4, 2025Company",
+    "title": "Bullying is Not Innovation",
     "date": "2025-11-04",
     "url": "https://www.perplexity.ai/hub/blog/bullying-is-not-innovation",
     "source": "perplexity",
@@ -1593,7 +1609,7 @@
   },
   {
     "id": "perplexity:introducing-privacy-snapshot",
-    "title": "Introducing Privacy SnapshotOct 31, 2025CompanySecurityUpdates",
+    "title": "Introducing Privacy Snapshot",
     "date": "2025-10-31",
     "url": "https://www.perplexity.ai/hub/blog/introducing-privacy-snapshot",
     "source": "perplexity",
@@ -1601,7 +1617,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-patents",
-    "title": "Introducing Perplexity Patents: AI-Powered Patent Search for EveryoneOct 30, 2025CompanyUpdates",
+    "title": "Introducing Perplexity Patents: AI-Powered Patent Search for Everyone",
     "date": "2025-10-30",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-patents",
     "source": "perplexity",
@@ -1616,12 +1632,28 @@
     "description": "The initiative brings together some of the world's most prestigious research institutions to pioneer the use of AI in mathematical research."
   },
   {
+    "id": "ollama:gpt-oss-safeguard",
+    "title": "OpenAI gpt-oss-safeguard",
+    "date": "2025-10-29",
+    "url": "https://ollama.com/blog/gpt-oss-safeguard",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:ai-at-work-getting-more-done-with-less-hype",
-    "title": "AI at work: getting more done with less hypeOct 28, 2025CompanyUpdates",
+    "title": "AI at work: getting more done with less hype",
     "date": "2025-10-28",
     "url": "https://www.perplexity.ai/hub/blog/ai-at-work-getting-more-done-with-less-hype",
     "source": "perplexity",
     "description": "Oct 28, 2025"
+  },
+  {
+    "id": "ollama:minimax-m2",
+    "title": "MiniMax M2",
+    "date": "2025-10-28",
+    "url": "https://ollama.com/blog/minimax-m2",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "gemma:t5gemma-a-new-collection-of-encoder-decoder-gemma-models",
@@ -1832,16 +1864,48 @@
     "description": "We’re launching a new 27 billion parameter foundation model for single-cell analysis built on the Gemma family of open models."
   },
   {
+    "id": "ollama:nvidia-spark-performance",
+    "title": "NVIDIA DGX Spark performance",
+    "date": "2025-10-23",
+    "url": "https://ollama.com/blog/nvidia-spark-performance",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:mitigating-prompt-injection-in-comet",
-    "title": "Mitigating Prompt Injection in CometOct 22, 2025CompanyResearchSecurity",
+    "title": "Mitigating Prompt Injection in Comet",
     "date": "2025-10-22",
     "url": "https://www.perplexity.ai/hub/blog/mitigating-prompt-injection-in-comet",
     "source": "perplexity",
     "description": "Oct 22, 2025"
   },
   {
+    "id": "ollama:coding-models",
+    "title": "New coding models & integrations",
+    "date": "2025-10-16",
+    "url": "https://ollama.com/blog/coding-models",
+    "source": "ollama",
+    "description": ""
+  },
+  {
+    "id": "ollama:qwen3-vl",
+    "title": "Qwen3-VL",
+    "date": "2025-10-14",
+    "url": "https://ollama.com/blog/qwen3-vl",
+    "source": "ollama",
+    "description": ""
+  },
+  {
+    "id": "ollama:nvidia-spark",
+    "title": "NVIDIA DGX Spark",
+    "date": "2025-10-13",
+    "url": "https://ollama.com/blog/nvidia-spark",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:comet-is-now-available-to-everyone-worldwide",
-    "title": "The Internet is Better on CometOct 2, 2025CompanyUpdates",
+    "title": "The Internet is Better on Comet",
     "date": "2025-10-02",
     "url": "https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide",
     "source": "perplexity",
@@ -1849,7 +1913,7 @@
   },
   {
     "id": "perplexity:announcing-comet-plus-launch-partners",
-    "title": "Announcing Comet Plus Launch PartnersOct 1, 2025Company",
+    "title": "Announcing Comet Plus Launch Partners",
     "date": "2025-10-01",
     "url": "https://www.perplexity.ai/hub/blog/announcing-comet-plus-launch-partners",
     "source": "perplexity",
@@ -1857,11 +1921,19 @@
   },
   {
     "id": "perplexity:introducing-the-perplexity-search-api",
-    "title": "Introducing the Perplexity Search APISep 25, 2025DevelopersUpdates",
+    "title": "Introducing the Perplexity Search API",
     "date": "2025-09-25",
     "url": "https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api",
     "source": "perplexity",
     "description": "Sep 25, 2025"
+  },
+  {
+    "id": "ollama:web-search",
+    "title": "Web search",
+    "date": "2025-09-24",
+    "url": "https://ollama.com/blog/web-search",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "qwen:qwen3guard",
@@ -1872,16 +1944,32 @@
     "description": "Safety guardrail model for prompts and responses."
   },
   {
+    "id": "ollama:new-model-scheduling",
+    "title": "New model scheduling",
+    "date": "2025-09-23",
+    "url": "https://ollama.com/blog/new-model-scheduling",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:a-personal-assistant-for-your-inbox",
-    "title": "A Personal Assistant for Your InboxSep 22, 2025Updates",
+    "title": "A Personal Assistant for Your Inbox",
     "date": "2025-09-22",
     "url": "https://www.perplexity.ai/hub/blog/a-personal-assistant-for-your-inbox",
     "source": "perplexity",
     "description": "Sep 22, 2025"
   },
   {
+    "id": "ollama:cloud-models",
+    "title": "Cloud models",
+    "date": "2025-09-19",
+    "url": "https://ollama.com/blog/cloud-models",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:power-your-organization-s-full-potential",
-    "title": "Power your organization’s full potentialSep 17, 2025EnterpriseUpdates",
+    "title": "Power your organization’s full potential",
     "date": "2025-09-17",
     "url": "https://www.perplexity.ai/hub/blog/power-your-organization-s-full-potential",
     "source": "perplexity",
@@ -1889,7 +1977,7 @@
   },
   {
     "id": "perplexity:secure-credentials-on-comet-with-1password",
-    "title": "Secure Credentials on Comet with 1PasswordSep 17, 2025CompanySecurity",
+    "title": "Secure Credentials on Comet with 1Password",
     "date": "2025-09-17",
     "url": "https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password",
     "source": "perplexity",
@@ -1897,7 +1985,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-for-government",
-    "title": "Introducing Perplexity for GovernmentSep 8, 2025CompanyEnterpriseSecurityUpdates",
+    "title": "Introducing Perplexity for Government",
     "date": "2025-09-08",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-for-government",
     "source": "perplexity",
@@ -1913,7 +2001,7 @@
   },
   {
     "id": "perplexity:introducing-comet-plus",
-    "title": "Introducing Comet PlusAug 25, 2025CompanyUpdates",
+    "title": "Introducing Comet Plus",
     "date": "2025-08-25",
     "url": "https://www.perplexity.ai/hub/blog/introducing-comet-plus",
     "source": "perplexity",
@@ -1929,7 +2017,7 @@
   },
   {
     "id": "perplexity:perplexity-x-theo-von-s-this-past-weekend",
-    "title": "Perplexity x Theo Von’s This Past WeekendAug 14, 2025Company",
+    "title": "Perplexity x Theo Von’s This Past Weekend",
     "date": "2025-08-14",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-x-theo-von-s-this-past-weekend",
     "source": "perplexity",
@@ -1937,7 +2025,7 @@
   },
   {
     "id": "perplexity:the-intelligent-business-introducing-comet-for-enterprise-pro",
-    "title": "The Intelligent Business: Introducing Comet for Enterprise ProAug 14, 2025CompanyEnterpriseSecurity",
+    "title": "The Intelligent Business: Introducing Comet for Enterprise Pro",
     "date": "2025-08-14",
     "url": "https://www.perplexity.ai/hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro",
     "source": "perplexity",
@@ -1945,11 +2033,19 @@
   },
   {
     "id": "perplexity:gpt-oss-on-day-0",
-    "title": "GPT-OSS on Day 0Aug 8, 2025DevelopersResearch",
+    "title": "GPT-OSS on Day 0",
     "date": "2025-08-08",
     "url": "https://www.perplexity.ai/hub/blog/gpt-oss-on-day-0",
     "source": "perplexity",
     "description": "Aug 8, 2025"
+  },
+  {
+    "id": "ollama:gpt-oss",
+    "title": "OpenAI gpt-oss",
+    "date": "2025-08-05",
+    "url": "https://ollama.com/blog/gpt-oss",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "qwen:qwen-image",
@@ -1961,7 +2057,7 @@
   },
   {
     "id": "perplexity:agents-or-bots-making-sense-of-ai-on-the-open-web",
-    "title": "Agents or Bots? Making Sense of AI on the Open WebAug 4, 2025Company",
+    "title": "Agents or Bots? Making Sense of AI on the Open Web",
     "date": "2025-08-04",
     "url": "https://www.perplexity.ai/hub/blog/agents-or-bots-making-sense-of-ai-on-the-open-web",
     "source": "perplexity",
@@ -1969,7 +2065,7 @@
   },
   {
     "id": "perplexity:book-a-table-with-perplexity-and-opentable",
-    "title": "Book a Table with Perplexity and OpenTableAug 4, 2025CompanyUpdates",
+    "title": "Book a Table with Perplexity and OpenTable",
     "date": "2025-08-04",
     "url": "https://www.perplexity.ai/hub/blog/book-a-table-with-perplexity-and-opentable",
     "source": "perplexity",
@@ -1977,7 +2073,7 @@
   },
   {
     "id": "perplexity:disaggregated-prefill-and-decode",
-    "title": "Disaggregated Prefill and DecodeAug 1, 2025DevelopersResearch",
+    "title": "Disaggregated Prefill and Decode",
     "date": "2025-08-01",
     "url": "https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode",
     "source": "perplexity",
@@ -1985,11 +2081,19 @@
   },
   {
     "id": "perplexity:welcoming-gannett-to-the-perplexity-publisher-program",
-    "title": "Welcoming Gannett to the Perplexity Publisher ProgramJul 30, 2025Company",
+    "title": "Welcoming Gannett to the Perplexity Publisher Program",
     "date": "2025-07-30",
     "url": "https://www.perplexity.ai/hub/blog/welcoming-gannett-to-the-perplexity-publisher-program",
     "source": "perplexity",
     "description": "Jul 30, 2025"
+  },
+  {
+    "id": "ollama:new-app",
+    "title": "Ollama's new app",
+    "date": "2025-07-30",
+    "url": "https://ollama.com/blog/new-app",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "qwen:qwen-mt",
@@ -2017,7 +2121,7 @@
   },
   {
     "id": "perplexity:introducing-comet",
-    "title": "Introducing Comet: Browse at the speed of thoughtJul 9, 2025CompanyUpdates",
+    "title": "Introducing Comet: Browse at the speed of thought",
     "date": "2025-07-09",
     "url": "https://www.perplexity.ai/hub/blog/introducing-comet",
     "source": "perplexity",
@@ -2025,7 +2129,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-max",
-    "title": "Introducing Perplexity MaxJul 2, 2025CompanyUpdates",
+    "title": "Introducing Perplexity Max",
     "date": "2025-07-02",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-max",
     "source": "perplexity",
@@ -2145,7 +2249,7 @@
   },
   {
     "id": "perplexity:bringing-european-ai-models-to-global-audiences",
-    "title": "Bringing European AI Models to Global AudiencesJun 11, 2025CompanyUpdates",
+    "title": "Bringing European AI Models to Global Audiences",
     "date": "2025-06-11",
     "url": "https://www.perplexity.ai/hub/blog/bringing-european-ai-models-to-global-audiences",
     "source": "perplexity",
@@ -2153,7 +2257,7 @@
   },
   {
     "id": "perplexity:accelerating-sonar-through-speculation",
-    "title": "Accelerating Sonar Through SpeculationJun 10, 2025Research",
+    "title": "Accelerating Sonar Through Speculation",
     "date": "2025-06-10",
     "url": "https://www.perplexity.ai/hub/blog/accelerating-sonar-through-speculation",
     "source": "perplexity",
@@ -2169,7 +2273,7 @@
   },
   {
     "id": "perplexity:answers-for-every-investor",
-    "title": "Answers for Every InvestorJun 5, 2025Updates",
+    "title": "Answers for Every Investor",
     "date": "2025-06-05",
     "url": "https://www.perplexity.ai/hub/blog/answers-for-every-investor",
     "source": "perplexity",
@@ -2192,8 +2296,24 @@
     "description": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation."
   },
   {
+    "id": "ollama:secureminions",
+    "title": "Secure Minions: private collaboration between Ollama and frontier models",
+    "date": "2025-06-03",
+    "url": "https://ollama.com/blog/secureminions",
+    "source": "ollama",
+    "description": ""
+  },
+  {
+    "id": "ollama:thinking",
+    "title": "Thinking",
+    "date": "2025-05-30",
+    "url": "https://ollama.com/blog/thinking",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:introducing-perplexity-labs",
-    "title": "Introducing Perplexity LabsMay 29, 2025CompanyUpdates",
+    "title": "Introducing Perplexity Labs",
     "date": "2025-05-29",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-labs",
     "source": "perplexity",
@@ -2201,15 +2321,23 @@
   },
   {
     "id": "perplexity:perplexity-x-lewis-hamilton",
-    "title": "Perplexity x Lewis HamiltonMay 28, 2025Company",
+    "title": "Perplexity x Lewis Hamilton",
     "date": "2025-05-28",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-x-lewis-hamilton",
     "source": "perplexity",
     "description": "May 28, 2025"
   },
   {
+    "id": "ollama:streaming-tool",
+    "title": "Streaming responses with tool calling",
+    "date": "2025-05-28",
+    "url": "https://ollama.com/blog/streaming-tool",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "perplexity:more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user",
-    "title": "More Value In Every Answer: New Benefits For Every Level of Perplexity UserMay 21, 2025CompanyUpdates",
+    "title": "More Value In Every Answer: New Benefits For Every Level of Perplexity User",
     "date": "2025-05-21",
     "url": "https://www.perplexity.ai/hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user",
     "source": "perplexity",
@@ -2305,11 +2433,19 @@
   },
   {
     "id": "perplexity:perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise",
-    "title": "Perplexity and SAP: Turbocharging Joule with Real-Time Answers for Every EnterpriseMay 20, 2025CompanyEnterprise",
+    "title": "Perplexity and SAP: Turbocharging Joule with Real-Time Answers for Every Enterprise",
     "date": "2025-05-20",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise",
     "source": "perplexity",
     "description": "May 20, 2025"
+  },
+  {
+    "id": "ollama:multimodal-models",
+    "title": "Ollama's new engine for multimodal models",
+    "date": "2025-05-15",
+    "url": "https://ollama.com/blog/multimodal-models",
+    "source": "ollama",
+    "description": ""
   },
   {
     "id": "claude:2028-ai-leadership",
@@ -2345,7 +2481,7 @@
   },
   {
     "id": "perplexity:perplexity-partners-with-wiley-to-power-educational-ai-search",
-    "title": "Perplexity Partners with Wiley to Power Educational AI SearchMay 8, 2025CompanyEnterprise",
+    "title": "Perplexity Partners with Wiley to Power Educational AI Search",
     "date": "2025-05-08",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-partners-with-wiley-to-power-educational-ai-search",
     "source": "perplexity",
@@ -2409,7 +2545,7 @@
   },
   {
     "id": "perplexity:rl-training-for-math-reasoning",
-    "title": "RL Training For Math ReasoningMay 5, 2025Research",
+    "title": "RL Training For Math Reasoning",
     "date": "2025-05-05",
     "url": "https://www.perplexity.ai/hub/blog/rl-training-for-math-reasoning",
     "source": "perplexity",
@@ -2465,7 +2601,7 @@
   },
   {
     "id": "perplexity:announcing-our-global-partnership-with-motorola",
-    "title": "Announcing Our Global Partnership with MotorolaApr 24, 2025Company",
+    "title": "Announcing Our Global Partnership with Motorola",
     "date": "2025-04-24",
     "url": "https://www.perplexity.ai/hub/blog/announcing-our-global-partnership-with-motorola",
     "source": "perplexity",
@@ -2489,7 +2625,7 @@
   },
   {
     "id": "perplexity:choice-is-the-remedy",
-    "title": "Choice is the RemedyApr 21, 2025Company",
+    "title": "Choice is the Remedy",
     "date": "2025-04-21",
     "url": "https://www.perplexity.ai/hub/blog/choice-is-the-remedy",
     "source": "perplexity",
@@ -2497,7 +2633,7 @@
   },
   {
     "id": "perplexity:lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment",
-    "title": "Lower Latency and Higher Throughput with Multi-node DeepSeek DeploymentApr 18, 2025Research",
+    "title": "Lower Latency and Higher Throughput with Multi-node DeepSeek Deployment",
     "date": "2025-04-18",
     "url": "https://www.perplexity.ai/hub/blog/lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment",
     "source": "perplexity",
@@ -2521,7 +2657,7 @@
   },
   {
     "id": "perplexity:how-perplexity-enterprise-pro-keeps-your-data-secure",
-    "title": "How Perplexity Enterprise Pro Keeps Your Data SecureApr 17, 2025CompanyEnterpriseSecurity",
+    "title": "How Perplexity Enterprise Pro Keeps Your Data Secure",
     "date": "2025-04-17",
     "url": "https://www.perplexity.ai/hub/blog/how-perplexity-enterprise-pro-keeps-your-data-secure",
     "source": "perplexity",
@@ -2577,7 +2713,7 @@
   },
   {
     "id": "perplexity:perplexity-sonar-dominates-new-search-arena-evolution",
-    "title": "Perplexity Sonar Dominates New Search Arena EvaluationApr 14, 2025Company",
+    "title": "Perplexity Sonar Dominates New Search Arena Evaluation",
     "date": "2025-04-14",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-sonar-dominates-new-search-arena-evolution",
     "source": "perplexity",
@@ -2641,7 +2777,7 @@
   },
   {
     "id": "perplexity:efficient-and-portable-mixture-of-experts-communication",
-    "title": "Efficient and Portable Mixture-of-Experts CommunicationApr 2, 2025Research",
+    "title": "Efficient and Portable Mixture-of-Experts Communication",
     "date": "2025-04-02",
     "url": "https://www.perplexity.ai/hub/blog/efficient-and-portable-mixture-of-experts-communication",
     "source": "perplexity",
@@ -2729,7 +2865,7 @@
   },
   {
     "id": "perplexity:rebuilding-tiktok-in-america",
-    "title": "Rebuilding TikTok in AmericaMar 21, 2025Company",
+    "title": "Rebuilding TikTok in America",
     "date": "2025-03-21",
     "url": "https://www.perplexity.ai/hub/blog/rebuilding-tiktok-in-america",
     "source": "perplexity",
@@ -2745,7 +2881,7 @@
   },
   {
     "id": "perplexity:new-sonar-search-modes-outperform-openai-in-cost-and-performance",
-    "title": "Improved Sonar Models: Industry Leading Performance at Lower CostsMar 19, 2025Company",
+    "title": "Improved Sonar Models: Industry Leading Performance at Lower Costs",
     "date": "2025-03-19",
     "url": "https://www.perplexity.ai/hub/blog/new-sonar-search-modes-outperform-openai-in-cost-and-performance",
     "source": "perplexity",
@@ -2753,7 +2889,7 @@
   },
   {
     "id": "perplexity:perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan",
-    "title": "Perplexity Expands Partnership with SoftBank to Launch Enterprise Pro JapanMar 17, 2025CompanyEnterprise",
+    "title": "Perplexity Expands Partnership with SoftBank to Launch Enterprise Pro Japan",
     "date": "2025-03-17",
     "url": "https://www.perplexity.ai/hub/blog/perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan",
     "source": "perplexity",
@@ -2888,6 +3024,14 @@
     "description": "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI"
   },
   {
+    "id": "ollama:minions",
+    "title": "Minions: where local and cloud LLMs meet",
+    "date": "2025-02-25",
+    "url": "https://ollama.com/blog/minions",
+    "source": "ollama",
+    "description": ""
+  },
+  {
     "id": "claude:AI-fluency-index",
     "title": "Anthropic Education Report: The AI Fluency Index",
     "date": "2025-02-23",
@@ -2937,7 +3081,7 @@
   },
   {
     "id": "perplexity:open-sourcing-r1-1776",
-    "title": "Open-sourcing R1 1776Feb 18, 2025Research",
+    "title": "Open-sourcing R1 1776",
     "date": "2025-02-18",
     "url": "https://www.perplexity.ai/hub/blog/open-sourcing-r1-1776",
     "source": "perplexity",
@@ -2953,7 +3097,7 @@
   },
   {
     "id": "perplexity:introducing-perplexity-deep-research",
-    "title": "Introducing Perplexity Deep ResearchFeb 14, 2025CompanyUpdates",
+    "title": "Introducing Perplexity Deep Research",
     "date": "2025-02-14",
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research",
     "source": "perplexity",
@@ -2969,7 +3113,7 @@
   },
   {
     "id": "perplexity:meet-new-sonar",
-    "title": "Meet New SonarFeb 11, 2025Updates",
+    "title": "Meet New Sonar",
     "date": "2025-02-11",
     "url": "https://www.perplexity.ai/hub/blog/meet-new-sonar",
     "source": "perplexity",
@@ -2977,7 +3121,7 @@
   },
   {
     "id": "perplexity:high-performance-gpu-memory-transfer-on-aws",
-    "title": "High-Performance GPU Memory Transfer on AWS Sagemaker HyperpodFeb 10, 2025Research",
+    "title": "High-Performance GPU Memory Transfer on AWS Sagemaker Hyperpod",
     "date": "2025-02-10",
     "url": "https://www.perplexity.ai/hub/blog/high-performance-gpu-memory-transfer-on-aws",
     "source": "perplexity",
@@ -3057,7 +3201,7 @@
   },
   {
     "id": "perplexity:introducing-the-sonar-pro-api",
-    "title": "Introducing the Sonar Pro API by PerplexityJan 21, 2025DevelopersUpdates",
+    "title": "Introducing the Sonar Pro API by Perplexity",
     "date": "2025-01-21",
     "url": "https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api",
     "source": "perplexity",
@@ -3112,395 +3256,11 @@
     "description": "More efficient protection against universal jailbreaks."
   },
   {
-    "id": "ollama:minions",
-    "title": "Minions: where local and cloud LLMs meet",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/minions",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:multimodal-models",
-    "title": "Ollama's new engine for multimodal models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/multimodal-models",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:streaming-tool",
-    "title": "Streaming responses with tool calling",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/streaming-tool",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:thinking",
-    "title": "Thinking",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/thinking",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:secureminions",
-    "title": "Secure Minions: private collaboration between Ollama and frontier models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/secureminions",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:new-app",
-    "title": "Ollama's new app",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/new-app",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:gpt-oss",
-    "title": "OpenAI gpt-oss",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/gpt-oss",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:cloud-models",
-    "title": "Cloud models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/cloud-models",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:new-model-scheduling",
-    "title": "New model scheduling",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/new-model-scheduling",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:web-search",
-    "title": "Web search",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/web-search",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:nvidia-spark",
-    "title": "NVIDIA DGX Spark",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/nvidia-spark",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:qwen3-vl",
-    "title": "Qwen3-VL",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/qwen3-vl",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:coding-models",
-    "title": "New coding models & integrations",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/coding-models",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:nvidia-spark-performance",
-    "title": "NVIDIA DGX Spark performance",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/nvidia-spark-performance",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:minimax-m2",
-    "title": "MiniMax M2",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/minimax-m2",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:gpt-oss-safeguard",
-    "title": "OpenAI gpt-oss-safeguard",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/gpt-oss-safeguard",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:codex",
-    "title": "OpenAI Codex with Ollama",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/codex",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:claude",
-    "title": "Claude Code with Anthropic API compatibility",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/claude",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:image-generation",
-    "title": "Image generation (experimental)",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/image-generation",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:launch",
-    "title": "ollama launch",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/launch",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:openclaw",
-    "title": "OpenClaw",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/openclaw",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:web-search-subagents-claude-code",
-    "title": "Subagents and web search in Claude Code",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/web-search-subagents-claude-code",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:openclaw-tutorial",
-    "title": "The simplest and fastest way to setup OpenClaw",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/openclaw-tutorial",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:mlx",
-    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/mlx",
-    "source": "ollama",
-    "description": ""
-  },
-  {
     "id": "qwen:blog",
     "title": "简体中文",
     "date": "2025-01-01",
     "url": "https://qwenlm.github.io/zh/blog/",
     "source": "qwen",
-    "description": ""
-  },
-  {
-    "id": "ollama:structured-outputs",
-    "title": "Structured outputs",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/structured-outputs",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:functions-as-tools",
-    "title": "Ollama Python library 0.4 with function calling improvements",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/functions-as-tools",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:llama3.2-vision",
-    "title": "Llama 3.2 Vision",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/llama3.2-vision",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:ibm-granite",
-    "title": "IBM Granite 3.0 models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/ibm-granite",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:llama3.2",
-    "title": "Llama 3.2 goes small and multimodal",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/llama3.2",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:reduce-hallucinations-with-bespoke-minicheck",
-    "title": "Reduce hallucinations with Bespoke-Minicheck",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/reduce-hallucinations-with-bespoke-minicheck",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:tool-support",
-    "title": "Tool support",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/tool-support",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:gemma2",
-    "title": "Google Gemma 2",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/gemma2",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:continue-code-assistant",
-    "title": "An entirely open-source AI code assistant inside your editor",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/continue-code-assistant",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:firebase-genkit",
-    "title": "Google announces Firebase Genkit with Ollama support",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/firebase-genkit",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:llama-3-is-not-very-censored",
-    "title": "Llama 3 is not very censored",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/llama-3-is-not-very-censored",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:llama3",
-    "title": "Llama 3",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/llama3",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:embedding-models",
-    "title": "Embedding models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/embedding-models",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:amd-preview",
-    "title": "Ollama now supports AMD graphics cards",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/amd-preview",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:windows-preview",
-    "title": "Windows preview",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/windows-preview",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:openai-compatibility",
-    "title": "OpenAI compatibility",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/openai-compatibility",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:vision-models",
-    "title": "Vision models",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/vision-models",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:python-javascript-libraries",
-    "title": "Python & JavaScript Libraries",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/python-javascript-libraries",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:building-llm-powered-web-apps",
-    "title": "Building LLM-Powered Web Apps with Client-Side Technology",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/building-llm-powered-web-apps",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:ollama-is-now-available-as-an-official-docker-image",
-    "title": "Ollama is now available as an official Docker image",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:llms-in-obsidian",
-    "title": "Leveraging LLMs in your Obsidian Notes",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/llms-in-obsidian",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:how-to-prompt-code-llama",
-    "title": "How to prompt Code Llama",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/how-to-prompt-code-llama",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:run-code-llama-locally",
-    "title": "Run Code Llama locally",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/run-code-llama-locally",
-    "source": "ollama",
-    "description": ""
-  },
-  {
-    "id": "ollama:run-llama2-uncensored-locally",
-    "title": "Run Llama 2 uncensored locally",
-    "date": "2025-01-01",
-    "url": "https://ollama.com/blog/run-llama2-uncensored-locally",
-    "source": "ollama",
     "description": ""
   },
   {
@@ -3512,91 +3272,11 @@
     "description": ""
   },
   {
-    "id": "deepseek:what-is-deep-seek",
-    "title": "What is Deep Seek?",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/what-is-deep-seek",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
-    "id": "deepseek:what-is-deep-learning-ai",
-    "title": "Deep Learning AI Explained",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/what-is-deep-learning-ai",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
-    "id": "deepseek:deepseek-r2-challenges",
-    "title": "Deep Seek R2 Challenges",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/deepseek-r2-challenges",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
-    "id": "perplexity:careers",
-    "title": "Careers",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/careers",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
-    "id": "perplexity:helpcenter",
-    "title": "Help Center",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/helpcenter",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
     "id": "perplexity:personal-computer-is-here",
     "title": "Read more",
     "date": "2025-01-01",
     "url": "https://www.perplexity.ai/hub/blog/personal-computer-is-here",
     "source": "perplexity",
     "description": "Read more"
-  },
-  {
-    "id": "perplexity:privacy-policy",
-    "title": "Privacy Policy",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/legal/privacy-policy",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
-    "id": "perplexity:security",
-    "title": "Security",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/security",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
-    "id": "perplexity:terms-of-service",
-    "title": "Terms & Conditions",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
-    "id": "perplexity:getting-started",
-    "title": "Getting Started",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/getting-started",
-    "source": "perplexity",
-    "description": ""
-  },
-  {
-    "id": "perplexity:perplexity-api-terms-of-service",
-    "title": "API Terms of Service",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
-    "source": "perplexity",
-    "description": ""
   }
 ]
