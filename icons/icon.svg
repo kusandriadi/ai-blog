@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
-  <text x="256" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="180" fill="#3b82f6">AI</text>
-  <text x="256" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="120" fill="#e5e5e5">NEWS</text>
+  <rect width="512" height="512" rx="102" fill="#0f0f14"/>
+  <line x1="128" y1="310" x2="384" y2="310" stroke="#3b82f6" stroke-opacity="0.47" stroke-width="4"/>
+  <text x="256" y="290" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-weight="700" font-size="195" fill="#3b82f6">AI</text>
+  <text x="256" y="400" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-weight="700" font-size="82" fill="#ebebeb">NEWS</text>
 </svg>
