@@ -16,12 +16,116 @@
     "description": "Major collaboration focused on global development applications."
   },
   {
+    "id": "claude:2028-ai-leadership",
+    "title": "2028: Two scenarios for global AI leadership",
+    "date": "2026-05-14",
+    "url": "https://www.anthropic.com/research/2028-ai-leadership",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "openclaw:openai-models-in-openclaw-done-right",
+    "title": "OpenAI Models in OpenClaw, Done Right",
+    "date": "2026-05-14",
+    "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
+    "source": "openclaw",
+    "description": "OpenClaw now runs OpenAI agent turns through the native Codex app-server harness by default, while bringing the lessons back to every model."
+  },
+  {
+    "id": "perplexity:computer-brings-data-science-to-every-team",
+    "title": "Computer brings data science to every teamMay 14, 2026Updates",
+    "date": "2026-05-14",
+    "url": "https://www.perplexity.ai./hub/blog/computer-brings-data-science-to-every-team",
+    "source": "perplexity",
+    "description": "May 14, 2026"
+  },
+  {
     "id": "claude:claude-for-small-business",
     "title": "Claude for Small Business",
     "date": "2026-05-13",
     "url": "https://www.anthropic.com/blog/claude-for-small-business",
     "source": "claude",
     "description": "New product package with connectors and workflows for small business tools integration."
+  },
+  {
+    "id": "cursor:cloud-agent-development-environments",
+    "title": "May 13, 2026·productDevelopment environments for your cloud agentsSamantha, David & Nick7mSamantha, David & Nick·7m",
+    "date": "2026-05-13",
+    "url": "https://cursor.com/blog/cloud-agent-development-environments",
+    "source": "cursor",
+    "description": "Development environments for your cloud agents"
+  },
+  {
+    "id": "perplexity:how-we-built-security-into-computer",
+    "title": "How We Built Security Into ComputerMay 13, 2026Security",
+    "date": "2026-05-13",
+    "url": "https://www.perplexity.ai./hub/blog/how-we-built-security-into-computer",
+    "source": "perplexity",
+    "description": "May 13, 2026"
+  },
+  {
+    "id": "cursor:may-2026-bugbot-changes",
+    "title": "May 11, 2026·productUpdates to Bugbot for Teams and IndividualsCursor Team2mCursor Team·2m",
+    "date": "2026-05-11",
+    "url": "https://cursor.com/blog/may-2026-bugbot-changes",
+    "source": "cursor",
+    "description": "Updates to Bugbot for Teams and Individuals"
+  },
+  {
+    "id": "cursor:paypal",
+    "title": "Beyond efficiency: PayPal expands what's possible to build with AIMay 11, 2026",
+    "date": "2026-05-11",
+    "url": "https://cursor.com/blog/paypal",
+    "source": "cursor",
+    "description": "Beyond efficiency: PayPal expands what's possible to build with AI"
+  },
+  {
+    "id": "cursor:customers",
+    "title": "View all stories →",
+    "date": "2026-05-11",
+    "url": "https://cursor.com/blog/topic/customers",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "claude:teaching-claude-why",
+    "title": "Teaching Claude why",
+    "date": "2026-05-08",
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:natural-language-autoencoders",
+    "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+    "date": "2026-05-07",
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:anthropic-institute-agenda",
+    "title": "Focus areas for The Anthropic Institute",
+    "date": "2026-05-07",
+    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:donating-open-source-petri",
+    "title": "Donating our open-source alignment tool",
+    "date": "2026-05-07",
+    "url": "https://www.anthropic.com/research/donating-open-source-petri",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "perplexity:personal-computer-is-available-to-all-mac-users",
+    "title": "Personal Computer is Available to All Mac UsersMay 7, 2026CompanyUpdates",
+    "date": "2026-05-07",
+    "url": "https://www.perplexity.ai./hub/blog/personal-computer-is-available-to-all-mac-users",
+    "source": "perplexity",
+    "description": "May 7, 2026"
   },
   {
     "id": "claude:higher-limits-spacex",
@@ -32,6 +136,30 @@
     "description": "Expanded capacity through increased usage limits and new compute partnership."
   },
   {
+    "id": "cursor:bootstrapping-composer-with-autoinstall",
+    "title": "May 6, 2026·researchBootstrapping Composer with autoinstallShomil, Joshua & Andrew6mShomil, Joshua & Andrew·6m",
+    "date": "2026-05-06",
+    "url": "https://cursor.com/blog/bootstrapping-composer-with-autoinstall",
+    "source": "cursor",
+    "description": "Bootstrapping Composer with autoinstall"
+  },
+  {
+    "id": "gemma:alphaevolve-impact",
+    "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+    "date": "2026-05-06",
+    "url": "https://deepmind.google/blog/alphaevolve-impact/",
+    "source": "gemma",
+    "description": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science."
+  },
+  {
+    "id": "perplexity:introducing-finance-search-in-the-agent-api",
+    "title": "Introducing Finance Search in the Agent APIMay 6, 2026CompanyDevelopersUpdates",
+    "date": "2026-05-06",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-finance-search-in-the-agent-api",
+    "source": "perplexity",
+    "description": "May 6, 2026"
+  },
+  {
     "id": "claude:finance-agents",
     "title": "Agents for Financial Services",
     "date": "2026-05-05",
@@ -40,12 +168,100 @@
     "description": "Ten new plugins, Microsoft 365 integrations, and financial services MCP application."
   },
   {
+    "id": "openclaw:openclaw-rough-week",
+    "title": "OpenClaw Had a Rough Week",
+    "date": "2026-05-05",
+    "url": "https://openclaw.ai/blog/openclaw-rough-week",
+    "source": "openclaw",
+    "description": "What happened around the 2026.4.24 and 2026.4.29 releases, why the direction was right, and what we are changing now."
+  },
+  {
+    "id": "perplexity:computer-for-professional-finance",
+    "title": "Computer for Professional FinanceMay 5, 2026CompanyUpdatesEnterprise",
+    "date": "2026-05-05",
+    "url": "https://www.perplexity.ai./hub/blog/computer-for-professional-finance",
+    "source": "perplexity",
+    "description": "May 5, 2026"
+  },
+  {
+    "id": "perplexity:announcing-premium-health-sources",
+    "title": "Announcing Premium Health SourcesMay 5, 2026CompanyUpdates",
+    "date": "2026-05-05",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-premium-health-sources",
+    "source": "perplexity",
+    "description": "May 5, 2026"
+  },
+  {
     "id": "claude:enterprise-ai-services-company",
     "title": "Enterprise AI Services Company",
     "date": "2026-05-04",
     "url": "https://www.anthropic.com/blog/enterprise-ai-services-company",
     "source": "claude",
     "description": "New venture with Blackstone, Hellman & Friedman, and Goldman Sachs."
+  },
+  {
+    "id": "perplexity:computer-in-teams-is-here",
+    "title": "Computer in Teams is hereMay 4, 2026Updates",
+    "date": "2026-05-04",
+    "url": "https://www.perplexity.ai./hub/blog/computer-in-teams-is-here",
+    "source": "perplexity",
+    "description": "May 4, 2026"
+  },
+  {
+    "id": "claude:claude-personal-guidance",
+    "title": "How people ask Claude for personal guidance",
+    "date": "2026-04-30",
+    "url": "https://www.anthropic.com/research/claude-personal-guidance",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "openclaw:openclaw-security-in-public",
+    "title": "How OpenClaw Got Safer in Public",
+    "date": "2026-04-30",
+    "url": "https://openclaw.ai/blog/openclaw-security-in-public",
+    "source": "openclaw",
+    "description": "The work you do not see behind the world's most-watched open source personal AI agent."
+  },
+  {
+    "id": "cursor:continually-improving-agent-harness",
+    "title": "Apr 30, 2026·researchContinually improving our agent harnessStefan & Jediah11mStefan & Jediah·11m",
+    "date": "2026-04-30",
+    "url": "https://cursor.com/blog/continually-improving-agent-harness",
+    "source": "cursor",
+    "description": "Continually improving our agent harness"
+  },
+  {
+    "id": "gemma:ai-co-clinician",
+    "title": "Enabling a new model for healthcare with AI co-clinician",
+    "date": "2026-04-30",
+    "url": "https://deepmind.google/blog/ai-co-clinician/",
+    "source": "gemma",
+    "description": "Researching the path to AI-augmented care and development of an AI co-clinician."
+  },
+  {
+    "id": "perplexity:computer-at-work",
+    "title": "Computer at WorkApr 30, 2026CompanyUpdates",
+    "date": "2026-04-30",
+    "url": "https://www.perplexity.ai./hub/blog/computer-at-work",
+    "source": "perplexity",
+    "description": "Apr 30, 2026"
+  },
+  {
+    "id": "cursor:typescript-sdk",
+    "title": "Apr 29, 2026·productBuild programmatic agents with the Cursor SDKRoshan Sadanani6mRoshan Sadanani·6m",
+    "date": "2026-04-29",
+    "url": "https://cursor.com/blog/typescript-sdk",
+    "source": "cursor",
+    "description": "Build programmatic agents with the Cursor SDK"
+  },
+  {
+    "id": "claude:Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
+    "date": "2026-04-29",
+    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "claude:claude-for-creative-work",
@@ -64,6 +280,14 @@
     "description": "Leadership appointment and official Sydney office opening."
   },
   {
+    "id": "gemma:announcing-our-partnership-with-the-republic-of-korea",
+    "title": "Announcing our partnership with the Republic of Korea",
+    "date": "2026-04-27",
+    "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+    "source": "gemma",
+    "description": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models"
+  },
+  {
     "id": "claude:election-safeguards-update",
     "title": "Election Safeguards Update",
     "date": "2026-04-24",
@@ -80,12 +304,132 @@
     "description": "Partnership building Japan's largest AI engineering workforce."
   },
   {
+    "id": "cursor:nab",
+    "title": "National Australia Bank accelerates legacy migrations with CursorApr 23, 2026",
+    "date": "2026-04-23",
+    "url": "https://cursor.com/blog/nab",
+    "source": "cursor",
+    "description": "National Australia Bank accelerates legacy migrations with Cursor"
+  },
+  {
+    "id": "claude:economic-index-survey-announcement",
+    "title": "Announcing the Anthropic Economic Index Survey",
+    "date": "2026-04-22",
+    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:81k-economics",
+    "title": "What 81,000 people told us about the economics of AI",
+    "date": "2026-04-22",
+    "url": "https://www.anthropic.com/research/81k-economics",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:decoupled-diloco",
+    "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "date": "2026-04-22",
+    "url": "https://deepmind.google/blog/decoupled-diloco/",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "perplexity:how-perplexity-builds-accuracy-into-frontier-ai",
+    "title": "How Perplexity Builds Accuracy into Frontier AIApr 22, 2026ResearchCompany",
+    "date": "2026-04-22",
+    "url": "https://www.perplexity.ai./hub/blog/how-perplexity-builds-accuracy-into-frontier-ai",
+    "source": "perplexity",
+    "description": "Apr 22, 2026"
+  },
+  {
+    "id": "cursor:app-stability",
+    "title": "Apr 21, 2026·researchKeeping the Cursor app stableAndrew & Kevin8mAndrew & Kevin·8m",
+    "date": "2026-04-21",
+    "url": "https://cursor.com/blog/app-stability",
+    "source": "cursor",
+    "description": "Keeping the Cursor app stable"
+  },
+  {
+    "id": "cursor:spacex-model-training",
+    "title": "Apr 21, 2026·companyCursor partners with SpaceX on model trainingCursor Team1mCursor Team·1m",
+    "date": "2026-04-21",
+    "url": "https://cursor.com/blog/spacex-model-training",
+    "source": "cursor",
+    "description": "Cursor partners with SpaceX on model training"
+  },
+  {
+    "id": "gemma:partnering-with-industry-leaders-to-accelerate-ai-transformation",
+    "title": "Partnering with industry leaders to accelerate AI transformation",
+    "date": "2026-04-21",
+    "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+    "source": "gemma",
+    "description": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world."
+  },
+  {
     "id": "claude:anthropic-amazon-compute",
     "title": "Anthropic Expands Amazon Partnership",
     "date": "2026-04-20",
     "url": "https://www.anthropic.com/blog/anthropic-amazon-compute",
     "source": "claude",
     "description": "Multi-gigawatt compute expansion collaboration."
+  },
+  {
+    "id": "kimi:kimi-k2",
+    "title": "Kimi K22025/07/11",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-k2",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:kimi-k2-thinking",
+    "title": "Kimi K2 Thinking2025/11/06",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-k2-thinking",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:kimi-vendor-verifier",
+    "title": "Kimi Vendor Verifier2026/01/22",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:kimi-k2-5",
+    "title": "Kimi K2.52026/01/27",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-k2-5",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:worldvqa",
+    "title": "WorldVQA2026/02/03",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/worldvqa",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:agent-swarm",
+    "title": "Agent Swarm2026/02/09",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/agent-swarm",
+    "source": "kimi",
+    "description": ""
+  },
+  {
+    "id": "kimi:kimi-k2-6",
+    "title": "Kimi K2.6Advancing Open-Source Coding2026/04/20",
+    "date": "2026-04-20",
+    "url": "https://www.kimi.com/blog/kimi-k2-6",
+    "source": "kimi",
+    "description": ""
   },
   {
     "id": "claude:claude-design-anthropic-labs",
@@ -104,12 +448,84 @@
     "description": "Latest Opus model with enhanced performance in coding, agents, vision, and multi-step reasoning tasks."
   },
   {
+    "id": "cursor:better-models-ambitious-work",
+    "title": "Apr 15, 2026·researchBetter AI models enable more ambitious workLuke Melas-Kyriazi4mLuke Melas-Kyriazi·4m",
+    "date": "2026-04-15",
+    "url": "https://cursor.com/blog/better-models-ambitious-work",
+    "source": "cursor",
+    "description": "Better AI models enable more ambitious work"
+  },
+  {
+    "id": "cursor:canvas",
+    "title": "Apr 15, 2026·productInteract with agent-created visualizations in canvasesAlex Vandak Maloney6mAlex Vandak Maloney·6m",
+    "date": "2026-04-15",
+    "url": "https://cursor.com/blog/canvas",
+    "source": "cursor",
+    "description": "Interact with agent-created visualizations in canvases"
+  },
+  {
+    "id": "gemma:gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "date": "2026-04-15",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "source": "gemma",
+    "description": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
+  },
+  {
+    "id": "cursor:amplitude",
+    "title": "Amplitude ships 3x more production code with CursorApr 15, 2026",
+    "date": "2026-04-15",
+    "url": "https://cursor.com/blog/amplitude",
+    "source": "cursor",
+    "description": "Amplitude ships 3x more production code with Cursor"
+  },
+  {
     "id": "claude:narasimhan-board",
     "title": "Vas Narasimhan Board Appointment",
     "date": "2026-04-14",
     "url": "https://www.anthropic.com/blog/narasimhan-board",
     "source": "claude",
     "description": "Anthropic's Long-Term Benefit Trust board expansion."
+  },
+  {
+    "id": "claude:automated-alignment-researchers",
+    "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+    "date": "2026-04-14",
+    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:multi-agent-kernels",
+    "title": "Apr 14, 2026·researchSpeeding up GPU kernels by 38% with a multi-agent systemWilson, Sahil, Yuan & Edward10mWilson, Sahil, Yuan & Edward·10m",
+    "date": "2026-04-14",
+    "url": "https://cursor.com/blog/multi-agent-kernels",
+    "source": "cursor",
+    "description": "Speeding up GPU kernels by 38% with a multi-agent system"
+  },
+  {
+    "id": "gemma:gemini-robotics-er-1-6",
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "date": "2026-04-13",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "source": "gemma",
+    "description": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+  },
+  {
+    "id": "perplexity:plaid-integration-provides-full-view-of-personal-finances",
+    "title": "Computer is Now Your Personal CFOApr 9, 2026Updates",
+    "date": "2026-04-09",
+    "url": "https://www.perplexity.ai./hub/blog/plaid-integration-provides-full-view-of-personal-finances",
+    "source": "perplexity",
+    "description": "Apr 9, 2026"
+  },
+  {
+    "id": "cursor:bugbot-learning",
+    "title": "Apr 8, 2026·productBugbot now self-improves with learned rulesMichael Zhao3mMichael Zhao·3m",
+    "date": "2026-04-08",
+    "url": "https://cursor.com/blog/bugbot-learning",
+    "source": "cursor",
+    "description": "Bugbot now self-improves with learned rules"
   },
   {
     "id": "claude:glasswing",
@@ -128,12 +544,156 @@
     "description": "Next-generation compute infrastructure partnership."
   },
   {
+    "id": "cursor:warp-decode",
+    "title": "Apr 6, 2026·researchBetter MoE model inference with warp decodeLess, Federico & Zhiyuan10mLess, Federico & Zhiyuan·10m",
+    "date": "2026-04-06",
+    "url": "https://cursor.com/blog/warp-decode",
+    "source": "cursor",
+    "description": "Better MoE model inference with warp decode"
+  },
+  {
+    "id": "cursor:cursor-3",
+    "title": "Apr 2, 2026·ProductMeet the new CursorCursor 3 is a unified workspace for building software with agents.Michael & Sualeh·10m10 min read",
+    "date": "2026-04-02",
+    "url": "https://cursor.com/blog/cursor-3",
+    "source": "cursor",
+    "description": "Meet the new Cursor"
+  },
+  {
+    "id": "gemma:gemma-4-byte-for-byte-the-most-capable-open-models",
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "date": "2026-04-02",
+    "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+    "source": "gemma",
+    "description": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows."
+  },
+  {
+    "id": "perplexity:introducing-computer-for-taxes",
+    "title": "Introducing Computer for TaxesApr 2, 2026Company",
+    "date": "2026-04-02",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-computer-for-taxes",
+    "source": "perplexity",
+    "description": "Apr 2, 2026"
+  },
+  {
+    "id": "perplexity:computer-in-slack-from-shared-context-to-finished-work",
+    "title": "Computer in Slack: From Shared Context to Finished WorkApr 1, 2026Company",
+    "date": "2026-04-01",
+    "url": "https://www.perplexity.ai./hub/blog/computer-in-slack-from-shared-context-to-finished-work",
+    "source": "perplexity",
+    "description": "Apr 1, 2026"
+  },
+  {
     "id": "claude:australia-MOU",
     "title": "Australian Government MOU",
     "date": "2026-03-31",
     "url": "https://www.anthropic.com/blog/australia-MOU",
     "source": "claude",
     "description": "AI safety and research collaboration with Australian authorities."
+  },
+  {
+    "id": "perplexity:announcing-the-secure-intelligence-institute",
+    "title": "Announcing the Secure Intelligence InstituteMar 31, 2026CompanySecurity",
+    "date": "2026-03-31",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-the-secure-intelligence-institute",
+    "source": "perplexity",
+    "description": "Mar 31, 2026"
+  },
+  {
+    "id": "gemma:ai-pointer",
+    "title": "Reimagining the mouse pointer for the AI era",
+    "date": "2026-03-29",
+    "url": "https://deepmind.google/blog/ai-pointer/",
+    "source": "gemma",
+    "description": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond."
+  },
+  {
+    "id": "cursor:composer-2-technical-report",
+    "title": "A technical report on Composer 2",
+    "date": "2026-03-27",
+    "url": "https://cursor.com/blog/composer-2-technical-report",
+    "source": "cursor",
+    "description": "Technical analysis of Composer 2."
+  },
+  {
+    "id": "cursor:real-time-rl-for-composer",
+    "title": "Improving Composer through real-time RL",
+    "date": "2026-03-26",
+    "url": "https://cursor.com/blog/real-time-rl-for-composer",
+    "source": "cursor",
+    "description": "RL techniques for model enhancement."
+  },
+  {
+    "id": "gemma:gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
+    "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+    "date": "2026-03-26",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+    "source": "gemma",
+    "description": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise."
+  },
+  {
+    "id": "perplexity:perplexity-apis-power-ai-browsing-on-samsung-devices",
+    "title": "Perplexity APIs Power AI Browsing on Samsung DevicesMar 26, 2026Company",
+    "date": "2026-03-26",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-apis-power-ai-browsing-on-samsung-devices",
+    "source": "perplexity",
+    "description": "Mar 26, 2026"
+  },
+  {
+    "id": "cursor:self-hosted-cloud-agents",
+    "title": "Run cloud agents in your own infrastructure",
+    "date": "2026-03-25",
+    "url": "https://cursor.com/blog/self-hosted-cloud-agents",
+    "source": "cursor",
+    "description": "Self-hosted deployment for agents."
+  },
+  {
+    "id": "gemma:protecting-people-from-harmful-manipulation",
+    "title": "Protecting people from harmful manipulation",
+    "date": "2026-03-25",
+    "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+    "source": "gemma",
+    "description": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
+  },
+  {
+    "id": "gemma:lyria-3-pro-create-longer-tracks-in-more",
+    "title": "Lyria 3 Pro: Create longer tracks in more",
+    "date": "2026-03-25",
+    "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
+    "source": "gemma",
+    "description": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces."
+  },
+  {
+    "id": "cursor:fast-regex-search",
+    "title": "Fast regex search: indexing text for agent tools",
+    "date": "2026-03-23",
+    "url": "https://cursor.com/blog/fast-regex-search",
+    "source": "cursor",
+    "description": "Efficient pattern matching for agents."
+  },
+  {
+    "id": "cursor:composer-2",
+    "title": "Mar 19, 2026·ResearchIntroducing Composer 2Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.Cursor Team·3m3 min read",
+    "date": "2026-03-19",
+    "url": "https://cursor.com/blog/composer-2",
+    "source": "cursor",
+    "description": "Introducing Composer 2"
+  },
+  {
+    "id": "perplexity:introducing-the-perplexity-health-advisory-board",
+    "title": "Introducing the Perplexity Health Advisory BoardMar 19, 2026CompanyUpdates",
+    "date": "2026-03-19",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-the-perplexity-health-advisory-board",
+    "source": "perplexity",
+    "description": "Mar 19, 2026"
+  },
+  {
+    "id": "perplexity:introducing-perplexity-health",
+    "title": "Introducing Perplexity HealthMar 19, 2026CompanyUpdates",
+    "date": "2026-03-19",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-health",
+    "source": "perplexity",
+    "description": "Mar 19, 2026"
   },
   {
     "id": "claude:81k-interviews",
@@ -144,12 +704,84 @@
     "description": "Largest multilingual qualitative study of AI user expectations, fears, and desired capabilities."
   },
   {
+    "id": "perplexity:meet-comet-for-ios",
+    "title": "Comet is Now Available on iOSMar 18, 2026Updates",
+    "date": "2026-03-18",
+    "url": "https://www.perplexity.ai./hub/blog/meet-comet-for-ios",
+    "source": "perplexity",
+    "description": "Mar 18, 2026"
+  },
+  {
+    "id": "cursor:self-summarization",
+    "title": "Training Composer for longer horizons",
+    "date": "2026-03-17",
+    "url": "https://cursor.com/blog/self-summarization",
+    "source": "cursor",
+    "description": "Expanding agent task planning."
+  },
+  {
+    "id": "gemma:measuring-progress-toward-agi-a-cognitive-framework",
+    "title": "Measuring progress toward AGI: A cognitive framework",
+    "date": "2026-03-17",
+    "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+    "source": "gemma",
+    "description": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations."
+  },
+  {
+    "id": "perplexity:comet-enterprise-is-here",
+    "title": "Comet Enterprise is hereMar 17, 2026Enterprise",
+    "date": "2026-03-17",
+    "url": "https://www.perplexity.ai./hub/blog/comet-enterprise-is-here",
+    "source": "perplexity",
+    "description": "Mar 17, 2026"
+  },
+  {
+    "id": "cursor:security-agents",
+    "title": "Securing our codebase with autonomous agents",
+    "date": "2026-03-16",
+    "url": "https://cursor.com/blog/security-agents",
+    "source": "cursor",
+    "description": "Automated security scanning."
+  },
+  {
+    "id": "cursor:press",
+    "title": "View all press →",
+    "date": "2026-03-16",
+    "url": "https://cursor.com/blog/topic/press",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "perplexity:perplexity-joins-the-nvidia-nemotron-coalition",
+    "title": "Perplexity Joins the NVIDIA Nemotron CoalitionMar 16, 2026Company",
+    "date": "2026-03-16",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-joins-the-nvidia-nemotron-coalition",
+    "source": "perplexity",
+    "description": "Mar 16, 2026"
+  },
+  {
     "id": "claude:claude-partner-network",
     "title": "$100M Claude Partner Network",
     "date": "2026-03-12",
     "url": "https://www.anthropic.com/blog/claude-partner-network",
     "source": "claude",
     "description": "Investment program supporting enterprise adoption through partner organizations."
+  },
+  {
+    "id": "perplexity:announcing-premium-sources",
+    "title": "Announcing Premium SourcesMar 12, 2026CompanyUpdates",
+    "date": "2026-03-12",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-premium-sources",
+    "source": "perplexity",
+    "description": "Mar 12, 2026"
+  },
+  {
+    "id": "perplexity:computer-for-enterprise",
+    "title": "Computer for EnterpriseMar 12, 2026Enterprise",
+    "date": "2026-03-12",
+    "url": "https://www.perplexity.ai./hub/blog/computer-for-enterprise",
+    "source": "perplexity",
+    "description": "Mar 12, 2026"
   },
   {
     "id": "claude:the-anthropic-institute",
@@ -160,12 +792,68 @@
     "description": "New initiative addressing societal challenges from powerful AI systems."
   },
   {
+    "id": "cursor:cursorbench",
+    "title": "Mar 11, 2026·ResearchHow we compare model quality in CursorWe use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.Naman Jain·7m7 min read",
+    "date": "2026-03-11",
+    "url": "https://cursor.com/blog/cursorbench",
+    "source": "cursor",
+    "description": "How we compare model quality in Cursor"
+  },
+  {
+    "id": "cursor:new-plugins",
+    "title": "Over 30 new plugins join the Cursor Marketplace",
+    "date": "2026-03-11",
+    "url": "https://cursor.com/blog/new-plugins",
+    "source": "cursor",
+    "description": "Marketplace expansion."
+  },
+  {
+    "id": "perplexity:sandbox-api-isolated-code-execution-for-ai-agents",
+    "title": "Sandbox API: Isolated Code Execution for AI AgentsMar 11, 2026Developers",
+    "date": "2026-03-11",
+    "url": "https://www.perplexity.ai./hub/blog/sandbox-api-isolated-code-execution-for-ai-agents",
+    "source": "perplexity",
+    "description": "Mar 11, 2026"
+  },
+  {
+    "id": "perplexity:search-api-better-extraction-dynamic-benchmarks",
+    "title": "Search API: Better Extraction, Dynamic BenchmarksMar 11, 2026Developers",
+    "date": "2026-03-11",
+    "url": "https://www.perplexity.ai./hub/blog/search-api-better-extraction-dynamic-benchmarks",
+    "source": "perplexity",
+    "description": "Mar 11, 2026"
+  },
+  {
+    "id": "perplexity:agent-api-a-managed-runtime-for-agentic-workflows",
+    "title": "Agent API: A Managed Runtime for Agentic WorkflowsMar 11, 2026Developers",
+    "date": "2026-03-11",
+    "url": "https://www.perplexity.ai./hub/blog/agent-api-a-managed-runtime-for-agentic-workflows",
+    "source": "perplexity",
+    "description": "Mar 11, 2026"
+  },
+  {
+    "id": "perplexity:everything-is-computer",
+    "title": "Everything is ComputerMar 11, 2026CompanyUpdatesEnterprise",
+    "date": "2026-03-11",
+    "url": "https://www.perplexity.ai./hub/blog/everything-is-computer",
+    "source": "perplexity",
+    "description": "Mar 11, 2026"
+  },
+  {
     "id": "claude:sydney-fourth-office-asia-pacific",
     "title": "Sydney Fourth Asia-Pacific Office",
     "date": "2026-03-10",
     "url": "https://www.anthropic.com/blog/sydney-fourth-office-asia-pacific",
     "source": "claude",
     "description": "Regional expansion announcement for Asia-Pacific operations."
+  },
+  {
+    "id": "gemma:10-years-of-alphago",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "date": "2026-03-09",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": "gemma",
+    "description": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI."
   },
   {
     "id": "claude:mozilla-firefox-security",
@@ -184,6 +872,54 @@
     "description": "CEO statement on national security AI discussions."
   },
   {
+    "id": "cursor:automations",
+    "title": "Build agents that run automatically",
+    "date": "2026-03-05",
+    "url": "https://cursor.com/blog/automations",
+    "source": "cursor",
+    "description": "Self-triggering autonomous workflows."
+  },
+  {
+    "id": "cursor:jetbrains-acp",
+    "title": "Cursor is now available in JetBrains IDEs",
+    "date": "2026-03-04",
+    "url": "https://cursor.com/blog/jetbrains-acp",
+    "source": "cursor",
+    "description": "JetBrains IDE integration."
+  },
+  {
+    "id": "cursor:cursor-support",
+    "title": "How technical support at Cursor uses Cursor",
+    "date": "2026-03-03",
+    "url": "https://cursor.com/blog/cursor-support",
+    "source": "cursor",
+    "description": "Internal case study of Cursor adoption."
+  },
+  {
+    "id": "gemma:gemini-3-1-flash-lite-built-for-intelligence-at-scale",
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "date": "2026-03-03",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+    "source": "gemma",
+    "description": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
+  },
+  {
+    "id": "perplexity:the-ai-is-the-computer",
+    "title": "The AI is the ComputerMar 3, 2026CompanyUpdates",
+    "date": "2026-03-03",
+    "url": "https://www.perplexity.ai./hub/blog/the-ai-is-the-computer",
+    "source": "perplexity",
+    "description": "Mar 3, 2026"
+  },
+  {
+    "id": "cursor:planetscale",
+    "title": "PlanetScale protects production reliability with BugbotMar 2, 2026",
+    "date": "2026-03-02",
+    "url": "https://cursor.com/blog/planetscale",
+    "source": "cursor",
+    "description": "PlanetScale protects production reliability with Bugbot"
+  },
+  {
     "id": "claude:statement-comments-secretary-war",
     "title": "Secretary of War Response Statement",
     "date": "2026-02-27",
@@ -200,6 +936,38 @@
     "description": "CEO remarks on national security AI applications."
   },
   {
+    "id": "cursor:bugbot-autofix",
+    "title": "Closing the code review loop with Bugbot Autofix",
+    "date": "2026-02-26",
+    "url": "https://cursor.com/blog/bugbot-autofix",
+    "source": "cursor",
+    "description": "Automated code correction."
+  },
+  {
+    "id": "cursor:third-era",
+    "title": "Feb 26, 2026·IdeasThe third era of AI software developmentA third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.Michael Truell·4m4 min read",
+    "date": "2026-02-26",
+    "url": "https://cursor.com/blog/third-era",
+    "source": "cursor",
+    "description": "The third era of AI software development"
+  },
+  {
+    "id": "gemma:nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed",
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "date": "2026-02-26",
+    "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+    "source": "gemma",
+    "description": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed."
+  },
+  {
+    "id": "perplexity:perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker",
+    "title": "Perplexity APIs deliver powerful AI to the world’s largest Android device makerFeb 26, 2026Company",
+    "date": "2026-02-26",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-apis-deliver-powerful-ai-to-the-world’s-largest-android-device-maker",
+    "source": "perplexity",
+    "description": "Feb 26, 2026"
+  },
+  {
     "id": "claude:acquires-vercept",
     "title": "Vercept Acquisition",
     "date": "2026-02-25",
@@ -208,12 +976,28 @@
     "description": "Acquisition advancing Claude's computer interaction capabilities."
   },
   {
+    "id": "perplexity:introducing-perplexity-computer",
+    "title": "Introducing Perplexity ComputerFeb 25, 2026CompanyUpdates",
+    "date": "2026-02-25",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-computer",
+    "source": "perplexity",
+    "description": "Feb 25, 2026"
+  },
+  {
     "id": "claude:responsible-scaling-policy-v3",
     "title": "Responsible Scaling Policy v3.0",
     "date": "2026-02-24",
     "url": "https://www.anthropic.com/blog/responsible-scaling-policy-v3",
     "source": "claude",
     "description": "Updated AI safety and scaling guidelines."
+  },
+  {
+    "id": "cursor:agent-computer-use",
+    "title": "Cursor agents can now control their own computers",
+    "date": "2026-02-24",
+    "url": "https://cursor.com/blog/agent-computer-use",
+    "source": "cursor",
+    "description": "Direct system interaction for agents."
   },
   {
     "id": "claude:detecting-and-preventing-distillation-attacks",
@@ -232,6 +1016,38 @@
     "description": "Scans codebases for security vulnerabilities and suggests targeted software patches."
   },
   {
+    "id": "perplexity:how-we-built-security-into-comet-from-day-one",
+    "title": "How We Built Security Into Comet From Day OneFeb 20, 2026Security",
+    "date": "2026-02-20",
+    "url": "https://www.perplexity.ai./hub/blog/how-we-built-security-into-comet-from-day-one",
+    "source": "perplexity",
+    "description": "Feb 20, 2026"
+  },
+  {
+    "id": "gemma:gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks",
+    "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+    "date": "2026-02-19",
+    "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+    "source": "gemma",
+    "description": "3.1 Pro is designed for tasks where a simple answer isn’t enough."
+  },
+  {
+    "id": "cursor:agent-sandboxing",
+    "title": "Implementing a secure sandbox for local agents",
+    "date": "2026-02-18",
+    "url": "https://cursor.com/blog/agent-sandboxing",
+    "source": "cursor",
+    "description": "Security architecture for isolated agent execution."
+  },
+  {
+    "id": "gemma:a-new-way-to-express-yourself-gemini-can-now-create-music",
+    "title": "A new way to express yourself: Gemini can now create music",
+    "date": "2026-02-18",
+    "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+    "source": "gemma",
+    "description": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
+  },
+  {
     "id": "claude:claude-sonnet-4-6",
     "title": "Claude Sonnet 4.6",
     "date": "2026-02-17",
@@ -246,6 +1062,22 @@
     "url": "https://www.anthropic.com/blog/anthropic-infosys",
     "source": "claude",
     "description": "Regulated industry AI agent development collaboration."
+  },
+  {
+    "id": "cursor:marketplace",
+    "title": "Extend Cursor with plugins",
+    "date": "2026-02-17",
+    "url": "https://cursor.com/blog/marketplace",
+    "source": "cursor",
+    "description": "Plugin architecture for extensibility."
+  },
+  {
+    "id": "gemma:accelerating-discovery-in-india-through-ai-powered-science-and-education",
+    "title": "Accelerating discovery in India through AI-powered science and education",
+    "date": "2026-02-17",
+    "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
+    "source": "gemma",
+    "description": "Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education"
   },
   {
     "id": "claude:bengaluru-office-partnerships-across-india",
@@ -288,6 +1120,22 @@
     "description": "Political and civic engagement support initiative."
   },
   {
+    "id": "cursor:long-running-agents",
+    "title": "Expanding our long-running agents research preview",
+    "date": "2026-02-12",
+    "url": "https://cursor.com/blog/long-running-agents",
+    "source": "cursor",
+    "description": "Extended-duration agent capabilities."
+  },
+  {
+    "id": "gemma:gemini-3-deep-think-advancing-science-research-and-engineering",
+    "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+    "date": "2026-02-12",
+    "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+    "source": "gemma",
+    "description": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
+  },
+  {
     "id": "claude:covering-electricity-price-increases",
     "title": "Covering Electricity Price Increases",
     "date": "2026-02-11",
@@ -296,12 +1144,52 @@
     "description": "Data center energy cost commitment statement."
   },
   {
+    "id": "cursor:increased-agent-usage",
+    "title": "Increased usage for agents",
+    "date": "2026-02-11",
+    "url": "https://cursor.com/blog/increased-agent-usage",
+    "source": "cursor",
+    "description": "Agent adoption trends."
+  },
+  {
+    "id": "cursor:composer-1-5",
+    "title": "Introducing Composer 1.5",
+    "date": "2026-02-09",
+    "url": "https://cursor.com/blog/composer-1-5",
+    "source": "cursor",
+    "description": "Enhancement to composition model."
+  },
+  {
+    "id": "gemma:accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+    "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+    "date": "2026-02-09",
+    "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+    "source": "gemma",
+    "description": "Research papers point to the growing impact of Deep Think across fields"
+  },
+  {
+    "id": "openclaw:virustotal-partnership",
+    "title": "OpenClaw Partners with VirusTotal for Skill Security",
+    "date": "2026-02-07",
+    "url": "https://openclaw.ai/blog/virustotal-partnership",
+    "source": "openclaw",
+    "description": "ClawHub skills are now scanned by VirusTotal's threat intelligence platform—bringing industry-leading security to the AI agent ecosystem."
+  },
+  {
     "id": "claude:claude-opus-4-6",
     "title": "Claude Opus 4.6",
     "date": "2026-02-05",
     "url": "https://www.anthropic.com/blog/claude-opus-4-6",
     "source": "claude",
     "description": "Industry-leading model excelling in agentic coding and computer use."
+  },
+  {
+    "id": "perplexity:introducing-model-council",
+    "title": "Introducing Model CouncilFeb 5, 2026Company",
+    "date": "2026-02-05",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-model-council",
+    "source": "perplexity",
+    "description": "Feb 5, 2026"
   },
   {
     "id": "claude:claude-is-a-space-to-think",
@@ -320,12 +1208,36 @@
     "description": "Developer tool integration for Xcode environment."
   },
   {
+    "id": "perplexity:inside-the-rise-of-enterprise-ai-model-switching",
+    "title": "Inside the Rise of Enterprise AI Model-SwitchingFeb 3, 2026CompanyEnterprise",
+    "date": "2026-02-03",
+    "url": "https://www.perplexity.ai./hub/blog/inside-the-rise-of-enterprise-ai-model-switching",
+    "source": "perplexity",
+    "description": "Feb 3, 2026"
+  },
+  {
     "id": "claude:allen-institute-hhmi",
     "title": "Allen Institute and HHMI Partnership",
     "date": "2026-02-02",
     "url": "https://www.anthropic.com/blog/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
     "source": "claude",
     "description": "Scientific discovery acceleration collaboration."
+  },
+  {
+    "id": "openclaw:introducing-openclaw",
+    "title": "Introducing OpenClaw",
+    "date": "2026-01-29",
+    "url": "https://openclaw.ai/blog/introducing-openclaw",
+    "source": "openclaw",
+    "description": "The journey from Clawd to Moltbot to OpenClaw—and why this name is here to stay."
+  },
+  {
+    "id": "gemma:project-genie-experimenting-with-infinite-interactive-worlds",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "date": "2026-01-29",
+    "url": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
+    "source": "gemma",
+    "description": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds."
   },
   {
     "id": "claude:servicenow-anthropic-claude",
@@ -344,6 +1256,22 @@
     "description": "Public service AI assistance deployment."
   },
   {
+    "id": "cursor:secure-codebase-indexing",
+    "title": "Securely indexing large codebases",
+    "date": "2026-01-27",
+    "url": "https://cursor.com/blog/secure-codebase-indexing",
+    "source": "cursor",
+    "description": "Privacy-preserving codebase search infrastructure."
+  },
+  {
+    "id": "perplexity:finish-your-annual-plan-faster-with-perplexity",
+    "title": "Finish Your Annual Plan Faster With PerplexityJan 26, 2026Enterprise",
+    "date": "2026-01-26",
+    "url": "https://www.perplexity.ai./hub/blog/finish-your-annual-plan-faster-with-perplexity",
+    "source": "perplexity",
+    "description": "Jan 26, 2026"
+  },
+  {
     "id": "claude:claude-new-constitution",
     "title": "Claude's New Constitution",
     "date": "2026-01-22",
@@ -352,12 +1280,244 @@
     "description": "Updated behavioral guidelines and principles framework."
   },
   {
+    "id": "gemma:d4rt-teaching-ai-to-see-the-world-in-four-dimensions",
+    "title": "D4RT: Teaching AI to see the world in four dimensions",
+    "date": "2026-01-16",
+    "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+    "source": "gemma",
+    "description": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods."
+  },
+  {
+    "id": "gemma:medgemma-1-5-4b",
+    "title": "Introducing MedGemma 1.5 4B",
+    "date": "2026-01-15",
+    "url": "https://deepmind.google/research/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
+    "source": "gemma",
+    "description": "High-dimensional medical imaging interpretation in a compute-efficient model."
+  },
+  {
+    "id": "gemma:translategemma",
+    "title": "Introducing TranslateGemma",
+    "date": "2026-01-15",
+    "url": "https://deepmind.google/blog/innovation-and-ai/technology/developers-tools/translategemma/",
+    "source": "gemma",
+    "description": "Translation models across 55 languages."
+  },
+  {
+    "id": "perplexity:happy-25th-birthday-wikipedia",
+    "title": "Happy 25th Birthday, WikipediaJan 15, 2026Company",
+    "date": "2026-01-15",
+    "url": "https://www.perplexity.ai./hub/blog/happy-25th-birthday-wikipedia",
+    "source": "perplexity",
+    "description": "Jan 15, 2026"
+  },
+  {
+    "id": "gemma:veo-3-1-ingredients-to-video-more-consistency-creativity-and-control",
+    "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
+    "date": "2026-01-13",
+    "url": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
+    "source": "gemma",
+    "description": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
+  },
+  {
+    "id": "perplexity:introducing-perplexity-for-public-safety-organizations",
+    "title": "Introducing Perplexity for Public Safety OrganizationsJan 8, 2026CompanyUpdates",
+    "date": "2026-01-08",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-for-public-safety-organizations",
+    "source": "perplexity",
+    "description": "Jan 8, 2026"
+  },
+  {
+    "id": "deepseek:deepseek-guide-2026",
+    "title": "2026 AI Guide",
+    "date": "2026-01-01",
+    "url": "https://deepseek.ai/blog/deepseek-guide-2026",
+    "source": "deepseek",
+    "description": "DeepSeek's comprehensive AI guide for 2026."
+  },
+  {
+    "id": "cursor:self-driving-codebases",
+    "title": "Read more →",
+    "date": "2026-01-01",
+    "url": "https://cursor.com/blog/self-driving-codebases",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "claude:alignment",
+    "title": "Alignment",
+    "date": "2026-01-01",
+    "url": "https://www.anthropic.com/research/team/alignment",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:economic-research",
+    "title": "Economic Research",
+    "date": "2026-01-01",
+    "url": "https://www.anthropic.com/research/team/economic-research",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:interpretability",
+    "title": "Interpretability",
+    "date": "2026-01-01",
+    "url": "https://www.anthropic.com/research/team/interpretability",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:societal-impacts",
+    "title": "Societal Impacts",
+    "date": "2026-01-01",
+    "url": "https://www.anthropic.com/research/team/societal-impacts",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:product",
+    "title": "product",
+    "date": "2026-01-01",
+    "url": "https://cursor.com/blog/topic/product",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:research",
+    "title": "research",
+    "date": "2026-01-01",
+    "url": "https://cursor.com/blog/topic/research",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:company",
+    "title": "company",
+    "date": "2026-01-01",
+    "url": "https://cursor.com/blog/topic/company",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:ideas",
+    "title": "ideas",
+    "date": "2026-01-01",
+    "url": "https://cursor.com/blog/topic/ideas",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "gemma:googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
+    "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
+    "date": "2025-12-23",
+    "url": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
+    "source": "gemma",
+    "description": "Google 2025 recap: Research breakthroughs of the year"
+  },
+  {
     "id": "claude:project-vend-2",
     "title": "Project Vend: Phase two",
     "date": "2025-12-18",
     "url": "https://www.anthropic.com/research/project-vend-2",
     "source": "claude",
-    "description": "Second phase of Project Vend research initiative."
+    "description": "In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?"
+  },
+  {
+    "id": "gemma:gemini-3-flash-frontier-intelligence-built-for-speed",
+    "title": "Gemini 3 Flash: frontier intelligence built for speed",
+    "date": "2025-12-17",
+    "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
+    "source": "gemma",
+    "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost."
+  },
+  {
+    "id": "gemma:gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior",
+    "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
+    "date": "2025-12-16",
+    "url": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
+    "source": "gemma",
+    "description": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2."
+  },
+  {
+    "id": "gemma:gemma-scope-2",
+    "title": "Introducing Gemma Scope 2",
+    "date": "2025-12-15",
+    "url": "https://deepmind.google/deepmind/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
+    "source": "gemma",
+    "description": "AI safety community tool for understanding LLM behavior."
+  },
+  {
+    "id": "gemma:functiongemma",
+    "title": "Introducing FunctionGemma",
+    "date": "2025-12-15",
+    "url": "https://deepmind.google/blog/technology/developers/functiongemma/",
+    "source": "gemma",
+    "description": "Specialized model for function calling at the edge."
+  },
+  {
+    "id": "gemma:t5gemma-2",
+    "title": "Introducing T5Gemma 2",
+    "date": "2025-12-15",
+    "url": "https://deepmind.google/research/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
+    "source": "gemma",
+    "description": "Next generation encoder-decoder models."
+  },
+  {
+    "id": "gemma:improved-gemini-audio-models-for-powerful-voice-experiences",
+    "title": "Improved Gemini audio models for powerful voice experiences",
+    "date": "2025-12-12",
+    "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:deepening-our-partnership-with-the-uk-ai-security-institute",
+    "title": "Deepening our partnership with the UK AI Security Institute",
+    "date": "2025-12-11",
+    "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+    "source": "gemma",
+    "description": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research"
+  },
+  {
+    "id": "gemma:strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era",
+    "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
+    "date": "2025-12-10",
+    "url": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
+    "source": "gemma",
+    "description": "Deepening our partnership with the UK government to support prosperity and security in the AI era"
+  },
+  {
+    "id": "gemma:facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models",
+    "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+    "date": "2025-12-09",
+    "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
+    "source": "gemma",
+    "description": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite."
+  },
+  {
+    "id": "perplexity:how-people-use-ai-agents",
+    "title": "How People Use AI AgentsDec 9, 2025UpdatesCompany",
+    "date": "2025-12-09",
+    "url": "https://www.perplexity.ai./hub/blog/how-people-use-ai-agents",
+    "source": "perplexity",
+    "description": "Dec 9, 2025"
+  },
+  {
+    "id": "gemma:engineering-more-resilient-crops-for-a-warming-climate",
+    "title": "Engineering more resilient crops for a warming climate",
+    "date": "2025-12-04",
+    "url": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
+    "source": "gemma",
+    "description": "Scientists are using AlphaFold to strengthen a photosynthesis enzyme for resilient, heat-tolerant crops."
+  },
+  {
+    "id": "perplexity:perplexity-x-cristiano-ronaldo",
+    "title": "Perplexity x Cristiano RonaldoDec 4, 2025Company",
+    "date": "2025-12-04",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-x-cristiano-ronaldo",
+    "source": "perplexity",
+    "description": "Dec 4, 2025"
   },
   {
     "id": "claude:anthropic-interviewer",
@@ -376,332 +1536,636 @@
     "description": "Internal study on AI transformation of work."
   },
   {
-    "id": "claude:2028-ai-leadership",
-    "title": "2028: Two scenarios for global AI leadership",
-    "date": "2025-05-14",
-    "url": "https://www.anthropic.com/research/2028-ai-leadership",
-    "source": "claude",
-    "description": "Analysis of two possible trajectories for global AI leadership."
+    "id": "perplexity:building-safer-ai-browsers-with-browsesafe",
+    "title": "Building Safer AI Browsers with BrowseSafeDec 2, 2025ResearchSecurity",
+    "date": "2025-12-02",
+    "url": "https://www.perplexity.ai./hub/blog/building-safer-ai-browsers-with-browsesafe",
+    "source": "perplexity",
+    "description": "Dec 2, 2025"
   },
   {
-    "id": "claude:teaching-claude-why",
-    "title": "Teaching Claude why",
-    "date": "2025-05-08",
-    "url": "https://www.anthropic.com/research/teaching-claude-why",
-    "source": "claude",
-    "description": "Research on teaching Claude reasoning through explanations."
+    "id": "perplexity:introducing-ai-assistants-with-memory",
+    "title": "Introducing AI assistants with memoryNov 26, 2025CompanyUpdates",
+    "date": "2025-11-26",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-ai-assistants-with-memory",
+    "source": "perplexity",
+    "description": "Nov 26, 2025"
   },
   {
-    "id": "claude:natural-language-autoencoders",
-    "title": "Natural Language Autoencoders: Turning Claude's thoughts into text",
-    "date": "2025-05-07",
-    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-    "source": "claude",
-    "description": "Turning Claude's internal representations into human-readable text."
+    "id": "gemma:alphafold-five-years-of-impact",
+    "title": "AlphaFold: Five years of impact",
+    "date": "2025-11-25",
+    "url": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
+    "source": "gemma",
+    "description": "Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery."
   },
   {
-    "id": "claude:anthropic-institute-agenda",
-    "title": "Focus areas for The Anthropic Institute",
-    "date": "2025-05-07",
-    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
-    "source": "claude",
-    "description": "Research agenda and focus areas for The Anthropic Institute."
+    "id": "gemma:revealing-a-key-protein-behind-heart-disease",
+    "title": "Revealing a key protein behind heart disease",
+    "date": "2025-11-25",
+    "url": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
+    "source": "gemma",
+    "description": "AlphaFold has revealed the structure of a key protein behind heart disease"
   },
   {
-    "id": "claude:donating-open-source-petri",
-    "title": "Donating our open-source alignment tool",
-    "date": "2025-05-07",
-    "url": "https://www.anthropic.com/research/donating-open-source-petri",
-    "source": "claude",
-    "description": "Open-sourcing alignment research tools."
+    "id": "perplexity:shopping-that-puts-you-first",
+    "title": "Shopping That Puts You FirstNov 25, 2025CompanyUpdates",
+    "date": "2025-11-25",
+    "url": "https://www.perplexity.ai./hub/blog/shopping-that-puts-you-first",
+    "source": "perplexity",
+    "description": "Nov 25, 2025"
   },
   {
-    "id": "claude:claude-personal-guidance",
-    "title": "How people ask Claude for personal guidance",
-    "date": "2025-04-30",
-    "url": "https://www.anthropic.com/research/claude-personal-guidance",
-    "source": "claude",
-    "description": "Research on how users seek personal guidance from Claude."
+    "id": "gemma:google-deepmind-supports-us-department-of-energy-on-genesis",
+    "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
+    "date": "2025-11-24",
+    "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
+    "source": "gemma",
+    "description": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI."
   },
   {
-    "id": "claude:bioinformatics-biomysterybench",
-    "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench",
-    "date": "2025-04-29",
-    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-    "source": "claude",
-    "description": "Benchmarking Claude's bioinformatics research capabilities."
+    "id": "gemma:how-were-bringing-ai-image-verification-to-the-gemini-app",
+    "title": "How we’re bringing AI image verification to the Gemini app",
+    "date": "2025-11-20",
+    "url": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:economic-index-survey-announcement",
-    "title": "Announcing the Anthropic Economic Index Survey",
-    "date": "2025-04-22",
-    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
-    "source": "claude",
-    "description": "Launch of survey tracking AI's economic impact."
+    "id": "gemma:build-with-nano-banana-pro-our-gemini-3-pro-image-model",
+    "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+    "date": "2025-11-20",
+    "url": "https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:81k-economics",
-    "title": "What 81,000 people told us about the economics of AI",
-    "date": "2025-04-22",
-    "url": "https://www.anthropic.com/research/81k-economics",
-    "source": "claude",
-    "description": "Large-scale survey on AI's economic implications."
+    "id": "gemma:introducing-nano-banana-pro",
+    "title": "Introducing Nano Banana Pro",
+    "date": "2025-11-20",
+    "url": "https://deepmind.google/blog/introducing-nano-banana-pro/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:automated-alignment-researchers",
-    "title": "Automated Alignment Researchers",
-    "date": "2025-04-14",
-    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
-    "source": "claude",
-    "description": "Using large language models to scale scalable oversight."
+    "id": "perplexity:comet-for-android-is-here",
+    "title": "Comet for Android is HereNov 20, 2025Updates",
+    "date": "2025-11-20",
+    "url": "https://www.perplexity.ai./hub/blog/comet-for-android-is-here",
+    "source": "perplexity",
+    "description": "Nov 20, 2025"
   },
   {
-    "id": "claude:trustworthy-agents",
-    "title": "Trustworthy agents in practice",
-    "date": "2025-04-09",
-    "url": "https://www.anthropic.com/research/trustworthy-agents",
-    "source": "claude",
-    "description": "Research on building trustworthy AI agents."
+    "id": "perplexity:announcing-our-partnership-with-the-united-states-government",
+    "title": "Announcing our Partnership with the United States GovernmentNov 19, 2025CompanyEnterpriseSecurityUpdates",
+    "date": "2025-11-19",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-our-partnership-with-the-united-states-government",
+    "source": "perplexity",
+    "description": "Nov 19, 2025"
   },
   {
-    "id": "claude:emotion-concepts-function",
-    "title": "Emotion concepts and their function in a large language model",
-    "date": "2025-04-02",
-    "url": "https://www.anthropic.com/research/emotion-concepts-function",
-    "source": "claude",
-    "description": "Research on emotion representations in LLMs."
+    "id": "gemma:start-building-with-gemini-3",
+    "title": "Start building with Gemini 3",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:how-australia-uses-claude",
-    "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
-    "date": "2025-03-31",
-    "url": "https://www.anthropic.com/research/how-australia-uses-claude",
-    "source": "claude",
-    "description": "Regional analysis of Claude usage in Australia."
+    "id": "gemma:were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region",
+    "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/",
+    "source": "gemma",
+    "description": "Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region."
   },
   {
-    "id": "claude:economic-index-march-report",
-    "title": "Anthropic Economic Index report: Learning curves",
-    "date": "2025-03-24",
-    "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
-    "source": "claude",
-    "description": "Economic index report focusing on learning curves."
+    "id": "gemma:a-new-era-of-intelligence-with-gemini-3",
+    "title": "A new era of intelligence with Gemini 3",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:introducing-anthropic-science",
-    "title": "Introducing our Science Blog",
-    "date": "2025-03-23",
-    "url": "https://www.anthropic.com/research/introducing-anthropic-science",
-    "source": "claude",
-    "description": "Launch of Anthropic's dedicated science blog."
+    "id": "gemma:introducing-google-antigravity",
+    "title": "Introducing Google Antigravity",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/blog/introducing-google-antigravity/",
+    "source": "gemma",
+    "description": ""
   },
   {
-    "id": "claude:long-running-claude",
-    "title": "Long-running Claude for scientific computing",
-    "date": "2025-03-23",
-    "url": "https://www.anthropic.com/research/long-running-Claude",
-    "source": "claude",
-    "description": "Using Claude for long-running scientific computing tasks."
+    "id": "gemma:weathernext-2-our-most-advanced-weather-forecasting-model",
+    "title": "WeatherNext 2: Our most advanced weather forecasting model",
+    "date": "2025-11-17",
+    "url": "https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/",
+    "source": "gemma",
+    "description": "The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions."
   },
   {
-    "id": "claude:diff-tool",
-    "title": "A 'diff' tool for AI: Finding behavioral differences in new models",
-    "date": "2025-03-13",
-    "url": "https://www.anthropic.com/research/diff-tool",
-    "source": "claude",
-    "description": "Tool for comparing behavioral differences between AI models."
+    "id": "perplexity:comet-assistant-puts-you-in-control",
+    "title": "Comet Assistant puts you in controlNov 14, 2025CompanySecurityUpdates",
+    "date": "2025-11-14",
+    "url": "https://www.perplexity.ai./hub/blog/comet-assistant-puts-you-in-control",
+    "source": "perplexity",
+    "description": "Nov 14, 2025"
   },
   {
-    "id": "claude:mozilla-firefox-security-research",
-    "title": "Partnering with Mozilla to improve Firefox's security",
-    "date": "2025-03-06",
-    "url": "https://www.anthropic.com/research/mozilla-firefox-security",
-    "source": "claude",
-    "description": "Collaboration with Mozilla on browser security research."
+    "id": "gemma:sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds",
+    "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
+    "date": "2025-11-13",
+    "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+    "source": "gemma",
+    "description": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments."
   },
   {
-    "id": "claude:labor-market-impacts",
-    "title": "Labor market impacts of AI: A new measure and early evidence",
-    "date": "2025-03-05",
-    "url": "https://www.anthropic.com/research/labor-market-impacts",
-    "source": "claude",
-    "description": "Measuring AI's impact on labor markets."
+    "id": "gemma:teaching-ai-to-see-the-world-more-like-we-do",
+    "title": "Teaching AI to see the world more like we do",
+    "date": "2025-11-11",
+    "url": "https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/",
+    "source": "gemma",
+    "description": "Our new paper analyzes the important ways AI systems organize the visual world differently from humans."
   },
   {
-    "id": "claude:deprecation-updates-opus-3",
-    "title": "An update on our model deprecation commitments for Claude Opus 3",
-    "date": "2025-02-25",
-    "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
-    "source": "claude",
-    "description": "Model deprecation timeline and commitments."
+    "id": "gemma:how-ai-is-giving-northern-ireland-teachers-time-back",
+    "title": "How AI is giving Northern Ireland teachers time back",
+    "date": "2025-11-10",
+    "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+    "source": "gemma",
+    "description": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10"
   },
   {
-    "id": "claude:AI-fluency-index",
-    "title": "Anthropic Education Report: The AI Fluency Index",
-    "date": "2025-02-23",
-    "url": "https://www.anthropic.com/research/AI-fluency-index",
-    "source": "claude",
-    "description": "Education report measuring AI literacy and fluency."
+    "id": "perplexity:the-new-comet-assistant",
+    "title": "The New Comet AssistantNov 6, 2025CompanyUpdates",
+    "date": "2025-11-06",
+    "url": "https://www.perplexity.ai./hub/blog/the-new-comet-assistant",
+    "source": "perplexity",
+    "description": "Nov 6, 2025"
   },
   {
-    "id": "claude:persona-selection-model",
-    "title": "The persona selection model",
-    "date": "2025-02-23",
-    "url": "https://www.anthropic.com/research/persona-selection-model",
-    "source": "claude",
-    "description": "Research on how Claude selects and maintains personas."
+    "id": "gemma:mapping-modeling-and-understanding-nature-with-ai",
+    "title": "Mapping, modeling, and understanding nature with AI",
+    "date": "2025-11-05",
+    "url": "https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/",
+    "source": "gemma",
+    "description": "AI models can help map species, protect forests and listen to birds around the world"
   },
   {
-    "id": "claude:measuring-agent-autonomy",
-    "title": "Measuring AI agent autonomy in practice",
-    "date": "2025-02-18",
-    "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-    "source": "claude",
-    "description": "Frameworks for measuring AI agent autonomy."
+    "id": "perplexity:bullying-is-not-innovation",
+    "title": "Bullying is Not InnovationNov 4, 2025Company",
+    "date": "2025-11-04",
+    "url": "https://www.perplexity.ai./hub/blog/bullying-is-not-innovation",
+    "source": "perplexity",
+    "description": "Nov 4, 2025"
   },
   {
-    "id": "claude:india-brief-economic-index",
-    "title": "India Country Brief: The Anthropic Economic Index",
-    "date": "2025-02-16",
-    "url": "https://www.anthropic.com/research/india-brief-economic-index",
-    "source": "claude",
-    "description": "India-specific analysis from the Anthropic Economic Index."
+    "id": "perplexity:introducing-privacy-snapshot",
+    "title": "Introducing Privacy SnapshotOct 31, 2025CompanySecurityUpdates",
+    "date": "2025-10-31",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-privacy-snapshot",
+    "source": "perplexity",
+    "description": "Oct 31, 2025"
   },
   {
-    "id": "claude:AI-assistance-coding-skills",
-    "title": "How AI assistance impacts the formation of coding skills",
-    "date": "2025-01-29",
-    "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-    "source": "claude",
-    "description": "Research on AI's impact on learning to code."
+    "id": "perplexity:introducing-perplexity-patents",
+    "title": "Introducing Perplexity Patents: AI-Powered Patent Search for EveryoneOct 30, 2025CompanyUpdates",
+    "date": "2025-10-30",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-patents",
+    "source": "perplexity",
+    "description": "Oct 30, 2025"
   },
   {
-    "id": "claude:disempowerment-patterns",
-    "title": "Disempowerment patterns in real-world AI usage",
-    "date": "2025-01-28",
-    "url": "https://www.anthropic.com/research/disempowerment-patterns",
-    "source": "claude",
-    "description": "Patterns where AI use leads to user disempowerment."
+    "id": "gemma:accelerating-discovery-with-the-ai-for-math-initiative",
+    "title": "Accelerating discovery with the AI for Math Initiative",
+    "date": "2025-10-29",
+    "url": "https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/",
+    "source": "gemma",
+    "description": "The initiative brings together some of the world's most prestigious research institutions to pioneer the use of AI in mathematical research."
   },
   {
-    "id": "claude:claude-new-constitution-research",
-    "title": "Claude's new constitution",
-    "date": "2025-01-22",
-    "url": "https://www.anthropic.com/research/claude-new-constitution",
-    "source": "claude",
-    "description": "Research behind Claude's updated constitutional guidelines."
+    "id": "perplexity:ai-at-work-getting-more-done-with-less-hype",
+    "title": "AI at work: getting more done with less hypeOct 28, 2025CompanyUpdates",
+    "date": "2025-10-28",
+    "url": "https://www.perplexity.ai./hub/blog/ai-at-work-getting-more-done-with-less-hype",
+    "source": "perplexity",
+    "description": "Oct 28, 2025"
   },
   {
-    "id": "claude:assistant-axis",
-    "title": "The assistant axis: situating and stabilizing the character of large language models",
-    "date": "2025-01-19",
-    "url": "https://www.anthropic.com/research/assistant-axis",
-    "source": "claude",
-    "description": "Research on LLM character stabilization."
+    "id": "gemma:t5gemma-a-new-collection-of-encoder-decoder-gemma-models",
+    "title": "T5Gemma: A new collection of encoder-decoder Gemma models",
+    "date": "2025-10-25",
+    "url": "https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/",
+    "source": "gemma",
+    "description": "Introducing T5Gemma, a new collection of encoder-decoder LLMs."
   },
   {
-    "id": "claude:economic-index-primitives",
-    "title": "Anthropic Economic Index: New building blocks for understanding AI use",
-    "date": "2025-01-15",
-    "url": "https://www.anthropic.com/research/economic-index-primitives",
-    "source": "claude",
-    "description": "Framework for understanding economic patterns of AI usage."
+    "id": "gemma:medgemma-our-most-capable-open-models-for-health-ai-development",
+    "title": "MedGemma: Our most capable open models for health AI development",
+    "date": "2025-10-25",
+    "url": "https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/",
+    "source": "gemma",
+    "description": "We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development."
   },
   {
-    "id": "claude:next-generation-constitutional-classifiers",
-    "title": "Next-generation Constitutional Classifiers",
-    "date": "2025-01-09",
-    "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
-    "source": "claude",
-    "description": "More efficient protection against universal jailbreaks."
+    "id": "gemma:introducing-gemma-3n-the-developer-guide",
+    "title": "Introducing Gemma 3n: The developer guide",
+    "date": "2025-10-25",
+    "url": "https://deepmind.google/blog/introducing-gemma-3n-the-developer-guide/",
+    "source": "gemma",
+    "description": "Gemma 3n is designed for the developer community that helped shape Gemma."
   },
   {
-    "id": "codex:skyscanner-codex-jetbrains-mcp",
-    "title": "Supercharging Codex with JetBrains MCP at Skyscanner",
-    "date": "2025-01-11",
-    "url": "https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp",
-    "source": "codex",
-    "description": "How Skyscanner uses Codex with JetBrains MCP integration."
+    "id": "gemma:gemini-25-flash-lite-is-now-ready-for-scaled-production-use",
+    "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
+    "date": "2025-10-25",
+    "url": "https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
+    "source": "gemma",
+    "description": "Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-"
   },
   {
-    "id": "codex:eval-skills",
-    "title": "Testing Agent Skills Systematically with Evals",
-    "date": "2025-01-22",
-    "url": "https://developers.openai.com/blog/eval-skills",
-    "source": "codex",
-    "description": "A practical guide to turning agent skills into something you can test, score, and improve."
+    "id": "gemma:behind-ancestra-combining-veo-with-live-action-filmmaking",
+    "title": "Behind “ANCESTRA”: combining Veo with live-action filmmaking",
+    "date": "2025-10-25",
+    "url": "https://deepmind.google/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/",
+    "source": "gemma",
+    "description": "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking."
   },
   {
-    "id": "codex:15-lessons-building-chatgpt-apps",
-    "title": "15 lessons learned building ChatGPT Apps",
-    "date": "2025-02-04",
-    "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
-    "source": "codex",
-    "description": "Lessons from building ChatGPT-powered applications."
+    "id": "gemma:alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail",
+    "title": "AlphaEarth Foundations helps map our planet in unprecedented detail",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
+    "source": "gemma",
+    "description": "New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring"
   },
   {
-    "id": "codex:skills-shell-tips",
-    "title": "Shell + Skills + Compaction: Tips for long-running agents",
-    "date": "2025-02-11",
-    "url": "https://developers.openai.com/blog/skills-shell-tips",
-    "source": "codex",
-    "description": "Tips for building long-running agents that do real work."
+    "id": "gemma:exploring-the-context-of-online-images-with-backstory",
+    "title": "Exploring the context of online images with Backstory",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/",
+    "source": "gemma",
+    "description": "New experimental AI tool helps people explore the context and origin of images seen online."
   },
   {
-    "id": "codex:run-long-horizon-tasks-with-codex",
-    "title": "Run long horizon tasks with Codex",
-    "date": "2025-02-23",
-    "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
-    "source": "codex",
-    "description": "Guide on running long-duration tasks with Codex."
+    "id": "gemma:advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad",
+    "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+    "source": "gemma",
+    "description": "The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking part is represented by"
   },
   {
-    "id": "codex:building-frontend-uis-with-codex-and-figma",
-    "title": "Building frontend UIs with Codex and Figma",
-    "date": "2025-02-26",
-    "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
-    "source": "codex",
-    "description": "Use Codex and Figma to bring real interfaces into Figma and back."
+    "id": "gemma:aeneas-transforms-how-historians-connect-the-past",
+    "title": "Aeneas transforms how historians connect the past",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+    "source": "gemma",
+    "description": "Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts."
   },
   {
-    "id": "codex:skills-agents-sdk",
-    "title": "Using skills to accelerate OSS maintenance",
-    "date": "2025-03-09",
-    "url": "https://developers.openai.com/blog/skills-agents-sdk",
-    "source": "codex",
-    "description": "Using skills and GitHub Actions to optimize Codex workflows."
+    "id": "gemma:genie-3-a-new-frontier-for-world-models",
+    "title": "Genie 3: A new frontier for world models",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+    "source": "gemma",
+    "description": "Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p."
   },
   {
-    "id": "codex:one-year-of-responses",
-    "title": "From prompts to products: One year of Responses",
-    "date": "2025-03-11",
-    "url": "https://developers.openai.com/blog/one-year-of-responses",
-    "source": "codex",
-    "description": "Retrospective on one year of the Responses API."
+    "id": "gemma:how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species",
+    "title": "How AI is helping advance the science of bioacoustics to save endangered species",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/",
+    "source": "gemma",
+    "description": "Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs."
   },
   {
-    "id": "codex:designing-delightful-frontends-with-gpt-5-4",
-    "title": "Designing delightful frontends with GPT-5.4",
-    "date": "2025-03-20",
-    "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
-    "source": "codex",
-    "description": "Using GPT-5.4 for frontend design and development."
+    "id": "gemma:using-ai-to-perceive-the-universe-in-greater-depth",
+    "title": "Using AI to perceive the universe in greater depth",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/",
+    "source": "gemma",
+    "description": "Using AI to perceive the universe in greater depth"
   },
   {
-    "id": "codex:realtime-perplexity-computer",
-    "title": "How Perplexity Brought Voice Search to Millions Using the Realtime API",
-    "date": "2025-03-25",
-    "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
-    "source": "codex",
-    "description": "Perplexity's implementation of voice search using OpenAI's Realtime API."
+    "id": "gemma:gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals",
+    "title": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+    "source": "gemma",
+    "description": "Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving."
   },
   {
-    "id": "deepseek:deepseek-guide-2026",
-    "title": "2026 AI Guide",
-    "date": "2026-01-01",
-    "url": "https://deepseek.ai/blog/deepseek-guide-2026",
-    "source": "deepseek",
-    "description": "DeepSeek's comprehensive AI guide for 2026."
+    "id": "gemma:discovering-new-solutions-to-century-old-problems-in-fluid-dynamics",
+    "title": "Discovering new solutions to century-old problems in fluid dynamics",
+    "date": "2025-10-24",
+    "url": "https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/",
+    "source": "gemma",
+    "description": "Our new method could help mathematicians leverage AI techniques to tackle long-standing challenges in mathematics, physics and engineering."
+  },
+  {
+    "id": "gemma:strengthening-our-frontier-safety-framework",
+    "title": "Strengthening our Frontier Safety Framework",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+    "source": "gemma",
+    "description": "We’re strengthening the Frontier Safety Framework (FSF) to help identify and mitigate severe risks from advanced AI models."
+  },
+  {
+    "id": "gemma:gemini-robotics-15-brings-ai-agents-into-the-physical-world",
+    "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "source": "gemma",
+    "description": "We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks."
+  },
+  {
+    "id": "gemma:introducing-codemender-an-ai-agent-for-code-security",
+    "title": "Introducing CodeMender: an AI agent for code security",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/",
+    "source": "gemma",
+    "description": "Using advanced AI to fix critical software vulnerabilities"
+  },
+  {
+    "id": "gemma:bringing-ai-to-the-next-generation-of-fusion-energy",
+    "title": "Bringing AI to the next generation of fusion energy",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/bringing-ai-to-the-next-generation-of-fusion-energy/",
+    "source": "gemma",
+    "description": "We’re partnering with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality."
+  },
+  {
+    "id": "gemma:try-deep-think-in-the-gemini-app",
+    "title": "Try Deep Think in the Gemini app",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/try-deep-think-in-the-gemini-app/",
+    "source": "gemma",
+    "description": "We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers, and we're giving select mathematicians access to the full version of the Gemini 2.5 Deep Think model entered into the IM"
+  },
+  {
+    "id": "gemma:rethinking-how-we-measure-ai-intelligence",
+    "title": "Rethinking how we measure AI intelligence",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/rethinking-how-we-measure-ai-intelligence/",
+    "source": "gemma",
+    "description": "Game Arena is a new, open-source platform for rigorous evaluation of AI models. It allows for head-to-head comparison of frontier systems in environments with clear winning conditions."
+  },
+  {
+    "id": "gemma:introducing-gemma-3-270m-the-compact-model-for-hyper-efficient-ai",
+    "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/introducing-gemma-3-270m-the-compact-model-for-hyper-efficient-ai/",
+    "source": "gemma",
+    "description": "Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: Gemma 3 270M, a compact, 270-million parameter model."
+  },
+  {
+    "id": "gemma:image-editing-in-gemini-just-got-a-major-upgrade",
+    "title": "Image editing in Gemini just got a major upgrade",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/image-editing-in-gemini-just-got-a-major-upgrade/",
+    "source": "gemma",
+    "description": "Transform images in amazing new ways with updated native image editing in the Gemini app."
+  },
+  {
+    "id": "gemma:vaultgemma-the-worlds-most-capable-differentially-private-llm",
+    "title": "VaultGemma: The world's most capable differentially private LLM",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
+    "source": "gemma",
+    "description": "We introduce VaultGemma, the most capable model trained from scratch with differential privacy."
+  },
+  {
+    "id": "gemma:introducing-the-gemini-25-computer-use-model",
+    "title": "Introducing the Gemini 2.5 Computer Use model",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/introducing-the-gemini-25-computer-use-model/",
+    "source": "gemma",
+    "description": "Available in preview via the API, our Computer Use model is a specialized model built on Gemini 2.5 Pro’s capabilities to power agents that can interact with user interfaces."
+  },
+  {
+    "id": "gemma:introducing-veo-31-and-advanced-creative-capabilities",
+    "title": "Introducing Veo 3.1 and advanced creative capabilities",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/introducing-veo-31-and-advanced-creative-capabilities/",
+    "source": "gemma",
+    "description": "We’re rolling out significant updates to Veo that give people even more creative control."
+  },
+  {
+    "id": "gemma:how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway",
+    "title": "How a Gemma model helped discover a new potential cancer therapy pathway",
+    "date": "2025-10-23",
+    "url": "https://deepmind.google/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/",
+    "source": "gemma",
+    "description": "We’re launching a new 27 billion parameter foundation model for single-cell analysis built on the Gemma family of open models."
+  },
+  {
+    "id": "perplexity:mitigating-prompt-injection-in-comet",
+    "title": "Mitigating Prompt Injection in CometOct 22, 2025CompanyResearchSecurity",
+    "date": "2025-10-22",
+    "url": "https://www.perplexity.ai./hub/blog/mitigating-prompt-injection-in-comet",
+    "source": "perplexity",
+    "description": "Oct 22, 2025"
+  },
+  {
+    "id": "perplexity:comet-is-now-available-to-everyone-worldwide",
+    "title": "The Internet is Better on CometOct 2, 2025CompanyUpdates",
+    "date": "2025-10-02",
+    "url": "https://www.perplexity.ai./hub/blog/comet-is-now-available-to-everyone-worldwide",
+    "source": "perplexity",
+    "description": "Oct 2, 2025"
+  },
+  {
+    "id": "perplexity:announcing-comet-plus-launch-partners",
+    "title": "Announcing Comet Plus Launch PartnersOct 1, 2025Company",
+    "date": "2025-10-01",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-comet-plus-launch-partners",
+    "source": "perplexity",
+    "description": "Oct 1, 2025"
+  },
+  {
+    "id": "perplexity:introducing-the-perplexity-search-api",
+    "title": "Introducing the Perplexity Search APISep 25, 2025DevelopersUpdates",
+    "date": "2025-09-25",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-the-perplexity-search-api",
+    "source": "perplexity",
+    "description": "Sep 25, 2025"
+  },
+  {
+    "id": "qwen:qwen3guard",
+    "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+    "date": "2025-09-23",
+    "url": "https://qwenlm.github.io/blog/qwen3guard/",
+    "source": "qwen",
+    "description": "Safety guardrail model for prompts and responses."
+  },
+  {
+    "id": "perplexity:a-personal-assistant-for-your-inbox",
+    "title": "A Personal Assistant for Your InboxSep 22, 2025Updates",
+    "date": "2025-09-22",
+    "url": "https://www.perplexity.ai./hub/blog/a-personal-assistant-for-your-inbox",
+    "source": "perplexity",
+    "description": "Sep 22, 2025"
+  },
+  {
+    "id": "perplexity:power-your-organization-s-full-potential",
+    "title": "Power your organization’s full potentialSep 17, 2025EnterpriseUpdates",
+    "date": "2025-09-17",
+    "url": "https://www.perplexity.ai./hub/blog/power-your-organization-s-full-potential",
+    "source": "perplexity",
+    "description": "Sep 17, 2025"
+  },
+  {
+    "id": "perplexity:secure-credentials-on-comet-with-1password",
+    "title": "Secure Credentials on Comet with 1PasswordSep 17, 2025CompanySecurity",
+    "date": "2025-09-17",
+    "url": "https://www.perplexity.ai./hub/blog/secure-credentials-on-comet-with-1password",
+    "source": "perplexity",
+    "description": "Sep 17, 2025"
+  },
+  {
+    "id": "perplexity:introducing-perplexity-for-government",
+    "title": "Introducing Perplexity for GovernmentSep 8, 2025CompanyEnterpriseSecurityUpdates",
+    "date": "2025-09-08",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-for-government",
+    "source": "perplexity",
+    "description": "Sep 8, 2025"
+  },
+  {
+    "id": "kimi:kimi-k2-instruct-0905",
+    "title": "Kimi-K2-Instruct-0905",
+    "date": "2025-09-05",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+    "source": "kimi",
+    "description": "Updated instruction-tuned Kimi K2 model."
+  },
+  {
+    "id": "perplexity:introducing-comet-plus",
+    "title": "Introducing Comet PlusAug 25, 2025CompanyUpdates",
+    "date": "2025-08-25",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-comet-plus",
+    "source": "perplexity",
+    "description": "Aug 25, 2025"
+  },
+  {
+    "id": "qwen:qwen-image-edit",
+    "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+    "date": "2025-08-19",
+    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+    "source": "qwen",
+    "description": "Image editing model."
+  },
+  {
+    "id": "perplexity:perplexity-x-theo-von-s-this-past-weekend",
+    "title": "Perplexity x Theo Von’s This Past WeekendAug 14, 2025Company",
+    "date": "2025-08-14",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-x-theo-von-s-this-past-weekend",
+    "source": "perplexity",
+    "description": "Aug 14, 2025"
+  },
+  {
+    "id": "perplexity:the-intelligent-business-introducing-comet-for-enterprise-pro",
+    "title": "The Intelligent Business: Introducing Comet for Enterprise ProAug 14, 2025CompanyEnterpriseSecurity",
+    "date": "2025-08-14",
+    "url": "https://www.perplexity.ai./hub/blog/the-intelligent-business-introducing-comet-for-enterprise-pro",
+    "source": "perplexity",
+    "description": "Aug 14, 2025"
+  },
+  {
+    "id": "perplexity:gpt-oss-on-day-0",
+    "title": "GPT-OSS on Day 0Aug 8, 2025DevelopersResearch",
+    "date": "2025-08-08",
+    "url": "https://www.perplexity.ai./hub/blog/gpt-oss-on-day-0",
+    "source": "perplexity",
+    "description": "Aug 8, 2025"
+  },
+  {
+    "id": "qwen:qwen-image",
+    "title": "Qwen-Image: Crafting with Native Text Rendering",
+    "date": "2025-08-04",
+    "url": "https://qwenlm.github.io/blog/qwen-image/",
+    "source": "qwen",
+    "description": "20B image foundation model."
+  },
+  {
+    "id": "perplexity:agents-or-bots-making-sense-of-ai-on-the-open-web",
+    "title": "Agents or Bots? Making Sense of AI on the Open WebAug 4, 2025Company",
+    "date": "2025-08-04",
+    "url": "https://www.perplexity.ai./hub/blog/agents-or-bots-making-sense-of-ai-on-the-open-web",
+    "source": "perplexity",
+    "description": "Aug 4, 2025"
+  },
+  {
+    "id": "perplexity:book-a-table-with-perplexity-and-opentable",
+    "title": "Book a Table with Perplexity and OpenTableAug 4, 2025CompanyUpdates",
+    "date": "2025-08-04",
+    "url": "https://www.perplexity.ai./hub/blog/book-a-table-with-perplexity-and-opentable",
+    "source": "perplexity",
+    "description": "Aug 4, 2025"
+  },
+  {
+    "id": "perplexity:disaggregated-prefill-and-decode",
+    "title": "Disaggregated Prefill and DecodeAug 1, 2025DevelopersResearch",
+    "date": "2025-08-01",
+    "url": "https://www.perplexity.ai./hub/blog/disaggregated-prefill-and-decode",
+    "source": "perplexity",
+    "description": "Aug 1, 2025"
+  },
+  {
+    "id": "perplexity:welcoming-gannett-to-the-perplexity-publisher-program",
+    "title": "Welcoming Gannett to the Perplexity Publisher ProgramJul 30, 2025Company",
+    "date": "2025-07-30",
+    "url": "https://www.perplexity.ai./hub/blog/welcoming-gannett-to-the-perplexity-publisher-program",
+    "source": "perplexity",
+    "description": "Jul 30, 2025"
+  },
+  {
+    "id": "qwen:qwen-mt",
+    "title": "Qwen-MT: Where Speed Meets Smart Translation",
+    "date": "2025-07-24",
+    "url": "https://qwenlm.github.io/blog/qwen-mt/",
+    "source": "qwen",
+    "description": "Translation supporting 92 major languages."
+  },
+  {
+    "id": "qwen:qwen3-coder",
+    "title": "Qwen3-Coder: Agentic Coding in the World",
+    "date": "2025-07-22",
+    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "source": "qwen",
+    "description": "Agentic coding model."
+  },
+  {
+    "id": "perplexity:introducing-comet",
+    "title": "Introducing Comet: Browse at the speed of thoughtJul 9, 2025CompanyUpdates",
+    "date": "2025-07-09",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-comet",
+    "source": "perplexity",
+    "description": "Jul 9, 2025"
+  },
+  {
+    "id": "perplexity:introducing-perplexity-max",
+    "title": "Introducing Perplexity MaxJul 2, 2025CompanyUpdates",
+    "date": "2025-07-02",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-max",
+    "source": "perplexity",
+    "description": "Jul 2, 2025"
+  },
+  {
+    "id": "qwen:qwen-tts",
+    "title": "Time to Speak Some Dialects, Qwen-TTS!",
+    "date": "2025-06-27",
+    "url": "https://qwenlm.github.io/blog/qwen-tts/",
+    "source": "qwen",
+    "description": "Text-to-speech with dialect support."
+  },
+  {
+    "id": "qwen:qwen-vlo",
+    "title": "Qwen VLo: From Understanding the World to Depicting It",
+    "date": "2025-06-26",
+    "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+    "source": "qwen",
+    "description": "Vision-language model for world understanding and depiction."
   },
   {
     "id": "gemma:alphagenome",
@@ -712,12 +2176,36 @@
     "description": "AI-powered genomic understanding tool."
   },
   {
+    "id": "gemma:alphagenome-ai-for-better-understanding-the-genome",
+    "title": "AlphaGenome: AI for better understanding the genome",
+    "date": "2025-06-25",
+    "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+    "source": "gemma",
+    "description": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API."
+  },
+  {
     "id": "gemma:gemini-robotics-on-device",
     "title": "Gemini Robotics On-Device brings AI to local robotic devices",
     "date": "2025-06-24",
     "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
     "source": "gemma",
     "description": "AI for local robotic devices."
+  },
+  {
+    "id": "gemma:gemini-robotics-on-device-brings-ai-to-local-robotic-devices",
+    "title": "Gemini Robotics On-Device brings AI to local robotic devices",
+    "date": "2025-06-24",
+    "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+    "source": "gemma",
+    "description": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation."
+  },
+  {
+    "id": "kimi:kimi-researcher",
+    "title": "Kimi-Researcher",
+    "date": "2025-06-20",
+    "url": "https://moonshotai.github.io/Kimi-Researcher/",
+    "source": "kimi",
+    "description": "AI research assistant."
   },
   {
     "id": "gemma:gemini-25-updates",
@@ -736,6 +2224,30 @@
     "description": "Expansion of the Gemini 2.5 model family."
   },
   {
+    "id": "kimi:kimi-dev",
+    "title": "Kimi-Dev",
+    "date": "2025-06-17",
+    "url": "https://github.com/MoonshotAI/Kimi-Dev",
+    "source": "kimi",
+    "description": "AI-powered software development agent."
+  },
+  {
+    "id": "gemma:gemini-25-updates-to-our-family-of-thinking-models",
+    "title": "Gemini 2.5: Updates to our family of thinking models",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/",
+    "source": "gemma",
+    "description": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview."
+  },
+  {
+    "id": "gemma:were-expanding-our-gemini-25-family-of-models",
+    "title": "We’re expanding our Gemini 2.5 family of models",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/",
+    "source": "gemma",
+    "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet."
+  },
+  {
     "id": "gemma:tropical-cyclone-prediction",
     "title": "How we're supporting better tropical cyclone prediction with AI",
     "date": "2025-06-12",
@@ -744,12 +2256,84 @@
     "description": "AI-powered weather prediction research."
   },
   {
+    "id": "gemma:how-were-supporting-better-tropical-cyclone-prediction-with-ai",
+    "title": "How we're supporting better tropical cyclone prediction with AI",
+    "date": "2025-06-12",
+    "url": "https://deepmind.google/blog/how-were-supporting-better-tropical-cyclone-prediction-with-ai/",
+    "source": "gemma",
+    "description": "We’re launching Weather Lab, featuring our experimental cyclone predictions, and we’re partnering with the U.S. National Hurricane Center to support their forecasts and warnings this cyclone season."
+  },
+  {
+    "id": "perplexity:bringing-european-ai-models-to-global-audiences",
+    "title": "Bringing European AI Models to Global AudiencesJun 11, 2025CompanyUpdates",
+    "date": "2025-06-11",
+    "url": "https://www.perplexity.ai./hub/blog/bringing-european-ai-models-to-global-audiences",
+    "source": "perplexity",
+    "description": "Jun 11, 2025"
+  },
+  {
+    "id": "perplexity:accelerating-sonar-through-speculation",
+    "title": "Accelerating Sonar Through SpeculationJun 10, 2025Research",
+    "date": "2025-06-10",
+    "url": "https://www.perplexity.ai./hub/blog/accelerating-sonar-through-speculation",
+    "source": "perplexity",
+    "description": "Jun 10, 2025"
+  },
+  {
+    "id": "qwen:qwen3-embedding",
+    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+    "date": "2025-06-05",
+    "url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+    "source": "qwen",
+    "description": "Text embedding and reranking models."
+  },
+  {
+    "id": "perplexity:answers-for-every-investor",
+    "title": "Answers for Every InvestorJun 5, 2025Updates",
+    "date": "2025-06-05",
+    "url": "https://www.perplexity.ai./hub/blog/answers-for-every-investor",
+    "source": "perplexity",
+    "description": "Jun 5, 2025"
+  },
+  {
     "id": "gemma:advanced-audio-dialog-gemini-25",
     "title": "Advanced audio dialog and generation with Gemini 2.5",
     "date": "2025-06-03",
     "url": "https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
     "source": "gemma",
     "description": "Audio capabilities in Gemini 2.5."
+  },
+  {
+    "id": "gemma:advanced-audio-dialog-and-generation-with-gemini-25",
+    "title": "Advanced audio dialog and generation with Gemini 2.5",
+    "date": "2025-06-03",
+    "url": "https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
+    "source": "gemma",
+    "description": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation."
+  },
+  {
+    "id": "perplexity:introducing-perplexity-labs",
+    "title": "Introducing Perplexity LabsMay 29, 2025CompanyUpdates",
+    "date": "2025-05-29",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-labs",
+    "source": "perplexity",
+    "description": "May 29, 2025"
+  },
+  {
+    "id": "perplexity:perplexity-x-lewis-hamilton",
+    "title": "Perplexity x Lewis HamiltonMay 28, 2025Company",
+    "date": "2025-05-28",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-x-lewis-hamilton",
+    "source": "perplexity",
+    "description": "May 28, 2025"
+  },
+  {
+    "id": "perplexity:more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user",
+    "title": "More Value In Every Answer: New Benefits For Every Level of Perplexity UserMay 21, 2025CompanyUpdates",
+    "date": "2025-05-21",
+    "url": "https://www.perplexity.ai./hub/blog/more-value-in-every-answer-new-benefits-for-every-level-of-perplexity-user",
+    "source": "perplexity",
+    "description": "May 21, 2025"
   },
   {
     "id": "gemma:generative-media-models",
@@ -789,7 +2373,7 @@
     "date": "2025-05-20",
     "url": "https://deepmind.google/blog/advancing-geminis-security-safeguards/",
     "source": "gemma",
-    "description": "Security improvements for Gemini models."
+    "description": "We’ve made Gemini 2.5 our most secure model family to date."
   },
   {
     "id": "gemma:universal-ai-assistant",
@@ -800,12 +2384,76 @@
     "description": "DeepMind's vision for universal AI assistance."
   },
   {
+    "id": "gemma:fuel-your-creativity-with-new-generative-media-models-and-tools",
+    "title": "Fuel your creativity with new generative media models and tools",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/fuel-your-creativity-with-new-generative-media-models-and-tools/",
+    "source": "gemma",
+    "description": "Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow."
+  },
+  {
+    "id": "gemma:announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai",
+    "title": "Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/",
+    "source": "gemma",
+    "description": "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal understanding with a"
+  },
+  {
+    "id": "gemma:gemini-25-our-world-leading-model-is-getting-even-better",
+    "title": "Gemini 2.5: Our most intelligent models are getting even better",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/",
+    "source": "gemma",
+    "description": "Gemini 2.5 Pro continues to be loved by developers as the best model for coding, and 2.5 Flash is getting even better with a new update. We’re bringing new capabilities to our models, including Deep T"
+  },
+  {
+    "id": "gemma:synthid-detector--a-new-portal-to-help-identify-ai-generated-content",
+    "title": "SynthID Detector — a new portal to help identify AI-generated content",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/",
+    "source": "gemma",
+    "description": "Learn about the new SynthID Detector portal we announced at I/O to help people understand how the content they see online was generated."
+  },
+  {
+    "id": "gemma:our-vision-for-building-a-universal-ai-assistant",
+    "title": "Our vision for building a universal AI assistant",
+    "date": "2025-05-20",
+    "url": "https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/",
+    "source": "gemma",
+    "description": "We’re extending Gemini to become a world model that can make plans and imagine new experiences by simulating aspects of the world."
+  },
+  {
+    "id": "perplexity:perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise",
+    "title": "Perplexity and SAP: Turbocharging Joule with Real-Time Answers for Every EnterpriseMay 20, 2025CompanyEnterprise",
+    "date": "2025-05-20",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-and-sap-turbocharging-joule-with-real-time-answers-for-every-enterprise",
+    "source": "perplexity",
+    "description": "May 20, 2025"
+  },
+  {
     "id": "gemma:alphaevolve",
     "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
     "date": "2025-05-14",
     "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
     "source": "gemma",
     "description": "Coding agent powered by Gemini for algorithm design."
+  },
+  {
+    "id": "gemma:alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms",
+    "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+    "date": "2025-05-14",
+    "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "source": "gemma",
+    "description": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators"
+  },
+  {
+    "id": "perplexity:perplexity-partners-with-wiley-to-power-educational-ai-search",
+    "title": "Perplexity Partners with Wiley to Power Educational AI SearchMay 8, 2025CompanyEnterprise",
+    "date": "2025-05-08",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-partners-with-wiley-to-power-educational-ai-search",
+    "source": "perplexity",
+    "description": "May 8, 2025"
   },
   {
     "id": "gemma:gemini-25-pro-coding",
@@ -824,12 +2472,92 @@
     "description": "Building web apps with Gemini 2.5 Pro."
   },
   {
+    "id": "gemma:gemini-25-pro-preview-even-better-coding-performance",
+    "title": "Gemini 2.5 Pro Preview: even better coding performance",
+    "date": "2025-05-06",
+    "url": "https://deepmind.google/blog/gemini-25-pro-preview-even-better-coding-performance/",
+    "source": "gemma",
+    "description": "We’ve seen developers doing amazing things with Gemini 2.5 Pro, so we decided to release an updated version a couple of weeks early to get into developers hands sooner."
+  },
+  {
+    "id": "gemma:build-rich-interactive-web-apps-with-an-updated-gemini-25-pro",
+    "title": "Build rich, interactive web apps with an updated Gemini 2.5 Pro",
+    "date": "2025-05-06",
+    "url": "https://deepmind.google/blog/build-rich-interactive-web-apps-with-an-updated-gemini-25-pro/",
+    "source": "gemma",
+    "description": "Our updated version of Gemini 2.5 Pro Preview has improved capabilities for coding."
+  },
+  {
+    "id": "perplexity:rl-training-for-math-reasoning",
+    "title": "RL Training For Math ReasoningMay 5, 2025Research",
+    "date": "2025-05-05",
+    "url": "https://www.perplexity.ai./hub/blog/rl-training-for-math-reasoning",
+    "source": "perplexity",
+    "description": "May 5, 2025"
+  },
+  {
+    "id": "claude:bioinformatics-biomysterybench",
+    "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench",
+    "date": "2025-04-29",
+    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "source": "claude",
+    "description": "Benchmarking Claude's bioinformatics research capabilities."
+  },
+  {
+    "id": "qwen:qwen3",
+    "title": "Qwen3: Think Deeper, Act Faster",
+    "date": "2025-04-29",
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "source": "qwen",
+    "description": "Major model release with deeper reasoning."
+  },
+  {
+    "id": "kimi:kimi-audio",
+    "title": "Kimi-Audio",
+    "date": "2025-04-26",
+    "url": "https://github.com/MoonshotAI/Kimi-Audio",
+    "source": "kimi",
+    "description": "Audio processing and generation model."
+  },
+  {
     "id": "gemma:music-ai-sandbox",
     "title": "Music AI Sandbox, now with new features and broader access",
     "date": "2025-04-24",
     "url": "https://deepmind.google/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
     "source": "gemma",
     "description": "Music AI creation tool updates."
+  },
+  {
+    "id": "gemma:music-ai-sandbox-now-with-new-features-and-broader-access",
+    "title": "Music AI Sandbox, now with new features and broader access",
+    "date": "2025-04-24",
+    "url": "https://deepmind.google/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+    "source": "gemma",
+    "description": "Helping music professionals explore the potential of generative AI"
+  },
+  {
+    "id": "perplexity:announcing-our-global-partnership-with-motorola",
+    "title": "Announcing Our Global Partnership with MotorolaApr 24, 2025Company",
+    "date": "2025-04-24",
+    "url": "https://www.perplexity.ai./hub/blog/announcing-our-global-partnership-with-motorola",
+    "source": "perplexity",
+    "description": "Apr 24, 2025"
+  },
+  {
+    "id": "perplexity:choice-is-the-remedy",
+    "title": "Choice is the RemedyApr 21, 2025Company",
+    "date": "2025-04-21",
+    "url": "https://www.perplexity.ai./hub/blog/choice-is-the-remedy",
+    "source": "perplexity",
+    "description": "Apr 21, 2025"
+  },
+  {
+    "id": "perplexity:lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment",
+    "title": "Lower Latency and Higher Throughput with Multi-node DeepSeek DeploymentApr 18, 2025Research",
+    "date": "2025-04-18",
+    "url": "https://www.perplexity.ai./hub/blog/lower-latency-and-higher-throughput-with-multi-node-deepseek-deployment",
+    "source": "perplexity",
+    "description": "Apr 18, 2025"
   },
   {
     "id": "gemma:gemini-25-flash",
@@ -840,6 +2568,22 @@
     "description": "Fast and efficient Gemini 2.5 Flash model."
   },
   {
+    "id": "gemma:introducing-gemini-2-5-flash",
+    "title": "Introducing Gemini 2.5 Flash",
+    "date": "2025-04-17",
+    "url": "https://deepmind.google/blog/introducing-gemini-2-5-flash/",
+    "source": "gemma",
+    "description": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off."
+  },
+  {
+    "id": "perplexity:how-perplexity-enterprise-pro-keeps-your-data-secure",
+    "title": "How Perplexity Enterprise Pro Keeps Your Data SecureApr 17, 2025CompanyEnterpriseSecurity",
+    "date": "2025-04-17",
+    "url": "https://www.perplexity.ai./hub/blog/how-perplexity-enterprise-pro-keeps-your-data-secure",
+    "source": "perplexity",
+    "description": "Apr 17, 2025"
+  },
+  {
     "id": "gemma:veo-2-gemini-whisk",
     "title": "Generate videos in Gemini and Whisk with Veo 2",
     "date": "2025-04-15",
@@ -848,12 +2592,68 @@
     "description": "Video generation with Veo 2."
   },
   {
+    "id": "kimi:kimina-prover-preview",
+    "title": "Kimina-Prover Preview",
+    "date": "2025-04-15",
+    "url": "https://github.com/MoonshotAI/Kimina-Prover-Preview",
+    "source": "kimi",
+    "description": "Mathematical theorem proving with AI."
+  },
+  {
+    "id": "gemma:generate-videos-in-gemini-and-whisk-with-veo-2",
+    "title": "Generate videos in Gemini and Whisk with Veo 2",
+    "date": "2025-04-15",
+    "url": "https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
+    "source": "gemma",
+    "description": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips."
+  },
+  {
     "id": "gemma:dolphingemma",
     "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
     "date": "2025-04-14",
     "url": "https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
     "source": "gemma",
     "description": "AI-powered dolphin communication research."
+  },
+  {
+    "id": "gemma:dolphingemma-how-google-ai-is-helping-decode-dolphin-communication",
+    "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+    "date": "2025-04-14",
+    "url": "https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
+    "source": "gemma",
+    "description": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too."
+  },
+  {
+    "id": "perplexity:perplexity-sonar-dominates-new-search-arena-evolution",
+    "title": "Perplexity Sonar Dominates New Search Arena EvaluationApr 14, 2025Company",
+    "date": "2025-04-14",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-sonar-dominates-new-search-arena-evolution",
+    "source": "perplexity",
+    "description": "Apr 14, 2025"
+  },
+  {
+    "id": "kimi:kimi-vl",
+    "title": "Kimi-VL",
+    "date": "2025-04-10",
+    "url": "https://github.com/MoonshotAI/Kimi-VL",
+    "source": "kimi",
+    "description": "Vision-language model from Moonshot AI."
+  },
+  {
+    "id": "claude:trustworthy-agents",
+    "title": "Trustworthy agents in practice",
+    "date": "2025-04-09",
+    "url": "https://www.anthropic.com/research/trustworthy-agents",
+    "source": "claude",
+    "description": "Research on building trustworthy AI agents."
+  },
+  {
+    "id": "claude:emotion-concepts-function",
+    "title": "Emotion concepts and their function in a large language model",
+    "date": "2025-04-02",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "source": "claude",
+    "description": "Research on emotion representations in LLMs."
   },
   {
     "id": "gemma:responsible-path-to-agi",
@@ -872,12 +2672,148 @@
     "description": "Assessment of AI cybersecurity risks."
   },
   {
+    "id": "gemma:taking-a-responsible-path-to-agi",
+    "title": "Taking a responsible path to AGI",
+    "date": "2025-04-02",
+    "url": "https://deepmind.google/blog/taking-a-responsible-path-to-agi/",
+    "source": "gemma",
+    "description": "We’re exploring the frontiers of AGI, prioritizing technical safety, proactive risk assessment, and collaboration with the AI community."
+  },
+  {
+    "id": "gemma:evaluating-potential-cybersecurity-threats-of-advanced-ai",
+    "title": "Evaluating potential cybersecurity threats of advanced AI",
+    "date": "2025-04-02",
+    "url": "https://deepmind.google/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/",
+    "source": "gemma",
+    "description": "Our framework enables cybersecurity experts to identify which defenses are necessary—and how to prioritize them"
+  },
+  {
+    "id": "perplexity:efficient-and-portable-mixture-of-experts-communication",
+    "title": "Efficient and Portable Mixture-of-Experts CommunicationApr 2, 2025Research",
+    "date": "2025-04-02",
+    "url": "https://www.perplexity.ai./hub/blog/efficient-and-portable-mixture-of-experts-communication",
+    "source": "perplexity",
+    "description": "Apr 2, 2025"
+  },
+  {
+    "id": "claude:how-australia-uses-claude",
+    "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
+    "date": "2025-03-31",
+    "url": "https://www.anthropic.com/research/how-australia-uses-claude",
+    "source": "claude",
+    "description": "Regional analysis of Claude usage in Australia."
+  },
+  {
+    "id": "qwen:qvq-max-preview",
+    "title": "QVQ-Max: Think with Evidence",
+    "date": "2025-03-28",
+    "url": "https://qwenlm.github.io/blog/qvq-max-preview/",
+    "source": "qwen",
+    "description": "Visual reasoning model."
+  },
+  {
+    "id": "qwen:qwen2.5-omni",
+    "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!",
+    "date": "2025-03-27",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+    "source": "qwen",
+    "description": "Multimodal omni model."
+  },
+  {
+    "id": "codex:realtime-perplexity-computer",
+    "title": "How Perplexity Brought Voice Search to Millions Using the Realtime API",
+    "date": "2025-03-25",
+    "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
+    "source": "codex",
+    "description": "Perplexity's implementation of voice search using OpenAI's Realtime API."
+  },
+  {
     "id": "gemma:gemini-25-most-intelligent",
     "title": "Gemini 2.5: Our most intelligent AI model",
     "date": "2025-03-25",
     "url": "https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/",
     "source": "gemma",
     "description": "Launch of Gemini 2.5."
+  },
+  {
+    "id": "gemma:gemini-2-5-our-most-intelligent-ai-model",
+    "title": "Gemini 2.5: Our most intelligent AI model",
+    "date": "2025-03-25",
+    "url": "https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/",
+    "source": "gemma",
+    "description": "Gemini 2.5 is our most intelligent AI model, now with thinking built in."
+  },
+  {
+    "id": "claude:economic-index-march-report",
+    "title": "Anthropic Economic Index report: Learning curves",
+    "date": "2025-03-24",
+    "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "source": "claude",
+    "description": "Economic index report focusing on learning curves."
+  },
+  {
+    "id": "qwen:qwen2.5-vl-32b",
+    "title": "Qwen2.5-VL-32B: Smarter and Lighter",
+    "date": "2025-03-24",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-vl-32b/",
+    "source": "qwen",
+    "description": "Efficient 32B vision-language model."
+  },
+  {
+    "id": "claude:introducing-anthropic-science",
+    "title": "Introducing our Science Blog",
+    "date": "2025-03-23",
+    "url": "https://www.anthropic.com/research/introducing-anthropic-science",
+    "source": "claude",
+    "description": "Launch of Anthropic's dedicated science blog."
+  },
+  {
+    "id": "claude:long-running-claude",
+    "title": "Long-running Claude for scientific computing",
+    "date": "2025-03-23",
+    "url": "https://www.anthropic.com/research/long-running-Claude",
+    "source": "claude",
+    "description": "Using Claude for long-running scientific computing tasks."
+  },
+  {
+    "id": "perplexity:rebuilding-tiktok-in-america",
+    "title": "Rebuilding TikTok in AmericaMar 21, 2025Company",
+    "date": "2025-03-21",
+    "url": "https://www.perplexity.ai./hub/blog/rebuilding-tiktok-in-america",
+    "source": "perplexity",
+    "description": "Mar 21, 2025"
+  },
+  {
+    "id": "codex:designing-delightful-frontends-with-gpt-5-4",
+    "title": "Designing delightful frontends with GPT-5.4",
+    "date": "2025-03-20",
+    "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
+    "source": "codex",
+    "description": "Using GPT-5.4 for frontend design and development."
+  },
+  {
+    "id": "perplexity:new-sonar-search-modes-outperform-openai-in-cost-and-performance",
+    "title": "Improved Sonar Models: Industry Leading Performance at Lower CostsMar 19, 2025Company",
+    "date": "2025-03-19",
+    "url": "https://www.perplexity.ai./hub/blog/new-sonar-search-modes-outperform-openai-in-cost-and-performance",
+    "source": "perplexity",
+    "description": "Mar 19, 2025"
+  },
+  {
+    "id": "perplexity:perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan",
+    "title": "Perplexity Expands Partnership with SoftBank to Launch Enterprise Pro JapanMar 17, 2025CompanyEnterprise",
+    "date": "2025-03-17",
+    "url": "https://www.perplexity.ai./hub/blog/perplexity-expands-partnership-with-softbank-to-launch-enterprise-pro-japan",
+    "source": "perplexity",
+    "description": "Mar 17, 2025"
+  },
+  {
+    "id": "claude:diff-tool",
+    "title": "A 'diff' tool for AI: Finding behavioral differences in new models",
+    "date": "2025-03-13",
+    "url": "https://www.anthropic.com/research/diff-tool",
+    "source": "claude",
+    "description": "Tool for comparing behavioral differences between AI models."
   },
   {
     "id": "gemma:gemini-robotics",
@@ -901,231 +2837,47 @@
     "date": "2025-03-12",
     "url": "https://deepmind.google/blog/introducing-gemma-3/",
     "source": "gemma",
-    "description": "Launch of the Gemma 3 open model."
+    "description": "The most capable model you can run on a single GPU or TPU."
   },
   {
-    "id": "gemma:gemini-20-flash-and-flash-lite",
-    "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
-    "date": "2025-02-25",
-    "url": "https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/",
+    "id": "gemma:gemini-robotics-brings-ai-into-the-physical-world",
+    "title": "Gemini Robotics brings AI into the physical world",
+    "date": "2025-03-12",
+    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
     "source": "gemma",
-    "description": "Developer launch of Gemini 2.0 Flash and Flash-Lite."
+    "description": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world."
   },
   {
-    "id": "gemma:medgemma-1-5-4b",
-    "title": "Introducing MedGemma 1.5 4B",
-    "date": "2026-01-15",
-    "url": "https://deepmind.google/research/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
+    "id": "gemma:experiment-with-gemini-20-flash-native-image-generation",
+    "title": "Experiment with Gemini 2.0 Flash native image generation",
+    "date": "2025-03-12",
+    "url": "https://deepmind.google/blog/experiment-with-gemini-20-flash-native-image-generation/",
     "source": "gemma",
-    "description": "High-dimensional medical imaging interpretation in a compute-efficient model."
+    "description": "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API."
   },
   {
-    "id": "gemma:translategemma",
-    "title": "Introducing TranslateGemma",
-    "date": "2026-01-15",
-    "url": "https://deepmind.google/blog/innovation-and-ai/technology/developers-tools/translategemma/",
-    "source": "gemma",
-    "description": "Translation models across 55 languages."
+    "id": "codex:one-year-of-responses",
+    "title": "From prompts to products: One year of Responses",
+    "date": "2025-03-11",
+    "url": "https://developers.openai.com/blog/one-year-of-responses",
+    "source": "codex",
+    "description": "Retrospective on one year of the Responses API."
   },
   {
-    "id": "gemma:gemma-scope-2",
-    "title": "Introducing Gemma Scope 2",
-    "date": "2025-12-15",
-    "url": "https://deepmind.google/deepmind/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
-    "source": "gemma",
-    "description": "AI safety community tool for understanding LLM behavior."
+    "id": "codex:skills-agents-sdk",
+    "title": "Using skills to accelerate OSS maintenance",
+    "date": "2025-03-09",
+    "url": "https://developers.openai.com/blog/skills-agents-sdk",
+    "source": "codex",
+    "description": "Using skills and GitHub Actions to optimize Codex workflows."
   },
   {
-    "id": "gemma:functiongemma",
-    "title": "Introducing FunctionGemma",
-    "date": "2025-12-15",
-    "url": "https://deepmind.google/blog/technology/developers/functiongemma/",
-    "source": "gemma",
-    "description": "Specialized model for function calling at the edge."
-  },
-  {
-    "id": "gemma:t5gemma-2",
-    "title": "Introducing T5Gemma 2",
-    "date": "2025-12-15",
-    "url": "https://deepmind.google/research/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
-    "source": "gemma",
-    "description": "Next generation encoder-decoder models."
-  },
-  {
-    "id": "kimi:kimi-k1-5",
-    "title": "Kimi K1.5: Scaling Reinforcement Learning with LLMs",
-    "date": "2025-01-20",
-    "url": "https://www.kimi.com/blog/kimi-k1-5",
-    "source": "kimi",
-    "description": "Reinforcement learning techniques applied to LLMs at scale."
-  },
-  {
-    "id": "kimi:moonlight-muon",
-    "title": "Muon is Scalable for LLM Training",
-    "date": "2025-02-23",
-    "url": "https://github.com/MoonshotAI/Moonlight",
-    "source": "kimi",
-    "description": "Scalable optimization for LLM training."
-  },
-  {
-    "id": "kimi:moba",
-    "title": "MoBA: Mixture of Block Attention",
-    "date": "2025-02-18",
-    "url": "https://github.com/MoonshotAI/MoBA",
-    "source": "kimi",
-    "description": "Novel attention mechanism for efficient LLM processing."
-  },
-  {
-    "id": "kimi:kimi-vl",
-    "title": "Kimi-VL",
-    "date": "2025-04-10",
-    "url": "https://github.com/MoonshotAI/Kimi-VL",
-    "source": "kimi",
-    "description": "Vision-language model from Moonshot AI."
-  },
-  {
-    "id": "kimi:kimina-prover-preview",
-    "title": "Kimina-Prover Preview",
-    "date": "2025-04-15",
-    "url": "https://github.com/MoonshotAI/Kimina-Prover-Preview",
-    "source": "kimi",
-    "description": "Mathematical theorem proving with AI."
-  },
-  {
-    "id": "kimi:kimi-audio",
-    "title": "Kimi-Audio",
-    "date": "2025-04-26",
-    "url": "https://github.com/MoonshotAI/Kimi-Audio",
-    "source": "kimi",
-    "description": "Audio processing and generation model."
-  },
-  {
-    "id": "kimi:kimi-dev",
-    "title": "Kimi-Dev",
-    "date": "2025-06-17",
-    "url": "https://github.com/MoonshotAI/Kimi-Dev",
-    "source": "kimi",
-    "description": "AI-powered software development agent."
-  },
-  {
-    "id": "kimi:kimi-researcher",
-    "title": "Kimi-Researcher",
-    "date": "2025-06-20",
-    "url": "https://moonshotai.github.io/Kimi-Researcher/",
-    "source": "kimi",
-    "description": "AI research assistant."
-  },
-  {
-    "id": "kimi:kimi-k2",
-    "title": "Kimi K2",
-    "date": "2025-07-11",
-    "url": "https://www.kimi.com/blog/kimi-k2",
-    "source": "kimi",
-    "description": "Major model release from Moonshot AI."
-  },
-  {
-    "id": "kimi:kimi-k2-instruct-0905",
-    "title": "Kimi-K2-Instruct-0905",
-    "date": "2025-09-05",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
-    "source": "kimi",
-    "description": "Updated instruction-tuned Kimi K2 model."
-  },
-  {
-    "id": "kimi:kimi-k2-thinking",
-    "title": "Kimi K2 Thinking",
-    "date": "2025-11-06",
-    "url": "https://www.kimi.com/blog/kimi-k2-thinking",
-    "source": "kimi",
-    "description": "Open-source thinking model for reasoning."
-  },
-  {
-    "id": "kimi:kimi-vendor-verifier",
-    "title": "Kimi Vendor Verifier",
-    "date": "2026-01-22",
-    "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
-    "source": "kimi",
-    "description": "Rebuilding the Chain of Trust."
-  },
-  {
-    "id": "kimi:kimi-k2-5",
-    "title": "Kimi K2.5",
-    "date": "2026-01-27",
-    "url": "https://www.kimi.com/blog/kimi-k2-5",
-    "source": "kimi",
-    "description": "Visual agentic intelligence."
-  },
-  {
-    "id": "kimi:worldvqa",
-    "title": "WorldVQA",
-    "date": "2026-02-03",
-    "url": "https://www.kimi.com/blog/worldvqa",
-    "source": "kimi",
-    "description": "Atomic World Knowledge in MLLMs."
-  },
-  {
-    "id": "kimi:agent-swarm",
-    "title": "Agent Swarm",
-    "date": "2026-02-09",
-    "url": "https://www.kimi.com/blog/agent-swarm",
-    "source": "kimi",
-    "description": "Distributed agent systems - Scale Out, Not Just Up."
-  },
-  {
-    "id": "kimi:kimi-k2-6",
-    "title": "Kimi K2.6",
-    "date": "2026-04-20",
-    "url": "https://www.kimi.com/blog/kimi-k2-6",
-    "source": "kimi",
-    "description": "Advancing open-source coding."
-  },
-  {
-    "id": "qwen:qwen2.5-math-prm",
-    "title": "Towards Effective Process Supervision in Mathematical Reasoning",
-    "date": "2025-01-14",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-math-prm/",
-    "source": "qwen",
-    "description": "Process supervision for mathematical reasoning."
-  },
-  {
-    "id": "qwen:global-load-balance",
-    "title": "Global-batch load balance: almost free lunch to improve your MoE LLM training",
-    "date": "2025-01-21",
-    "url": "https://qwenlm.github.io/blog/global-load-balance/",
-    "source": "qwen",
-    "description": "Training optimization for MoE language models."
-  },
-  {
-    "id": "qwen:qwen2.5-vl",
-    "title": "Qwen2.5 VL",
-    "date": "2025-01-26",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-vl/",
-    "source": "qwen",
-    "description": "Vision-language model release."
-  },
-  {
-    "id": "qwen:qwen2.5-1m",
-    "title": "Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens",
-    "date": "2025-01-27",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-1m/",
-    "source": "qwen",
-    "description": "Million-token context length model."
-  },
-  {
-    "id": "qwen:qwen2.5-max",
-    "title": "Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model",
-    "date": "2025-01-28",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-max/",
-    "source": "qwen",
-    "description": "Large-scale Mixture of Experts model."
-  },
-  {
-    "id": "qwen:qwq-max-preview",
-    "title": "QwQ-Max-Preview",
-    "date": "2025-02-25",
-    "url": "https://qwenlm.github.io/blog/qwq-max-preview/",
-    "source": "qwen",
-    "description": "Preview of QwQ reasoning model."
+    "id": "claude:mozilla-firefox-security-research",
+    "title": "Partnering with Mozilla to improve Firefox's security",
+    "date": "2025-03-06",
+    "url": "https://www.anthropic.com/research/mozilla-firefox-security",
+    "source": "claude",
+    "description": "Collaboration with Mozilla on browser security research."
   },
   {
     "id": "qwen:qwq-32b",
@@ -1136,611 +2888,763 @@
     "description": "32B reasoning model powered by RL."
   },
   {
-    "id": "qwen:qwen2.5-vl-32b",
-    "title": "Qwen2.5-VL-32B: Smarter and Lighter",
-    "date": "2025-03-24",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-vl-32b/",
+    "id": "claude:labor-market-impacts",
+    "title": "Labor market impacts of AI: A new measure and early evidence",
+    "date": "2025-03-05",
+    "url": "https://www.anthropic.com/research/labor-market-impacts",
+    "source": "claude",
+    "description": "Measuring AI's impact on labor markets."
+  },
+  {
+    "id": "codex:building-frontend-uis-with-codex-and-figma",
+    "title": "Building frontend UIs with Codex and Figma",
+    "date": "2025-02-26",
+    "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
+    "source": "codex",
+    "description": "Use Codex and Figma to bring real interfaces into Figma and back."
+  },
+  {
+    "id": "claude:deprecation-updates-opus-3",
+    "title": "An update on our model deprecation commitments for Claude Opus 3",
+    "date": "2025-02-25",
+    "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+    "source": "claude",
+    "description": "Model deprecation timeline and commitments."
+  },
+  {
+    "id": "gemma:gemini-20-flash-and-flash-lite",
+    "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+    "date": "2025-02-25",
+    "url": "https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/",
+    "source": "gemma",
+    "description": "Developer launch of Gemini 2.0 Flash and Flash-Lite."
+  },
+  {
+    "id": "qwen:qwq-max-preview",
+    "title": "QwQ-Max-Preview",
+    "date": "2025-02-25",
+    "url": "https://qwenlm.github.io/blog/qwq-max-preview/",
     "source": "qwen",
-    "description": "Efficient 32B vision-language model."
+    "description": "Preview of QwQ reasoning model."
   },
   {
-    "id": "qwen:qwen2.5-omni",
-    "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!",
-    "date": "2025-03-27",
-    "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+    "id": "gemma:start-building-with-gemini-20-flash-and-flash-lite",
+    "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+    "date": "2025-02-25",
+    "url": "https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/",
+    "source": "gemma",
+    "description": "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI"
+  },
+  {
+    "id": "claude:AI-fluency-index",
+    "title": "Anthropic Education Report: The AI Fluency Index",
+    "date": "2025-02-23",
+    "url": "https://www.anthropic.com/research/AI-fluency-index",
+    "source": "claude",
+    "description": "Education report measuring AI literacy and fluency."
+  },
+  {
+    "id": "claude:persona-selection-model",
+    "title": "The persona selection model",
+    "date": "2025-02-23",
+    "url": "https://www.anthropic.com/research/persona-selection-model",
+    "source": "claude",
+    "description": "Research on how Claude selects and maintains personas."
+  },
+  {
+    "id": "codex:run-long-horizon-tasks-with-codex",
+    "title": "Run long horizon tasks with Codex",
+    "date": "2025-02-23",
+    "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
+    "source": "codex",
+    "description": "Guide on running long-duration tasks with Codex."
+  },
+  {
+    "id": "kimi:moonlight-muon",
+    "title": "Muon is Scalable for LLM Training",
+    "date": "2025-02-23",
+    "url": "https://github.com/MoonshotAI/Moonlight",
+    "source": "kimi",
+    "description": "Scalable optimization for LLM training."
+  },
+  {
+    "id": "claude:measuring-agent-autonomy",
+    "title": "Measuring AI agent autonomy in practice",
+    "date": "2025-02-18",
+    "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "source": "claude",
+    "description": "Frameworks for measuring AI agent autonomy."
+  },
+  {
+    "id": "kimi:moba",
+    "title": "MoBA: Mixture of Block Attention",
+    "date": "2025-02-18",
+    "url": "https://github.com/MoonshotAI/MoBA",
+    "source": "kimi",
+    "description": "Novel attention mechanism for efficient LLM processing."
+  },
+  {
+    "id": "perplexity:open-sourcing-r1-1776",
+    "title": "Open-sourcing R1 1776Feb 18, 2025Research",
+    "date": "2025-02-18",
+    "url": "https://www.perplexity.ai./hub/blog/open-sourcing-r1-1776",
+    "source": "perplexity",
+    "description": "Feb 18, 2025"
+  },
+  {
+    "id": "claude:india-brief-economic-index",
+    "title": "India Country Brief: The Anthropic Economic Index",
+    "date": "2025-02-16",
+    "url": "https://www.anthropic.com/research/india-brief-economic-index",
+    "source": "claude",
+    "description": "India-specific analysis from the Anthropic Economic Index."
+  },
+  {
+    "id": "perplexity:introducing-perplexity-deep-research",
+    "title": "Introducing Perplexity Deep ResearchFeb 14, 2025CompanyUpdates",
+    "date": "2025-02-14",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-perplexity-deep-research",
+    "source": "perplexity",
+    "description": "Feb 14, 2025"
+  },
+  {
+    "id": "codex:skills-shell-tips",
+    "title": "Shell + Skills + Compaction: Tips for long-running agents",
+    "date": "2025-02-11",
+    "url": "https://developers.openai.com/blog/skills-shell-tips",
+    "source": "codex",
+    "description": "Tips for building long-running agents that do real work."
+  },
+  {
+    "id": "perplexity:meet-new-sonar",
+    "title": "Meet New SonarFeb 11, 2025Updates",
+    "date": "2025-02-11",
+    "url": "https://www.perplexity.ai./hub/blog/meet-new-sonar",
+    "source": "perplexity",
+    "description": "Feb 11, 2025"
+  },
+  {
+    "id": "perplexity:high-performance-gpu-memory-transfer-on-aws",
+    "title": "High-Performance GPU Memory Transfer on AWS Sagemaker HyperpodFeb 10, 2025Research",
+    "date": "2025-02-10",
+    "url": "https://www.perplexity.ai./hub/blog/high-performance-gpu-memory-transfer-on-aws",
+    "source": "perplexity",
+    "description": "Feb 10, 2025"
+  },
+  {
+    "id": "codex:15-lessons-building-chatgpt-apps",
+    "title": "15 lessons learned building ChatGPT Apps",
+    "date": "2025-02-04",
+    "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
+    "source": "codex",
+    "description": "Lessons from building ChatGPT-powered applications."
+  },
+  {
+    "id": "claude:AI-assistance-coding-skills",
+    "title": "How AI assistance impacts the formation of coding skills",
+    "date": "2025-01-29",
+    "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+    "source": "claude",
+    "description": "Research on AI's impact on learning to code."
+  },
+  {
+    "id": "claude:disempowerment-patterns",
+    "title": "Disempowerment patterns in real-world AI usage",
+    "date": "2025-01-28",
+    "url": "https://www.anthropic.com/research/disempowerment-patterns",
+    "source": "claude",
+    "description": "Patterns where AI use leads to user disempowerment."
+  },
+  {
+    "id": "qwen:qwen2.5-max",
+    "title": "Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model",
+    "date": "2025-01-28",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-max/",
     "source": "qwen",
-    "description": "Multimodal omni model."
+    "description": "Large-scale Mixture of Experts model."
   },
   {
-    "id": "qwen:qvq-max-preview",
-    "title": "QVQ-Max: Think with Evidence",
-    "date": "2025-03-28",
-    "url": "https://qwenlm.github.io/blog/qvq-max-preview/",
+    "id": "qwen:qwen2.5-1m",
+    "title": "Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens",
+    "date": "2025-01-27",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-1m/",
     "source": "qwen",
-    "description": "Visual reasoning model."
+    "description": "Million-token context length model."
   },
   {
-    "id": "qwen:qwen3",
-    "title": "Qwen3: Think Deeper, Act Faster",
-    "date": "2025-04-29",
-    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "id": "qwen:qwen2.5-vl",
+    "title": "Qwen2.5 VL",
+    "date": "2025-01-26",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-vl/",
     "source": "qwen",
-    "description": "Major model release with deeper reasoning."
+    "description": "Vision-language model release."
   },
   {
-    "id": "qwen:qwen3-embedding",
-    "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
-    "date": "2025-06-05",
-    "url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+    "id": "claude:claude-new-constitution-research",
+    "title": "Claude's new constitution",
+    "date": "2025-01-22",
+    "url": "https://www.anthropic.com/research/claude-new-constitution",
+    "source": "claude",
+    "description": "Research behind Claude's updated constitutional guidelines."
+  },
+  {
+    "id": "codex:eval-skills",
+    "title": "Testing Agent Skills Systematically with Evals",
+    "date": "2025-01-22",
+    "url": "https://developers.openai.com/blog/eval-skills",
+    "source": "codex",
+    "description": "A practical guide to turning agent skills into something you can test, score, and improve."
+  },
+  {
+    "id": "qwen:global-load-balance",
+    "title": "Global-batch load balance: almost free lunch to improve your MoE LLM training",
+    "date": "2025-01-21",
+    "url": "https://qwenlm.github.io/blog/global-load-balance/",
     "source": "qwen",
-    "description": "Text embedding and reranking models."
+    "description": "Training optimization for MoE language models."
   },
   {
-    "id": "qwen:qwen-vlo",
-    "title": "Qwen VLo: From Understanding the World to Depicting It",
-    "date": "2025-06-26",
-    "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+    "id": "perplexity:introducing-the-sonar-pro-api",
+    "title": "Introducing the Sonar Pro API by PerplexityJan 21, 2025DevelopersUpdates",
+    "date": "2025-01-21",
+    "url": "https://www.perplexity.ai./hub/blog/introducing-the-sonar-pro-api",
+    "source": "perplexity",
+    "description": "Jan 21, 2025"
+  },
+  {
+    "id": "kimi:kimi-k1-5",
+    "title": "Kimi K1.5: Scaling Reinforcement Learning with LLMs",
+    "date": "2025-01-20",
+    "url": "https://www.kimi.com/blog/kimi-k1-5",
+    "source": "kimi",
+    "description": "Reinforcement learning techniques applied to LLMs at scale."
+  },
+  {
+    "id": "claude:assistant-axis",
+    "title": "The assistant axis: situating and stabilizing the character of large language models",
+    "date": "2025-01-19",
+    "url": "https://www.anthropic.com/research/assistant-axis",
+    "source": "claude",
+    "description": "Research on LLM character stabilization."
+  },
+  {
+    "id": "claude:economic-index-primitives",
+    "title": "Anthropic Economic Index: New building blocks for understanding AI use",
+    "date": "2025-01-15",
+    "url": "https://www.anthropic.com/research/economic-index-primitives",
+    "source": "claude",
+    "description": "Framework for understanding economic patterns of AI usage."
+  },
+  {
+    "id": "qwen:qwen2.5-math-prm",
+    "title": "Towards Effective Process Supervision in Mathematical Reasoning",
+    "date": "2025-01-14",
+    "url": "https://qwenlm.github.io/blog/qwen2.5-math-prm/",
     "source": "qwen",
-    "description": "Vision-language model for world understanding and depiction."
+    "description": "Process supervision for mathematical reasoning."
   },
   {
-    "id": "qwen:qwen-tts",
-    "title": "Time to Speak Some Dialects, Qwen-TTS!",
-    "date": "2025-06-27",
-    "url": "https://qwenlm.github.io/blog/qwen-tts/",
-    "source": "qwen",
-    "description": "Text-to-speech with dialect support."
+    "id": "codex:skyscanner-codex-jetbrains-mcp",
+    "title": "Supercharging Codex with JetBrains MCP at Skyscanner",
+    "date": "2025-01-11",
+    "url": "https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp",
+    "source": "codex",
+    "description": "How Skyscanner uses Codex with JetBrains MCP integration."
   },
   {
-    "id": "qwen:qwen3-coder",
-    "title": "Qwen3-Coder: Agentic Coding in the World",
-    "date": "2025-07-22",
-    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
-    "source": "qwen",
-    "description": "Agentic coding model."
-  },
-  {
-    "id": "qwen:qwen-mt",
-    "title": "Qwen-MT: Where Speed Meets Smart Translation",
-    "date": "2025-07-24",
-    "url": "https://qwenlm.github.io/blog/qwen-mt/",
-    "source": "qwen",
-    "description": "Translation supporting 92 major languages."
-  },
-  {
-    "id": "qwen:qwen-image",
-    "title": "Qwen-Image: Crafting with Native Text Rendering",
-    "date": "2025-08-04",
-    "url": "https://qwenlm.github.io/blog/qwen-image/",
-    "source": "qwen",
-    "description": "20B image foundation model."
-  },
-  {
-    "id": "qwen:qwen-image-edit",
-    "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-    "date": "2025-08-19",
-    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-    "source": "qwen",
-    "description": "Image editing model."
-  },
-  {
-    "id": "qwen:qwen3guard",
-    "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-    "date": "2025-09-23",
-    "url": "https://qwenlm.github.io/blog/qwen3guard/",
-    "source": "qwen",
-    "description": "Safety guardrail model for prompts and responses."
-  },
-  {
-    "id": "openclaw:openai-models-in-openclaw-done-right",
-    "title": "OpenAI Models in OpenClaw, Done Right",
-    "date": "2026-05-14",
-    "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
-    "source": "openclaw",
-    "description": "OpenClaw now runs OpenAI agent turns through native Codex harness."
-  },
-  {
-    "id": "openclaw:openclaw-rough-week",
-    "title": "OpenClaw Had a Rough Week",
-    "date": "2026-05-05",
-    "url": "https://openclaw.ai/blog/openclaw-rough-week",
-    "source": "openclaw",
-    "description": "Post-mortem on 2026.4.24 and 2026.4.29 releases."
-  },
-  {
-    "id": "openclaw:openclaw-security-in-public",
-    "title": "How OpenClaw Got Safer in Public",
-    "date": "2026-04-30",
-    "url": "https://openclaw.ai/blog/openclaw-security-in-public",
-    "source": "openclaw",
-    "description": "Security behind the open source personal AI agent."
-  },
-  {
-    "id": "openclaw:virustotal-partnership",
-    "title": "OpenClaw Partners with VirusTotal for Skill Security",
-    "date": "2026-02-07",
-    "url": "https://openclaw.ai/blog/virustotal-partnership",
-    "source": "openclaw",
-    "description": "ClawHub skills scanned by VirusTotal."
-  },
-  {
-    "id": "openclaw:introducing-openclaw",
-    "title": "Introducing OpenClaw",
-    "date": "2026-01-29",
-    "url": "https://openclaw.ai/blog/introducing-openclaw",
-    "source": "openclaw",
-    "description": "Evolution from Clawd to Moltbot to OpenClaw."
+    "id": "claude:next-generation-constitutional-classifiers",
+    "title": "Next-generation Constitutional Classifiers",
+    "date": "2025-01-09",
+    "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+    "source": "claude",
+    "description": "More efficient protection against universal jailbreaks."
   },
   {
     "id": "ollama:minions",
     "title": "Minions: where local and cloud LLMs meet",
-    "date": "2025-02-25",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/minions",
     "source": "ollama",
-    "description": "Small local models collaborating with cloud-based larger models."
+    "description": ""
   },
   {
     "id": "ollama:multimodal-models",
     "title": "Ollama's new engine for multimodal models",
-    "date": "2025-05-15",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/multimodal-models",
     "source": "ollama",
-    "description": "New engine supporting multimodal model inference."
+    "description": ""
   },
   {
     "id": "ollama:streaming-tool",
     "title": "Streaming responses with tool calling",
-    "date": "2025-05-28",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/streaming-tool",
     "source": "ollama",
-    "description": "Streaming responses with tool calling support."
+    "description": ""
   },
   {
     "id": "ollama:thinking",
     "title": "Thinking",
-    "date": "2025-05-30",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/thinking",
     "source": "ollama",
-    "description": "Thinking/reasoning capabilities in Ollama."
+    "description": ""
   },
   {
     "id": "ollama:secureminions",
     "title": "Secure Minions: private collaboration between Ollama and frontier models",
-    "date": "2025-06-03",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/secureminions",
     "source": "ollama",
-    "description": "Private collaboration between local and cloud models."
+    "description": ""
   },
   {
     "id": "ollama:new-app",
     "title": "Ollama's new app",
-    "date": "2025-07-30",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/new-app",
     "source": "ollama",
-    "description": "Redesigned Ollama application."
+    "description": ""
   },
   {
     "id": "ollama:gpt-oss",
     "title": "OpenAI gpt-oss",
-    "date": "2025-08-05",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/gpt-oss",
     "source": "ollama",
-    "description": "Running OpenAI's open-source GPT models."
+    "description": ""
   },
   {
     "id": "ollama:cloud-models",
     "title": "Cloud models",
-    "date": "2025-09-19",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/cloud-models",
     "source": "ollama",
-    "description": "Cloud model support in Ollama."
+    "description": ""
   },
   {
     "id": "ollama:new-model-scheduling",
     "title": "New model scheduling",
-    "date": "2025-09-23",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/new-model-scheduling",
     "source": "ollama",
-    "description": "Improved model scheduling system."
+    "description": ""
   },
   {
     "id": "ollama:web-search",
     "title": "Web search",
-    "date": "2025-09-24",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/web-search",
     "source": "ollama",
-    "description": "Web search integration."
+    "description": ""
   },
   {
     "id": "ollama:nvidia-spark",
     "title": "NVIDIA DGX Spark",
-    "date": "2025-10-13",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/nvidia-spark",
     "source": "ollama",
-    "description": "Support for NVIDIA DGX Spark hardware."
+    "description": ""
   },
   {
     "id": "ollama:qwen3-vl",
     "title": "Qwen3-VL",
-    "date": "2025-10-14",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/qwen3-vl",
     "source": "ollama",
-    "description": "Running Qwen3-VL models locally."
+    "description": ""
   },
   {
     "id": "ollama:coding-models",
     "title": "New coding models & integrations",
-    "date": "2025-10-16",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/coding-models",
     "source": "ollama",
-    "description": "New coding-focused models and integrations."
+    "description": ""
   },
   {
     "id": "ollama:nvidia-spark-performance",
     "title": "NVIDIA DGX Spark performance",
-    "date": "2025-10-23",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/nvidia-spark-performance",
     "source": "ollama",
-    "description": "Performance benchmarks on NVIDIA DGX Spark."
+    "description": ""
   },
   {
     "id": "ollama:minimax-m2",
     "title": "MiniMax M2",
-    "date": "2025-10-28",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/minimax-m2",
     "source": "ollama",
-    "description": "Running MiniMax M2 model locally."
+    "description": ""
   },
   {
     "id": "ollama:gpt-oss-safeguard",
     "title": "OpenAI gpt-oss-safeguard",
-    "date": "2025-10-29",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/gpt-oss-safeguard",
     "source": "ollama",
-    "description": "OpenAI's open-source safety model."
+    "description": ""
   },
   {
     "id": "ollama:codex",
     "title": "OpenAI Codex with Ollama",
-    "date": "2026-01-15",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/codex",
     "source": "ollama",
-    "description": "Open models with OpenAI's Codex CLI."
+    "description": ""
   },
   {
     "id": "ollama:claude",
     "title": "Claude Code with Anthropic API compatibility",
-    "date": "2026-01-16",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/claude",
     "source": "ollama",
-    "description": "Anthropic Messages API compatibility."
+    "description": ""
   },
   {
     "id": "ollama:image-generation",
     "title": "Image generation (experimental)",
-    "date": "2026-01-20",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/image-generation",
     "source": "ollama",
-    "description": "Local image generation capability."
+    "description": ""
   },
   {
     "id": "ollama:launch",
     "title": "ollama launch",
-    "date": "2026-01-23",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/launch",
     "source": "ollama",
-    "description": "New command for setup and execution of coding tools."
+    "description": ""
   },
   {
     "id": "ollama:openclaw",
     "title": "OpenClaw",
-    "date": "2026-02-01",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/openclaw",
     "source": "ollama",
-    "description": "Personal AI assistant connecting messaging apps to local AI."
+    "description": ""
   },
   {
     "id": "ollama:web-search-subagents-claude-code",
     "title": "Subagents and web search in Claude Code",
-    "date": "2026-02-16",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/web-search-subagents-claude-code",
     "source": "ollama",
-    "description": "Subagents and web search in Claude Code."
+    "description": ""
   },
   {
     "id": "ollama:openclaw-tutorial",
     "title": "The simplest and fastest way to setup OpenClaw",
-    "date": "2026-02-23",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/openclaw-tutorial",
     "source": "ollama",
-    "description": "Setup OpenClaw in under two minutes."
+    "description": ""
   },
   {
     "id": "ollama:mlx",
     "title": "Ollama is now powered by MLX on Apple Silicon in preview",
-    "date": "2026-03-30",
+    "date": "2025-01-01",
     "url": "https://ollama.com/blog/mlx",
     "source": "ollama",
-    "description": "MLX-powered Ollama on Apple Silicon."
+    "description": ""
   },
   {
-    "id": "cursor:secure-codebase-indexing",
-    "title": "Securely indexing large codebases",
-    "date": "2026-01-27",
-    "url": "https://cursor.com/blog/secure-codebase-indexing",
-    "source": "cursor",
-    "description": "Privacy-preserving codebase search infrastructure."
+    "id": "qwen:blog",
+    "title": "简体中文",
+    "date": "2025-01-01",
+    "url": "https://qwenlm.github.io/zh/blog/",
+    "source": "qwen",
+    "description": ""
   },
   {
-    "id": "cursor:self-driving-codebases",
-    "title": "Towards self-driving codebases",
-    "date": "2026-02-05",
-    "url": "https://cursor.com/blog/self-driving-codebases",
-    "source": "cursor",
-    "description": "Vision for autonomous repository management."
+    "id": "ollama:structured-outputs",
+    "title": "Structured outputs",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/structured-outputs",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:composer-1-5",
-    "title": "Introducing Composer 1.5",
-    "date": "2026-02-09",
-    "url": "https://cursor.com/blog/composer-1-5",
-    "source": "cursor",
-    "description": "Enhancement to composition model."
+    "id": "ollama:functions-as-tools",
+    "title": "Ollama Python library 0.4 with function calling improvements",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/functions-as-tools",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:increased-agent-usage",
-    "title": "Increased usage for agents",
-    "date": "2026-02-11",
-    "url": "https://cursor.com/blog/increased-agent-usage",
-    "source": "cursor",
-    "description": "Agent adoption trends."
+    "id": "ollama:llama3.2-vision",
+    "title": "Llama 3.2 Vision",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/llama3.2-vision",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:long-running-agents",
-    "title": "Expanding our long-running agents research preview",
-    "date": "2026-02-12",
-    "url": "https://cursor.com/blog/long-running-agents",
-    "source": "cursor",
-    "description": "Extended-duration agent capabilities."
+    "id": "ollama:ibm-granite",
+    "title": "IBM Granite 3.0 models",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/ibm-granite",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:marketplace",
-    "title": "Extend Cursor with plugins",
-    "date": "2026-02-17",
-    "url": "https://cursor.com/blog/marketplace",
-    "source": "cursor",
-    "description": "Plugin architecture for extensibility."
+    "id": "ollama:llama3.2",
+    "title": "Llama 3.2 goes small and multimodal",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/llama3.2",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:agent-sandboxing",
-    "title": "Implementing a secure sandbox for local agents",
-    "date": "2026-02-18",
-    "url": "https://cursor.com/blog/agent-sandboxing",
-    "source": "cursor",
-    "description": "Security architecture for isolated agent execution."
+    "id": "ollama:reduce-hallucinations-with-bespoke-minicheck",
+    "title": "Reduce hallucinations with Bespoke-Minicheck",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/reduce-hallucinations-with-bespoke-minicheck",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:agent-computer-use",
-    "title": "Cursor agents can now control their own computers",
-    "date": "2026-02-24",
-    "url": "https://cursor.com/blog/agent-computer-use",
-    "source": "cursor",
-    "description": "Direct system interaction for agents."
+    "id": "ollama:tool-support",
+    "title": "Tool support",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/tool-support",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:bugbot-autofix",
-    "title": "Closing the code review loop with Bugbot Autofix",
-    "date": "2026-02-26",
-    "url": "https://cursor.com/blog/bugbot-autofix",
-    "source": "cursor",
-    "description": "Automated code correction."
+    "id": "ollama:gemma2",
+    "title": "Google Gemma 2",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/gemma2",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:third-era",
-    "title": "The third era of AI software development",
-    "date": "2026-02-26",
-    "url": "https://cursor.com/blog/third-era",
-    "source": "cursor",
-    "description": "Autonomous cloud agents for larger tasks."
+    "id": "ollama:continue-code-assistant",
+    "title": "An entirely open-source AI code assistant inside your editor",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/continue-code-assistant",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:cursor-support",
-    "title": "How technical support at Cursor uses Cursor",
-    "date": "2026-03-03",
-    "url": "https://cursor.com/blog/cursor-support",
-    "source": "cursor",
-    "description": "Internal case study of Cursor adoption."
+    "id": "ollama:firebase-genkit",
+    "title": "Google announces Firebase Genkit with Ollama support",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/firebase-genkit",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:jetbrains-acp",
-    "title": "Cursor is now available in JetBrains IDEs",
-    "date": "2026-03-04",
-    "url": "https://cursor.com/blog/jetbrains-acp",
-    "source": "cursor",
-    "description": "JetBrains IDE integration."
+    "id": "ollama:llama-3-is-not-very-censored",
+    "title": "Llama 3 is not very censored",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/llama-3-is-not-very-censored",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:automations",
-    "title": "Build agents that run automatically",
-    "date": "2026-03-05",
-    "url": "https://cursor.com/blog/automations",
-    "source": "cursor",
-    "description": "Self-triggering autonomous workflows."
+    "id": "ollama:llama3",
+    "title": "Llama 3",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/llama3",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:cursorbench",
-    "title": "How we compare model quality in Cursor",
-    "date": "2026-03-11",
-    "url": "https://cursor.com/blog/cursorbench",
-    "source": "cursor",
-    "description": "Hybrid eval process for quality assessment."
+    "id": "ollama:embedding-models",
+    "title": "Embedding models",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/embedding-models",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:new-plugins",
-    "title": "Over 30 new plugins join the Cursor Marketplace",
-    "date": "2026-03-11",
-    "url": "https://cursor.com/blog/new-plugins",
-    "source": "cursor",
-    "description": "Marketplace expansion."
+    "id": "ollama:amd-preview",
+    "title": "Ollama now supports AMD graphics cards",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/amd-preview",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:security-agents",
-    "title": "Securing our codebase with autonomous agents",
-    "date": "2026-03-16",
-    "url": "https://cursor.com/blog/security-agents",
-    "source": "cursor",
-    "description": "Automated security scanning."
+    "id": "ollama:windows-preview",
+    "title": "Windows preview",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/windows-preview",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:self-summarization",
-    "title": "Training Composer for longer horizons",
-    "date": "2026-03-17",
-    "url": "https://cursor.com/blog/self-summarization",
-    "source": "cursor",
-    "description": "Expanding agent task planning."
+    "id": "ollama:openai-compatibility",
+    "title": "OpenAI compatibility",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/openai-compatibility",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:composer-2",
-    "title": "Introducing Composer 2",
-    "date": "2026-03-19",
-    "url": "https://cursor.com/blog/composer-2",
-    "source": "cursor",
-    "description": "Frontier-level coding with strong CursorBench results."
+    "id": "ollama:vision-models",
+    "title": "Vision models",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/vision-models",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:fast-regex-search",
-    "title": "Fast regex search: indexing text for agent tools",
-    "date": "2026-03-23",
-    "url": "https://cursor.com/blog/fast-regex-search",
-    "source": "cursor",
-    "description": "Efficient pattern matching for agents."
+    "id": "ollama:python-javascript-libraries",
+    "title": "Python & JavaScript Libraries",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/python-javascript-libraries",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:self-hosted-cloud-agents",
-    "title": "Run cloud agents in your own infrastructure",
-    "date": "2026-03-25",
-    "url": "https://cursor.com/blog/self-hosted-cloud-agents",
-    "source": "cursor",
-    "description": "Self-hosted deployment for agents."
+    "id": "ollama:building-llm-powered-web-apps",
+    "title": "Building LLM-Powered Web Apps with Client-Side Technology",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/building-llm-powered-web-apps",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:real-time-rl-for-composer",
-    "title": "Improving Composer through real-time RL",
-    "date": "2026-03-26",
-    "url": "https://cursor.com/blog/real-time-rl-for-composer",
-    "source": "cursor",
-    "description": "RL techniques for model enhancement."
+    "id": "ollama:ollama-is-now-available-as-an-official-docker-image",
+    "title": "Ollama is now available as an official Docker image",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:composer-2-technical-report",
-    "title": "A technical report on Composer 2",
-    "date": "2026-03-27",
-    "url": "https://cursor.com/blog/composer-2-technical-report",
-    "source": "cursor",
-    "description": "Technical analysis of Composer 2."
+    "id": "ollama:llms-in-obsidian",
+    "title": "Leveraging LLMs in your Obsidian Notes",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/llms-in-obsidian",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:cursor-3",
-    "title": "Meet the new Cursor",
-    "date": "2026-04-02",
-    "url": "https://cursor.com/blog/cursor-3",
-    "source": "cursor",
-    "description": "Cursor 3 - unified workspace with agents."
+    "id": "ollama:how-to-prompt-code-llama",
+    "title": "How to prompt Code Llama",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/how-to-prompt-code-llama",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:warp-decode",
-    "title": "Better MoE model inference with warp decode",
-    "date": "2026-04-06",
-    "url": "https://cursor.com/blog/warp-decode",
-    "source": "cursor",
-    "description": "MoE model inference optimization."
+    "id": "ollama:run-code-llama-locally",
+    "title": "Run Code Llama locally",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/run-code-llama-locally",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:bugbot-learning",
-    "title": "Bugbot now self-improves with learned rules",
-    "date": "2026-04-08",
-    "url": "https://cursor.com/blog/bugbot-learning",
-    "source": "cursor",
-    "description": "Self-improving code review automation."
+    "id": "ollama:run-llama2-uncensored-locally",
+    "title": "Run Llama 2 uncensored locally",
+    "date": "2025-01-01",
+    "url": "https://ollama.com/blog/run-llama2-uncensored-locally",
+    "source": "ollama",
+    "description": ""
   },
   {
-    "id": "cursor:multi-agent-kernels",
-    "title": "Speeding up GPU kernels by 38% with a multi-agent system",
-    "date": "2026-04-14",
-    "url": "https://cursor.com/blog/multi-agent-kernels",
-    "source": "cursor",
-    "description": "Multi-agent GPU optimization."
+    "id": "deepseek:deepseek-v31",
+    "title": "DeepSeek V3.1: New AI Frontier",
+    "date": "2025-01-01",
+    "url": "https://deepseek.ai/blog/deepseek-v31",
+    "source": "deepseek",
+    "description": ""
   },
   {
-    "id": "cursor:better-models-ambitious-work",
-    "title": "Better AI models enable more ambitious work",
-    "date": "2026-04-15",
-    "url": "https://cursor.com/blog/better-models-ambitious-work",
-    "source": "cursor",
-    "description": "How improved LLMs expand possibilities."
+    "id": "deepseek:what-is-deep-seek",
+    "title": "What is Deep Seek?",
+    "date": "2025-01-01",
+    "url": "https://deepseek.ai/blog/what-is-deep-seek",
+    "source": "deepseek",
+    "description": ""
   },
   {
-    "id": "cursor:canvas",
-    "title": "Interact with agent-created visualizations in canvases",
-    "date": "2026-04-15",
-    "url": "https://cursor.com/blog/canvas",
-    "source": "cursor",
-    "description": "Interactive visual outputs from agents."
+    "id": "deepseek:what-is-deep-learning-ai",
+    "title": "Deep Learning AI Explained",
+    "date": "2025-01-01",
+    "url": "https://deepseek.ai/blog/what-is-deep-learning-ai",
+    "source": "deepseek",
+    "description": ""
   },
   {
-    "id": "cursor:app-stability",
-    "title": "Keeping the Cursor app stable",
-    "date": "2026-04-21",
-    "url": "https://cursor.com/blog/app-stability",
-    "source": "cursor",
-    "description": "Reliability and stability improvements."
+    "id": "deepseek:deepseek-r2-challenges",
+    "title": "Deep Seek R2 Challenges",
+    "date": "2025-01-01",
+    "url": "https://deepseek.ai/blog/deepseek-r2-challenges",
+    "source": "deepseek",
+    "description": ""
   },
   {
-    "id": "cursor:spacex-model-training",
-    "title": "Cursor partners with SpaceX on model training",
-    "date": "2026-04-21",
-    "url": "https://cursor.com/blog/spacex-model-training",
-    "source": "cursor",
-    "description": "SpaceX partnership for AI model development."
+    "id": "perplexity:careers",
+    "title": "Careers",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/careers",
+    "source": "perplexity",
+    "description": ""
   },
   {
-    "id": "cursor:typescript-sdk",
-    "title": "Build programmatic agents with the Cursor SDK",
-    "date": "2026-04-29",
-    "url": "https://cursor.com/blog/typescript-sdk",
-    "source": "cursor",
-    "description": "TypeScript SDK for autonomous agents."
+    "id": "perplexity:helpcenter",
+    "title": "Help Center",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/helpcenter",
+    "source": "perplexity",
+    "description": ""
   },
   {
-    "id": "cursor:continually-improving-agent-harness",
-    "title": "Continually improving our agent harness",
-    "date": "2026-04-30",
-    "url": "https://cursor.com/blog/continually-improving-agent-harness",
-    "source": "cursor",
-    "description": "Agent execution framework updates."
+    "id": "perplexity:personal-computer-is-here",
+    "title": "Read more",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai./hub/blog/personal-computer-is-here",
+    "source": "perplexity",
+    "description": "Read more"
   },
   {
-    "id": "cursor:bootstrapping-composer-with-autoinstall",
-    "title": "Bootstrapping Composer with autoinstall",
-    "date": "2026-05-06",
-    "url": "https://cursor.com/blog/bootstrapping-composer-with-autoinstall",
-    "source": "cursor",
-    "description": "Automated Composer initialization."
+    "id": "perplexity:privacy-policy",
+    "title": "Privacy Policy",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/legal/privacy-policy",
+    "source": "perplexity",
+    "description": ""
   },
   {
-    "id": "cursor:may-2026-bugbot-changes",
-    "title": "Updates to Bugbot for Teams and Individuals",
-    "date": "2026-05-11",
-    "url": "https://cursor.com/blog/may-2026-bugbot-changes",
-    "source": "cursor",
-    "description": "Bugbot team and individual tier changes."
+    "id": "perplexity:security",
+    "title": "Security",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/security",
+    "source": "perplexity",
+    "description": ""
   },
   {
-    "id": "cursor:cloud-agent-development-environments",
-    "title": "Development environments for your cloud agents",
-    "date": "2026-05-13",
-    "url": "https://cursor.com/blog/cloud-agent-development-environments",
-    "source": "cursor",
-    "description": "Cloud-based agent infrastructure."
+    "id": "perplexity:terms-of-service",
+    "title": "Terms & Conditions",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
+    "source": "perplexity",
+    "description": ""
+  },
+  {
+    "id": "perplexity:getting-started",
+    "title": "Getting Started",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/getting-started",
+    "source": "perplexity",
+    "description": ""
+  },
+  {
+    "id": "perplexity:perplexity-api-terms-of-service",
+    "title": "API Terms of Service",
+    "date": "2025-01-01",
+    "url": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
+    "source": "perplexity",
+    "description": ""
   }
 ]
