@@ -111,10 +111,18 @@ def save_posts(posts_map: dict):
     print(f"Saved {len(posts)} posts to {DATA_FILE}")
 
 
+def clean_url(url: str) -> str:
+    """Fix common URL issues like extra dots in domain."""
+    # Fix trailing dot before path: perplexity.ai./hub -> perplexity.ai/hub
+    url = re.sub(r'(\.\w+)\./', r'\1/', url)
+    return url
+
+
 def add_post(posts_map: dict, source: str, title: str, date: str, url: str, description: str = ""):
     """Add a post if it's after cutoff and not a duplicate."""
     if date < CUTOFF_DATE:
         return
+    url = clean_url(url)
     slug = slug_from_url(url)
     post_id = f"{source}:{slug}"
     posts_map[post_id] = {
