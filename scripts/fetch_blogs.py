@@ -214,20 +214,28 @@ def add_post(posts_map: dict, source: str, title: str, date: str, url: str, desc
 # ---------------------------------------------------------------------------
 
 def fetch_anthropic(posts_map: dict):
-    """Fetch Claude/Anthropic blog + research posts."""
+    """Fetch Claude posts from 3 sources: claude.com/blog, anthropic.com/news, anthropic.com/research."""
     print("Fetching: Anthropic (Claude)...")
     try:
-        for base_url in ["https://www.anthropic.com/news", "https://www.anthropic.com/research"]:
+        sources = [
+            ("https://claude.com/blog", "/blog/", "https://claude.com"),
+            ("https://www.anthropic.com/news", "/news/", "https://www.anthropic.com"),
+            ("https://www.anthropic.com/research", "/research/", "https://www.anthropic.com"),
+        ]
+        for base_url, link_pattern, domain in sources:
+            print(f"  Scraping {base_url}...")
             resp = requests.get(base_url, headers=HEADERS, timeout=30)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
 
-            link_pattern = "/news/" if "/news" in base_url else "/research/"
             for a in soup.select(f"a[href*='{link_pattern}']"):
                 href = a.get("href", "")
                 if not href or href in (link_pattern, link_pattern.rstrip("/")):
                     continue
-                url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+                # Skip team/topic pages
+                if "/team/" in href or "/topic/" in href:
+                    continue
+                url = href if href.startswith("http") else f"{domain}{href}"
 
                 title_el = a.select_one("h3, h2, [class*='title'], [class*='heading']")
                 title = title_el.get_text(strip=True) if title_el else a.get_text(strip=True)

@@ -112,6 +112,14 @@
     "description": "May 6, 2026"
   },
   {
+    "id": "claude:new-in-claude-managed-agents",
+    "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+    "date": "2026-05-06",
+    "url": "https://claude.com/blog/new-in-claude-managed-agents",
+    "source": "claude",
+    "description": "Dreaming, outcomes, and multiagent orchestration for managed agents."
+  },
+  {
     "id": "claude:finance-agents",
     "title": "Agents for Financial Services",
     "date": "2026-05-05",
@@ -248,6 +256,22 @@
     "description": "National Australia Bank accelerates legacy migrations with Cursor"
   },
   {
+    "id": "claude:connectors-for-everyday-life",
+    "title": "New connectors in Claude for everyday life",
+    "date": "2026-04-23",
+    "url": "https://claude.com/blog/connectors-for-everyday-life",
+    "source": "claude",
+    "description": "New connectors for everyday life tasks."
+  },
+  {
+    "id": "claude:claude-managed-agents-memory",
+    "title": "Built-in memory for Claude Managed Agents",
+    "date": "2026-04-23",
+    "url": "https://claude.com/blog/claude-managed-agents-memory",
+    "source": "claude",
+    "description": "Persistent memory for managed agents."
+  },
+  {
     "id": "gemma:decoupled-diloco",
     "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
     "date": "2026-04-22",
@@ -368,12 +392,28 @@
     "description": "Speeding up GPU kernels by 38% with a multi-agent system"
   },
   {
+    "id": "claude:claude-code-desktop-redesign",
+    "title": "Redesigning Claude Code on desktop for parallel agents",
+    "date": "2026-04-14",
+    "url": "https://claude.com/blog/claude-code-desktop-redesign",
+    "source": "claude",
+    "description": "Desktop redesign for parallel agent workflows."
+  },
+  {
     "id": "gemma:gemini-robotics-er-1-6",
     "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
     "date": "2026-04-13",
     "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
     "source": "gemma",
     "description": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+  },
+  {
+    "id": "claude:preparing-security-program",
+    "title": "Preparing your security program for AI-accelerated offense",
+    "date": "2026-04-10",
+    "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
+    "source": "claude",
+    "description": "Security program preparation for AI-driven threats."
   },
   {
     "id": "perplexity:plaid-integration-provides-full-view-of-personal-finances",
@@ -390,6 +430,14 @@
     "url": "https://cursor.com/blog/bugbot-learning",
     "source": "cursor",
     "description": "Bugbot now self-improves with learned rules"
+  },
+  {
+    "id": "claude:claude-managed-agents",
+    "title": "Claude Managed Agents: get to production 10x faster",
+    "date": "2026-04-08",
+    "url": "https://claude.com/blog/claude-managed-agents",
+    "source": "claude",
+    "description": "Managed agents for faster production deployment."
   },
   {
     "id": "claude:glasswing",
@@ -438,6 +486,14 @@
     "url": "https://www.perplexity.ai/hub/blog/introducing-computer-for-taxes",
     "source": "perplexity",
     "description": "Apr 2, 2026"
+  },
+  {
+    "id": "claude:harnessing-claudes-intelligence",
+    "title": "Harnessing Claude's intelligence",
+    "date": "2026-04-02",
+    "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+    "source": "claude",
+    "description": "Guide to harnessing Claude's capabilities."
   },
   {
     "id": "perplexity:computer-in-slack-from-shared-context-to-finished-work",
@@ -646,6 +702,14 @@
     "url": "https://www.perplexity.ai/hub/blog/computer-for-enterprise",
     "source": "perplexity",
     "description": "Mar 12, 2026"
+  },
+  {
+    "id": "claude:claude-builds-visuals",
+    "title": "Claude now creates interactive charts, diagrams and visualizations",
+    "date": "2026-03-12",
+    "url": "https://claude.com/blog/claude-builds-visuals",
+    "source": "claude",
+    "description": "Interactive charts, diagrams and visualization creation."
   },
   {
     "id": "claude:the-anthropic-institute",
@@ -1296,6 +1360,14 @@
     "description": "Google 2025 recap: Research breakthroughs of the year"
   },
   {
+    "id": "claude:bloom",
+    "title": "Introducing Bloom: an open source tool for automated behavioral evaluations",
+    "date": "2025-12-19",
+    "url": "https://www.anthropic.com/research/bloom",
+    "source": "claude",
+    "description": "Open source tool for automated behavioral evaluations."
+  },
+  {
     "id": "claude:project-vend-2",
     "title": "Project Vend: Phase two",
     "date": "2025-12-18",
@@ -1384,6 +1456,14 @@
     "description": "Dec 9, 2025"
   },
   {
+    "id": "claude:how-enterprises-are-building-ai-agents-in-2026",
+    "title": "How enterprises are building AI agents in 2026",
+    "date": "2025-12-09",
+    "url": "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026",
+    "source": "claude",
+    "description": "Enterprise AI agent development trends."
+  },
+  {
     "id": "gemma:engineering-more-resilient-crops-for-a-warming-climate",
     "title": "Engineering more resilient crops for a warming climate",
     "date": "2025-12-04",
@@ -1462,6 +1542,30 @@
     "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
     "source": "gemma",
     "description": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI."
+  },
+  {
+    "id": "claude:estimating-productivity-gains",
+    "title": "Estimating AI productivity gains from Claude conversations",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/research/estimating-productivity-gains",
+    "source": "claude",
+    "description": "Measuring AI productivity gains."
+  },
+  {
+    "id": "claude:prompt-injection-defenses",
+    "title": "Mitigating the risk of prompt injections in browser use",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/research/prompt-injection-defenses",
+    "source": "claude",
+    "description": "Prompt injection defense research for browser use."
+  },
+  {
+    "id": "claude:emergent-misalignment-reward-hacking",
+    "title": "From shortcuts to sabotage: natural emergent misalignment from reward hacking",
+    "date": "2025-11-21",
+    "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+    "source": "claude",
+    "description": "Research on emergent misalignment from reward hacking."
   },
   {
     "id": "gemma:how-were-bringing-ai-image-verification-to-the-gemini-app",
@@ -1560,6 +1664,22 @@
     "description": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments."
   },
   {
+    "id": "claude:improving-frontend-design-through-skills",
+    "title": "Improving frontend design through Skills",
+    "date": "2025-11-12",
+    "url": "https://claude.com/blog/improving-frontend-design-through-skills",
+    "source": "claude",
+    "description": "Using Skills for better frontend design."
+  },
+  {
+    "id": "claude:project-fetch-robot-dog",
+    "title": "Project Fetch: Can Claude train a robot dog?",
+    "date": "2025-11-12",
+    "url": "https://www.anthropic.com/research/project-fetch-robot-dog",
+    "source": "claude",
+    "description": "Claude training a robot dog experiment."
+  },
+  {
     "id": "gemma:teaching-ai-to-see-the-world-more-like-we-do",
     "title": "Teaching AI to see the world more like we do",
     "date": "2025-11-11",
@@ -1608,6 +1728,14 @@
     "description": "Nov 4, 2025"
   },
   {
+    "id": "claude:deprecation-commitments",
+    "title": "Commitments on model deprecation and preservation",
+    "date": "2025-11-04",
+    "url": "https://www.anthropic.com/research/deprecation-commitments",
+    "source": "claude",
+    "description": "Model deprecation and preservation commitments."
+  },
+  {
     "id": "perplexity:introducing-privacy-snapshot",
     "title": "Introducing Privacy Snapshot",
     "date": "2025-10-31",
@@ -1638,6 +1766,14 @@
     "url": "https://ollama.com/blog/gpt-oss-safeguard",
     "source": "ollama",
     "description": ""
+  },
+  {
+    "id": "claude:introspection",
+    "title": "Signs of introspection in large language models",
+    "date": "2025-10-29",
+    "url": "https://www.anthropic.com/research/introspection",
+    "source": "claude",
+    "description": "Research on LLM introspection capabilities."
   },
   {
     "id": "perplexity:ai-at-work-getting-more-done-with-less-hype",
@@ -1894,6 +2030,14 @@
     "url": "https://ollama.com/blog/qwen3-vl",
     "source": "ollama",
     "description": ""
+  },
+  {
+    "id": "claude:economic-policy-responses",
+    "title": "Preparing for AI's economic impact: exploring policy responses",
+    "date": "2025-10-14",
+    "url": "https://www.anthropic.com/research/economic-policy-responses",
+    "source": "claude",
+    "description": "Policy responses to AI economic impact."
   },
   {
     "id": "ollama:nvidia-spark",
@@ -2864,6 +3008,14 @@
     "description": "Using Claude for long-running scientific computing tasks."
   },
   {
+    "id": "claude:vibe-physics",
+    "title": "Vibe physics: The AI grad student",
+    "date": "2025-03-23",
+    "url": "https://www.anthropic.com/research/vibe-physics",
+    "source": "claude",
+    "description": "AI as a graduate student in physics research."
+  },
+  {
     "id": "perplexity:rebuilding-tiktok-in-america",
     "title": "Rebuilding TikTok in America",
     "date": "2025-03-21",
@@ -3230,6 +3382,14 @@
     "url": "https://www.anthropic.com/research/economic-index-primitives",
     "source": "claude",
     "description": "Framework for understanding economic patterns of AI usage."
+  },
+  {
+    "id": "claude:anthropic-economic-index-january-2026-report",
+    "title": "Anthropic Economic Index report: Economic primitives",
+    "date": "2025-01-15",
+    "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+    "source": "claude",
+    "description": "Economic primitives report."
   },
   {
     "id": "qwen:qwen2.5-math-prm",
