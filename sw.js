@@ -1,13 +1,15 @@
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const STATIC_CACHE = `ainews-static-${CACHE_VERSION}`;
 const DATA_CACHE = `ainews-data-${CACHE_VERSION}`;
 
 const APP_SHELL = [
   './',
-  'index.html',
-  'css/styles.css',
-  'js/app.js',
-  'manifest.json',
+  './index.html',
+  './css/styles.css',
+  './js/app.js',
+  './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
 ];
 
 // ─── Install: pre-cache app shell ────────────────────────────────────────────

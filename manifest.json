@@ -2,8 +2,9 @@
   "name": "AI News - Blog Aggregator",
   "short_name": "AI News",
   "description": "Aggregated blog posts from top AI companies: Claude, Codex, DeepSeek, Gemma, Kimi, Qwen, OpenClaw, Ollama, Cursor, and more.",
-  "start_url": "/ai-blog/",
-  "scope": "/ai-blog/",
+  "start_url": "./",
+  "scope": "./",
+  "id": "/ai-blog/",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#0a0a0a",
@@ -15,13 +16,25 @@
       "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
