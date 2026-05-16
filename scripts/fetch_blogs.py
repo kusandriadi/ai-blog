@@ -111,85 +111,8 @@ def save_posts(posts_map: dict):
     print(f"Saved {len(posts)} posts to {DATA_FILE}")
 
 
-def extract_body(url: str, use_playwright: bool = False) -> str:
-    """Fetch a blog post URL and extract the main body text as clean HTML."""
-    try:
-        if use_playwright:
-            html = fetch_with_playwright(url, scroll=False, timeout=20000)
-        else:
-            resp = requests.get(url, headers=HEADERS, timeout=20)
-            resp.raise_for_status()
-            html = resp.text
-
-        soup = BeautifulSoup(html, "html.parser")
-
-        # Remove unwanted elements
-        for tag in soup.select("script, style, nav, header, footer, iframe, noscript, [class*='nav'], [class*='footer'], [class*='header'], [class*='sidebar'], [class*='cookie'], [class*='banner']"):
-            tag.decompose()
-
-        # Try common article selectors
-        article = (
-            soup.select_one("article") or
-            soup.select_one("[class*='post-content']") or
-            soup.select_one("[class*='article-content']") or
-            soup.select_one("[class*='blog-content']") or
-            soup.select_one("[class*='entry-content']") or
-            soup.select_one("[class*='prose']") or
-            soup.select_one("main") or
-            soup.select_one("[role='main']")
-        )
-
-        if not article:
-            return ""
-
-        # Keep only text-relevant tags, convert to simple HTML
-        allowed_tags = {"p", "h1", "h2", "h3", "h4", "ul", "ol", "li", "blockquote", "pre", "code", "strong", "em", "a", "br", "img"}
-        for tag in article.find_all(True):
-            if tag.name not in allowed_tags:
-                tag.unwrap()
-
-        # Clean up: remove empty elements, excess whitespace
-        body = article.decode_contents().strip()
-        # Collapse multiple blank lines
-        body = re.sub(r'\n{3,}', '\n\n', body)
-        return body[:50000]  # cap at 50KB per post
-
-    except Exception as e:
-        print(f"    Could not fetch body for {url}: {e}")
-        return ""
-
-
-# Which sources need Playwright for body fetching
+# Which sources need Playwright
 PLAYWRIGHT_SOURCES = {"deepseek", "cursor", "perplexity", "xai"}
-
-
-MAX_BODY_FETCH_PER_RUN = 30  # Limit to avoid GitHub Actions timeout
-
-
-def fetch_bodies(posts_map: dict):
-    """Fetch body content for posts that don't have it yet. Limited per run."""
-    missing = [p for p in posts_map.values() if "body" not in p]
-    if not missing:
-        print("All posts already have body content.")
-        return
-
-    # Prioritize newest posts first
-    missing.sort(key=lambda p: p["date"], reverse=True)
-    batch = missing[:MAX_BODY_FETCH_PER_RUN]
-
-    print(f"Fetching body for {len(batch)}/{len(missing)} posts (limit {MAX_BODY_FETCH_PER_RUN}/run)...")
-    fetched = 0
-    for i, post in enumerate(batch):
-        use_pw = post["source"] in PLAYWRIGHT_SOURCES
-        print(f"  [{i+1}/{len(batch)}] {post['source']}: {post['title'][:50]}...")
-        body = extract_body(post["url"], use_playwright=use_pw)
-        if body:
-            post["body"] = body
-            fetched += 1
-        else:
-            post["body"] = ""  # mark as attempted
-
-    print(f"  Fetched body for {fetched}/{len(batch)} posts ({len(missing) - len(batch)} remaining)")
 
 
 def clean_url(url: str) -> str:
@@ -703,10 +626,6 @@ def main():
         except Exception as e:
             print(f"  Unexpected error in {fetcher.__name__}: {e}")
         print()
-
-    # --- Fetch body content for new posts ---
-    print("--- Fetching post bodies ---\n")
-    fetch_bodies(posts_map)
 
     close_browser()
 

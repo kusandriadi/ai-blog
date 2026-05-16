@@ -92,53 +92,14 @@ function renderPosts() {
   emptyEl.style.display = 'none';
   postsEl.innerHTML = filtered
     .map(
-      (p, i) => `
-    <div class="post" data-index="${posts.indexOf(p)}" onclick="openPost(${posts.indexOf(p)})">
+      (p) => `
+    <a class="post" href="${escapeHtml(p.url)}" target="_blank" rel="noopener" title="${escapeHtml(p.description || '')}">
       <span class="post-date">${p.date}</span>
       <span class="post-source source-${p.source}">${p.source}</span>
       <span class="post-title">${escapeHtml(p.title)}</span>
-    </div>`
+    </a>`
     )
     .join('');
-}
-
-// ─── Post Detail View ─────────────────────────────────────────────────────────
-function openPost(index) {
-  const post = posts[index];
-  if (!post) return;
-
-  const modal = document.getElementById('post-modal');
-  const modalTitle = document.getElementById('modal-title');
-  const modalMeta = document.getElementById('modal-meta');
-  const modalBody = document.getElementById('modal-body');
-
-  modalTitle.textContent = post.title;
-  modalMeta.innerHTML = `
-    <span class="post-source source-${post.source}">${post.source}</span>
-    <span class="modal-date">${post.date}</span>
-    <a href="${escapeHtml(post.url)}" target="_blank" rel="noopener" class="modal-link">Open original</a>
-  `;
-
-  if (post.body) {
-    modalBody.innerHTML = post.body;
-  } else if (post.description) {
-    modalBody.innerHTML = `<p>${escapeHtml(post.description)}</p><p class="modal-note">Full content not yet fetched. <a href="${escapeHtml(post.url)}" target="_blank" rel="noopener">Read on original site</a></p>`;
-  } else {
-    modalBody.innerHTML = `<p class="modal-note">Content not available. <a href="${escapeHtml(post.url)}" target="_blank" rel="noopener">Read on original site</a></p>`;
-  }
-
-  modal.classList.add('show');
-  document.body.style.overflow = 'hidden';
-  history.pushState({ post: index }, '', `?post=${post.id}`);
-}
-
-function closePost() {
-  const modal = document.getElementById('post-modal');
-  modal.classList.remove('show');
-  document.body.style.overflow = '';
-  // Restore URL
-  const url = currentFilter === 'all' ? './' : `?source=${currentFilter}`;
-  history.pushState(null, '', url);
 }
 
 function escapeHtml(str) {
@@ -174,7 +135,6 @@ function dismissInstall() {
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 (function init() {
-  // Theme
   setTheme(getTheme());
   const themeBtn = document.getElementById('theme-toggle');
   if (themeBtn) {
@@ -183,43 +143,16 @@ function dismissInstall() {
     });
   }
 
-  // Read filter from URL
   const params = new URLSearchParams(window.location.search);
   if (params.get('source') && SOURCES[params.get('source')]) {
     currentFilter = params.get('source');
   }
 
-  // Close modal
-  const closeBtn = document.getElementById('modal-close');
-  if (closeBtn) closeBtn.addEventListener('click', closePost);
-  const overlay = document.getElementById('post-modal');
-  if (overlay) {
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) closePost();
-    });
-  }
-
-  // Back button closes modal
-  window.addEventListener('popstate', () => {
-    const modal = document.getElementById('post-modal');
-    if (modal && modal.classList.contains('show')) {
-      modal.classList.remove('show');
-      document.body.style.overflow = '';
-    }
-  });
-
-  // Escape key closes modal
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closePost();
-  });
-
-  // Install buttons
   const installBtn = document.getElementById('btn-install');
   if (installBtn) installBtn.addEventListener('click', installApp);
   const dismissBtn = document.getElementById('btn-dismiss');
   if (dismissBtn) dismissBtn.addEventListener('click', dismissInstall);
 
-  // Service Worker
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('sw.js').catch(() => {});
