@@ -91,12 +91,15 @@ def close_browser():
         _playwright = None
 
 
-def fetch_with_playwright(url: str, wait_selector: str = None, scroll: bool = True, timeout: int = 30000) -> str:
+def fetch_with_playwright(url: str, wait_selector: str = None, scroll: bool = True, timeout: int = 30000, wait_until: str = "networkidle") -> str:
     browser = get_browser()
     context = browser.new_context(user_agent=HEADERS["User-Agent"])
     page = context.new_page()
     try:
-        page.goto(url, wait_until="networkidle", timeout=timeout)
+        try:
+            page.goto(url, wait_until=wait_until, timeout=timeout)
+        except Exception as e:
+            print(f"    goto warning ({url}): {e}")
         if wait_selector:
             try:
                 page.wait_for_selector(wait_selector, timeout=10000)
@@ -701,13 +704,18 @@ def fetch_qwen(posts_map: dict):
     Post URLs look like https://qwen.ai/blog?id=<slug>."""
     print("Fetching: Qwen (Playwright)...")
     try:
-        html = fetch_with_playwright("https://qwen.ai/research", wait_selector="a", scroll=True)
+        html = fetch_with_playwright(
+            "https://qwen.ai/research",
+            wait_selector="a",
+            scroll=True,
+            wait_until="domcontentloaded",
+        )
         soup = BeautifulSoup(html, "html.parser")
+        print(f"  HTML length: {len(html)}; title: {(soup.title.string if soup.title else None)!r}")
         all_hrefs = sorted({(a.get("href") or "").strip() for a in soup.find_all("a", href=True)})
-        # Debug: print a sample of distinct hrefs so we can diagnose if no match
         blog_hrefs = [h for h in all_hrefs if "/blog" in h or "id=" in h]
         print(f"  Page has {len(all_hrefs)} unique anchors, {len(blog_hrefs)} with /blog or id=")
-        for h in blog_hrefs[:20]:
+        for h in (all_hrefs[:10] if not blog_hrefs else blog_hrefs[:20]):
             print(f"    {h}")
         seen = set()
         # Accept both ?id= and other variants
