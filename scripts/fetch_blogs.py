@@ -49,7 +49,7 @@ URL_PATTERNS = {
     ),
     "gemma": re.compile(r"^https?://deepmind\.google/.+$"),
     "kimi": re.compile(r"^https?://(?:www\.)?kimi\.com/blog/[^/?#]+/?$"),
-    "qwen": re.compile(r"^https?://(?:www\.)?qwen\.ai/blog/[^/?#]+/?$"),
+    "qwen": re.compile(r"^https?://(?:www\.)?qwen\.ai/blog\?id=[^&#]+$"),
     "openclaw": re.compile(r"^https?://openclaw\.ai/blog/[^/?#]+/?$"),
     "ollama": re.compile(r"^https?://ollama\.com/blog/[^/?#]+/?$"),
     "cursor": re.compile(
@@ -239,7 +239,14 @@ def fetch_article_date(url: str) -> str:
 # ---------------------------------------------------------------------------
 
 def slug_from_url(url: str) -> str:
-    path = urlparse(url).path.rstrip("/")
+    """Extract a slug for the post id. Prefers the `?id=` query param
+    (used by qwen.ai/blog?id=…), then the last path segment."""
+    from urllib.parse import parse_qs
+    parsed = urlparse(url)
+    qs = parse_qs(parsed.query)
+    if "id" in qs and qs["id"]:
+        return qs["id"][0]
+    path = parsed.path.rstrip("/")
     return path.split("/")[-1] if path else url
 
 
@@ -690,15 +697,16 @@ def fetch_perplexity(posts_map: dict):
 
 
 def fetch_qwen(posts_map: dict):
-    """Fetch Qwen posts from qwen.ai/blog (JS-rendered)."""
+    """Fetch Qwen posts from qwen.ai/research (JS-rendered).
+    Post URLs look like https://qwen.ai/blog?id=<slug>."""
     print("Fetching: Qwen (Playwright)...")
     try:
-        html = fetch_with_playwright("https://qwen.ai/blog/", wait_selector="a[href*='/blog/']", scroll=True)
+        html = fetch_with_playwright("https://qwen.ai/research", wait_selector="a[href*='/blog?id=']", scroll=True)
         soup = BeautifulSoup(html, "html.parser")
         seen = set()
-        for a in soup.select("a[href*='/blog/']"):
+        for a in soup.select("a[href*='/blog?id=']"):
             href = (a.get("href") or "").strip()
-            if not href or href.rstrip("/").endswith("/blog"):
+            if not href:
                 continue
             url = href if href.startswith("http") else f"https://qwen.ai{href}"
             url = clean_url(url)
@@ -707,7 +715,7 @@ def fetch_qwen(posts_map: dict):
             seen.add(url)
             card = _find_card(a) or a
             h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else a.get_text(strip=True)
+            title = h.get_text(strip=True) if h else a.get_text(" ", strip=True)
             date_str = _extract_date_from_card(card)
             desc_el = card.find("p") if card else None
             desc = desc_el.get_text(strip=True) if desc_el else ""
