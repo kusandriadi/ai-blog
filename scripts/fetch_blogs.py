@@ -736,24 +736,36 @@ def fetch_perplexity(posts_map: dict):
 
 
 def fetch_qwen(posts_map: dict):
-    """Fetch Qwen posts from qwen.ai/research (JS-rendered).
-    Post URLs look like https://qwen.ai/blog?id=<slug>.
-
-    NOTE: qwen.ai bot-blocks headless Chrome — the page returns no
-    rendered anchors even after a 30s wait_for_function on a[href*=id=].
-    Until we have a workaround (e.g. real browser, Hugging Face mirror,
-    or hidden API endpoint), this fetcher will return zero posts.
-    """
-    print("Fetching: Qwen (Playwright)...")
+    """Fetch Qwen posts from qwen.ai/research using Firefox (Chromium is bot-blocked)."""
+    print("Fetching: Qwen (Playwright/Firefox)...")
     try:
-        html = fetch_with_playwright(
-            "https://qwen.ai/research",
-            wait_selector="a[href*='id=']",
-            scroll=True,
-            wait_until="domcontentloaded",
-            timeout=45000,
-        )
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.firefox.launch(headless=True)
+            ctx = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
+                viewport={"width": 1366, "height": 768},
+                locale="en-US",
+            )
+            page = ctx.new_page()
+            try:
+                page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
+                try:
+                    page.wait_for_function(
+                        "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
+                        timeout=20000,
+                    )
+                except Exception:
+                    pass
+                for _ in range(4):
+                    page.evaluate("window.scrollBy(0, window.innerHeight)")
+                    page.wait_for_timeout(1000)
+                html = page.content()
+            finally:
+                ctx.close()
+                browser.close()
         soup = BeautifulSoup(html, "html.parser")
+        print(f"  Firefox HTML length: {len(html)}; anchors: {len(soup.find_all('a', href=True))}")
         seen = set()
         for a in soup.find_all("a", href=True):
             href = (a.get("href") or "").strip()
@@ -774,7 +786,7 @@ def fetch_qwen(posts_map: dict):
             desc = desc_el.get_text(strip=True) if desc_el else ""
             add_post(posts_map, "qwen", title, date_str, url, desc)
         if not seen:
-            print("  (no Qwen posts extracted — site appears to bot-block headless Chrome)")
+            print("  (no Qwen posts extracted)")
     except Exception as e:
         print(f"  Error fetching Qwen: {e}")
 

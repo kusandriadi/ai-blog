@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4 playwright
-          playwright install chromium --with-deps
+          playwright install chromium firefox --with-deps
 
       - name: Fetch blog posts
         run: python scripts/fetch_blogs.py
