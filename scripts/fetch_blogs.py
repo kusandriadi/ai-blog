@@ -701,54 +701,27 @@ def fetch_perplexity(posts_map: dict):
 
 def fetch_qwen(posts_map: dict):
     """Fetch Qwen posts from qwen.ai/research (JS-rendered).
-    Post URLs look like https://qwen.ai/blog?id=<slug>."""
+    Post URLs look like https://qwen.ai/blog?id=<slug>.
+
+    NOTE: qwen.ai bot-blocks headless Chrome — the page returns no
+    rendered anchors even after a 30s wait_for_function on a[href*=id=].
+    Until we have a workaround (e.g. real browser, Hugging Face mirror,
+    or hidden API endpoint), this fetcher will return zero posts.
+    """
     print("Fetching: Qwen (Playwright)...")
     try:
-        browser = get_browser()
-        ctx = browser.new_context(user_agent=HEADERS["User-Agent"])
-        page = ctx.new_page()
-        captured_responses = []
-        def on_response(resp):
-            try:
-                url_r = resp.url
-                ct = (resp.headers or {}).get("content-type", "")
-                if "application/json" in ct and ("blog" in url_r.lower() or "post" in url_r.lower() or "wix" in url_r.lower() or "_api" in url_r.lower()):
-                    captured_responses.append(url_r)
-            except Exception:
-                pass
-        page.on("response", on_response)
-        try:
-            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
-            # Wait until at least one anchor with id= is rendered (up to 30s),
-            # or fall through if it never happens.
-            try:
-                page.wait_for_function(
-                    "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
-                    timeout=30000,
-                )
-            except Exception as e:
-                print(f"    wait_for_function timed out: {e}")
-            for _ in range(4):
-                page.evaluate("window.scrollBy(0, window.innerHeight)")
-                page.wait_for_timeout(1000)
-            # Pull links + titles via direct JS so we see post-rendering DOM
-            dom_data = page.evaluate("""() => {
-                const anchors = Array.from(document.querySelectorAll('a[href]')).map(a => ({href: a.getAttribute('href'), text: a.innerText.trim().slice(0, 200)}));
-                const idLinks = Array.from(document.querySelectorAll('[onclick], [data-id], [data-postid], [role="link"]')).map(e => ({tag: e.tagName, oc: e.getAttribute('onclick') || '', dataId: e.getAttribute('data-id') || e.getAttribute('data-postid') || '', text: e.innerText.trim().slice(0, 120)})).slice(0, 15);
-                return {anchors, idLinks};
-            }""")
-        finally:
-            ctx.close()
-        anchors = dom_data.get("anchors", []) if dom_data else []
-        print(f"  dom anchors: {len(anchors)}")
-        for a in anchors[:20]:
-            href = a.get("href", "")
-            if "id=" in href or "/blog" in href:
-                print(f"    a {href}  |  {a['text'][:80]}")
+        html = fetch_with_playwright(
+            "https://qwen.ai/research",
+            wait_selector="a[href*='id=']",
+            scroll=True,
+            wait_until="domcontentloaded",
+            timeout=45000,
+        )
+        soup = BeautifulSoup(html, "html.parser")
         seen = set()
-        for a in anchors:
+        for a in soup.find_all("a", href=True):
             href = (a.get("href") or "").strip()
-            if not href or "id=" not in href:
+            if "id=" not in href:
                 continue
             url = href if href.startswith("http") else (
                 f"https://qwen.ai{href}" if href.startswith("/") else f"https://qwen.ai/{href}"
@@ -757,8 +730,15 @@ def fetch_qwen(posts_map: dict):
             if url in seen:
                 continue
             seen.add(url)
-            title = (a.get("text") or "").strip().splitlines()[0][:200]
-            add_post(posts_map, "qwen", title, "", url, "")
+            card = _find_card(a) or a
+            h = card.find(["h1", "h2", "h3", "h4"]) if card else None
+            title = h.get_text(strip=True) if h else a.get_text(" ", strip=True)
+            date_str = _extract_date_from_card(card)
+            desc_el = card.find("p") if card else None
+            desc = desc_el.get_text(strip=True) if desc_el else ""
+            add_post(posts_map, "qwen", title, date_str, url, desc)
+        if not seen:
+            print("  (no Qwen posts extracted — site appears to bot-block headless Chrome)")
     except Exception as e:
         print(f"  Error fetching Qwen: {e}")
 
