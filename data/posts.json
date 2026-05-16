@@ -105,7 +105,7 @@
   },
   {
     "id": "claude:code-w-claude-sf-2026-sf",
-    "title": "Code w/ Claude SF 2026: Building on the AI exponential",
+    "title": "Code w/ Claude SF 2026 recap: Building on the AI exponential",
     "date": "2026-05-12",
     "url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
     "source": "claude",
@@ -816,12 +816,28 @@
     "description": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces."
   },
   {
+    "id": "openai:realtime-perplexity-computer",
+    "title": "How Perplexity Brought Voice Search to Millions Using the Realtime API",
+    "date": "2026-03-25",
+    "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "cursor:fast-regex-search",
     "title": "Fast regex search: indexing text for agent tools",
     "date": "2026-03-23",
     "url": "https://cursor.com/blog/fast-regex-search",
     "source": "cursor",
     "description": "Efficient pattern matching for agents."
+  },
+  {
+    "id": "openai:designing-delightful-frontends-with-gpt-5-4",
+    "title": "Designing delightful frontends with GPT-5.4",
+    "date": "2026-03-20",
+    "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
+    "source": "openai",
+    "description": ""
   },
   {
     "id": "cursor:composer-2",
@@ -992,6 +1008,14 @@
     "description": "Mar 11, 2026"
   },
   {
+    "id": "openai:one-year-of-responses",
+    "title": "From prompts to products: One year of Responses",
+    "date": "2026-03-11",
+    "url": "https://developers.openai.com/blog/one-year-of-responses",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "claude:sydney-fourth-office-asia-pacific",
     "title": "Sydney Fourth Asia-Pacific Office",
     "date": "2026-03-10",
@@ -1008,11 +1032,11 @@
     "description": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI."
   },
   {
-    "id": "codex:skills-agents-sdk",
+    "id": "openai:skills-agents-sdk",
     "title": "Using skills to accelerate OSS maintenance",
     "date": "2026-03-09",
     "url": "https://developers.openai.com/blog/skills-agents-sdk",
-    "source": "codex",
+    "source": "openai",
     "description": "Using skills and GitHub Actions to optimize Codex workflows."
   },
   {
@@ -1128,11 +1152,11 @@
     "description": "Feb 26, 2026"
   },
   {
-    "id": "codex:building-frontend-uis-with-codex-and-figma",
+    "id": "openai:building-frontend-uis-with-codex-and-figma",
     "title": "Building frontend UIs with Codex and Figma",
     "date": "2026-02-26",
     "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
-    "source": "codex",
+    "source": "openai",
     "description": "Use Codex and Figma to bring real interfaces into Figma and back."
   },
   {
@@ -1176,20 +1200,20 @@
     "description": "Security research on model theft prevention mechanisms."
   },
   {
-    "id": "codex:run-long-horizon-tasks-with-codex",
-    "title": "Run long horizon tasks with Codex",
-    "date": "2026-02-23",
-    "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
-    "source": "codex",
-    "description": "Guide on running long-duration tasks with Codex."
-  },
-  {
     "id": "ollama:openclaw-tutorial",
     "title": "The simplest and fastest way to setup OpenClaw",
     "date": "2026-02-23",
     "url": "https://ollama.com/blog/openclaw-tutorial",
     "source": "ollama",
     "description": "Setup OpenClaw in under two minutes with a single Ollama command."
+  },
+  {
+    "id": "openai:run-long-horizon-tasks-with-codex",
+    "title": "Run long horizon tasks with Codex",
+    "date": "2026-02-23",
+    "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
+    "source": "openai",
+    "description": "Guide on running long-duration tasks with Codex."
   },
   {
     "id": "claude:claude-code-security",
@@ -1344,6 +1368,14 @@
     "description": "Agent adoption trends."
   },
   {
+    "id": "openai:skills-shell-tips",
+    "title": "Shell + Skills + Compaction: Tips for long-running agents that do real work",
+    "date": "2026-02-11",
+    "url": "https://developers.openai.com/blog/skills-shell-tips",
+    "source": "openai",
+    "description": "Tips for building long-running agents that do real work."
+  },
+  {
     "id": "kimi:agent-swarm",
     "title": "Agent Swarm",
     "date": "2026-02-09",
@@ -1406,6 +1438,14 @@
     "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
     "source": "claude",
     "description": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust."
+  },
+  {
+    "id": "openai:15-lessons-building-chatgpt-apps",
+    "title": "15 lessons learned building ChatGPT Apps",
+    "date": "2026-02-04",
+    "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
+    "source": "openai",
+    "description": "Lessons from building ChatGPT-powered applications."
   },
   {
     "id": "kimi:worldvqa",
@@ -1520,11 +1560,11 @@
     "description": ""
   },
   {
-    "id": "codex:eval-skills",
+    "id": "openai:eval-skills",
     "title": "Testing Agent Skills Systematically with Evals",
     "date": "2026-01-22",
     "url": "https://developers.openai.com/blog/eval-skills",
-    "source": "codex",
+    "source": "openai",
     "description": "A practical guide to turning agent skills into something you can test, score, and improve."
   },
   {
@@ -1592,11 +1632,11 @@
     "description": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
   },
   {
-    "id": "codex:skyscanner-codex-jetbrains-mcp",
+    "id": "openai:skyscanner-codex-jetbrains-mcp",
     "title": "Supercharging Codex with JetBrains MCP at Skyscanner",
     "date": "2026-01-11",
     "url": "https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp",
-    "source": "codex",
+    "source": "openai",
     "description": "How Skyscanner uses Codex with JetBrains MCP integration."
   },
   {
@@ -1608,12 +1648,28 @@
     "description": "Jan 8, 2026"
   },
   {
+    "id": "openai:openai-for-developers-2025",
+    "title": "OpenAI for Developers in 2025",
+    "date": "2025-12-30",
+    "url": "https://developers.openai.com/blog/openai-for-developers-2025",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "gemma:googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
     "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
     "date": "2025-12-23",
     "url": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
     "source": "gemma",
     "description": "Google 2025 recap: Research breakthroughs of the year"
+  },
+  {
+    "id": "openai:updates-audio-models",
+    "title": "Updates for developers building with voice",
+    "date": "2025-12-22",
+    "url": "https://developers.openai.com/blog/updates-audio-models",
+    "source": "openai",
+    "description": ""
   },
   {
     "id": "claude:bloom",
@@ -1814,6 +1870,14 @@
     "url": "https://www.anthropic.com/research/prompt-injection-defenses",
     "source": "claude",
     "description": "Prompt injection defense research for browser use."
+  },
+  {
+    "id": "openai:what-makes-a-great-chatgpt-app",
+    "title": "What makes a great ChatGPT app",
+    "date": "2025-11-24",
+    "url": "https://developers.openai.com/blog/what-makes-a-great-chatgpt-app",
+    "source": "openai",
+    "description": ""
   },
   {
     "id": "claude:emergent-misalignment-reward-hacking",
@@ -2048,11 +2112,11 @@
     "description": "MiniMax M2 is now available on Ollama's cloud. It's a model built for coding and agentic workflows."
   },
   {
-    "id": "codex:codex-for-documentation-dagster",
+    "id": "openai:codex-for-documentation-dagster",
     "title": "Using Codex for education at Dagster Labs",
     "date": "2025-10-27",
     "url": "https://developers.openai.com/blog/codex-for-documentation-dagster",
-    "source": "codex",
+    "source": "openai",
     "description": ""
   },
   {
@@ -2312,11 +2376,11 @@
     "description": "The latest NVIDIA DGX Spark is here! Ollama has partnered with NVIDIA to ensure it runs fast and efficiently out-of-the-box."
   },
   {
-    "id": "codex:codex-at-devday",
+    "id": "openai:codex-at-devday",
     "title": "How Codex ran OpenAI DevDay 2025",
     "date": "2025-10-10",
     "url": "https://developers.openai.com/blog/codex-at-devday",
-    "source": "codex",
+    "source": "openai",
     "description": ""
   },
   {
@@ -2368,6 +2432,14 @@
     "description": "Sep 22, 2025"
   },
   {
+    "id": "openai:responses-api",
+    "title": "Why we built the Responses API",
+    "date": "2025-09-22",
+    "url": "https://developers.openai.com/blog/responses-api",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "ollama:cloud-models",
     "title": "Cloud models",
     "date": "2025-09-19",
@@ -2390,6 +2462,22 @@
     "url": "https://www.perplexity.ai/hub/blog/secure-credentials-on-comet-with-1password",
     "source": "perplexity",
     "description": "Sep 17, 2025"
+  },
+  {
+    "id": "openai:realtime-api",
+    "title": "Developer notes on the Realtime API",
+    "date": "2025-09-12",
+    "url": "https://developers.openai.com/blog/realtime-api",
+    "source": "openai",
+    "description": ""
+  },
+  {
+    "id": "openai:intro",
+    "title": "Hello, world!",
+    "date": "2025-09-11",
+    "url": "https://developers.openai.com/blog/intro",
+    "source": "openai",
+    "description": ""
   },
   {
     "id": "perplexity:introducing-perplexity-for-government",
@@ -3232,14 +3320,6 @@
     "description": "Feb 14, 2025"
   },
   {
-    "id": "codex:skills-shell-tips",
-    "title": "Shell + Skills + Compaction: Tips for long-running agents",
-    "date": "2025-02-11",
-    "url": "https://developers.openai.com/blog/skills-shell-tips",
-    "source": "codex",
-    "description": "Tips for building long-running agents that do real work."
-  },
-  {
     "id": "perplexity:meet-new-sonar",
     "title": "Meet New Sonar",
     "date": "2025-02-11",
@@ -3254,14 +3334,6 @@
     "url": "https://www.perplexity.ai/hub/blog/high-performance-gpu-memory-transfer-on-aws",
     "source": "perplexity",
     "description": "Feb 10, 2025"
-  },
-  {
-    "id": "codex:15-lessons-building-chatgpt-apps",
-    "title": "15 lessons learned building ChatGPT Apps",
-    "date": "2025-02-04",
-    "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
-    "source": "codex",
-    "description": "Lessons from building ChatGPT-powered applications."
   },
   {
     "id": "claude:AI-assistance-coding-skills",

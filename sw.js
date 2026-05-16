@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v7';
+const CACHE_VERSION = 'v8';
 const STATIC_CACHE = `ainews-static-${CACHE_VERSION}`;
 const DATA_CACHE = `ainews-data-${CACHE_VERSION}`;
 

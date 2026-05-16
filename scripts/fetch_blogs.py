@@ -44,7 +44,7 @@ URL_PATTERNS = {
     "claude": re.compile(
         r"^https?://(?:www\.)?(?:claude\.com/blog|anthropic\.com/(?:news|research))/(?!category/|topic/|team/)[^/?#]+/?$"
     ),
-    "codex": re.compile(
+    "openai": re.compile(
         r"^https?://developers\.openai\.com/blog/(?!topic/|category/)[^/?#]+/?$"
     ),
     "gemma": re.compile(r"^https?://deepmind\.google/.+$"),
@@ -294,6 +294,21 @@ def add_post(posts_map: dict, source: str, title: str, date: str, url: str, desc
     }
 
 
+def migrate_source(posts_map: dict, old: str, new: str):
+    """Rename a source key in-place (id and source field)."""
+    moved = 0
+    for post_id in list(posts_map.keys()):
+        p = posts_map[post_id]
+        if p["source"] == old:
+            del posts_map[post_id]
+            p["source"] = new
+            p["id"] = f"{new}:{post_id.split(':', 1)[1]}"
+            posts_map[p["id"]] = p
+            moved += 1
+    if moved:
+        print(f"Migrated {moved} entries: {old} -> {new}")
+
+
 def cleanup_stale(posts_map: dict):
     """Remove entries whose source was dropped, or whose URL no longer matches
     its source's pattern."""
@@ -454,17 +469,15 @@ def fetch_anthropic(posts_map: dict):
             print(f"  Error fetching {base_url}: {e}")
 
 
-def fetch_openai_codex(posts_map: dict):
-    """Fetch OpenAI Codex blog posts. Listing shows month/day without year,
-    so we always look up the date on the article page itself."""
-    print("Fetching: OpenAI Codex...")
+def fetch_openai(posts_map: dict):
+    """Fetch OpenAI Developer Blog posts (all topics). Listing shows month/day
+    without year, so dates are always looked up on the article page."""
+    print("Fetching: OpenAI Developer Blog...")
     try:
-        resp = requests.get("https://developers.openai.com/blog/topic/codex", headers=HEADERS, timeout=30)
+        resp = requests.get("https://developers.openai.com/blog", headers=HEADERS, timeout=30)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         seen = set()
-        # Only iterate the main resource cards — skip the "Recent" sidebar
-        # (it contains posts unrelated to Codex).
         for a in soup.select("a.resource-item[href*='/blog/']"):
             href = (a.get("href") or "").strip()
             if not href or "/topic/" in href or href.rstrip("/").endswith("/blog"):
@@ -474,7 +487,6 @@ def fetch_openai_codex(posts_map: dict):
             if url in seen:
                 continue
             seen.add(url)
-            # Title lives in the line-clamp div; fall back to img alt.
             title_el = a.select_one("[class*='line-clamp']")
             if title_el:
                 title = title_el.get_text(strip=True)
@@ -482,9 +494,9 @@ def fetch_openai_codex(posts_map: dict):
                 img = a.find("img", alt=True)
                 title = img.get("alt", "").strip() if img else a.get_text(" ", strip=True)
             date_str = fetch_article_date(url)
-            add_post(posts_map, "codex", title, date_str, url, "")
+            add_post(posts_map, "openai", title, date_str, url, "")
     except Exception as e:
-        print(f"  Error fetching OpenAI Codex: {e}")
+        print(f"  Error fetching OpenAI Developer Blog: {e}")
 
 
 def fetch_gemma(posts_map: dict):
@@ -743,6 +755,7 @@ def main():
     existing_count = len(posts_map)
     print(f"Loaded {existing_count} existing posts")
 
+    migrate_source(posts_map, "codex", "openai")
     cleanup_stale(posts_map)
     cleanup_titles(posts_map)
     refetch_fallback_dates(posts_map)
@@ -750,7 +763,7 @@ def main():
 
     standard_fetchers = [
         fetch_anthropic,
-        fetch_openai_codex,
+        fetch_openai,
         fetch_gemma,
         fetch_kimi,
         fetch_openclaw,

@@ -1,7 +1,7 @@
 const SOURCES = {
   all: 'All',
   claude: 'Claude',
-  codex: 'Codex',
+  openai: 'OpenAI',
   gemma: 'Gemma',
   kimi: 'Kimi',
   qwen: 'Qwen',
