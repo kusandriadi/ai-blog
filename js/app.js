@@ -107,9 +107,12 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
 function formatDate(iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
-  return m ? `${m[3]}-${m[2]}-${m[1]}` : iso;
+  if (!m) return iso;
+  return `${MONTHS[parseInt(m[2], 10) - 1]} ${parseInt(m[3], 10)}, ${m[1]}`;
 }
 
 // ─── Install Banner (PWA) ─────────────────────────────────────────────────────
