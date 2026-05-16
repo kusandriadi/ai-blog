@@ -738,32 +738,35 @@ def fetch_perplexity(posts_map: dict):
 def fetch_qwen(posts_map: dict):
     """Fetch Qwen posts from qwen.ai/research using Firefox (Chromium is bot-blocked)."""
     print("Fetching: Qwen (Playwright/Firefox)...")
+    # Reuse the running playwright instance, launch firefox alongside the
+    # default chromium so we can't trip the 'sync API inside asyncio loop' error.
+    get_browser()  # ensure _playwright is initialized
+    firefox = _playwright.firefox.launch(headless=True)
     try:
-        from playwright.sync_api import sync_playwright
-        with sync_playwright() as p:
-            browser = p.firefox.launch(headless=True)
-            ctx = browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
-                viewport={"width": 1366, "height": 768},
-                locale="en-US",
-            )
-            page = ctx.new_page()
+        ctx = firefox.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
+            viewport={"width": 1366, "height": 768},
+            locale="en-US",
+        )
+        page = ctx.new_page()
+        try:
+            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
             try:
-                page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
-                try:
-                    page.wait_for_function(
-                        "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
-                        timeout=20000,
-                    )
-                except Exception:
-                    pass
-                for _ in range(4):
-                    page.evaluate("window.scrollBy(0, window.innerHeight)")
-                    page.wait_for_timeout(1000)
-                html = page.content()
-            finally:
-                ctx.close()
-                browser.close()
+                page.wait_for_function(
+                    "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
+                    timeout=20000,
+                )
+            except Exception:
+                pass
+            for _ in range(4):
+                page.evaluate("window.scrollBy(0, window.innerHeight)")
+                page.wait_for_timeout(1000)
+            html = page.content()
+        finally:
+            ctx.close()
+    finally:
+        firefox.close()
+    try:
         soup = BeautifulSoup(html, "html.parser")
         print(f"  Firefox HTML length: {len(html)}; anchors: {len(soup.find_all('a', href=True))}")
         seen = set()
