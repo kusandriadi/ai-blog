@@ -712,11 +712,22 @@ def fetch_qwen(posts_map: dict):
         )
         soup = BeautifulSoup(html, "html.parser")
         print(f"  HTML length: {len(html)}; title: {(soup.title.string if soup.title else None)!r}")
+        import re as _re
+        # Look for id= references in HTML (clickable divs may carry the post id)
+        id_refs = sorted(set(_re.findall(r'(?:id=|blogId=|postId=|data-id=["\'])([\w\-\.]+)', html)))[:30]
+        print(f"  id= refs in html: {len(id_refs)}")
+        for r in id_refs[:20]:
+            print(f"    id={r}")
+        # Look for script-embedded JSON state with posts
+        for tag in soup.find_all("script"):
+            txt = tag.string or ""
+            if "blog" in txt.lower() and "id" in txt.lower() and len(txt) > 200:
+                # Print a short slice
+                snippet = txt[:1500].replace("\n", " ")
+                print(f"  script-blob: {snippet[:500]}")
+                break
         all_hrefs = sorted({(a.get("href") or "").strip() for a in soup.find_all("a", href=True)})
-        blog_hrefs = [h for h in all_hrefs if "/blog" in h or "id=" in h]
-        print(f"  Page has {len(all_hrefs)} unique anchors, {len(blog_hrefs)} with /blog or id=")
-        for h in (all_hrefs[:10] if not blog_hrefs else blog_hrefs[:20]):
-            print(f"    {h}")
+        print(f"  Page has {len(all_hrefs)} unique anchors")
         seen = set()
         # Accept both ?id= and other variants
         for a in soup.find_all("a", href=True):
