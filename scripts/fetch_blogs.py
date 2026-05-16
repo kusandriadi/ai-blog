@@ -62,7 +62,7 @@ URL_PATTERNS = {
     "xai": re.compile(r"^https?://x\.ai/news/[^/?#]+/?$"),
 }
 
-PLAYWRIGHT_SOURCES = {"deepseek", "cursor", "perplexity", "xai", "qwen"}
+PLAYWRIGHT_SOURCES = {"deepseek", "perplexity", "xai", "qwen"}
 
 # Playwright browser (lazy-loaded)
 _browser = None
@@ -305,6 +305,20 @@ def cleanup_stale(posts_map: dict):
             del posts_map[post_id]
     if removed:
         print(f"Pruned {len(removed)} stale entries (URL no longer matches source pattern)")
+
+
+def cleanup_titles(posts_map: dict):
+    """Clean up Perplexity-style concatenated titles ('TitleMay 6, 2026Category')
+    in pre-existing entries so users see clean text even before the next CI run."""
+    fixed = 0
+    for p in posts_map.values():
+        if p["source"] == "perplexity":
+            cleaned = _clean_perplexity_title(p["title"])
+            if cleaned and cleaned != p["title"]:
+                p["title"] = cleaned
+                fixed += 1
+    if fixed:
+        print(f"Cleaned up {fixed} concatenated Perplexity titles")
 
 
 def refetch_fallback_dates(posts_map: dict):
@@ -594,13 +608,19 @@ def fetch_deepseek(posts_map: dict):
 
 
 def fetch_cursor(posts_map: dict):
-    """Fetch Cursor blog posts from cursor.com/blog only (skip /blog/topic/...)."""
-    print("Fetching: Cursor (Playwright)...")
+    """Fetch Cursor blog posts from cursor.com/blog. HTML is SSR'd, no Playwright needed.
+
+    Two card styles exist: 'a.card' (featured with image) and
+    'a.blog-directory__row' (text-only row). Title is in img alt or in
+    <p class="text-theme-text">; date is in <time datetime="...">.
+    """
+    print("Fetching: Cursor...")
     try:
-        html = fetch_with_playwright("https://cursor.com/blog", wait_selector="a[href*='/blog/']", scroll=True)
-        soup = BeautifulSoup(html, "html.parser")
+        resp = requests.get("https://cursor.com/blog", headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
         seen = set()
-        for a in soup.select("a[href*='/blog/']"):
+        for a in soup.select("a.card[href*='/blog/'], a.blog-directory__row[href*='/blog/']"):
             href = (a.get("href") or "").strip()
             if not href or "/topic/" in href or "/category/" in href or href.rstrip("/").endswith("/blog"):
                 continue
@@ -609,16 +629,44 @@ def fetch_cursor(posts_map: dict):
             if url in seen:
                 continue
             seen.add(url)
-            card = _find_card(a) or a
-            # Cursor cards: title is in h2/h3, not the whole anchor text.
-            h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else ""
-            date_str = _extract_date_from_card(card)
-            desc_el = card.find("p") if card else None
-            desc = desc_el.get_text(strip=True) if desc_el else ""
+            img = a.find("img", alt=True)
+            title = (img.get("alt") or "").strip() if img else ""
+            if not title:
+                # Title <p> has class "text-theme-text" (not "...-mid" / "...-sec" variants)
+                for p_el in a.select("p.text-theme-text"):
+                    txt = p_el.get_text(strip=True)
+                    if txt:
+                        title = txt
+                        break
+            t = a.find("time")
+            date_str = ""
+            if t:
+                date_str = parse_date(t.get("datetime", "") or t.get_text(strip=True))
+            # Description: the <p> after the title, if present
+            desc = ""
+            for p_el in a.find_all("p"):
+                txt = p_el.get_text(strip=True)
+                if txt and txt != title:
+                    desc = txt
+                    break
             add_post(posts_map, "cursor", title, date_str, url, desc)
     except Exception as e:
         print(f"  Error fetching Cursor: {e}")
+
+
+_PERP_DATE_RE = re.compile(rf"{_MONTHS_RE}\.?\s+\d{{1,2}},?\s+20\d{{2}}")
+
+
+def _clean_perplexity_title(text: str) -> str:
+    """Perplexity cards concatenate title + 'Month D, YYYY' + categories
+    with no separator. Take everything before the first date occurrence."""
+    if not text:
+        return text
+    text = " ".join(text.split())
+    m = _PERP_DATE_RE.search(text)
+    if m:
+        return text[: m.start()].strip().rstrip("·,").strip()
+    return text
 
 
 def fetch_perplexity(posts_map: dict):
@@ -639,12 +687,10 @@ def fetch_perplexity(posts_map: dict):
             seen.add(url)
             card = _find_card(a) or a
             h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else ""
-            if not title:
-                # Fall back to the first non-empty text node in <a>
-                title = a.get_text(" ", strip=True)
-                # Strip trailing "Month D, YYYY..." and category labels
-                title = re.sub(_DATE_RE, "", title).strip()
+            if h and h.get_text(strip=True):
+                title = h.get_text(strip=True)
+            else:
+                title = _clean_perplexity_title(a.get_text(" ", strip=True))
             date_str = _extract_date_from_card(card)
             desc_el = card.find("p") if card else None
             desc = desc_el.get_text(strip=True) if desc_el else ""
@@ -720,6 +766,7 @@ def main():
     print(f"Loaded {existing_count} existing posts")
 
     cleanup_stale(posts_map)
+    cleanup_titles(posts_map)
     refetch_fallback_dates(posts_map)
     print()
 
@@ -730,6 +777,7 @@ def main():
         fetch_kimi,
         fetch_openclaw,
         fetch_ollama,
+        fetch_cursor,
     ]
     for fetcher in standard_fetchers:
         try:
@@ -740,7 +788,6 @@ def main():
 
     playwright_fetchers = [
         fetch_deepseek,
-        fetch_cursor,
         fetch_perplexity,
         fetch_qwen,
         fetch_xai,

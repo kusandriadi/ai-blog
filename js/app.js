@@ -94,7 +94,7 @@ function renderPosts() {
     .map(
       (p) => `
     <a class="post" href="${escapeHtml(p.url)}" target="_blank" rel="noopener" title="${escapeHtml(p.description || '')}">
-      <span class="post-date">${p.date}</span>
+      <span class="post-date">${formatDate(p.date)}</span>
       <span class="post-source source-${p.source}">${p.source}</span>
       <span class="post-title">${escapeHtml(p.title)}</span>
     </a>`
@@ -106,6 +106,11 @@ function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
+}
+
+function formatDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+  return m ? `${m[3]}-${m[2]}-${m[1]}` : iso;
 }
 
 // ─── Install Banner (PWA) ─────────────────────────────────────────────────────
