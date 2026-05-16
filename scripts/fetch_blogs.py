@@ -701,14 +701,23 @@ def fetch_qwen(posts_map: dict):
     Post URLs look like https://qwen.ai/blog?id=<slug>."""
     print("Fetching: Qwen (Playwright)...")
     try:
-        html = fetch_with_playwright("https://qwen.ai/research", wait_selector="a[href*='/blog?id=']", scroll=True)
+        html = fetch_with_playwright("https://qwen.ai/research", wait_selector="a", scroll=True)
         soup = BeautifulSoup(html, "html.parser")
+        all_hrefs = sorted({(a.get("href") or "").strip() for a in soup.find_all("a", href=True)})
+        # Debug: print a sample of distinct hrefs so we can diagnose if no match
+        blog_hrefs = [h for h in all_hrefs if "/blog" in h or "id=" in h]
+        print(f"  Page has {len(all_hrefs)} unique anchors, {len(blog_hrefs)} with /blog or id=")
+        for h in blog_hrefs[:20]:
+            print(f"    {h}")
         seen = set()
-        for a in soup.select("a[href*='/blog?id=']"):
+        # Accept both ?id= and other variants
+        for a in soup.find_all("a", href=True):
             href = (a.get("href") or "").strip()
-            if not href:
+            if not href or "id=" not in href:
                 continue
-            url = href if href.startswith("http") else f"https://qwen.ai{href}"
+            url = href if href.startswith("http") else (
+                f"https://qwen.ai{href}" if href.startswith("/") else f"https://qwen.ai/{href}"
+            )
             url = clean_url(url)
             if url in seen:
                 continue
