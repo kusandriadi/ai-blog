@@ -769,6 +769,16 @@ def fetch_qwen(posts_map: dict):
     try:
         soup = BeautifulSoup(html, "html.parser")
         print(f"  Firefox HTML length: {len(html)}; anchors: {len(soup.find_all('a', href=True))}")
+        # Look for inline JSON containing post data
+        import re as _re
+        for m in _re.finditer(r'"(?:slug|id|postId|title)"\s*:\s*"([^"]{3,80})"', html):
+            print(f"    json-match: {m.group(0)[:120]}")
+        # Look for embedded JSON-LD or initial state
+        for tag in soup.find_all("script"):
+            txt = tag.string or tag.text or ""
+            if ("post" in txt.lower() or "blog" in txt.lower()) and len(txt) > 1000 and "function" not in txt[:100].lower():
+                print(f"    state-script ({tag.get('id')!r}, {tag.get('type')!r}, {len(txt)}c): {txt[:300]}")
+                break
         seen = set()
         for a in soup.find_all("a", href=True):
             href = (a.get("href") or "").strip()
