@@ -718,12 +718,19 @@ def fetch_qwen(posts_map: dict):
                 pass
         page.on("response", on_response)
         try:
-            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(3000)
-            for _ in range(6):
+            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
+            # Wait until at least one anchor with id= is rendered (up to 30s),
+            # or fall through if it never happens.
+            try:
+                page.wait_for_function(
+                    "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
+                    timeout=30000,
+                )
+            except Exception as e:
+                print(f"    wait_for_function timed out: {e}")
+            for _ in range(4):
                 page.evaluate("window.scrollBy(0, window.innerHeight)")
                 page.wait_for_timeout(1000)
-            page.wait_for_timeout(2000)
             # Pull links + titles via direct JS so we see post-rendering DOM
             dom_data = page.evaluate("""() => {
                 const anchors = Array.from(document.querySelectorAll('a[href]')).map(a => ({href: a.getAttribute('href'), text: a.innerText.trim().slice(0, 200)}));
@@ -732,18 +739,14 @@ def fetch_qwen(posts_map: dict):
             }""")
         finally:
             ctx.close()
-        print(f"  captured json endpoints: {len(captured_responses)}")
-        for u in captured_responses[:20]:
-            print(f"    {u}")
-        print(f"  dom anchors: {len(dom_data.get('anchors', []))}")
-        for a in dom_data.get("anchors", [])[:15]:
-            print(f"    a {a['href']}  |  {a['text'][:80]}")
-        print(f"  dom clickables: {len(dom_data.get('idLinks', []))}")
-        for el in dom_data.get("idLinks", [])[:10]:
-            print(f"    {el['tag']} dataId={el['dataId']!r} oc={el['oc'][:60]!r} t={el['text'][:60]!r}")
+        anchors = dom_data.get("anchors", []) if dom_data else []
+        print(f"  dom anchors: {len(anchors)}")
+        for a in anchors[:20]:
+            href = a.get("href", "")
+            if "id=" in href or "/blog" in href:
+                print(f"    a {href}  |  {a['text'][:80]}")
         seen = set()
-        # Accept both ?id= and other variants
-        for a in soup.find_all("a", href=True):
+        for a in anchors:
             href = (a.get("href") or "").strip()
             if not href or "id=" not in href:
                 continue
@@ -754,13 +757,8 @@ def fetch_qwen(posts_map: dict):
             if url in seen:
                 continue
             seen.add(url)
-            card = _find_card(a) or a
-            h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else a.get_text(" ", strip=True)
-            date_str = _extract_date_from_card(card)
-            desc_el = card.find("p") if card else None
-            desc = desc_el.get_text(strip=True) if desc_el else ""
-            add_post(posts_map, "qwen", title, date_str, url, desc)
+            title = (a.get("text") or "").strip().splitlines()[0][:200]
+            add_post(posts_map, "qwen", title, "", url, "")
     except Exception as e:
         print(f"  Error fetching Qwen: {e}")
 
