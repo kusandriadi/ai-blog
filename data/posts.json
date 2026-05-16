@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-hermes",
+    "title": "Connect Grok to Hermes Agent",
+    "date": "2026-05-15",
+    "url": "https://x.ai/news/grok-hermes",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:gates-foundation-partnership",
     "title": "Anthropic forms $200 million partnership with the Gates Foundation",
     "date": "2026-05-14",
@@ -69,6 +77,14 @@
     "date": "2026-05-14",
     "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
     "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-build-cli",
+    "title": "Introducing Grok Build",
+    "date": "2026-05-14",
+    "url": "https://x.ai/news/grok-build-cli",
+    "source": "xai",
     "description": ""
   },
   {
@@ -248,6 +264,30 @@
     "description": ""
   },
   {
+    "id": "xai:anthropic-compute-partnership",
+    "title": "New Compute Partnership with Anthropic",
+    "date": "2026-05-06",
+    "url": "https://x.ai/news/anthropic-compute-partnership",
+    "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-connectors",
+    "title": "Connectors in web, iOS, and Android",
+    "date": "2026-05-06",
+    "url": "https://x.ai/news/grok-connectors",
+    "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-imagine-quality-mode",
+    "title": "Grok Imagine Quality Mode API",
+    "date": "2026-05-06",
+    "url": "https://x.ai/news/grok-imagine-quality-mode",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:finance-agents",
     "title": "Agents for financial services",
     "date": "2026-05-05",
@@ -376,6 +416,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-custom-voices",
+    "title": "Custom Voices and Voice Library",
+    "date": "2026-04-30",
+    "url": "https://x.ai/news/grok-custom-voices",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "cursor:typescript-sdk",
     "title": "Build programmatic agents with the Cursor SDK",
     "date": "2026-04-29",
@@ -453,6 +501,14 @@
     "date": "2026-04-23",
     "url": "https://claude.com/blog/claude-managed-agents-memory",
     "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-voice-think-fast-1",
+    "title": "Grok Voice Think Fast 1.0",
+    "date": "2026-04-23",
+    "url": "https://x.ai/news/grok-voice-think-fast-1",
+    "source": "xai",
     "description": ""
   },
   {
@@ -534,6 +590,14 @@
     "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
     "source": "claude",
     "description": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more."
+  },
+  {
+    "id": "xai:grok-stt-and-tts-apis",
+    "title": "Grok Speech to Text and Text to Speech APIs",
+    "date": "2026-04-17",
+    "url": "https://x.ai/news/grok-stt-and-tts-apis",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "claude:claude-opus-4-7",
@@ -1480,6 +1544,14 @@
     "description": "Scientific discovery acceleration collaboration."
   },
   {
+    "id": "xai:xai-joins-spacex",
+    "title": "xAI joins SpaceX",
+    "date": "2026-02-02",
+    "url": "https://x.ai/news/xai-joins-spacex",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "ollama:openclaw",
     "title": "OpenClaw",
     "date": "2026-02-01",
@@ -1510,6 +1582,14 @@
     "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
     "source": "claude",
     "description": "Enterprise app and productivity platform integration."
+  },
+  {
+    "id": "xai:grok-imagine-api",
+    "title": "Grok Imagine API",
+    "date": "2026-01-28",
+    "url": "https://x.ai/news/grok-imagine-api",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "kimi:kimi-k2-5",
@@ -1648,11 +1728,27 @@
     "description": "Jan 8, 2026"
   },
   {
+    "id": "xai:series-e",
+    "title": "xAI Raises $20B Series E",
+    "date": "2026-01-06",
+    "url": "https://x.ai/news/series-e",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "openai:openai-for-developers-2025",
     "title": "OpenAI for Developers in 2025",
     "date": "2025-12-30",
     "url": "https://developers.openai.com/blog/openai-for-developers-2025",
     "source": "openai",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-business",
+    "title": "Introducing Grok Business and Grok Enterprise",
+    "date": "2025-12-30",
+    "url": "https://x.ai/news/grok-business",
+    "source": "xai",
     "description": ""
   },
   {
@@ -1669,6 +1765,22 @@
     "date": "2025-12-22",
     "url": "https://developers.openai.com/blog/updates-audio-models",
     "source": "openai",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-collections-api",
+    "title": "Grok Collections API",
+    "date": "2025-12-22",
+    "url": "https://x.ai/news/grok-collections-api",
+    "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "xai:us-gov-dept-of-war",
+    "title": "Supporting the DOW's mission with AI",
+    "date": "2025-12-22",
+    "url": "https://x.ai/news/us-gov-dept-of-war",
+    "source": "xai",
     "description": ""
   },
   {
@@ -1694,6 +1806,14 @@
     "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed",
     "source": "gemma",
     "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost."
+  },
+  {
+    "id": "xai:grok-voice-agent-api",
+    "title": "Grok Voice Agent API",
+    "date": "2025-12-17",
+    "url": "https://x.ai/news/grok-voice-agent-api",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "gemma:gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior",
@@ -1742,6 +1862,14 @@
     "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute",
     "source": "gemma",
     "description": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research"
+  },
+  {
+    "id": "xai:el-salvador-partnership",
+    "title": "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program",
+    "date": "2025-12-11",
+    "url": "https://x.ai/news/el-salvador-partnership",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "gemma:strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era",
@@ -1928,6 +2056,22 @@
     "description": "Nov 19, 2025"
   },
   {
+    "id": "xai:grok-4-1-fast",
+    "title": "Grok 4.1 Fast and Agent Tools API",
+    "date": "2025-11-19",
+    "url": "https://x.ai/news/grok-4-1-fast",
+    "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-goes-global",
+    "title": "Grok goes Global with KSA",
+    "date": "2025-11-19",
+    "url": "https://x.ai/news/grok-goes-global",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "gemma:start-building-with-gemini-3",
     "title": "Start building with Gemini 3",
     "date": "2025-11-18",
@@ -1966,6 +2110,14 @@
     "url": "https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model",
     "source": "gemma",
     "description": "The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions."
+  },
+  {
+    "id": "xai:grok-4-1",
+    "title": "Grok 4.1",
+    "date": "2025-11-17",
+    "url": "https://x.ai/news/grok-4-1",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "perplexity:comet-assistant-puts-you-in-control",
@@ -2408,6 +2560,14 @@
     "description": "Sep 25, 2025"
   },
   {
+    "id": "xai:onegov",
+    "title": "Expanding xAI for Government with GSA OneGov",
+    "date": "2025-09-25",
+    "url": "https://x.ai/news/onegov",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "ollama:web-search",
     "title": "Web search",
     "date": "2025-09-24",
@@ -2448,6 +2608,14 @@
     "description": "Cloud models are now in preview, letting you run larger models with fast, datacenter-grade hardware. You can keep using your local tools while running larger models that wouldn’t fit on a personal computer."
   },
   {
+    "id": "xai:grok-4-fast",
+    "title": "Grok 4 Fast",
+    "date": "2025-09-19",
+    "url": "https://x.ai/news/grok-4-fast",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "perplexity:power-your-organization-s-full-potential",
     "title": "Power your organization’s full potential",
     "date": "2025-09-17",
@@ -2486,6 +2654,14 @@
     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-for-government",
     "source": "perplexity",
     "description": "Sep 8, 2025"
+  },
+  {
+    "id": "xai:grok-code-fast-1",
+    "title": "Grok Code Fast 1",
+    "date": "2025-08-28",
+    "url": "https://x.ai/news/grok-code-fast-1",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "perplexity:introducing-comet-plus",
@@ -2568,6 +2744,14 @@
     "description": "Ollama's new app is now available for macOS and Windows."
   },
   {
+    "id": "xai:government",
+    "title": "Announcing xAI for Government",
+    "date": "2025-07-14",
+    "url": "https://x.ai/news/government",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "kimi:kimi-k2",
     "title": "Kimi K2",
     "date": "2025-07-11",
@@ -2582,6 +2766,14 @@
     "url": "https://www.perplexity.ai/hub/blog/introducing-comet",
     "source": "perplexity",
     "description": "Jul 9, 2025"
+  },
+  {
+    "id": "xai:grok-4",
+    "title": "Grok 4",
+    "date": "2025-07-09",
+    "url": "https://x.ai/news/grok-4",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "perplexity:introducing-perplexity-max",
@@ -3286,6 +3478,14 @@
     "url": "https://www.anthropic.com/research/persona-selection-model",
     "source": "claude",
     "description": "Research on how Claude selects and maintains personas."
+  },
+  {
+    "id": "xai:grok-3",
+    "title": "Grok 3 Beta — The Age of Reasoning Agents",
+    "date": "2025-02-19",
+    "url": "https://x.ai/news/grok-3",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "claude:measuring-agent-autonomy",
