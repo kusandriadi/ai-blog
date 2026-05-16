@@ -14,6 +14,22 @@ const SOURCES = {
 
 let posts = [];
 let currentFilter = 'all';
+const READ_KEY = 'read-posts';
+
+function loadRead() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]'));
+  } catch {
+    return new Set();
+  }
+}
+
+function markRead(id) {
+  const read = loadRead();
+  if (read.has(id)) return;
+  read.add(id);
+  localStorage.setItem(READ_KEY, JSON.stringify([...read]));
+}
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
 function getTheme() {
@@ -89,16 +105,24 @@ function renderPosts() {
   }
 
   emptyEl.style.display = 'none';
+  const read = loadRead();
   postsEl.innerHTML = filtered
     .map(
       (p) => `
-    <a class="post" href="${escapeHtml(p.url)}" target="_blank" rel="noopener" title="${escapeHtml(p.description || '')}">
+    <a class="post${read.has(p.id) ? ' read' : ''}" href="${escapeHtml(p.url)}" target="_blank" rel="noopener" data-id="${escapeHtml(p.id)}" title="${escapeHtml(p.description || '')}">
       <span class="post-date">${formatDate(p.date)}</span>
       <span class="post-source source-${p.source}">${p.source}</span>
       <span class="post-title">${escapeHtml(p.title)}</span>
     </a>`
     )
     .join('');
+
+  postsEl.querySelectorAll('.post').forEach((el) => {
+    el.addEventListener('click', () => {
+      markRead(el.dataset.id);
+      el.classList.add('read');
+    });
+  });
 }
 
 function escapeHtml(str) {

@@ -189,6 +189,17 @@ body {
   background: var(--surface-hover);
 }
 
+.post.read {
+  background: var(--bg-secondary);
+}
+.post.read .post-title,
+.post.read .post-date {
+  color: var(--text-dim);
+}
+.post.read:hover {
+  background: var(--surface-hover);
+}
+
 .post-date {
   font-size: 0.7rem;
   color: var(--text-dim);
