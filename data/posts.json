@@ -544,6 +544,14 @@
     "description": "Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most."
   },
   {
+    "id": "perplexity:personal-computer-is-here",
+    "title": "Personal Computer Is Here",
+    "date": "2026-04-16",
+    "url": "https://www.perplexity.ai/hub/blog/personal-computer-is-here",
+    "source": "perplexity",
+    "description": "Personal Computer brings the multi-model orchestration of Computer to your machine, working across files, apps, and the web."
+  },
+  {
     "id": "cursor:better-models-ambitious-work",
     "title": "Better AI models enable more ambitious work",
     "date": "2026-04-15",
@@ -3326,13 +3334,5 @@
     "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
     "source": "claude",
     "description": "More efficient protection against universal jailbreaks."
-  },
-  {
-    "id": "perplexity:personal-computer-is-here",
-    "title": "Read more",
-    "date": "2025-01-01",
-    "url": "https://www.perplexity.ai/hub/blog/personal-computer-is-here",
-    "source": "perplexity",
-    "description": "Read more"
   }
 ]
