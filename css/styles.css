@@ -221,7 +221,6 @@ body {
 /* Source colors */
 .source-claude     { background: #f59e0b15; color: #f59e0b; }
 .source-codex      { background: #10b98115; color: #10b981; }
-.source-deepseek   { background: #818cf815; color: #818cf8; }
 .source-gemma      { background: #60a5fa15; color: #60a5fa; }
 .source-kimi       { background: #f472b615; color: #f472b6; }
 .source-qwen       { background: #a78bfa15; color: #a78bfa; }

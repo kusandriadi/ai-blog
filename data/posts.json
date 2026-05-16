@@ -1600,14 +1600,6 @@
     "description": "Jan 8, 2026"
   },
   {
-    "id": "deepseek:deepseek-guide-2026",
-    "title": "2026 AI Guide",
-    "date": "2026-01-01",
-    "url": "https://deepseek.ai/blog/deepseek-guide-2026",
-    "source": "deepseek",
-    "description": "DeepSeek's comprehensive AI guide for 2026."
-  },
-  {
     "id": "gemma:googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
     "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
     "date": "2025-12-23",
@@ -3336,43 +3328,11 @@
     "description": "More efficient protection against universal jailbreaks."
   },
   {
-    "id": "deepseek:deepseek-v31",
-    "title": "DeepSeek V3.1: New AI Frontier",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/deepseek-v31",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
     "id": "perplexity:personal-computer-is-here",
     "title": "Read more",
     "date": "2025-01-01",
     "url": "https://www.perplexity.ai/hub/blog/personal-computer-is-here",
     "source": "perplexity",
     "description": "Read more"
-  },
-  {
-    "id": "deepseek:what-is-deep-seek",
-    "title": "What is Deep Seek?",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/what-is-deep-seek",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
-    "id": "deepseek:what-is-deep-learning-ai",
-    "title": "Deep Learning AI Explained",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/what-is-deep-learning-ai",
-    "source": "deepseek",
-    "description": ""
-  },
-  {
-    "id": "deepseek:deepseek-r2-challenges",
-    "title": "Deep Seek R2 Challenges",
-    "date": "2025-01-01",
-    "url": "https://deepseek.ai/blog/deepseek-r2-challenges",
-    "source": "deepseek",
-    "description": ""
   }
 ]

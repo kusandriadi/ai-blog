@@ -2,7 +2,6 @@ const SOURCES = {
   all: 'All',
   claude: 'Claude',
   codex: 'Codex',
-  deepseek: 'DeepSeek',
   gemma: 'Gemma',
   kimi: 'Kimi',
   qwen: 'Qwen',

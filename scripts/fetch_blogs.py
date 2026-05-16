@@ -5,7 +5,7 @@ Runs every 6 hours via GitHub Actions (or OpenClaw).
 
 Unique key strategy:
   id = "{source}:{slug}"
-  - source: lowercase category name (claude, codex, deepseek, etc.)
+  - source: lowercase category name (claude, codex, gemma, etc.)
   - slug: extracted from URL path (last meaningful segment)
 
 Date extraction strategy:
@@ -52,7 +52,6 @@ URL_PATTERNS = {
     "qwen": re.compile(r"^https?://(?:www\.)?qwen\.ai/blog/[^/?#]+/?$"),
     "openclaw": re.compile(r"^https?://openclaw\.ai/blog/[^/?#]+/?$"),
     "ollama": re.compile(r"^https?://ollama\.com/blog/[^/?#]+/?$"),
-    "deepseek": re.compile(r"^https?://(?:www\.)?deepseek\.ai/blog/[^/?#]+/?$"),
     "cursor": re.compile(
         r"^https?://(?:www\.)?cursor\.com/blog/(?!topic/|category/)[^/?#]+/?$"
     ),
@@ -62,7 +61,7 @@ URL_PATTERNS = {
     "xai": re.compile(r"^https?://x\.ai/news/[^/?#]+/?$"),
 }
 
-PLAYWRIGHT_SOURCES = {"deepseek", "perplexity", "xai", "qwen"}
+PLAYWRIGHT_SOURCES = {"perplexity", "xai", "qwen"}
 
 # Playwright browser (lazy-loaded)
 _browser = None
@@ -296,15 +295,20 @@ def add_post(posts_map: dict, source: str, title: str, date: str, url: str, desc
 
 
 def cleanup_stale(posts_map: dict):
-    """Remove entries whose URLs don't match the new per-source patterns."""
+    """Remove entries whose source was dropped, or whose URL no longer matches
+    its source's pattern."""
     removed = []
     for post_id, p in list(posts_map.items()):
-        pattern = URL_PATTERNS.get(p["source"])
-        if pattern and not pattern.match(p["url"]):
+        if p["source"] not in URL_PATTERNS:
+            removed.append(post_id)
+            del posts_map[post_id]
+            continue
+        pattern = URL_PATTERNS[p["source"]]
+        if not pattern.match(p["url"]):
             removed.append(post_id)
             del posts_map[post_id]
     if removed:
-        print(f"Pruned {len(removed)} stale entries (URL no longer matches source pattern)")
+        print(f"Pruned {len(removed)} stale entries (source dropped or URL no longer matches)")
 
 
 def cleanup_titles(posts_map: dict):
@@ -581,32 +585,6 @@ def fetch_ollama(posts_map: dict):
 # Fetchers using Playwright
 # ---------------------------------------------------------------------------
 
-def fetch_deepseek(posts_map: dict):
-    print("Fetching: DeepSeek (Playwright)...")
-    try:
-        html = fetch_with_playwright("https://deepseek.ai/blog", wait_selector="a[href*='/blog/']")
-        soup = BeautifulSoup(html, "html.parser")
-        seen = set()
-        for a in soup.select("a[href*='/blog/']"):
-            href = (a.get("href") or "").strip()
-            if not href or href.rstrip("/").endswith("/blog"):
-                continue
-            url = href if href.startswith("http") else f"https://deepseek.ai{href}"
-            url = clean_url(url)
-            if url in seen:
-                continue
-            seen.add(url)
-            card = _find_card(a) or a
-            h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else a.get_text(strip=True)
-            date_str = _extract_date_from_card(card)
-            desc_el = card.find("p") if card else None
-            desc = desc_el.get_text(strip=True) if desc_el else ""
-            add_post(posts_map, "deepseek", title, date_str, url, desc)
-    except Exception as e:
-        print(f"  Error fetching DeepSeek: {e}")
-
-
 def fetch_cursor(posts_map: dict):
     """Fetch Cursor blog posts from cursor.com/blog. HTML is SSR'd, no Playwright needed.
 
@@ -787,7 +765,6 @@ def main():
         print()
 
     playwright_fetchers = [
-        fetch_deepseek,
         fetch_perplexity,
         fetch_qwen,
         fetch_xai,
