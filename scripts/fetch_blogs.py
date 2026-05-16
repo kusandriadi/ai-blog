@@ -704,30 +704,27 @@ def fetch_qwen(posts_map: dict):
     Post URLs look like https://qwen.ai/blog?id=<slug>."""
     print("Fetching: Qwen (Playwright)...")
     try:
-        html = fetch_with_playwright(
-            "https://qwen.ai/research",
-            wait_selector="a",
-            scroll=True,
-            wait_until="domcontentloaded",
-        )
+        # Custom Playwright session: wait for the SPA to actually hydrate
+        browser = get_browser()
+        ctx = browser.new_context(user_agent=HEADERS["User-Agent"])
+        page = ctx.new_page()
+        try:
+            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_timeout(2500)
+            # Scroll & wait repeatedly so lazy content loads
+            for _ in range(8):
+                page.evaluate("window.scrollBy(0, window.innerHeight)")
+                page.wait_for_timeout(1200)
+            page.wait_for_timeout(2000)
+            html = page.content()
+        finally:
+            ctx.close()
         soup = BeautifulSoup(html, "html.parser")
         print(f"  HTML length: {len(html)}; title: {(soup.title.string if soup.title else None)!r}")
-        import re as _re
-        # Look for id= references in HTML (clickable divs may carry the post id)
-        id_refs = sorted(set(_re.findall(r'(?:id=|blogId=|postId=|data-id=["\'])([\w\-\.]+)', html)))[:30]
-        print(f"  id= refs in html: {len(id_refs)}")
-        for r in id_refs[:20]:
-            print(f"    id={r}")
-        # Look for script-embedded JSON state with posts
-        for tag in soup.find_all("script"):
-            txt = tag.string or ""
-            if "blog" in txt.lower() and "id" in txt.lower() and len(txt) > 200:
-                # Print a short slice
-                snippet = txt[:1500].replace("\n", " ")
-                print(f"  script-blob: {snippet[:500]}")
-                break
         all_hrefs = sorted({(a.get("href") or "").strip() for a in soup.find_all("a", href=True)})
-        print(f"  Page has {len(all_hrefs)} unique anchors")
+        print(f"  unique anchors: {len(all_hrefs)}")
+        for h in all_hrefs[:15]:
+            print(f"    {h}")
         seen = set()
         # Accept both ?id= and other variants
         for a in soup.find_all("a", href=True):
