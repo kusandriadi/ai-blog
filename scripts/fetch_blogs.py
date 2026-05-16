@@ -76,9 +76,33 @@ def get_browser():
     if _browser is None:
         from playwright.sync_api import sync_playwright
         _playwright = sync_playwright().start()
-        _browser = _playwright.chromium.launch(headless=True)
+        # Anti-detection: disable AutomationControlled flag (most basic bot signal)
+        _browser = _playwright.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-features=IsolateOrigins,site-per-process",
+            ],
+        )
         print("  Playwright browser launched")
     return _browser
+
+
+# Stealth init script: hides navigator.webdriver and other headless tells
+_STEALTH_JS = """
+Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
+window.chrome = { runtime: {} };
+const originalQuery = window.navigator.permissions ? window.navigator.permissions.query : null;
+if (originalQuery) {
+  window.navigator.permissions.query = (parameters) =>
+    parameters.name === 'notifications'
+      ? Promise.resolve({ state: Notification.permission })
+      : originalQuery(parameters);
+}
+"""
 
 
 def close_browser():
@@ -93,7 +117,19 @@ def close_browser():
 
 def fetch_with_playwright(url: str, wait_selector: str = None, scroll: bool = True, timeout: int = 30000, wait_until: str = "networkidle") -> str:
     browser = get_browser()
-    context = browser.new_context(user_agent=HEADERS["User-Agent"])
+    context = browser.new_context(
+        user_agent=HEADERS["User-Agent"],
+        viewport={"width": 1366, "height": 768},
+        locale="en-US",
+        extra_http_headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Sec-Ch-Ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
+            "Sec-Ch-Ua-Mobile": "?0",
+            "Sec-Ch-Ua-Platform": '"Windows"',
+        },
+    )
+    context.add_init_script(_STEALTH_JS)
     page = context.new_page()
     try:
         try:
