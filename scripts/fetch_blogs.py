@@ -704,27 +704,43 @@ def fetch_qwen(posts_map: dict):
     Post URLs look like https://qwen.ai/blog?id=<slug>."""
     print("Fetching: Qwen (Playwright)...")
     try:
-        # Custom Playwright session: wait for the SPA to actually hydrate
         browser = get_browser()
         ctx = browser.new_context(user_agent=HEADERS["User-Agent"])
         page = ctx.new_page()
+        captured_responses = []
+        def on_response(resp):
+            try:
+                url_r = resp.url
+                ct = (resp.headers or {}).get("content-type", "")
+                if "application/json" in ct and ("blog" in url_r.lower() or "post" in url_r.lower() or "wix" in url_r.lower() or "_api" in url_r.lower()):
+                    captured_responses.append(url_r)
+            except Exception:
+                pass
+        page.on("response", on_response)
         try:
             page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(2500)
-            # Scroll & wait repeatedly so lazy content loads
-            for _ in range(8):
+            page.wait_for_timeout(3000)
+            for _ in range(6):
                 page.evaluate("window.scrollBy(0, window.innerHeight)")
-                page.wait_for_timeout(1200)
+                page.wait_for_timeout(1000)
             page.wait_for_timeout(2000)
-            html = page.content()
+            # Pull links + titles via direct JS so we see post-rendering DOM
+            dom_data = page.evaluate("""() => {
+                const anchors = Array.from(document.querySelectorAll('a[href]')).map(a => ({href: a.getAttribute('href'), text: a.innerText.trim().slice(0, 200)}));
+                const idLinks = Array.from(document.querySelectorAll('[onclick], [data-id], [data-postid], [role="link"]')).map(e => ({tag: e.tagName, oc: e.getAttribute('onclick') || '', dataId: e.getAttribute('data-id') || e.getAttribute('data-postid') || '', text: e.innerText.trim().slice(0, 120)})).slice(0, 15);
+                return {anchors, idLinks};
+            }""")
         finally:
             ctx.close()
-        soup = BeautifulSoup(html, "html.parser")
-        print(f"  HTML length: {len(html)}; title: {(soup.title.string if soup.title else None)!r}")
-        all_hrefs = sorted({(a.get("href") or "").strip() for a in soup.find_all("a", href=True)})
-        print(f"  unique anchors: {len(all_hrefs)}")
-        for h in all_hrefs[:15]:
-            print(f"    {h}")
+        print(f"  captured json endpoints: {len(captured_responses)}")
+        for u in captured_responses[:20]:
+            print(f"    {u}")
+        print(f"  dom anchors: {len(dom_data.get('anchors', []))}")
+        for a in dom_data.get("anchors", [])[:15]:
+            print(f"    a {a['href']}  |  {a['text'][:80]}")
+        print(f"  dom clickables: {len(dom_data.get('idLinks', []))}")
+        for el in dom_data.get("idLinks", [])[:10]:
+            print(f"    {el['tag']} dataId={el['dataId']!r} oc={el['oc'][:60]!r} t={el['text'][:60]!r}")
         seen = set()
         # Accept both ?id= and other variants
         for a in soup.find_all("a", href=True):
