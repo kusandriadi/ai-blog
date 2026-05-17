@@ -6,63 +6,143 @@
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0a0a0a">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0c0a" media="(prefers-color-scheme: dark)">
 
   <!-- iOS PWA -->
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="AI News">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="application-name" content="AI News">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
 
   <!-- SEO -->
-  <title>AI News - Aggregated Blog Posts from Top AI Companies</title>
-  <meta name="description" content="Stay updated with the latest blog posts from Claude, OpenAI, Gemma, Kimi, OpenClaw, Ollama, Cursor, Perplexity, and xAI. Auto-updated every 6 hours.">
+  <title>AI News — Daily Index of Frontier AI Writing</title>
+  <meta name="description" content="A daily index of blog posts from frontier AI labs and tools. Auto-updated every 6 hours.">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="AI News - Blog Aggregator">
-  <meta property="og:description" content="Aggregated blog posts from top AI companies. Auto-updated every 6 hours.">
+  <meta property="og:title" content="AI News — Daily Index">
+  <meta property="og:description" content="A daily index of blog posts from frontier AI labs and tools.">
   <meta property="og:image" content="icons/icon-512.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css?v=6">
+
+  <!-- Kill any stale SW from a previous build before loading resources -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((regs) => {
+        const stale = regs.some((r) => !r.active || !/v10-redesign/.test(r.active.scriptURL || ''));
+        if (regs.length && stale) {
+          Promise.all(regs.map((r) => r.unregister())).then(() => {
+            if (window.caches) caches.keys().then((keys) => Promise.all(keys.map((k) => caches.delete(k))));
+            if (!sessionStorage.getItem('sw-reset')) {
+              sessionStorage.setItem('sw-reset', '1');
+              location.reload();
+            }
+          });
+        }
+      }).catch(() => {});
+    }
+  </script>
 </head>
 <body>
-  <div class="header">
-    <div class="header-top">
-      <h1><span>AI</span> News</h1>
-      <div class="header-actions">
-        <button class="btn-icon" id="theme-toggle" title="Toggle theme">&#9728;&#65039;</button>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./" aria-label="AI News home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">AI<em>·</em>News</span>
+          <span class="brand-tag">Daily index</span>
+        </span>
+      </a>
+
+      <div class="topbar-actions">
+        <button class="icon-btn" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+        </button>
       </div>
     </div>
-    <div class="filters" id="filters"></div>
-  </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-title">
+        What the labs <span class="hero-italic">published</span> today.
+      </h1>
+      <p class="hero-sub">An auto-updating reading list of posts from Claude, OpenAI, Cursor, Perplexity, xAI, and other frontier teams. Refreshed every six hours.</p>
+    </div>
+  </section>
 
   <!-- Install Banner -->
   <div class="install-banner" id="install-banner">
     <div class="install-banner-text">
       <strong>Install AI News</strong>
-      Get instant access from your home screen
+      <span>Pin it to your home screen for one-tap access.</span>
     </div>
     <button class="btn-install" id="btn-install">Install</button>
-    <button class="btn-dismiss" id="btn-dismiss">&times;</button>
+    <button class="btn-dismiss" id="btn-dismiss" aria-label="Dismiss">&times;</button>
   </div>
 
-  <div class="container">
-    <div class="stats" id="stats"></div>
-    <div class="post-list" id="posts"></div>
+  <!-- Filters -->
+  <nav class="filters-wrap" aria-label="Filter by source">
+    <div class="filters-inner">
+      <span class="filters-label">Source</span>
+      <div class="filters" id="filters"></div>
+    </div>
+  </nav>
+
+  <!-- Main list -->
+  <main class="index-section">
+    <div class="section-header">
+      <h2 class="section-title">Latest writing</h2>
+      <span class="section-meta" id="index-meta">All posts, newest first</span>
+    </div>
+    <ol class="post-list" id="posts"></ol>
     <div class="empty-state" id="empty" style="display:none">No posts found.</div>
-  </div>
+  </main>
 
-  <div class="footer">
-    Aggregated from Claude, OpenAI, Gemma, Kimi, OpenClaw, Ollama, Cursor, Perplexity, xAI.
-    <br>Auto-updated every 6 hours.
-  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-brand">AI<em>·</em>News</div>
+        <p class="footer-line">An independent, auto-updating reading list of frontier AI writing. Not affiliated with any lab.</p>
+      </div>
+      <div class="footer-col">
+        <span class="footer-label">Sources</span>
+        <p class="footer-line">Claude, OpenAI, Gemma, Kimi, OpenClaw, Ollama, Cursor, Perplexity, xAI.</p>
+      </div>
+      <div class="footer-col">
+        <span class="footer-label">Cadence</span>
+        <p class="footer-line">Index re-built every six hours via GitHub Actions.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI News</span>
+      <span class="footer-pulse"><span class="live-dot"></span> Live</span>
+    </div>
+  </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

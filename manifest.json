@@ -1,18 +1,26 @@
 {
-  "name": "AI News - Blog Aggregator",
+  "name": "AI News — Daily Index",
   "short_name": "AI News",
-  "description": "Aggregated blog posts from top AI companies: Claude, OpenAI, Gemma, Kimi, OpenClaw, Ollama, Cursor, and more.",
+  "description": "An auto-updating reading list of blog posts from Claude, OpenAI, Cursor, Perplexity, xAI and other frontier AI teams. Refreshed every six hours.",
   "start_url": "./",
   "scope": "./",
   "id": "/ai-blog/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "orientation": "any",
-  "theme_color": "#0a0a0a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#0d0c0a",
+  "background_color": "#0d0c0a",
   "lang": "en",
-  "categories": ["news", "technology"],
+  "dir": "ltr",
+  "categories": ["news", "technology", "productivity"],
   "icons": [
     {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
@@ -25,16 +33,22 @@
       "purpose": "any"
     },
     {
-      "src": "icons/icon-192.png",
+      "src": "icons/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icons/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
