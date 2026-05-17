@@ -49,7 +49,6 @@ URL_PATTERNS = {
     ),
     "gemma": re.compile(r"^https?://deepmind\.google/.+$"),
     "kimi": re.compile(r"^https?://(?:www\.)?kimi\.com/blog/[^/?#]+/?$"),
-    "qwen": re.compile(r"^https?://(?:www\.)?qwen\.ai/blog\?id=[^&#]+$"),
     "openclaw": re.compile(r"^https?://openclaw\.ai/blog/[^/?#]+/?$"),
     "ollama": re.compile(r"^https?://ollama\.com/blog/[^/?#]+/?$"),
     "cursor": re.compile(
@@ -61,7 +60,7 @@ URL_PATTERNS = {
     "xai": re.compile(r"^https?://x\.ai/news/[^/?#]+/?$"),
 }
 
-PLAYWRIGHT_SOURCES = {"perplexity", "xai", "qwen"}
+PLAYWRIGHT_SOURCES = {"perplexity", "xai"}
 
 # Playwright browser (lazy-loaded)
 _browser = None
@@ -735,75 +734,6 @@ def fetch_perplexity(posts_map: dict):
         print(f"  Error fetching Perplexity: {e}")
 
 
-def fetch_qwen(posts_map: dict):
-    """Fetch Qwen posts from qwen.ai/research using Firefox (Chromium is bot-blocked)."""
-    print("Fetching: Qwen (Playwright/Firefox)...")
-    # Reuse the running playwright instance, launch firefox alongside the
-    # default chromium so we can't trip the 'sync API inside asyncio loop' error.
-    get_browser()  # ensure _playwright is initialized
-    firefox = _playwright.firefox.launch(headless=True)
-    try:
-        ctx = firefox.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
-            viewport={"width": 1366, "height": 768},
-            locale="en-US",
-        )
-        page = ctx.new_page()
-        try:
-            page.goto("https://qwen.ai/research", wait_until="domcontentloaded", timeout=60000)
-            try:
-                page.wait_for_function(
-                    "document.querySelectorAll('a[href*=\"id=\"]').length > 0",
-                    timeout=20000,
-                )
-            except Exception:
-                pass
-            for _ in range(4):
-                page.evaluate("window.scrollBy(0, window.innerHeight)")
-                page.wait_for_timeout(1000)
-            html = page.content()
-        finally:
-            ctx.close()
-    finally:
-        firefox.close()
-    try:
-        soup = BeautifulSoup(html, "html.parser")
-        print(f"  Firefox HTML length: {len(html)}; anchors: {len(soup.find_all('a', href=True))}")
-        # Look for inline JSON containing post data
-        import re as _re
-        for m in _re.finditer(r'"(?:slug|id|postId|title)"\s*:\s*"([^"]{3,80})"', html):
-            print(f"    json-match: {m.group(0)[:120]}")
-        # Look for embedded JSON-LD or initial state
-        for tag in soup.find_all("script"):
-            txt = tag.string or tag.text or ""
-            if ("post" in txt.lower() or "blog" in txt.lower()) and len(txt) > 1000 and "function" not in txt[:100].lower():
-                print(f"    state-script ({tag.get('id')!r}, {tag.get('type')!r}, {len(txt)}c): {txt[:300]}")
-                break
-        seen = set()
-        for a in soup.find_all("a", href=True):
-            href = (a.get("href") or "").strip()
-            if "id=" not in href:
-                continue
-            url = href if href.startswith("http") else (
-                f"https://qwen.ai{href}" if href.startswith("/") else f"https://qwen.ai/{href}"
-            )
-            url = clean_url(url)
-            if url in seen:
-                continue
-            seen.add(url)
-            card = _find_card(a) or a
-            h = card.find(["h1", "h2", "h3", "h4"]) if card else None
-            title = h.get_text(strip=True) if h else a.get_text(" ", strip=True)
-            date_str = _extract_date_from_card(card)
-            desc_el = card.find("p") if card else None
-            desc = desc_el.get_text(strip=True) if desc_el else ""
-            add_post(posts_map, "qwen", title, date_str, url, desc)
-        if not seen:
-            print("  (no Qwen posts extracted)")
-    except Exception as e:
-        print(f"  Error fetching Qwen: {e}")
-
-
 def fetch_xai(posts_map: dict):
     print("Fetching: xAI (Playwright)...")
     try:
@@ -867,7 +797,6 @@ def main():
 
     playwright_fetchers = [
         fetch_perplexity,
-        fetch_qwen,
         fetch_xai,
     ]
     print("--- Headless browser fetchers ---\n")

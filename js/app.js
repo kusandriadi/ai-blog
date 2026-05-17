@@ -4,7 +4,6 @@ const SOURCES = {
   openai: 'OpenAI',
   gemma: 'Gemma',
   kimi: 'Kimi',
-  qwen: 'Qwen',
   openclaw: 'OpenClaw',
   ollama: 'Ollama',
   cursor: 'Cursor',
