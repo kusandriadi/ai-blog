@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:anthropic-acquires-stainless",
+    "title": "Anthropic acquires Stainless",
+    "date": "2026-05-18",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:composer-2-5",
+    "title": "Introducing Composer 2.5",
+    "date": "2026-05-18",
+    "url": "https://cursor.com/blog/composer-2-5",
+    "source": "cursor",
+    "description": "A substantial improvement in intelligence and behavior over Composer 2, particularly on long-horizon agentic tasks."
+  },
+  {
     "id": "openclaw:where-openclaw-security-is-heading",
     "title": "Where OpenClaw Security Is Heading",
     "date": "2026-05-15",
