@@ -40,6 +40,102 @@
     "description": ""
   },
   {
+    "id": "gemma:fast-tracking-genetic-leads-to-reverse-cellular-aging",
+    "title": "Fast-tracking genetic leads to reverse cellular aging",
+    "date": "2026-05-18",
+    "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging",
+    "source": "gemma",
+    "description": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells."
+  },
+  {
+    "id": "gemma:simulate-real-world-places-with-project-genie-and-street-view",
+    "title": "Simulate real-world places with Project Genie and Street View",
+    "date": "2026-05-17",
+    "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view",
+    "source": "gemma",
+    "description": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
+  },
+  {
+    "id": "gemma:introducing-gemini-omni",
+    "title": "Introducing Gemini Omni",
+    "date": "2026-05-17",
+    "url": "https://deepmind.google/blog/introducing-gemini-omni",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-google-antigravity-2-0",
+    "title": "Introducing Google Antigravity 2.0",
+    "date": "2026-05-17",
+    "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery",
+    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+    "date": "2026-05-17",
+    "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery",
+    "source": "gemma",
+    "description": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
+  },
+  {
+    "id": "gemma:making-it-easier-to-understand-how-content-was-created-and-edited",
+    "title": "Making it easier to understand how content was created and edited",
+    "date": "2026-05-17",
+    "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited",
+    "source": "gemma",
+    "description": "We're expanding our tools to help you understand how content was created and edited across the web."
+  },
+  {
+    "id": "gemma:finding-the-molecular-switches-behind-new-infectious-diseases",
+    "title": "Finding the molecular switches behind new infectious diseases",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases",
+    "source": "gemma",
+    "description": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases."
+  },
+  {
+    "id": "gemma:opening-new-paths-in-aging-research",
+    "title": "Opening new paths in aging research",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research",
+    "source": "gemma",
+    "description": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research."
+  },
+  {
+    "id": "gemma:accelerating-discovery-of-liver-disease-mechanisms",
+    "title": "Accelerating discovery of liver disease mechanisms",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms",
+    "source": "gemma",
+    "description": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients."
+  },
+  {
+    "id": "gemma:uniting-biological-toolkits-for-a-new-approach-to-als",
+    "title": "Uniting biological toolkits for a new approach to ALS",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als",
+    "source": "gemma",
+    "description": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS."
+  },
+  {
+    "id": "gemma:uncovering-repurposed-medicines-to-fight-liver-fibrosis",
+    "title": "Uncovering repurposed medicines to fight liver fibrosis",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis",
+    "source": "gemma",
+    "description": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis."
+  },
+  {
+    "id": "gemma:how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica",
+    "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica",
+    "source": "gemma",
+    "description": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of  the historic Hurricane Melissa."
+  },
+  {
     "id": "openclaw:where-openclaw-security-is-heading",
     "title": "Where OpenClaw Security Is Heading",
     "date": "2026-05-15",
@@ -62,6 +158,14 @@
     "url": "https://x.ai/news/grok-hermes",
     "source": "xai",
     "description": ""
+  },
+  {
+    "id": "gemma:gemini-3-5-frontier-intelligence-with-action",
+    "title": "Gemini 3.5: frontier intelligence with action",
+    "date": "2026-05-15",
+    "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action",
+    "source": "gemma",
+    "description": "Gemini 3.5 is built to help you execute complex, agentic workflows."
   },
   {
     "id": "claude:gates-foundation-partnership",
@@ -182,6 +286,14 @@
     "url": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
     "source": "claude",
     "description": ""
+  },
+  {
+    "id": "gemma:co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
+    "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+    "date": "2026-05-12",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
+    "source": "gemma",
+    "description": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs."
   },
   {
     "id": "cursor:may-2026-bugbot-changes",
