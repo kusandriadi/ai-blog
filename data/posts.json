@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:anthropic-kpmg",
+    "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+    "date": "2026-05-19",
+    "url": "https://www.anthropic.com/news/anthropic-kpmg",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:anthropic-acquires-stainless",
     "title": "Anthropic acquires Stainless",
     "date": "2026-05-18",
