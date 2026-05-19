@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:claude-managed-agents-updates",
+    "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+    "date": "2026-05-19",
+    "url": "https://claude.com/blog/claude-managed-agents-updates",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:anthropic-acquires-stainless",
     "title": "Anthropic acquires Stainless",
     "date": "2026-05-18",
