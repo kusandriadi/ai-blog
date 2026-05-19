@@ -16,6 +16,14 @@
     "description": "A substantial improvement in intelligence and behavior over Composer 2, particularly on long-horizon agentic tasks."
   },
   {
+    "id": "xai:grok-skills",
+    "title": "Skills in web, iOS, and Android",
+    "date": "2026-05-18",
+    "url": "https://x.ai/news/grok-skills",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "openclaw:where-openclaw-security-is-heading",
     "title": "Where OpenClaw Security Is Heading",
     "date": "2026-05-15",
