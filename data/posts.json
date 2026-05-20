@@ -381,7 +381,7 @@
     "date": "2026-05-07",
     "url": "https://www.anthropic.com/research/natural-language-autoencoders",
     "source": "claude",
-    "description": "AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text."
+    "description": "AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text."
   },
   {
     "id": "claude:anthropic-institute-agenda",
