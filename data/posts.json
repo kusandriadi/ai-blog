@@ -1,5 +1,21 @@
 [
   {
+    "id": "xai:grok-openclaw",
+    "title": "Use Grok in OpenClaw",
+    "date": "2026-05-22",
+    "url": "https://x.ai/news/grok-openclaw",
+    "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "claude:using-claude-code-the-unreasonable-effectiveness-of-html",
+    "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+    "date": "2026-05-20",
+    "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-managed-agents-updates",
     "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
     "date": "2026-05-19",
@@ -12,6 +28,14 @@
     "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "date": "2026-05-19",
     "url": "https://www.anthropic.com/news/anthropic-kpmg",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:widening-conversation-ai",
+    "title": "Widening the conversation on frontier AI",
+    "date": "2026-05-19",
+    "url": "https://www.anthropic.com/news/widening-conversation-ai",
     "source": "claude",
     "description": ""
   },
