@@ -1,18 +1,18 @@
 [
   {
-    "id": "xai:grok-openclaw",
-    "title": "Use Grok in OpenClaw",
-    "date": "2026-05-22",
-    "url": "https://x.ai/news/grok-openclaw",
-    "source": "xai",
-    "description": ""
-  },
-  {
     "id": "claude:using-claude-code-the-unreasonable-effectiveness-of-html",
     "title": "Using Claude Code: The unreasonable effectiveness of HTML",
     "date": "2026-05-20",
     "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
     "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-openclaw",
+    "title": "Use Grok in OpenClaw",
+    "date": "2026-05-19",
+    "url": "https://x.ai/news/grok-openclaw",
+    "source": "xai",
     "description": ""
   },
   {
@@ -158,6 +158,14 @@
     "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica",
     "source": "gemma",
     "description": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of  the historic Hurricane Melissa."
+  },
+  {
+    "id": "gemma:strengthening-singapores-ai-future-a-new-national-partnership",
+    "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+    "date": "2026-05-16",
+    "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership",
+    "source": "gemma",
+    "description": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more."
   },
   {
     "id": "openclaw:where-openclaw-security-is-heading",
