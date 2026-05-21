@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:compliance-api-security-partners",
+    "title": "Claude now works with more security and compliance tools",
+    "date": "2026-05-21",
+    "url": "https://claude.com/blog/compliance-api-security-partners",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+    "title": "How our partners are putting Opus to work for cybersecurity",
+    "date": "2026-05-21",
+    "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:cloud-agent-lessons",
+    "title": "What we’ve learned building cloud agents",
+    "date": "2026-05-21",
+    "url": "https://cursor.com/blog/cloud-agent-lessons",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-opencode",
+    "title": "Use Grok in OpenCode",
+    "date": "2026-05-21",
+    "url": "https://x.ai/news/grok-opencode",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:using-claude-code-the-unreasonable-effectiveness-of-html",
     "title": "Using Claude Code: The unreasonable effectiveness of HTML",
     "date": "2026-05-20",
