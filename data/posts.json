@@ -1,5 +1,29 @@
 [
   {
+    "id": "claude:how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+    "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+    "date": "2026-05-22",
+    "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:cursor-leads-gartner-mq-2026",
+    "title": "Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents",
+    "date": "2026-05-22",
+    "url": "https://cursor.com/blog/cursor-leads-gartner-mq-2026",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "perplexity:perplexity-is-open-sourcing-bumblebee",
+    "title": "Perplexity Is Open-Sourcing Bumblebee",
+    "date": "2026-05-22",
+    "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
+    "source": "perplexity",
+    "description": "May 22, 2026"
+  },
+  {
     "id": "claude:compliance-api-security-partners",
     "title": "Claude now works with more security and compliance tools",
     "date": "2026-05-21",
@@ -29,7 +53,7 @@
     "date": "2026-05-21",
     "url": "https://x.ai/news/grok-opencode",
     "source": "xai",
-    "description": ""
+    "description": "Use your SuperGrok or X Premium subscription inside OpenCode."
   },
   {
     "id": "gemma:were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks",
@@ -501,7 +525,7 @@
     "date": "2026-05-06",
     "url": "https://x.ai/news/anthropic-compute-partnership",
     "source": "xai",
-    "description": ""
+    "description": "SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1."
   },
   {
     "id": "xai:grok-connectors",
@@ -509,7 +533,7 @@
     "date": "2026-05-06",
     "url": "https://x.ai/news/grok-connectors",
     "source": "xai",
-    "description": ""
+    "description": "Deep integrations that bring the apps you use every day directly into Grok."
   },
   {
     "id": "xai:grok-imagine-quality-mode",
@@ -517,7 +541,7 @@
     "date": "2026-05-06",
     "url": "https://x.ai/news/grok-imagine-quality-mode",
     "source": "xai",
-    "description": ""
+    "description": "Higher realism. Stronger text rendering. Better creative control."
   },
   {
     "id": "claude:finance-agents",
@@ -653,7 +677,7 @@
     "date": "2026-04-30",
     "url": "https://x.ai/news/grok-custom-voices",
     "source": "xai",
-    "description": ""
+    "description": "Your voice. Your brand. Clone a voice from a short recording and manage your entire voice catalog from the xAI console."
   },
   {
     "id": "cursor:typescript-sdk",
@@ -741,7 +765,7 @@
     "date": "2026-04-23",
     "url": "https://x.ai/news/grok-voice-think-fast-1",
     "source": "xai",
-    "description": ""
+    "description": "Our most capable voice agent is now available via API."
   },
   {
     "id": "gemma:decoupled-diloco",
@@ -829,7 +853,7 @@
     "date": "2026-04-17",
     "url": "https://x.ai/news/grok-stt-and-tts-apis",
     "source": "xai",
-    "description": ""
+    "description": "Fast and accurate. Natural, expressive voices. Simple pricing. Multilingual support."
   },
   {
     "id": "claude:claude-opus-4-7",
@@ -1781,7 +1805,7 @@
     "date": "2026-02-02",
     "url": "https://x.ai/news/xai-joins-spacex",
     "source": "xai",
-    "description": ""
+    "description": "SpaceX announced today that it has acquired xAI."
   },
   {
     "id": "ollama:openclaw",
@@ -1821,7 +1845,7 @@
     "date": "2026-01-28",
     "url": "https://x.ai/news/grok-imagine-api",
     "source": "xai",
-    "description": ""
+    "description": "State-of-the-art video generation across quality, cost, and latency."
   },
   {
     "id": "kimi:kimi-k2-5",
@@ -1965,7 +1989,7 @@
     "date": "2026-01-06",
     "url": "https://x.ai/news/series-e",
     "source": "xai",
-    "description": ""
+    "description": "xAI is rapidly accelerating its progress in building advanced AI."
   },
   {
     "id": "openai:openai-for-developers-2025",
@@ -1981,7 +2005,7 @@
     "date": "2025-12-30",
     "url": "https://x.ai/news/grok-business",
     "source": "xai",
-    "description": ""
+    "description": "The best assistant in the world is now Enterprise ready."
   },
   {
     "id": "gemma:googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
@@ -2005,7 +2029,7 @@
     "date": "2025-12-22",
     "url": "https://x.ai/news/grok-collections-api",
     "source": "xai",
-    "description": ""
+    "description": "State-of-the-art RAG system built directly into our API."
   },
   {
     "id": "xai:us-gov-dept-of-war",
@@ -2013,7 +2037,7 @@
     "date": "2025-12-22",
     "url": "https://x.ai/news/us-gov-dept-of-war",
     "source": "xai",
-    "description": ""
+    "description": "xAI is proud to be selected by the US Department of War to deliver Frontier AI"
   },
   {
     "id": "claude:bloom",
@@ -2045,7 +2069,7 @@
     "date": "2025-12-17",
     "url": "https://x.ai/news/grok-voice-agent-api",
     "source": "xai",
-    "description": ""
+    "description": "Bringing the power of Grok Voice to all developers."
   },
   {
     "id": "gemma:gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior",
@@ -2101,7 +2125,7 @@
     "date": "2025-12-11",
     "url": "https://x.ai/news/el-salvador-partnership",
     "source": "xai",
-    "description": ""
+    "description": "Announcing Our Transformative Partnership with the Government of El Salvador."
   },
   {
     "id": "gemma:strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era",
@@ -2293,7 +2317,7 @@
     "date": "2025-11-19",
     "url": "https://x.ai/news/grok-4-1-fast",
     "source": "xai",
-    "description": ""
+    "description": "Bringing the next generation of tool-calling agents to the xAI API"
   },
   {
     "id": "xai:grok-goes-global",
@@ -2301,7 +2325,7 @@
     "date": "2025-11-19",
     "url": "https://x.ai/news/grok-goes-global",
     "source": "xai",
-    "description": ""
+    "description": "Announcing Our Landmark Partnership with Saudi Arabia and HUMAIN"
   },
   {
     "id": "gemma:start-building-with-gemini-3",
@@ -2349,7 +2373,7 @@
     "date": "2025-11-17",
     "url": "https://x.ai/news/grok-4-1",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected explicitly as “Grok 4.1” in the model picker."
   },
   {
     "id": "perplexity:comet-assistant-puts-you-in-control",
@@ -2797,7 +2821,7 @@
     "date": "2025-09-25",
     "url": "https://x.ai/news/onegov",
     "source": "xai",
-    "description": ""
+    "description": "Expanding ‘xAI For Government’ with more accessible AI tools for the Federal Government"
   },
   {
     "id": "ollama:web-search",
@@ -2845,7 +2869,7 @@
     "date": "2025-09-19",
     "url": "https://x.ai/news/grok-4-fast",
     "source": "xai",
-    "description": ""
+    "description": "Pushing the Frontier of Cost-Efficient Intelligence"
   },
   {
     "id": "perplexity:power-your-organization-s-full-potential",
@@ -2893,7 +2917,7 @@
     "date": "2025-08-28",
     "url": "https://x.ai/news/grok-code-fast-1",
     "source": "xai",
-    "description": ""
+    "description": "We're thrilled to introduce grok-code-fast-1, a speedy and economical reasoning model that excels at agentic coding."
   },
   {
     "id": "perplexity:introducing-comet-plus",
@@ -2981,7 +3005,7 @@
     "date": "2025-07-14",
     "url": "https://x.ai/news/government",
     "source": "xai",
-    "description": ""
+    "description": "We are excited to announce xAI For Government – a suite of frontier AI products available first to United States Government customers."
   },
   {
     "id": "kimi:kimi-k2",
@@ -3005,7 +3029,7 @@
     "date": "2025-07-09",
     "url": "https://x.ai/news/grok-4",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4 is the most intelligent model in the world. It includes native tool use and real-time search integration, and is available now to SuperGrok and Premium+ subscribers, as well as through the xAI API. We are also introducing a new SuperGrok Heavy tier with access to Grok 4 Heavy - the most powerful version of Grok 4."
   },
   {
     "id": "perplexity:introducing-perplexity-max",
@@ -3717,7 +3741,7 @@
     "date": "2025-02-19",
     "url": "https://x.ai/news/grok-3",
     "source": "xai",
-    "description": ""
+    "description": "We are thrilled to unveil an early preview of Grok 3, our most advanced model yet, blending superior reasoning with extensive pretraining knowledge."
   },
   {
     "id": "claude:measuring-agent-autonomy",
