@@ -24,6 +24,14 @@
     "description": "May 22, 2026"
   },
   {
+    "id": "claude:glasswing-initial-update",
+    "title": "Project Glasswing: An initial update",
+    "date": "2026-05-22",
+    "url": "https://www.anthropic.com/research/glasswing-initial-update",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:compliance-api-security-partners",
     "title": "Claude now works with more security and compliance tools",
     "date": "2026-05-21",
