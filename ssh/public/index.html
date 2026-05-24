@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>SSH Console</title>
+  <meta name="description" content="Installable SSH client for iPhone. Connect to a server and run claude." />
+
+  <!-- PWA / iOS home-screen app -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0b0f14" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="SSH" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+
+  <link rel="stylesheet" href="/vendor/xterm/css/xterm.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Connection manager -->
+  <main id="connect-screen" class="screen">
+    <header class="app-header">
+      <h1>SSH Console</h1>
+      <p class="subtitle">Connect &amp; run <code>claude</code> on your server</p>
+    </header>
+
+    <section id="saved-section" class="card hidden">
+      <h2>Saved servers</h2>
+      <ul id="saved-list" class="saved-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2 id="form-title">New connection</h2>
+      <form id="connect-form" autocomplete="off">
+        <input type="hidden" id="conn-id" />
+
+        <label>Name <span class="muted">(optional)</span>
+          <input id="conn-name" type="text" placeholder="My server" />
+        </label>
+
+        <div class="row">
+          <label class="grow">Host
+            <input id="conn-host" type="text" inputmode="url" autocapitalize="none" autocorrect="off" placeholder="example.com or 1.2.3.4" required />
+          </label>
+          <label class="port">Port
+            <input id="conn-port" type="number" value="22" min="1" max="65535" />
+          </label>
+        </div>
+
+        <label>Username
+          <input id="conn-username" type="text" autocapitalize="none" autocorrect="off" placeholder="root" required />
+        </label>
+
+        <label>Auth method
+          <select id="conn-auth">
+            <option value="password">Password</option>
+            <option value="key">Private key</option>
+          </select>
+        </label>
+
+        <label id="password-field">Password
+          <input id="conn-password" type="password" autocapitalize="none" autocorrect="off" />
+        </label>
+
+        <div id="key-fields" class="hidden">
+          <label>Private key (PEM)
+            <textarea id="conn-key" rows="4" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="-----BEGIN OPENSSH PRIVATE KEY-----"></textarea>
+          </label>
+          <label>Key passphrase <span class="muted">(optional)</span>
+            <input id="conn-passphrase" type="password" autocapitalize="none" autocorrect="off" />
+          </label>
+        </div>
+
+        <label id="token-field" class="hidden">Bridge token
+          <input id="conn-token" type="password" autocapitalize="none" autocorrect="off" />
+        </label>
+
+        <label class="checkbox">
+          <input id="conn-auto-claude" type="checkbox" checked />
+          Run <code>claude</code> automatically after connecting
+        </label>
+
+        <label class="checkbox">
+          <input id="conn-remember" type="checkbox" />
+          Remember this server <span class="muted">(stores credentials in this browser)</span>
+        </label>
+
+        <div class="actions">
+          <button type="submit" class="primary">Connect</button>
+          <button type="button" id="clear-form" class="ghost">Clear</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="app-footer">
+      <p class="muted small">Add to Home Screen for a full-screen app. Credentials never leave your phone except to your own bridge.</p>
+    </footer>
+  </main>
+
+  <!-- Terminal -->
+  <div id="term-screen" class="screen hidden">
+    <div id="term-bar" class="term-bar">
+      <button id="back-btn" class="bar-btn" title="Disconnect">‹ Back</button>
+      <span id="term-status" class="term-status">disconnected</span>
+      <button id="claude-btn" class="bar-btn accent" title="Run claude">claude</button>
+    </div>
+
+    <div id="terminal"></div>
+
+    <div id="keybar" class="keybar">
+      <button class="key" data-seq="esc">esc</button>
+      <button class="key" data-seq="tab">tab</button>
+      <button class="key mod" data-mod="ctrl">ctrl</button>
+      <button class="key mod" data-mod="alt">alt</button>
+      <button class="key" data-seq="ctrl-c">^C</button>
+      <button class="key" data-seq="up">↑</button>
+      <button class="key" data-seq="down">↓</button>
+      <button class="key" data-seq="left">←</button>
+      <button class="key" data-seq="right">→</button>
+      <button class="key" data-seq="kbd" id="kbd-btn">⌨</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/vendor/xterm/lib/xterm.js"></script>
+  <script src="/vendor/addon-fit/lib/addon-fit.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

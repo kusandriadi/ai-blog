@@ -1,0 +1,22 @@
+{
+  "name": "ssh-iphone-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Installable PWA SSH client for iPhone with a Node WebSocket-to-SSH bridge. Built to make it easy to SSH into a server and run the 'claude' command.",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/xterm": "^5.5.0",
+    "express": "^4.21.2",
+    "ssh2": "^1.16.0",
+    "ws": "^8.18.0"
+  }
+}
