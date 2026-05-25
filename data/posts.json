@@ -1,5 +1,21 @@
 [
   {
+    "id": "xai:grok-build-cli",
+    "title": "Introducing Grok Build",
+    "date": "2026-05-25",
+    "url": "https://x.ai/news/grok-build-cli",
+    "source": "xai",
+    "description": "Now in early beta for all SuperGrok and X Premium Plus subscribers — Grok Build is a new coding agent that runs right from your terminal."
+  },
+  {
+    "id": "claude:chris-olah-pope-leo-encyclical",
+    "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "date": "2026-05-25",
+    "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
     "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
     "date": "2026-05-22",
@@ -333,14 +349,6 @@
     "date": "2026-05-14",
     "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
     "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "xai:grok-build-cli",
-    "title": "Introducing Grok Build",
-    "date": "2026-05-14",
-    "url": "https://x.ai/news/grok-build-cli",
-    "source": "xai",
     "description": ""
   },
   {
