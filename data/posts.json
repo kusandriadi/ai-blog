@@ -1,5 +1,13 @@
 [
   {
+    "id": "cursor:faire",
+    "title": "Faire doubles PR throughput with Cursor Cloud Agents",
+    "date": "2026-05-26",
+    "url": "https://cursor.com/blog/faire",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "xai:grok-build-cli",
     "title": "Introducing Grok Build",
     "date": "2026-05-25",
