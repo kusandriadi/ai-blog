@@ -8,6 +8,22 @@
     "description": "Use your SuperGrok or X Premium+ subscription inside Kilo Code, the open-source agentic coding platform."
   },
   {
+    "id": "claude:how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+    "title": "How CodeRabbit Used Claude to Build an Agent Orchestration System",
+    "date": "2026-05-27",
+    "url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:zero-trust-for-ai-agents",
+    "title": "Zero Trust for AI agents",
+    "date": "2026-05-27",
+    "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "cursor:faire",
     "title": "Faire doubles PR throughput with Cursor Cloud Agents",
     "date": "2026-05-26",
