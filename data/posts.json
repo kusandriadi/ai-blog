@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:grok-kilocode",
+    "title": "Use Grok in Kilo Code",
+    "date": "2026-05-27",
+    "url": "https://x.ai/news/grok-kilocode",
+    "source": "xai",
+    "description": "Use your SuperGrok or X Premium+ subscription inside Kilo Code, the open-source agentic coding platform."
+  },
+  {
     "id": "cursor:faire",
     "title": "Faire doubles PR throughput with Cursor Cloud Agents",
     "date": "2026-05-26",
@@ -309,7 +317,7 @@
     "date": "2026-05-15",
     "url": "https://x.ai/news/grok-hermes",
     "source": "xai",
-    "description": ""
+    "description": "Use your Grok account and subscription inside Nous Research’s open-source, self-improving Hermes agent."
   },
   {
     "id": "gemma:gemini-3-5-frontier-intelligence-with-action",
