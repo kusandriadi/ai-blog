@@ -9,7 +9,7 @@
   },
   {
     "id": "claude:how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
-    "title": "How CodeRabbit Used Claude to Build an Agent Orchestration System",
+    "title": "How CodeRabbit used Claude to build an agent orchestration system",
     "date": "2026-05-27",
     "url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
     "source": "claude",
@@ -20,6 +20,22 @@
     "title": "Zero Trust for AI agents",
     "date": "2026-05-27",
     "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:using-llms-to-secure-source-code",
+    "title": "Using LLMs to secure source code",
+    "date": "2026-05-27",
+    "url": "https://claude.com/blog/using-llms-to-secure-source-code",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:coding-agents-social-sciences",
+    "title": "Coding agents in the social sciences",
+    "date": "2026-05-27",
+    "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
     "source": "claude",
     "description": ""
   },
