@@ -40,6 +40,14 @@
     "description": ""
   },
   {
+    "id": "claude:milan-office-opening",
+    "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+    "date": "2026-05-27",
+    "url": "https://www.anthropic.com/news/milan-office-opening",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "cursor:faire",
     "title": "Faire doubles PR throughput with Cursor Cloud Agents",
     "date": "2026-05-26",
