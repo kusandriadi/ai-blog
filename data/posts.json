@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:introducing-dynamic-workflows-in-claude-code",
+    "title": "Introducing dynamic workflows in Claude Code",
+    "date": "2026-05-28",
+    "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-opus-4-8",
+    "title": "Introducing Claude Opus 4.8",
+    "date": "2026-05-28",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "source": "claude",
+    "description": "An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work."
+  },
+  {
+    "id": "claude:series-h",
+    "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+    "date": "2026-05-28",
+    "url": "https://www.anthropic.com/news/series-h",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-build-0-1",
+    "title": "Grok Build 0.1 on API",
+    "date": "2026-05-28",
+    "url": "https://x.ai/news/grok-build-0-1",
+    "source": "xai",
+    "description": "Grok Build 0.1, our fastest coding model, is now available via the xAI API in public beta."
+  },
+  {
     "id": "xai:grok-kilocode",
     "title": "Use Grok in Kilo Code",
     "date": "2026-05-27",
@@ -229,7 +261,7 @@
     "date": "2026-05-18",
     "url": "https://x.ai/news/grok-skills",
     "source": "xai",
-    "description": ""
+    "description": "Persistent expertise for Grok. Generate documents, decks, and spreadsheets. Automate workflows. Build and share your own skills."
   },
   {
     "id": "gemma:fast-tracking-genetic-leads-to-reverse-cellular-aging",
