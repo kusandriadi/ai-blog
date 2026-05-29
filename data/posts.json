@@ -32,6 +32,14 @@
     "description": "Grok Build 0.1, our fastest coding model, is now available via the xAI API in public beta."
   },
   {
+    "id": "ollama:openjarvis",
+    "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+    "date": "2026-05-28",
+    "url": "https://ollama.com/blog/openjarvis",
+    "source": "ollama",
+    "description": "OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in."
+  },
+  {
     "id": "xai:grok-kilocode",
     "title": "Use Grok in Kilo Code",
     "date": "2026-05-27",
