@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:grok-build-0-1",
+    "title": "Grok Build 0.1 on API",
+    "date": "2026-05-29",
+    "url": "https://x.ai/news/grok-build-0-1",
+    "source": "xai",
+    "description": "Grok Build 0.1, our fastest coding model, is now available via the xAI API in public beta."
+  },
+  {
     "id": "claude:introducing-dynamic-workflows-in-claude-code",
     "title": "Introducing dynamic workflows in Claude Code",
     "date": "2026-05-28",
@@ -22,14 +30,6 @@
     "url": "https://www.anthropic.com/news/series-h",
     "source": "claude",
     "description": ""
-  },
-  {
-    "id": "xai:grok-build-0-1",
-    "title": "Grok Build 0.1 on API",
-    "date": "2026-05-28",
-    "url": "https://x.ai/news/grok-build-0-1",
-    "source": "xai",
-    "description": "Grok Build 0.1, our fastest coding model, is now available via the xAI API in public beta."
   },
   {
     "id": "ollama:openjarvis",
