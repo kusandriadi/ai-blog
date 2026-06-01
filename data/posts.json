@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "cursor:teams-pricing-june-2026",
+    "title": "Improvements to Teams Pricing",
+    "date": "2026-06-01",
+    "url": "https://cursor.com/blog/teams-pricing-june-2026",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:composer-2-5",
+    "title": "Composer 2.5",
+    "date": "2026-06-01",
+    "url": "https://x.ai/news/composer-2-5",
+    "source": "xai",
+    "description": "Composer 2.5 is now available in Grok Build. Try it from the /models menu."
+  },
+  {
     "id": "xai:grok-build-0-1",
     "title": "Grok Build 0.1 on API",
     "date": "2026-05-29",
@@ -229,7 +245,7 @@
     "date": "2026-05-19",
     "url": "https://x.ai/news/grok-openclaw",
     "source": "xai",
-    "description": ""
+    "description": "Use your SuperGrok or X Premium subscription inside OpenClaw, an open-source, local-first agent and personal assistant."
   },
   {
     "id": "claude:claude-managed-agents-updates",
