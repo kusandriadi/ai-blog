@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:confidential-draft-s1-sec",
+    "title": "Anthropic confidentially submits draft S-1 to the SEC",
+    "date": "2026-06-01",
+    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "xai:grok-build-0-1",
     "title": "Grok Build 0.1 on API",
     "date": "2026-05-29",
