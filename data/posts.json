@@ -1,9 +1,33 @@
 [
   {
+    "id": "claude:running-an-ai-native-engineering-org",
+    "title": "Running an AI-native engineering org",
+    "date": "2026-06-03",
+    "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:expanding-project-glasswing",
     "title": "Expanding Project Glasswing",
     "date": "2026-06-02",
     "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:cloud-agent-lessons",
+    "title": "What we’ve learned building cloud agents",
+    "date": "2026-06-02",
+    "url": "https://cursor.com/blog/cloud-agent-lessons",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "claude:a-harness-for-every-task-dynamic-workflows-in-claude-code",
+    "title": "A harness for every task: dynamic workflows in Claude Code",
+    "date": "2026-06-02",
+    "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
     "source": "claude",
     "description": ""
   },
@@ -205,14 +229,6 @@
     "date": "2026-05-21",
     "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
     "source": "claude",
-    "description": ""
-  },
-  {
-    "id": "cursor:cloud-agent-lessons",
-    "title": "What we’ve learned building cloud agents",
-    "date": "2026-05-21",
-    "url": "https://cursor.com/blog/cloud-agent-lessons",
-    "source": "cursor",
     "description": ""
   },
   {
