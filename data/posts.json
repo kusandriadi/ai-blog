@@ -1,5 +1,13 @@
 [
   {
+    "id": "ollama:nemotron-3-ultra",
+    "title": "NVIDIA Nemotron 3 Ultra",
+    "date": "2026-06-04",
+    "url": "https://ollama.com/blog/nemotron-3-ultra",
+    "source": "ollama",
+    "description": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows."
+  },
+  {
     "id": "claude:running-an-ai-native-engineering-org",
     "title": "Running an AI-native engineering org",
     "date": "2026-06-03",
