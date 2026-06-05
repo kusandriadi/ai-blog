@@ -1,5 +1,45 @@
 [
   {
+    "id": "claude:the-claude-cowork-product-guide",
+    "title": "The Claude Cowork product guide",
+    "date": "2026-06-05",
+    "url": "https://claude.com/blog/the-claude-cowork-product-guide",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-anthropic-uses-claude-gtm-engineering",
+    "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+    "date": "2026-06-05",
+    "url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:making-claude-a-chemist",
+    "title": "Making Claude a chemist",
+    "date": "2026-06-05",
+    "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "ollama:improved-performance-and-model-support-with-gguf",
+    "title": "Improved performance and model support with GGUF",
+    "date": "2026-06-05",
+    "url": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+    "source": "ollama",
+    "description": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware."
+  },
+  {
+    "id": "cursor:design-mode",
+    "title": "Direct agents with visual prompts in Design Mode",
+    "date": "2026-06-05",
+    "url": "https://cursor.com/blog/design-mode",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "ollama:nemotron-3-ultra",
     "title": "NVIDIA Nemotron 3 Ultra",
     "date": "2026-06-04",
@@ -253,7 +293,7 @@
     "date": "2026-05-25",
     "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
     "source": "claude",
-    "description": ""
+    "description": "The full text of Chris Olah's remarks on the Pope's encyclical on AI."
   },
   {
     "id": "claude:how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
@@ -365,7 +405,7 @@
     "date": "2026-05-19",
     "url": "https://www.anthropic.com/news/widening-conversation-ai",
     "source": "claude",
-    "description": ""
+    "description": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
   },
   {
     "id": "claude:anthropic-acquires-stainless",
