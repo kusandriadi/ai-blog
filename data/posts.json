@@ -85,7 +85,7 @@
     "date": "2026-06-02",
     "url": "https://www.anthropic.com/news/expanding-project-glasswing",
     "source": "claude",
-    "description": ""
+    "description": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries."
   },
   {
     "id": "cursor:cloud-agent-lessons",
@@ -973,7 +973,7 @@
     "date": "2026-04-24",
     "url": "https://www.anthropic.com/news/election-safeguards-update",
     "source": "claude",
-    "description": ""
+    "description": "We explain what we’re doing to ensure Claude plays a positive role in the US midterms and other major elections around the world this year."
   },
   {
     "id": "claude:anthropic-nec",
