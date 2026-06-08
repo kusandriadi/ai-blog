@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:observability-for-developers-building-connectors",
+    "title": "Observability for developers building connectors",
+    "date": "2026-06-08",
+    "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:agents-in-biology",
+    "title": "Paving the way for agents in biology",
+    "date": "2026-06-08",
+    "url": "https://www.anthropic.com/research/agents-in-biology",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:the-claude-cowork-product-guide",
     "title": "The Claude Cowork product guide",
     "date": "2026-06-05",
