@@ -1,5 +1,21 @@
 [
   {
+    "id": "gemma:introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "date": "2026-06-09",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:powering-the-future-of-robotics-in-europe",
+    "title": "Powering the future of robotics in Europe",
+    "date": "2026-06-09",
+    "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:observability-for-developers-building-connectors",
     "title": "Observability for developers building connectors",
     "date": "2026-06-08",
@@ -22,6 +38,14 @@
     "url": "https://claude.com/blog/claude-for-foundation-models",
     "source": "claude",
     "description": ""
+  },
+  {
+    "id": "gemma:measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+    "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "date": "2026-06-08",
+    "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+    "source": "gemma",
+    "description": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
   },
   {
     "id": "claude:the-claude-cowork-product-guide",
