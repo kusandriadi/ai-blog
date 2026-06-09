@@ -16,6 +16,30 @@
     "description": ""
   },
   {
+    "id": "claude:claude-fable-5-mythos-5",
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "date": "2026-06-09",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "source": "claude",
+    "description": "Our next generation of intelligence for the hardest knowledge work and coding problems."
+  },
+  {
+    "id": "gemma:fluid-natural-voice-translation-with-gemini-35-live-translate",
+    "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "date": "2026-06-09",
+    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate",
+    "source": "gemma",
+    "description": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet."
+  },
+  {
+    "id": "xai:grok-gopuff",
+    "title": "Powering Gopuff's Go agent",
+    "date": "2026-06-09",
+    "url": "https://x.ai/news/grok-gopuff",
+    "source": "xai",
+    "description": "Gopuff and SpaceXAI launched Go, an AI-powered shopping assistant built into the Gopuff app and powered by Grok text, audio, and image models."
+  },
+  {
     "id": "claude:observability-for-developers-building-connectors",
     "title": "Observability for developers building connectors",
     "date": "2026-06-08",
