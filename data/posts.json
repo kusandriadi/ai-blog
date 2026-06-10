@@ -40,6 +40,14 @@
     "description": "Gopuff and SpaceXAI launched Go, an AI-powered shopping assistant built into the Gopuff app and powered by Grok text, audio, and image models."
   },
   {
+    "id": "claude:whats-new-in-claude-managed-agents",
+    "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+    "date": "2026-06-09",
+    "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:observability-for-developers-building-connectors",
     "title": "Observability for developers building connectors",
     "date": "2026-06-08",
