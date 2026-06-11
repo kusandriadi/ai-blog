@@ -16,6 +16,22 @@
     "description": "Launching the built-in plugin marketplace for Grok Build."
   },
   {
+    "id": "claude:dxc-anthropic-alliance",
+    "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+    "date": "2026-06-11",
+    "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:agent-autonomy-auto-review",
+    "title": "Governing agent autonomy with Auto-review",
+    "date": "2026-06-11",
+    "url": "https://cursor.com/blog/agent-autonomy-auto-review",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:building-with-claude-managed-agents",
     "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
     "date": "2026-06-10",
