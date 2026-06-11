@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:claude-corps",
+    "title": "Introducing Claude Corps",
+    "date": "2026-06-11",
+    "url": "https://www.anthropic.com/news/claude-corps",
+    "source": "claude",
+    "description": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America."
+  },
+  {
+    "id": "xai:grok-plugin-marketplace",
+    "title": "Grok Build Plugin Marketplace",
+    "date": "2026-06-11",
+    "url": "https://x.ai/news/grok-plugin-marketplace",
+    "source": "xai",
+    "description": "Launching the built-in plugin marketplace for Grok Build."
+  },
+  {
     "id": "claude:building-with-claude-managed-agents",
     "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
     "date": "2026-06-10",
@@ -30,6 +46,14 @@
     "url": "https://x.ai/news/grok-etoro",
     "source": "xai",
     "description": "Tori, eToro’s AI agent, uses models from SpaceXAI to embed real-time market sentiment directly into Tori’s investing workflow."
+  },
+  {
+    "id": "gemma:investing-in-multi-agent-ai-safety-research",
+    "title": "Investing in multi-agent AI safety research",
+    "date": "2026-06-10",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
+    "source": "gemma",
+    "description": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research."
   },
   {
     "id": "gemma:introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
@@ -149,7 +173,7 @@
     "date": "2026-06-05",
     "url": "https://cursor.com/blog/design-mode",
     "source": "cursor",
-    "description": ""
+    "description": "Point, draw, or narrate UI changes in the browser while agents edit the code underneath."
   },
   {
     "id": "ollama:nemotron-3-ultra",
@@ -1085,7 +1109,7 @@
     "date": "2026-04-29",
     "url": "https://cursor.com/blog/typescript-sdk",
     "source": "cursor",
-    "description": "Build programmatic agents with the Cursor SDK"
+    "description": "Launch, steer, and compose custom agents with the Cursor SDK."
   },
   {
     "id": "claude:Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
