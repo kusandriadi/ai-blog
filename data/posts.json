@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "ollama:mlx-performance",
+    "title": "Ollama's highest performance on Apple Silicon yet with MLX",
+    "date": "2026-06-11",
+    "url": "https://ollama.com/blog/mlx-performance",
+    "source": "ollama",
+    "description": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory."
+  },
+  {
     "id": "claude:building-with-claude-managed-agents",
     "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
     "date": "2026-06-10",
