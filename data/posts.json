@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:anthropic-public-record",
+    "title": "Results from the first Anthropic Public Record",
+    "date": "2026-06-12",
+    "url": "https://www.anthropic.com/news/anthropic-public-record",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:tcs-anthropic-partnership",
+    "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+    "date": "2026-06-12",
+    "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-corps",
     "title": "Introducing Claude Corps",
     "date": "2026-06-11",
