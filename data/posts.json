@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "claude:fable-mythos-access",
+    "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+    "date": "2026-06-12",
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
+    "source": "claude",
+    "description": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5."
+  },
+  {
     "id": "claude:claude-corps",
     "title": "Introducing Claude Corps",
     "date": "2026-06-11",
