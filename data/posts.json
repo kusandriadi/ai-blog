@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:introducing-powerpoint-addin",
+    "title": "Grok for PowerPoint",
+    "date": "2026-06-16",
+    "url": "https://x.ai/news/introducing-powerpoint-addin",
+    "source": "xai",
+    "description": "Grok now works inside Microsoft PowerPoint — turn outlines into slides, expand the deck, and tighten the narrative without leaving the app."
+  },
+  {
     "id": "cursor:wayfair",
     "title": "How Wayfair cut ML model costs by 90% (twice!) with Cursor",
     "date": "2026-06-15",
