@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:claude-code-expertise",
+    "title": "Agentic coding and persistent returns to expertise",
+    "date": "2026-06-17",
+    "url": "https://www.anthropic.com/research/claude-code-expertise",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "xai:introducing-powerpoint-addin",
     "title": "Grok for PowerPoint",
     "date": "2026-06-16",
