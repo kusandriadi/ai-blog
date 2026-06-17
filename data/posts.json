@@ -2,7 +2,7 @@
   {
     "id": "claude:claude-code-expertise",
     "title": "Agentic coding and persistent returns to expertise",
-    "date": "2026-06-17",
+    "date": "2026-06-16",
     "url": "https://www.anthropic.com/research/claude-code-expertise",
     "source": "claude",
     "description": ""
@@ -14,6 +14,22 @@
     "url": "https://x.ai/news/introducing-powerpoint-addin",
     "source": "xai",
     "description": "Grok now works inside Microsoft PowerPoint — turn outlines into slides, expand the deck, and tighten the narrative without leaving the app."
+  },
+  {
+    "id": "gemma:unlocking-uk-house-building-with-ai-accelerated-planning",
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "date": "2026-06-16",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning",
+    "source": "gemma",
+    "description": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
+  },
+  {
+    "id": "xai:grok-imagine-video-1-5",
+    "title": "Grok Imagine Video 1.5",
+    "date": "2026-06-16",
+    "url": "https://x.ai/news/grok-imagine-video-1-5",
+    "source": "xai",
+    "description": "Improved quality at even faster speeds."
   },
   {
     "id": "cursor:wayfair",
