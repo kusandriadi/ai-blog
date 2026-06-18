@@ -24,6 +24,22 @@
     "description": "Grok models are now available via Amazon Bedrock."
   },
   {
+    "id": "claude:meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+    "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+    "date": "2026-06-17",
+    "url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:workload-identity-federation",
+    "title": "Secure access to the Claude Platform with Workload Identity Federation",
+    "date": "2026-06-17",
+    "url": "https://claude.com/blog/workload-identity-federation",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-code-expertise",
     "title": "Agentic coding and persistent returns to expertise",
     "date": "2026-06-16",
