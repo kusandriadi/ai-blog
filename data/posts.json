@@ -72,6 +72,14 @@
     "description": "Improved quality at even faster speeds."
   },
   {
+    "id": "gemma:securing-the-future-of-ai-agents",
+    "title": "Securing the future of AI agents",
+    "date": "2026-06-16",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents",
+    "source": "gemma",
+    "description": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring."
+  },
+  {
     "id": "cursor:wayfair",
     "title": "How Wayfair cut ML model costs by 90% (twice!) with Cursor",
     "date": "2026-06-15",
