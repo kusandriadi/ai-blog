@@ -1,5 +1,53 @@
 [
   {
+    "id": "claude:artifacts-in-claude-code",
+    "title": "Claude Code now supports artifacts",
+    "date": "2026-06-18",
+    "url": "https://claude.com/blog/artifacts-in-claude-code",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:steering-claude-code-skills-hooks-rules-subagents-and-more",
+    "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+    "date": "2026-06-18",
+    "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:enterprise-managed-auth",
+    "title": "Centrally manage authorization for MCP connectors",
+    "date": "2026-06-18",
+    "url": "https://claude.com/blog/enterprise-managed-auth",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:project-fetch-phase-two",
+    "title": "Project Fetch: Phase two",
+    "date": "2026-06-18",
+    "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:introducing-word-addin",
+    "title": "Grok for Word",
+    "date": "2026-06-18",
+    "url": "https://x.ai/news/introducing-word-addin",
+    "source": "xai",
+    "description": "Use the Grok add-in for Microsoft Word to turn notes into documents, style and format your work, or bring research from the web into Word."
+  },
+  {
+    "id": "xai:grok-databricks",
+    "title": "Grok on Databricks",
+    "date": "2026-06-18",
+    "url": "https://x.ai/news/grok-databricks",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:claude-design-stays-on-brand-for-daily-work",
     "title": "Claude Design now stays on brand for daily work",
     "date": "2026-06-17",
@@ -101,7 +149,7 @@
     "date": "2026-06-15",
     "url": "https://x.ai/news/grok-warp",
     "source": "xai",
-    "description": ""
+    "description": "Use your Grok and X Premium subscription inside Warp."
   },
   {
     "id": "claude:meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
