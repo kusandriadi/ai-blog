@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:introducing-goal",
+    "title": "Introducing /goal",
+    "date": "2026-06-22",
+    "url": "https://x.ai/news/introducing-goal",
+    "source": "xai",
+    "description": "Use /goal for long-running autonomous task execution in Grok Build."
+  },
+  {
     "id": "claude:artifacts-in-claude-code",
     "title": "Claude Code now supports artifacts",
     "date": "2026-06-18",
