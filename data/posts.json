@@ -776,6 +776,14 @@
     "description": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
   },
   {
+    "id": "claude:new-in-claude-managed-agents",
+    "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+    "date": "2026-05-19",
+    "url": "https://claude.com/blog/new-in-claude-managed-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:anthropic-acquires-stainless",
     "title": "Anthropic acquires Stainless",
     "date": "2026-05-18",
@@ -1166,14 +1174,6 @@
     "url": "https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api",
     "source": "perplexity",
     "description": "May 6, 2026"
-  },
-  {
-    "id": "claude:new-in-claude-managed-agents",
-    "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
-    "date": "2026-05-06",
-    "url": "https://claude.com/blog/new-in-claude-managed-agents",
-    "source": "claude",
-    "description": ""
   },
   {
     "id": "xai:anthropic-compute-partnership",
