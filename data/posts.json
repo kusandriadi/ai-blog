@@ -1,5 +1,13 @@
 [
   {
+    "id": "openai:mastering-codex-remote-for-engineering",
+    "title": "Mastering Codex Remote for engineering",
+    "date": "2026-06-23",
+    "url": "https://developers.openai.com/blog/mastering-codex-remote-for-engineering",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "xai:introducing-goal",
     "title": "Introducing /goal",
     "date": "2026-06-22",
