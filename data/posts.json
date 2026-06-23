@@ -8,6 +8,14 @@
     "description": "Use /goal for long-running autonomous task execution in Grok Build."
   },
   {
+    "id": "claude:the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+    "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+    "date": "2026-06-22",
+    "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:artifacts-in-claude-code",
     "title": "Claude Code now supports artifacts",
     "date": "2026-06-18",
