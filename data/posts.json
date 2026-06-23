@@ -1,10 +1,34 @@
 [
   {
+    "id": "claude:agent-identity-access-model",
+    "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+    "date": "2026-06-24",
+    "url": "https://claude.com/blog/agent-identity-access-model",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "openai:mastering-codex-remote-for-engineering",
     "title": "Mastering Codex Remote for engineering",
     "date": "2026-06-23",
     "url": "https://developers.openai.com/blog/mastering-codex-remote-for-engineering",
     "source": "openai",
+    "description": ""
+  },
+  {
+    "id": "claude:introducing-claude-tag",
+    "title": "Introducing Claude Tag",
+    "date": "2026-06-23",
+    "url": "https://www.anthropic.com/news/introducing-claude-tag",
+    "source": "claude",
+    "description": "Claude Tag is a new way for teams to work with Claude."
+  },
+  {
+    "id": "cursor:coinbase",
+    "title": "Coinbase reduces time from idea to production by 90% with Cursor",
+    "date": "2026-06-23",
+    "url": "https://cursor.com/blog/coinbase",
+    "source": "cursor",
     "description": ""
   },
   {
