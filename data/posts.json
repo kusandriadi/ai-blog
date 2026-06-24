@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:building-effective-human-agent-teams",
+    "title": "Building effective human-agent teams",
+    "date": "2026-06-24",
+    "url": "https://claude.com/blog/building-effective-human-agent-teams",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-computer-use-in-gemini-3-5-flash",
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "date": "2026-06-24",
+    "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "openai:mastering-codex-remote-for-engineering",
     "title": "Mastering Codex Remote for engineering",
     "date": "2026-06-23",
