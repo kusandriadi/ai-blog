@@ -1,5 +1,21 @@
 [
   {
+    "id": "cursor:notion",
+    "title": "How Notion used the Cursor SDK to embed coding agents",
+    "date": "2026-06-25",
+    "url": "https://cursor.com/blog/notion",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-interactive-brokers",
+    "title": "Explore the markets with Interactive Brokers and Grok",
+    "date": "2026-06-25",
+    "url": "https://x.ai/news/grok-interactive-brokers",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:agent-identity-access-model",
     "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
     "date": "2026-06-24",
