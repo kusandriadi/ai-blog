@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:economic-index-june-2026-report",
+    "title": "Anthropic Economic Index report: Cadences",
+    "date": "2026-06-26",
+    "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "openai:connect-private-mcp-servers-to-openai-products",
+    "title": "Making private MCP servers reachable without making them public",
+    "date": "2026-06-26",
+    "url": "https://developers.openai.com/blog/connect-private-mcp-servers-to-openai-products",
+    "source": "openai",
+    "description": ""
+  },
+  {
     "id": "cursor:notion",
     "title": "How Notion used the Cursor SDK to embed coding agents",
     "date": "2026-06-25",
