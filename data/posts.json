@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:claude-in-microsoft-foundry",
+    "title": "Claude in Microsoft Foundry is now generally available",
+    "date": "2026-06-29",
+    "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:ios-mobile-app",
+    "title": "Build from anywhere with Cursor for iOS",
+    "date": "2026-06-29",
+    "url": "https://cursor.com/blog/ios-mobile-app",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:economic-index-june-2026-report",
     "title": "Anthropic Economic Index report: Cadences",
     "date": "2026-06-26",
