@@ -13,6 +13,14 @@
     "date": "2026-06-29",
     "url": "https://cursor.com/blog/ios-mobile-app",
     "source": "cursor",
+    "description": "Cursor is available as a native iOS app on your phone, now in public beta."
+  },
+  {
+    "id": "claude:introducing-the-claude-apps-gateway",
+    "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+    "date": "2026-06-29",
+    "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+    "source": "claude",
     "description": ""
   },
   {
@@ -49,11 +57,11 @@
   },
   {
     "id": "cursor:reward-hacking-coding-benchmarks",
-    "title": "Reward hacking is swamping model intelligence gains",
+    "title": "SWE-bench Multilingual scores drop when eval runtime internet access is restricted",
     "date": "2026-06-25",
     "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
     "source": "cursor",
-    "description": ""
+    "description": "Reward hacking is swamping model intelligence gains"
   },
   {
     "id": "claude:agent-identity-access-model",
