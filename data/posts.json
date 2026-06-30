@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:getting-started-with-loops",
+    "title": "Getting started with loops",
+    "date": "2026-06-30",
+    "url": "https://claude.com/blog/getting-started-with-loops",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-sonnet-5",
+    "title": "Introducing Claude Sonnet 5",
+    "date": "2026-06-30",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "source": "claude",
+    "description": "Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale."
+  },
+  {
+    "id": "claude:claude-science-ai-workbench",
+    "title": "Claude Science, an AI workbench for scientists, is now available",
+    "date": "2026-06-30",
+    "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "source": "claude",
+    "description": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources."
+  },
+  {
+    "id": "gemma:start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "date": "2026-06-30",
+    "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:claude-in-microsoft-foundry",
     "title": "Claude in Microsoft Foundry is now generally available",
     "date": "2026-06-29",
