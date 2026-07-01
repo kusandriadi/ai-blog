@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "claude:redeploying-fable-5",
+    "title": "Redeploying Fable 5",
+    "date": "2026-06-30",
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "source": "claude",
+    "description": "Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners."
+  },
+  {
     "id": "claude:claude-in-microsoft-foundry",
     "title": "Claude in Microsoft Foundry is now generally available",
     "date": "2026-06-29",
