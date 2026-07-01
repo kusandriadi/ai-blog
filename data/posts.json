@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:grok-voice-agent-builder",
+    "title": "Introducing the Voice Agent Builder",
+    "date": "2026-07-01",
+    "url": "https://x.ai/news/grok-voice-agent-builder",
+    "source": "xai",
+    "description": "Create a personalized voice agent in under 2 minutes without a single line of code."
+  },
+  {
     "id": "claude:getting-started-with-loops",
     "title": "Getting started with loops",
     "date": "2026-06-30",
