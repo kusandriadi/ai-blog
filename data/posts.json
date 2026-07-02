@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+    "title": "Giving admins more visibility and control over Claude spend",
+    "date": "2026-07-02",
+    "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "xai:grok-voice-agent-builder",
     "title": "Introducing the Voice Agent Builder",
     "date": "2026-07-01",
