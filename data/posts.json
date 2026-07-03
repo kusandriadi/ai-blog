@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:fable-safeguards-jailbreak-framework",
+    "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+    "date": "2026-07-02",
+    "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "xai:grok-voice-agent-builder",
     "title": "Introducing the Voice Agent Builder",
     "date": "2026-07-01",
