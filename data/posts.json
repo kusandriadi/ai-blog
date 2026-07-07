@@ -9,7 +9,7 @@
   },
   {
     "id": "claude:a-field-guide-to-claude-fable-finding-your-unknowns",
-    "title": "A Field Guide to Claude Fable: Finding Your Unknowns",
+    "title": "A field guide to Claude Fable 5: Finding your unknowns",
     "date": "2026-07-06",
     "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
     "source": "claude",
@@ -30,6 +30,14 @@
     "url": "https://www.anthropic.com/research/global-workspace",
     "source": "claude",
     "description": "New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output."
+  },
+  {
+    "id": "xai:new-flagship-voices",
+    "title": "21 New Flagship Grok Voices",
+    "date": "2026-07-06",
+    "url": "https://x.ai/news/new-flagship-voices",
+    "source": "xai",
+    "description": "New multilingual voices for Grok Voice, plus improved naturalness for the original five."
   },
   {
     "id": "gemma:google-deepmind-and-a24-announce-first-of-its-kind-research-partnership",
@@ -1569,11 +1577,11 @@
   },
   {
     "id": "xai:grok-custom-voices",
-    "title": "Custom Voices and Voice Library",
+    "title": "Custom Voices",
     "date": "2026-04-30",
     "url": "https://x.ai/news/grok-custom-voices",
     "source": "xai",
-    "description": "Your voice. Your brand. Clone a voice from a short recording and manage your entire voice catalog from the xAI console."
+    "description": "Your voice. Your brand. Clone a voice from a short recording and use it across Grok Text to Speech and Voice Agent APIs."
   },
   {
     "id": "cursor:typescript-sdk",
