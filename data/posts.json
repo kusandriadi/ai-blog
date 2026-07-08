@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+    "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+    "date": "2026-07-08",
+    "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+    "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+    "date": "2026-07-08",
+    "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:grok-4-5",
+    "title": "Introducing Grok 4.5",
+    "date": "2026-07-08",
+    "url": "https://cursor.com/blog/grok-4-5",
+    "source": "cursor",
+    "description": "Our most intelligent model and the first we've built for more than software engineering."
+  },
+  {
+    "id": "xai:grok-4-5",
+    "title": "Introducing Grok 4.5",
+    "date": "2026-07-08",
+    "url": "https://x.ai/news/grok-4-5",
+    "source": "xai",
+    "description": "Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work."
+  },
+  {
     "id": "claude:claude-model-and-effort-level-in-claude-code",
     "title": "Choosing a Claude model and effort level in Claude Code",
     "date": "2026-07-07",
@@ -209,7 +241,7 @@
   },
   {
     "id": "cursor:reward-hacking-coding-benchmarks",
-    "title": "SWE-bench Multilingual scores drop when eval runtime internet access is restricted",
+    "title": "Reward hacking is swamping model intelligence gains",
     "date": "2026-06-25",
     "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
     "source": "cursor",
@@ -289,7 +321,7 @@
   },
   {
     "id": "claude:steering-claude-code-skills-hooks-rules-subagents-and-more",
-    "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+    "title": "Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents",
     "date": "2026-06-18",
     "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
     "source": "claude",
@@ -325,7 +357,7 @@
     "date": "2026-06-18",
     "url": "https://x.ai/news/grok-databricks",
     "source": "xai",
-    "description": ""
+    "description": "Grok models are now available on Databricks Agent Bricks."
   },
   {
     "id": "claude:claude-design-stays-on-brand-for-daily-work",
