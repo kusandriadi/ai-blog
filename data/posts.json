@@ -16,6 +16,22 @@
     "description": "Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors."
   },
   {
+    "id": "claude:hard-questions",
+    "title": "Inviting hard questions",
+    "date": "2026-07-09",
+    "url": "https://www.anthropic.com/news/hard-questions",
+    "source": "claude",
+    "description": "We’re asking the public for their hardest questions about AI, and committing to show our work as we address them."
+  },
+  {
+    "id": "claude:ben-bernanke",
+    "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+    "date": "2026-07-09",
+    "url": "https://www.anthropic.com/news/ben-bernanke",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
     "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
     "date": "2026-07-08",
