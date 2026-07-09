@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:reflect-with-claude",
+    "title": "Introducing a way to reflect on how you use Claude",
+    "date": "2026-07-09",
+    "url": "https://www.anthropic.com/news/reflect-with-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "ollama:all-aboard-open-models",
+    "title": "Ollama: all aboard open models",
+    "date": "2026-07-09",
+    "url": "https://ollama.com/blog/all-aboard-open-models",
+    "source": "ollama",
+    "description": "Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors."
+  },
+  {
     "id": "claude:working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
     "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
     "date": "2026-07-08",
@@ -33,7 +49,7 @@
   },
   {
     "id": "claude:off-switch-dual-use",
-    "title": "An off switch for dual use knowledge in AI models",
+    "title": "An off switch for dual-use knowledge in AI models",
     "date": "2026-07-08",
     "url": "https://www.anthropic.com/research/off-switch-dual-use",
     "source": "claude",
