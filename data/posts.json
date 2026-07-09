@@ -32,6 +32,14 @@
     "description": "Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work."
   },
   {
+    "id": "claude:off-switch-dual-use",
+    "title": "An off switch for dual use knowledge in AI models",
+    "date": "2026-07-08",
+    "url": "https://www.anthropic.com/research/off-switch-dual-use",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-model-and-effort-level-in-claude-code",
     "title": "Choosing a Claude model and effort level in Claude Code",
     "date": "2026-07-07",
