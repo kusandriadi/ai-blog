@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "claude:ust-claude",
+    "title": "UST is bringing Claude to physical AI",
+    "date": "2026-07-09",
+    "url": "https://www.anthropic.com/news/ust-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
     "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
     "date": "2026-07-08",
