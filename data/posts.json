@@ -48,6 +48,14 @@
     "description": ""
   },
   {
+    "id": "claude:claude-plays-robotics",
+    "title": "Claude plays robotics",
+    "date": "2026-07-09",
+    "url": "https://www.anthropic.com/research/claude-plays-robotics",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
     "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
     "date": "2026-07-08",
