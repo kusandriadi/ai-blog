@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "claude:claude-for-teachers",
+    "title": "Introducing Claude for Teachers",
+    "date": "2026-07-14",
+    "url": "https://www.anthropic.com/news/claude-for-teachers",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
     "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
     "date": "2026-07-13",
