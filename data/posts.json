@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:canadian-ai-research",
+    "title": "Anthropic commits $10 million to Canadian AI research",
+    "date": "2026-07-14",
+    "url": "https://www.anthropic.com/news/canadian-ai-research",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-canada-uses-claude",
+    "title": "How Canada uses Claude: Findings from the Anthropic Economic Index",
+    "date": "2026-07-14",
+    "url": "https://www.anthropic.com/research/how-canada-uses-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
     "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
     "date": "2026-07-13",
