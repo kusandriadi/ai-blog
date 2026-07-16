@@ -8,6 +8,30 @@
     "description": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
   },
   {
+    "id": "xai:grok-4-5",
+    "title": "Introducing Grok 4.5",
+    "date": "2026-07-16",
+    "url": "https://x.ai/news/grok-4-5",
+    "source": "xai",
+    "description": "Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work."
+  },
+  {
+    "id": "claude:ai-code-migration",
+    "title": "How Anthropic runs large-scale code migrations with Claude Code",
+    "date": "2026-07-16",
+    "url": "https://claude.com/blog/ai-code-migration",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:working-with-claude-fable-5-in-claude-cowork",
+    "title": "Working with Claude Fable 5 in Claude Cowork",
+    "date": "2026-07-16",
+    "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
     "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
     "date": "2026-07-15",
@@ -150,14 +174,6 @@
     "url": "https://cursor.com/blog/grok-4-5",
     "source": "cursor",
     "description": "Our most intelligent model and the first we've built for more than software engineering."
-  },
-  {
-    "id": "xai:grok-4-5",
-    "title": "Introducing Grok 4.5",
-    "date": "2026-07-08",
-    "url": "https://x.ai/news/grok-4-5",
-    "source": "xai",
-    "description": "Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work."
   },
   {
     "id": "claude:off-switch-dual-use",
