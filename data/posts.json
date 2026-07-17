@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-automations",
+    "title": "Automations in Grok",
+    "date": "2026-07-16",
+    "url": "https://x.ai/news/grok-automations",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
     "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
     "date": "2026-07-15",
@@ -389,7 +397,7 @@
     "date": "2026-06-25",
     "url": "https://x.ai/news/grok-interactive-brokers",
     "source": "xai",
-    "description": ""
+    "description": "Interactive Brokers now integrates with Grok, bringing powerful AI directly into your trading experience — portfolio analysis, scenario modeling, research, and order instructions."
   },
   {
     "id": "cursor:reward-hacking-coding-benchmarks",
