@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:working-at-the-frontier-rakuten",
+    "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
+    "date": "2026-07-20",
+    "url": "https://claude.com/blog/working-at-the-frontier-rakuten",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:rare-disease-research-grants",
+    "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+    "date": "2026-07-20",
+    "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:agent-swarm-model-economics",
+    "title": "Agent swarms and the new model economics",
+    "date": "2026-07-20",
+    "url": "https://cursor.com/blog/agent-swarm-model-economics",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:introducing-excel-addin",
+    "title": "Grok for Excel",
+    "date": "2026-07-20",
+    "url": "https://x.ai/news/introducing-excel-addin",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-cursor",
     "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
     "date": "2026-07-17",
