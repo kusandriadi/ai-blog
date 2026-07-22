@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "claude:donation-public-first-action",
+    "title": "Anthropic is donating another $20 million to Public First Action",
+    "date": "2026-07-21",
+    "url": "https://www.anthropic.com/news/donation-public-first-action",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-rakuten",
     "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
     "date": "2026-07-20",
