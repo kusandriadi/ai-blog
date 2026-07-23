@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:think-through-hard-problems-in-voice-mode",
+    "title": "Think through hard problems in voice mode",
+    "date": "2026-07-23",
+    "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:building-verification-loops-in-claude-code-with-skills",
     "title": "Building verification loops in Claude Code with skills",
     "date": "2026-07-22",
@@ -45,6 +53,14 @@
     "date": "2026-07-22",
     "url": "https://cursor.com/blog/router",
     "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-4-5-everywhere",
+    "title": "Bringing Grok 4.5 to iOS, Android, Web, and X",
+    "date": "2026-07-22",
+    "url": "https://x.ai/news/grok-4-5-everywhere",
+    "source": "xai",
     "description": ""
   },
   {
@@ -197,7 +213,7 @@
     "date": "2026-07-15",
     "url": "https://x.ai/news/grok-build-open-source",
     "source": "xai",
-    "description": ""
+    "description": "Explore the harness behind our coding agent and TUI."
   },
   {
     "id": "claude:canadian-ai-research",
