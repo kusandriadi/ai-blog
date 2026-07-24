@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:four-role-based-claude-certifications",
+    "title": "Four role-based certifications for the people who put Claude to work for customers",
+    "date": "2026-07-23",
+    "url": "https://claude.com/blog/four-role-based-claude-certifications",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:workflows",
+    "title": "Workflows in Grok Build",
+    "date": "2026-07-23",
+    "url": "https://x.ai/news/workflows",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:building-verification-loops-in-claude-code-with-skills",
     "title": "Building verification loops in Claude Code with skills",
     "date": "2026-07-22",
@@ -197,7 +213,7 @@
     "date": "2026-07-16",
     "url": "https://x.ai/news/grok-automations",
     "source": "xai",
-    "description": ""
+    "description": "Describe a job once and Grok runs it on a schedule or when an email arrives, then reports back."
   },
   {
     "id": "claude:working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
