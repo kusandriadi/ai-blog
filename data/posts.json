@@ -1,5 +1,53 @@
 [
   {
+    "id": "claude:how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+    "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
+    "date": "2026-07-24",
+    "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:the-new-rules-of-context-engineering-for-claude-5-generation-models",
+    "title": "The new rules of context engineering for Claude 5 generation models",
+    "date": "2026-07-24",
+    "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-models-explained-choosing-the-best-model-for-your-use-case",
+    "title": "Claude models explained: choosing the best model for your use case",
+    "date": "2026-07-24",
+    "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-opus-5",
+    "title": "Introducing Claude Opus 5",
+    "date": "2026-07-24",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "source": "claude",
+    "description": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work."
+  },
+  {
+    "id": "claude:project-pilot",
+    "title": "Project Pilot: Can AI control a drone?",
+    "date": "2026-07-24",
+    "url": "https://www.anthropic.com/research/project-pilot",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:introducing-google-workspace-addon",
+    "title": "Grok in Google Workspace",
+    "date": "2026-07-24",
+    "url": "https://x.ai/news/introducing-google-workspace-addon",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:think-through-hard-problems-in-voice-mode",
     "title": "Think through hard problems in voice mode",
     "date": "2026-07-23",
@@ -149,7 +197,7 @@
     "date": "2026-07-20",
     "url": "https://x.ai/news/introducing-excel-addin",
     "source": "xai",
-    "description": ""
+    "description": "Use the Grok add-in for Microsoft Excel to ask questions in plain English, write formulas, and run scenarios without leaving the workbook."
   },
   {
     "id": "claude:working-at-the-frontier-cursor",
