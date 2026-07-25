@@ -304,6 +304,14 @@
     "description": ""
   },
   {
+    "id": "cursor:grok-4-5-model-card",
+    "title": "Grok 4.5 Model Card",
+    "date": "2026-07-14",
+    "url": "https://cursor.com/blog/grok-4-5-model-card",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
     "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
     "date": "2026-07-13",
