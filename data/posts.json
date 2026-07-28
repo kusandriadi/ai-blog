@@ -8,6 +8,30 @@
     "description": ""
   },
   {
+    "id": "claude:bringing-mcp-2026-07-28-to-claude",
+    "title": "Bringing MCP 2026-07-28 to Claude",
+    "date": "2026-07-28",
+    "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:discovering-cryptographic-weaknesses",
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "date": "2026-07-28",
+    "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-build-mode",
+    "title": "Introducing Build Mode",
+    "date": "2026-07-28",
+    "url": "https://x.ai/news/grok-build-mode",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:cognizant-anthropic",
     "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
     "date": "2026-07-27",
@@ -181,7 +205,7 @@
     "date": "2026-07-21",
     "url": "https://x.ai/news/introducing-outlook-addin",
     "source": "xai",
-    "description": ""
+    "description": "Use the Grok add-in for Microsoft Outlook to summarize long email threads, draft replies in your voice, and keep your inbox organized."
   },
   {
     "id": "claude:donation-public-first-action",
