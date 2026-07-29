@@ -32,6 +32,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-github-copilot",
+    "title": "Grok 4.5 in GitHub Copilot",
+    "date": "2026-07-28",
+    "url": "https://x.ai/news/grok-github-copilot",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:cognizant-anthropic",
     "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
     "date": "2026-07-27",
@@ -173,7 +181,7 @@
     "date": "2026-07-22",
     "url": "https://x.ai/news/grok-4-5-everywhere",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.5, our most intelligent model yet, is now on grok.com, X, iOS, and Android."
   },
   {
     "id": "claude:how-anthropic-secures-its-ai-native-software-development-lifecycle",
