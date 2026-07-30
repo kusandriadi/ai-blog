@@ -269,7 +269,7 @@
     "date": "2026-07-20",
     "url": "https://cursor.com/blog/agent-swarm-model-economics",
     "source": "cursor",
-    "description": ""
+    "description": "We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers similar quality at a fraction of the cost."
   },
   {
     "id": "xai:introducing-excel-addin",
