@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:grok-imagine-video-1-5-references",
+    "title": "Imagine Video 1.5 with References",
+    "date": "2026-07-31",
+    "url": "https://x.ai/news/grok-imagine-video-1-5-references",
+    "source": "xai",
+    "description": "Our best video model, now with text, image, and voice references — generating up to 1080p."
+  },
+  {
     "id": "gemma:gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
     "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
     "date": "2026-07-30",
@@ -173,7 +181,7 @@
     "date": "2026-07-23",
     "url": "https://x.ai/news/workflows",
     "source": "xai",
-    "description": ""
+    "description": "Grok Build can now write and run workflows: orchestration scripts that fan a task out across hundreds of parallel agents, verify the results, and report back in one background run."
   },
   {
     "id": "claude:building-verification-loops-in-claude-code-with-skills",
