@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:claude-enterprise-inference-hooks",
+    "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+    "date": "2026-08-05",
+    "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:tino-cuellar",
     "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
     "date": "2026-08-04",
