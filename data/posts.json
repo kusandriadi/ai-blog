@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "gemma:weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+    "date": "2026-08-06",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:claude-enterprise-inference-hooks",
     "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
     "date": "2026-08-05",
