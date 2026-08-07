@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:improving-fable-5-s-biology-safeguards",
+    "title": "Improving Fable 5's biology safeguards",
+    "date": "2026-08-07",
+    "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
     "date": "2026-08-06",
@@ -21,6 +29,14 @@
     "date": "2026-08-06",
     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
     "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "claude:run-claude-code-sessions-on-your-own-compute",
+    "title": "Run Claude Code sessions on your own compute",
+    "date": "2026-08-06",
+    "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+    "source": "claude",
     "description": ""
   },
   {
