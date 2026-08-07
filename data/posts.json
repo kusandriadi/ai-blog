@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:auto-mode-default-in-claude-code",
+    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "date": "2026-08-07",
+    "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:auto-mode-in-production",
+    "title": "Running auto mode in production",
+    "date": "2026-08-07",
+    "url": "https://claude.com/blog/auto-mode-in-production",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
     "date": "2026-08-06",
