@@ -24,6 +24,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-imagine-image-2",
+    "title": "Imagine Image 2.0",
+    "date": "2026-08-07",
+    "url": "https://x.ai/news/grok-imagine-image-2",
+    "source": "xai",
+    "description": "Precise image generation and editing, built for real creative work."
+  },
+  {
     "id": "claude:millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
     "date": "2026-08-06",
@@ -253,7 +261,7 @@
     "date": "2026-07-24",
     "url": "https://x.ai/news/introducing-google-workspace-addon",
     "source": "xai",
-    "description": ""
+    "description": "Use the Grok add-on for Google Workspace to work directly in Sheets, Slides, and Docs."
   },
   {
     "id": "claude:think-through-hard-problems-in-voice-mode",
