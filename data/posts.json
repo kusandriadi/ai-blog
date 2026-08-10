@@ -8,6 +8,14 @@
     "description": "Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support."
   },
   {
+    "id": "claude:riemann-zeta",
+    "title": "Learning more about Claude's mathematical capabilities",
+    "date": "2026-08-10",
+    "url": "https://www.anthropic.com/research/riemann-zeta",
+    "source": "claude",
+    "description": "An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%."
+  },
+  {
     "id": "claude:improving-fable-5-s-biology-safeguards",
     "title": "Improving Fable 5's biology safeguards",
     "date": "2026-08-07",
