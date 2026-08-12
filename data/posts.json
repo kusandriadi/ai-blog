@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:reviewing-the-evidence-on-worker-retraining-programs",
+    "title": "Reviewing the evidence on worker retraining programs",
+    "date": "2026-08-12",
+    "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:putting-sign-language-ai-into-users-hands",
+    "title": "Putting sign language AI into users’ hands",
+    "date": "2026-08-12",
+    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+    "source": "gemma",
+    "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+  },
+  {
+    "id": "cursor:grok-4-6",
+    "title": "Introducing Grok 4.6",
+    "date": "2026-08-12",
+    "url": "https://cursor.com/blog/grok-4-6",
+    "source": "cursor",
+    "description": "Built for long-running agents and more ambitious interactive and visual work."
+  },
+  {
+    "id": "xai:grok-4-6",
+    "title": "Introducing Grok 4.6",
+    "date": "2026-08-12",
+    "url": "https://x.ai/news/grok-4-6",
+    "source": "xai",
+    "description": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work."
+  },
+  {
     "id": "claude:compliance-api-cowork-and-claude-code",
     "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
     "date": "2026-08-11",
@@ -221,7 +253,7 @@
     "date": "2026-07-28",
     "url": "https://x.ai/news/grok-build-mode",
     "source": "xai",
-    "description": ""
+    "description": "Create and share websites, apps, games, and interactive dashboards. Now in Early Beta for SuperGrok Heavy subscribers on grok.com, iOS, and Android."
   },
   {
     "id": "xai:grok-github-copilot",
