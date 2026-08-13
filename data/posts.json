@@ -8,6 +8,46 @@
     "description": ""
   },
   {
+    "id": "claude:self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+    "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+    "date": "2026-08-13",
+    "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-tag-now-reads-even-more-of-the-room",
+    "title": "Claude Tag now reads even more of the room",
+    "date": "2026-08-13",
+    "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-gemini-3-7-flash",
+    "title": "Introducing Gemini 3.7 Flash",
+    "date": "2026-08-13",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "cursor:aiuc-1",
+    "title": "Cursor earns AIUC-1 certification for agent security and reliability",
+    "date": "2026-08-13",
+    "url": "https://cursor.com/blog/aiuc-1",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:builds",
+    "title": "Cloud agents start 3x faster with builds",
+    "date": "2026-08-13",
+    "url": "https://cursor.com/blog/builds",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:reviewing-the-evidence-on-worker-retraining-programs",
     "title": "Reviewing the evidence on worker retraining programs",
     "date": "2026-08-12",
