@@ -1,5 +1,13 @@
 [
   {
+    "id": "claude:multiagent-systems",
+    "title": "Patterns and problems in emerging multiagent systems",
+    "date": "2026-08-13",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:reviewing-the-evidence-on-worker-retraining-programs",
     "title": "Reviewing the evidence on worker retraining programs",
     "date": "2026-08-12",
@@ -30,6 +38,14 @@
     "url": "https://x.ai/news/grok-4-6",
     "source": "xai",
     "description": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work."
+  },
+  {
+    "id": "claude:cowork-chrome-side-panel",
+    "title": "The Claude in Chrome side panel is now Claude Cowork",
+    "date": "2026-08-12",
+    "url": "https://claude.com/blog/cowork-chrome-side-panel",
+    "source": "claude",
+    "description": ""
   },
   {
     "id": "claude:compliance-api-cowork-and-claude-code",
