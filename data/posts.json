@@ -48,6 +48,22 @@
     "description": ""
   },
   {
+    "id": "claude:how-jetbrains-evaluates-and-deploys-claude-fable-5",
+    "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+    "date": "2026-08-13",
+    "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:firetiger",
+    "title": "Firetiger joins Cursor",
+    "date": "2026-08-13",
+    "url": "https://cursor.com/blog/firetiger",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:reviewing-the-evidence-on-worker-retraining-programs",
     "title": "Reviewing the evidence on worker retraining programs",
     "date": "2026-08-12",
