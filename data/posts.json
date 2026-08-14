@@ -1,11 +1,27 @@
 [
   {
     "id": "cursor:joining-spacex",
-    "title": "Cursor is joining SpaceX",
+    "title": "Cursor is now a part of SpaceX",
     "date": "2026-08-14",
     "url": "https://cursor.com/blog/joining-spacex",
     "source": "cursor",
     "description": "Cursor has officially been acquired by SpaceX."
+  },
+  {
+    "id": "claude:maximizing-the-value-of-your-claude-code-sessions",
+    "title": "Maximizing the value of your Claude Code sessions",
+    "date": "2026-08-14",
+    "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-4-6-github-copilot",
+    "title": "Grok 4.6 in GitHub Copilot",
+    "date": "2026-08-14",
+    "url": "https://x.ai/news/grok-4-6-github-copilot",
+    "source": "xai",
+    "description": ""
   },
   {
     "id": "claude:multiagent-systems",
