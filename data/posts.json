@@ -24,6 +24,14 @@
     "description": ""
   },
   {
+    "id": "claude:claude-text-watermark",
+    "title": "How Claude’s text watermark works",
+    "date": "2026-08-14",
+    "url": "https://www.anthropic.com/news/claude-text-watermark",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:multiagent-systems",
     "title": "Patterns and problems in emerging multiagent systems",
     "date": "2026-08-13",
