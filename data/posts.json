@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:the-claude-science-product-guide",
+    "title": "The Claude Science product guide",
+    "date": "2026-08-18",
+    "url": "https://claude.com/blog/the-claude-science-product-guide",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:git-at-any-scale",
+    "title": "Git at any scale",
+    "date": "2026-08-18",
+    "url": "https://cursor.com/blog/git-at-any-scale",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
     "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
     "date": "2026-08-17",
