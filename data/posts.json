@@ -1,5 +1,13 @@
 [
   {
+    "id": "xai:grok-4-6-amazon-bedrock",
+    "title": "Grok 4.6 on Amazon Bedrock",
+    "date": "2026-08-19",
+    "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:the-claude-science-product-guide",
     "title": "The Claude Science product guide",
     "date": "2026-08-18",
