@@ -16,6 +16,22 @@
     "description": ""
   },
   {
+    "id": "claude:ai-ci-cd-on-call",
+    "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+    "date": "2026-08-18",
+    "url": "https://claude.com/blog/ai-ci-cd-on-call",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:Claude-accelerates-protein-design",
+    "title": "How Claude is accelerating protein design and analytical chemistry",
+    "date": "2026-08-18",
+    "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
     "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
     "date": "2026-08-17",
