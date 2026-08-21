@@ -8,6 +8,30 @@
     "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
   },
   {
+    "id": "claude:bringing-claude-mythos-5-to-more-defenders",
+    "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+    "date": "2026-08-21",
+    "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:the-ai-native-sdlc-playbook",
+    "title": "The AI-Native SDLC playbook",
+    "date": "2026-08-21",
+    "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-bot-more-plans",
+    "title": "Grok Bot is now included with more plans",
+    "date": "2026-08-21",
+    "url": "https://x.ai/news/grok-bot-more-plans",
+    "source": "xai",
+    "description": "Grok Bot is now available for SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans."
+  },
+  {
     "id": "claude:anthropics-approach-to-teaching-and-learning-ai",
     "title": "Anthropic’s approach to teaching and learning AI",
     "date": "2026-08-20",
