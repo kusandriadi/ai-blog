@@ -1,5 +1,13 @@
 [
   {
+    "id": "gemma:from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "date": "2026-08-21",
+    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+    "source": "gemma",
+    "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
+  },
+  {
     "id": "claude:anthropics-approach-to-teaching-and-learning-ai",
     "title": "Anthropic’s approach to teaching and learning AI",
     "date": "2026-08-20",
