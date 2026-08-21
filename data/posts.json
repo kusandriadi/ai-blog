@@ -24,6 +24,14 @@
     "description": ""
   },
   {
+    "id": "claude:computer-use-skills-api-files-api",
+    "title": "Build production agents with computer use, the Skills API, and the Files API",
+    "date": "2026-08-20",
+    "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "xai:grok-4-6-amazon-bedrock",
     "title": "Grok 4.6 on Amazon Bedrock",
     "date": "2026-08-19",
@@ -38,6 +46,14 @@
     "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
     "source": "claude",
     "description": ""
+  },
+  {
+    "id": "xai:grok-build-for-everyone",
+    "title": "Grok Build on web and mobile",
+    "date": "2026-08-19",
+    "url": "https://x.ai/news/grok-build-for-everyone",
+    "source": "xai",
+    "description": "Grok Build is now available on every plan, on the web and on mobile."
   },
   {
     "id": "claude:the-claude-science-product-guide",
