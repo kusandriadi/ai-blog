@@ -32,6 +32,14 @@
     "description": "Grok Bot is now available for SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans."
   },
   {
+    "id": "xai:grok-4-6-vertex-ai",
+    "title": "Grok 4.6 on Vertex AI",
+    "date": "2026-08-21",
+    "url": "https://x.ai/news/grok-4-6-vertex-ai",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:anthropics-approach-to-teaching-and-learning-ai",
     "title": "Anthropic’s approach to teaching and learning AI",
     "date": "2026-08-20",
