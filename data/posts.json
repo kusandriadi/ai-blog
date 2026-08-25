@@ -41,7 +41,7 @@
   },
   {
     "id": "xai:grok-4-6-vertex-ai",
-    "title": "Grok 4.6 on Google Enterprise Agent Platform",
+    "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
     "date": "2026-08-21",
     "url": "https://x.ai/news/grok-4-6-vertex-ai",
     "source": "xai",
@@ -134,6 +134,14 @@
     "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
     "source": "claude",
     "description": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research."
+  },
+  {
+    "id": "cursor:imdex",
+    "title": "IMDEX consolidates geological data platforms in months with Cursor",
+    "date": "2026-08-18",
+    "url": "https://cursor.com/blog/imdex",
+    "source": "cursor",
+    "description": ""
   },
   {
     "id": "claude:how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
