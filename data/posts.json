@@ -24,6 +24,22 @@
     "description": ""
   },
   {
+    "id": "cursor:imdex",
+    "title": "IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years",
+    "date": "2026-08-25",
+    "url": "https://cursor.com/blog/imdex",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "ollama:claude-desktop",
+    "title": "Claude Desktop support with Ollama",
+    "date": "2026-08-25",
+    "url": "https://ollama.com/blog/claude-desktop",
+    "source": "ollama",
+    "description": "Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude."
+  },
+  {
     "id": "claude:how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
     "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
     "date": "2026-08-24",
@@ -158,14 +174,6 @@
     "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
     "source": "claude",
     "description": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research."
-  },
-  {
-    "id": "cursor:imdex",
-    "title": "IMDEX consolidates geological data platforms in months with Cursor",
-    "date": "2026-08-18",
-    "url": "https://cursor.com/blog/imdex",
-    "source": "cursor",
-    "description": ""
   },
   {
     "id": "claude:how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
