@@ -1,5 +1,45 @@
 [
   {
+    "id": "xai:grok-bot-more-plans",
+    "title": "Grok Bot is now included with more plans",
+    "date": "2026-08-26",
+    "url": "https://x.ai/news/grok-bot-more-plans",
+    "source": "xai",
+    "description": "Grok Bot is now available for SuperGrok, Cursor Pro, and all Cursor Teams plans."
+  },
+  {
+    "id": "claude:claude-in-chrome-generally-available",
+    "title": "Claude in Chrome is generally available",
+    "date": "2026-08-26",
+    "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-warp-builds-self-improving-agents-on-claude",
+    "title": "How Warp builds self-improving agents on Claude",
+    "date": "2026-08-26",
+    "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:enabling-independent-research",
+    "title": "Enabling independent research on how people use Claude",
+    "date": "2026-08-26",
+    "url": "https://www.anthropic.com/research/enabling-independent-research",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:intelligent-transcription-with-gemini-3-5-transcribe",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "date": "2026-08-26",
+    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+    "source": "gemma",
+    "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+  },
+  {
     "id": "claude:bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
     "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
     "date": "2026-08-25",
@@ -70,14 +110,6 @@
     "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
     "source": "claude",
     "description": ""
-  },
-  {
-    "id": "xai:grok-bot-more-plans",
-    "title": "Grok Bot is now included with more plans",
-    "date": "2026-08-21",
-    "url": "https://x.ai/news/grok-bot-more-plans",
-    "source": "xai",
-    "description": "Grok Bot is now available for SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans."
   },
   {
     "id": "xai:grok-4-6-vertex-ai",
