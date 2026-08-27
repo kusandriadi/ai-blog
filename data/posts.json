@@ -1,5 +1,37 @@
 [
   {
+    "id": "claude:model-hardware-standard-research-preview",
+    "title": "Previewing the Model Hardware Standard",
+    "date": "2026-08-27",
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "source": "claude",
+    "description": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
+  },
+  {
+    "id": "claude:expanding-support-for-scientists",
+    "title": "Expanding our support for scientists",
+    "date": "2026-08-27",
+    "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:gemini-omni-1-1-flash-lets-you-build-with-more-control",
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "date": "2026-08-27",
+    "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:piloting-the-worlds-first-double-blind-ai-evaluations",
+    "title": "Piloting the world's first double-blind AI evaluations",
+    "date": "2026-08-27",
+    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+    "source": "gemma",
+    "description": "Piloting the world's first double-blind AI evaluations"
+  },
+  {
     "id": "xai:grok-bot-more-plans",
     "title": "Grok Bot is now included with more plans",
     "date": "2026-08-26",
