@@ -40,6 +40,22 @@
     "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
   },
   {
+    "id": "claude:cowork-built-in-browser",
+    "title": "Claude gets its own browser in Cowork",
+    "date": "2026-08-26",
+    "url": "https://claude.com/blog/cowork-built-in-browser",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-4-6-microsoft-foundry",
+    "title": "Grok 4.6 on Microsoft Foundry",
+    "date": "2026-08-26",
+    "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
     "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
     "date": "2026-08-25",
@@ -237,7 +253,7 @@
     "date": "2026-08-14",
     "url": "https://x.ai/news/grok-4-6-github-copilot",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.6, our latest coding model, is now available in GitHub Copilot."
   },
   {
     "id": "claude:claude-text-watermark",
