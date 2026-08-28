@@ -1,5 +1,21 @@
 [
   {
+    "id": "claude:claude-for-teachers-now-available-for-schools-and-districts",
+    "title": "Claude for Teachers, now available for schools and districts",
+    "date": "2027-06-30",
+    "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:automated-researchers-mitigate-alignment-failures",
+    "title": "Automated researchers can reliably mitigate alignment failures",
+    "date": "2026-08-28",
+    "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:model-hardware-standard-research-preview",
     "title": "Previewing the Model Hardware Standard",
     "date": "2026-08-27",
