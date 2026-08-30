@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-bot-and-x",
+    "title": "Grok Bot now works with X",
+    "date": "2026-08-29",
+    "url": "https://x.ai/news/grok-bot-and-x",
+    "source": "xai",
+    "description": "Grok Bot now has a tighter integration with X."
+  },
+  {
     "id": "claude:automated-researchers-mitigate-alignment-failures",
     "title": "Automated researchers can reliably mitigate alignment failures",
     "date": "2026-08-28",
