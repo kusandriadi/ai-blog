@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:improving-alignment-security-efforts",
+    "title": "Improving our alignment and security efforts",
+    "date": "2026-08-31",
+    "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "ollama:transparent-pricing",
+    "title": "Ollama's transparent pricing",
+    "date": "2026-08-31",
+    "url": "https://ollama.com/blog/transparent-pricing",
+    "source": "ollama",
+    "description": "Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan."
+  },
+  {
     "id": "xai:grok-bot-and-x",
     "title": "Grok Bot now works with X",
     "date": "2026-08-29",
