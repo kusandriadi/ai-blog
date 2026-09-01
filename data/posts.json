@@ -8,6 +8,30 @@
     "description": ""
   },
   {
+    "id": "claude:enterprise-frontier-safeguards",
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "date": "2026-09-01",
+    "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-agentic-video-in-gemini",
+    "title": "Introducing agentic video understanding with Gemini",
+    "date": "2026-09-01",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "xai:biosafety-at-the-frontier",
+    "title": "Biosecurity at the frontier",
+    "date": "2026-09-01",
+    "url": "https://x.ai/news/biosafety-at-the-frontier",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:improving-alignment-security-efforts",
     "title": "Improving our alignment and security efforts",
     "date": "2026-08-31",
@@ -253,7 +277,7 @@
     "date": "2026-08-19",
     "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.6 is now available via Amazon Bedrock."
   },
   {
     "id": "claude:turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
