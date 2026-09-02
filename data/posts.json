@@ -8,6 +8,54 @@
     "description": ""
   },
   {
+    "id": "claude:the-anatomy-of-effective-commerce-agents",
+    "title": "A guide to the anatomy of effective commerce agents",
+    "date": "2026-09-02",
+    "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-for-commerce-agents",
+    "title": "Building commerce agents with Claude",
+    "date": "2026-09-02",
+    "url": "https://claude.com/blog/claude-for-commerce-agents",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:proactive-cyber-defense-for-governments-and-enterprises",
+    "title": "Proactive cyber defense for governments and enterprises",
+    "date": "2026-09-02",
+    "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-gemini-3-8-flash-and-38-flash-cyber",
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "date": "2026-09-02",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "cursor:self-hosted-machines",
+    "title": "Run cloud agents on machines you manage",
+    "date": "2026-09-02",
+    "url": "https://cursor.com/blog/self-hosted-machines",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:nokia",
+    "title": "Nokia analyzes 50M+ lines of code in two weeks with Cursor",
+    "date": "2026-09-02",
+    "url": "https://cursor.com/blog/nokia",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:enterprise-frontier-safeguards",
     "title": "Developing Enterprise Frontier Safeguards with our customers",
     "date": "2026-09-01",
