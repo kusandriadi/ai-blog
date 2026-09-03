@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "xai:designing-grok-bot",
+    "title": "Designing Grok Bot for a world of persistent agents",
+    "date": "2026-09-03",
+    "url": "https://x.ai/news/designing-grok-bot",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:the-anatomy-of-effective-commerce-agents",
     "title": "A guide to the anatomy of effective commerce agents",
     "date": "2026-09-02",
@@ -293,7 +301,7 @@
     "date": "2026-08-21",
     "url": "https://x.ai/news/grok-4-6-vertex-ai",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.6 is now available via Gemini Enterprise Agent Platform."
   },
   {
     "id": "claude:anthropics-approach-to-teaching-and-learning-ai",
