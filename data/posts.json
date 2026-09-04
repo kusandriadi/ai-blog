@@ -24,6 +24,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-bot-for-enterprise",
+    "title": "Grok Bot for Enterprise",
+    "date": "2026-09-03",
+    "url": "https://x.ai/news/grok-bot-for-enterprise",
+    "source": "xai",
+    "description": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat."
+  },
+  {
     "id": "claude:the-anatomy-of-effective-commerce-agents",
     "title": "A guide to the anatomy of effective commerce agents",
     "date": "2026-09-02",
