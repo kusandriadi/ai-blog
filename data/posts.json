@@ -8,6 +8,30 @@
     "description": ""
   },
   {
+    "id": "claude:formalizing-fermats-last-theorem",
+    "title": "Formalizing Fermat's Last Theorem",
+    "date": "2026-09-04",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:basis",
+    "title": "How Basis builds long-horizon accounting agents with Cursor",
+    "date": "2026-09-04",
+    "url": "https://cursor.com/blog/basis",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-bot-procurement",
+    "title": "Setting Grok Bot loose on procurement",
+    "date": "2026-09-04",
+    "url": "https://x.ai/news/grok-bot-procurement",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "gemma:introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
     "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
     "date": "2026-09-03",
@@ -229,7 +253,7 @@
     "date": "2026-08-26",
     "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
     "source": "xai",
-    "description": ""
+    "description": "Grok 4.6 is now available via Microsoft Foundry."
   },
   {
     "id": "claude:bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
