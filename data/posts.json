@@ -13,7 +13,7 @@
     "date": "2026-09-04",
     "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
     "source": "claude",
-    "description": ""
+    "description": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics."
   },
   {
     "id": "cursor:basis",
