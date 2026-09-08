@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "date": "2026-09-08",
+    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+    "source": "gemma",
+    "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+  },
+  {
     "id": "claude:formalizing-fermats-last-theorem",
     "title": "Formalizing Fermat's Last Theorem",
     "date": "2026-09-04",
