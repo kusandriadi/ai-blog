@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:alignment-assessment-cybersecurity-incidents",
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "date": "2026-09-09",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "gemma:alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
     "date": "2026-09-08",
