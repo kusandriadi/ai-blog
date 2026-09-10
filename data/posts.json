@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:t-rowe-price-brings-more-of-claude-to-its-investment-process",
+    "title": "T. Rowe Price brings more of Claude to its investment process",
+    "date": "2026-09-10",
+    "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:intelligence-targeting-conventional-weapons-capabilities",
+    "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+    "date": "2026-09-10",
+    "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:alignment-assessment-cybersecurity-incidents",
     "title": "An alignment assessment of recent cybersecurity incidents",
     "date": "2026-09-09",
@@ -157,7 +173,7 @@
     "date": "2026-08-31",
     "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
     "source": "claude",
-    "description": ""
+    "description": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
   },
   {
     "id": "ollama:transparent-pricing",
