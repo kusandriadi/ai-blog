@@ -13,7 +13,7 @@
     "date": "2026-09-09",
     "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
     "source": "claude",
-    "description": ""
+    "description": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems."
   },
   {
     "id": "gemma:alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
@@ -37,7 +37,7 @@
     "date": "2026-09-04",
     "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
     "source": "claude",
-    "description": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics."
+    "description": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language."
   },
   {
     "id": "cursor:basis",
@@ -629,7 +629,7 @@
     "date": "2026-08-10",
     "url": "https://www.anthropic.com/research/riemann-zeta",
     "source": "claude",
-    "description": "An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%."
+    "description": "An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis."
   },
   {
     "id": "claude:improving-fable-5-s-biology-safeguards",
