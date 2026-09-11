@@ -24,6 +24,22 @@
     "description": ""
   },
   {
+    "id": "claude:what-1-000-small-business-owners-taught-us-about-ai",
+    "title": "What 1,000 small business owners taught us about AI",
+    "date": "2026-09-10",
+    "url": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "cursor:projects",
+    "title": "Introducing Projects",
+    "date": "2026-09-10",
+    "url": "https://cursor.com/blog/projects",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:alignment-assessment-cybersecurity-incidents",
     "title": "An alignment assessment of recent cybersecurity incidents",
     "date": "2026-09-09",
