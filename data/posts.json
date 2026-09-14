@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:claude-for-financial-advisors",
+    "title": "Claude for Financial Advisors",
+    "date": "2026-09-14",
+    "url": "https://claude.com/blog/claude-for-financial-advisors",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:how-healthcare-organizations-use-claude-tag",
+    "title": "How healthcare organizations use Claude Tag",
+    "date": "2026-09-14",
+    "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:t-rowe-price-brings-more-of-claude-to-its-investment-process",
     "title": "T. Rowe Price brings more of Claude to its investment process",
     "date": "2026-09-10",
@@ -377,7 +393,7 @@
   },
   {
     "id": "claude:the-ai-native-sdlc-playbook",
-    "title": "The AI-Native SDLC playbook",
+    "title": "Read more",
     "date": "2026-08-21",
     "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
     "source": "claude",
