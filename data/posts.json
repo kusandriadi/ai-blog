@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:salesforce-in-claude",
+    "title": "Bringing Salesforce into Claude",
+    "date": "2026-09-15",
+    "url": "https://claude.com/blog/salesforce-in-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:building-an-ai-native-revenue-organization",
+    "title": "Building an AI-native revenue organization",
+    "date": "2026-09-15",
+    "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-for-financial-advisors",
     "title": "Claude for Financial Advisors",
     "date": "2026-09-14",
