@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:cowork-is-now-claude",
+    "title": "Claude Cowork and chat are now one Claude",
+    "date": "2026-09-16",
+    "url": "https://claude.com/blog/cowork-is-now-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-build-memory",
+    "title": "Memory in Grok Build",
+    "date": "2026-09-16",
+    "url": "https://x.ai/news/grok-build-memory",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:salesforce-in-claude",
     "title": "Bringing Salesforce into Claude",
     "date": "2026-09-15",
