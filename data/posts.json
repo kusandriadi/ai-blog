@@ -8,6 +8,30 @@
     "description": ""
   },
   {
+    "id": "claude:projects-redesigned",
+    "title": "Projects redesigned: from folder to conversation",
+    "date": "2026-09-17",
+    "url": "https://claude.com/blog/projects-redesigned",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:life-sciences-verification-program",
+    "title": "Introducing the Life Sciences Verification Program",
+    "date": "2026-09-17",
+    "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-uplifts-biomolecular-modeling",
+    "title": "How Claude is uplifting biomolecular modeling",
+    "date": "2026-09-17",
+    "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:cowork-is-now-claude",
     "title": "Claude Cowork and chat are now one Claude",
     "date": "2026-09-16",
