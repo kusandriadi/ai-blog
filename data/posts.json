@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:accenture-embedded-evaluation",
+    "title": "Partnering with Accenture on embedded evaluation",
+    "date": "2026-09-18",
+    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-voice-transcribe-2",
+    "title": "Introducing Grok Voice Transcribe 2.0",
+    "date": "2026-09-18",
+    "url": "https://x.ai/news/grok-voice-transcribe-2",
+    "source": "xai",
+    "description": "Sep 18, 2026"
+  },
+  {
     "id": "claude:projects-redesigned",
     "title": "Projects redesigned: from folder to conversation",
     "date": "2026-09-17",
@@ -301,7 +317,7 @@
     "date": "2026-09-01",
     "url": "https://x.ai/news/biosafety-at-the-frontier",
     "source": "xai",
-    "description": ""
+    "description": "LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks. They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier system."
   },
   {
     "id": "claude:improving-alignment-security-efforts",
