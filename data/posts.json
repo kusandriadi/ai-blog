@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "xai:grok-4-7",
+    "title": "IntroducingGrok 4.7",
+    "date": "2026-09-21",
+    "url": "https://x.ai/news/grok-4-7",
+    "source": "xai",
+    "description": "Sep 21, 2026"
+  },
+  {
     "id": "claude:accenture-embedded-evaluation",
     "title": "Partnering with Accenture on embedded evaluation",
     "date": "2026-09-18",
@@ -245,7 +253,7 @@
     "date": "2026-09-03",
     "url": "https://x.ai/news/grok-bot-for-enterprise",
     "source": "xai",
-    "description": "Sep 3, 2026"
+    "description": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat."
   },
   {
     "id": "claude:the-anatomy-of-effective-commerce-agents",
