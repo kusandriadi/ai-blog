@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:what-a-task-costs-on-opus-5-5",
+    "title": "What a task costs on Opus 5.5",
+    "date": "2026-09-22",
+    "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-bot-customer-support",
+    "title": "How SpaceXAI is using Grok Bot to scale customer support",
+    "date": "2026-09-22",
+    "url": "https://x.ai/news/grok-bot-customer-support",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "xai:grok-4-7",
     "title": "IntroducingGrok 4.7",
     "date": "2026-09-21",
@@ -245,7 +261,7 @@
     "date": "2026-09-03",
     "url": "https://x.ai/news/designing-grok-bot",
     "source": "xai",
-    "description": ""
+    "description": "How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt."
   },
   {
     "id": "xai:grok-bot-for-enterprise",
