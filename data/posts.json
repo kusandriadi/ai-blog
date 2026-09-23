@@ -24,6 +24,54 @@
     "description": ""
   },
   {
+    "id": "claude:how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+    "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+    "date": "2026-09-23",
+    "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-marketplace",
+    "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+    "date": "2026-09-23",
+    "url": "https://claude.com/blog/claude-marketplace",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-discovers-novel-enzyme-system",
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "date": "2026-09-23",
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:advancing-private-ai-compute-with-secure-server-side-memory",
+    "title": "Advancing Private AI Compute with secure, server-side memory",
+    "date": "2026-09-23",
+    "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+    "source": "gemma",
+    "description": "Introducing private, server-side memory to Private AI Compute for personal AI."
+  },
+  {
+    "id": "cursor:improved-token-efficiency",
+    "title": "Improved token efficiency for longer agent runs",
+    "date": "2026-09-23",
+    "url": "https://cursor.com/blog/improved-token-efficiency",
+    "source": "cursor",
+    "description": ""
+  },
+  {
+    "id": "cursor:rollouts-and-security-reviewer",
+    "title": "Bots for the last mile: Rollouts, Security Review",
+    "date": "2026-09-23",
+    "url": "https://cursor.com/blog/rollouts-and-security-reviewer",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:what-a-task-costs-on-opus-5-5",
     "title": "What a task costs on Opus 5.5",
     "date": "2026-09-22",
