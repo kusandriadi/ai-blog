@@ -8,6 +8,38 @@
     "description": ""
   },
   {
+    "id": "claude:claude-tag-now-supports-personal-connectors-in-channels",
+    "title": "Claude Tag now supports personal connectors in channels",
+    "date": "2026-09-24",
+    "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+    "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+    "date": "2026-09-24",
+    "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:project-swap",
+    "title": "Project Swap: What happens when agents trade for us?",
+    "date": "2026-09-24",
+    "url": "https://www.anthropic.com/research/project-swap",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-gemini-38-live-with-live-avatar",
+    "title": "Introducing Gemini 3.8 Live with Live Avatar",
+    "date": "2026-09-24",
+    "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:how-to-prepare-for-ai-driven-code-modernization-projects",
     "title": "How to prepare for AI-driven code modernization projects",
     "date": "2026-09-23",
