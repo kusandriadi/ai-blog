@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:build-plugins-for-claude",
+    "title": "Build plugins for Claude",
+    "date": "2026-09-25",
+    "url": "https://claude.com/blog/build-plugins-for-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:yes-claude-can-do-nine-loops",
+    "title": "Yes, Claude can do Nine Loops",
+    "date": "2026-09-25",
+    "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-tag-now-supports-personal-connectors-in-channels",
     "title": "Claude Tag now supports personal connectors in channels",
     "date": "2026-09-24",
