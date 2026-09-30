@@ -32,6 +32,22 @@
     "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
   },
   {
+    "id": "claude:claude-for-government-is-now-generally-available",
+    "title": "Claude for Government is now generally available",
+    "date": "2026-09-30",
+    "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:gemini-4-argon-our-next-era-of-frontier-intelligence",
+    "title": "Gemini 4 Argon: our next era of frontier intelligence",
+    "date": "2026-09-30",
+    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
     "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
     "date": "2026-09-29",
