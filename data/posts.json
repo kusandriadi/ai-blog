@@ -16,6 +16,22 @@
     "description": ""
   },
   {
+    "id": "claude:claude-code-mods",
+    "title": "Customize Claude Code with mods",
+    "date": "2026-10-01",
+    "url": "https://claude.com/blog/claude-code-mods",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:claude-shaped-science",
+    "title": "Claude-shaped science",
+    "date": "2026-10-01",
+    "url": "https://www.anthropic.com/research/claude-shaped-science",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
     "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
     "date": "2026-09-30",
@@ -97,7 +113,7 @@
   },
   {
     "id": "xai:team-bots",
-    "title": "Team Bots: AI coworkers that learn from your team",
+    "title": "Team Bots: shared AI teammates that learn as they work",
     "date": "2026-09-28",
     "url": "https://x.ai/news/team-bots",
     "source": "xai",
