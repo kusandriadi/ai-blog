@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:barclays-scales-claude",
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "date": "2026-10-01",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
     "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
     "date": "2026-09-30",
