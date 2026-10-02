@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:claude-frontier-academy",
+    "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+    "date": "2026-10-02",
+    "url": "https://www.anthropic.com/news/claude-frontier-academy",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:barclays-scales-claude",
     "title": "Barclays scales Claude to upgrade operations and improve client experience",
     "date": "2026-10-01",
