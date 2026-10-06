@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:cyber-verification-program",
+    "title": "Expanding the Cyber Verification Program",
+    "date": "2026-10-06",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "date": "2026-10-06",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
     "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
     "date": "2026-10-05",
