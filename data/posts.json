@@ -13,7 +13,7 @@
     "date": "2026-10-06",
     "url": "https://www.anthropic.com/news/cyber-verification-program",
     "source": "claude",
-    "description": ""
+    "description": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
   },
   {
     "id": "gemma:embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
@@ -117,7 +117,7 @@
     "date": "2026-09-29",
     "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
     "source": "claude",
-    "description": ""
+    "description": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI."
   },
   {
     "id": "claude:glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
@@ -189,7 +189,7 @@
     "date": "2026-09-24",
     "url": "https://www.anthropic.com/research/project-swap",
     "source": "claude",
-    "description": ""
+    "description": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
   },
   {
     "id": "gemma:introducing-gemini-38-live-with-live-avatar",
