@@ -8,6 +8,46 @@
     "description": ""
   },
   {
+    "id": "claude:2026-usage-policy-update",
+    "title": "2026 Usage Policy update",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:genesis-mission-commitment",
+    "title": "Building on our commitment to American scientific discovery",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:anthropic-cyber-mission",
+    "title": "Introducing the Anthropic Cyber Mission",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:the-missing-map-of-the-sky",
+    "title": "The missing map of the sky",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:launching-opt-in-vuln-finding-service-for-open-source",
+    "title": "Launching an opt-in vulnerability-finding service for open-source software",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:cyber-verification-program",
     "title": "Expanding the Cyber Verification Program",
     "date": "2026-10-06",
