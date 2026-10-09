@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:investigating-unintended-model-actions",
+    "title": "Investigating unintended model actions in our evaluations and internal use",
+    "date": "2026-10-09",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:2026-usage-policy-update",
     "title": "2026 Usage Policy update",
     "date": "2026-10-08",
