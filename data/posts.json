@@ -321,7 +321,7 @@
   },
   {
     "id": "xai:grok-bot-customer-support",
-    "title": "How SpaceXAI is using Grok Bot to scale customer support",
+    "title": "How SpaceXSI is using Grok Bot to scale customer support",
     "date": "2026-09-22",
     "url": "https://x.ai/news/grok-bot-customer-support",
     "source": "xai",
@@ -1597,7 +1597,7 @@
     "date": "2026-07-16",
     "url": "https://x.ai/news/grok-4-5",
     "source": "xai",
-    "description": "Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work."
+    "description": "Grok 4.5 is SpaceXSI's smartest model built for coding, agentic tasks, and knowledge work."
   },
   {
     "id": "claude:ai-code-migration",
@@ -3245,7 +3245,7 @@
     "date": "2026-05-06",
     "url": "https://x.ai/news/anthropic-compute-partnership",
     "source": "xai",
-    "description": "SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1."
+    "description": "SpaceXSI has signed an agreement with Anthropic to provide access to Colossus 1."
   },
   {
     "id": "xai:grok-connectors",
