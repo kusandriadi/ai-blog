@@ -8,6 +8,38 @@
     "description": ""
   },
   {
+    "id": "gemma:developing-gemini-4-argon-responsibly-and-safely",
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "date": "2026-10-13",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:gemini-4-argon-for-robotics",
+    "title": "Gemini 4 Argon for Robotics",
+    "date": "2026-10-13",
+    "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-gemini-4-argon",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "date": "2026-10-13",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+    "source": "gemma",
+    "description": ""
+  },
+  {
+    "id": "ollama:fly-io-sprites",
+    "title": "Run AI agents safely with Ollama and Fly.io",
+    "date": "2026-10-13",
+    "url": "https://ollama.com/blog/fly-io-sprites",
+    "source": "ollama",
+    "description": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers."
+  },
+  {
     "id": "claude:self-replicating-ai",
     "title": "AI models may be capable of self-replicating without access to a datacenter",
     "date": "2026-10-12",
