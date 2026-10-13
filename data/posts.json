@@ -8,6 +8,30 @@
     "description": ""
   },
   {
+    "id": "claude:self-replicating-ai",
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "date": "2026-10-12",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:distillation-defenses",
+    "title": "Strengthening our defenses against distillation attacks",
+    "date": "2026-10-12",
+    "url": "https://www.anthropic.com/research/distillation-defenses",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:x-subscription",
+    "title": "Introducing The X Subscription",
+    "date": "2026-10-12",
+    "url": "https://x.ai/news/x-subscription",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:investigating-unintended-model-actions",
     "title": "Investigating unintended model actions in our evaluations and internal use",
     "date": "2026-10-09",
@@ -397,7 +421,7 @@
     "date": "2026-09-16",
     "url": "https://x.ai/news/grok-build-memory",
     "source": "xai",
-    "description": ""
+    "description": "Grok Build now carries conventions, decisions, and project facts from one session to the next. Notes are written in the background as you work and read back when you return to the project."
   },
   {
     "id": "claude:salesforce-in-claude",
