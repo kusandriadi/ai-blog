@@ -24,6 +24,22 @@
     "description": ""
   },
   {
+    "id": "claude:2026-us-midterms",
+    "title": "Preparing for the 2026 US midterms",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/2026-us-midterms",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "xai:grok-voice-3",
+    "title": "Introducing Grok Voice 3.0",
+    "date": "2026-10-14",
+    "url": "https://x.ai/news/grok-voice-3",
+    "source": "xai",
+    "description": "Oct 14, 2026"
+  },
+  {
     "id": "gemma:developing-gemini-4-argon-responsibly-and-safely",
     "title": "Developing Gemini 4 Argon responsibly and safely",
     "date": "2026-10-13",
@@ -401,7 +417,7 @@
   },
   {
     "id": "xai:grok-4-7",
-    "title": "IntroducingGrok 4.7",
+    "title": "Introducing Grok 4.7",
     "date": "2026-09-21",
     "url": "https://x.ai/news/grok-4-7",
     "source": "xai",
@@ -421,7 +437,7 @@
     "date": "2026-09-18",
     "url": "https://x.ai/news/grok-voice-transcribe-2",
     "source": "xai",
-    "description": "Sep 18, 2026"
+    "description": "Announcing SpaceXSI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness."
   },
   {
     "id": "claude:projects-redesigned",
@@ -1345,7 +1361,7 @@
   },
   {
     "id": "xai:grok-voice-think-fast-2",
-    "title": "Introducing Grok Voice Think Fast 2.0",
+    "title": "Introducing Grok Voice 2.0",
     "date": "2026-07-29",
     "url": "https://x.ai/news/grok-voice-think-fast-2",
     "source": "xai",
@@ -3553,7 +3569,7 @@
   },
   {
     "id": "xai:grok-voice-think-fast-1",
-    "title": "Grok Voice Think Fast 1.0",
+    "title": "Grok Voice 1.0",
     "date": "2026-04-23",
     "url": "https://x.ai/news/grok-voice-think-fast-1",
     "source": "xai",
