@@ -16,6 +16,22 @@
     "description": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud."
   },
   {
+    "id": "claude:designing-efficient-quantum-circuits",
+    "title": "Designing more efficient quantum circuits with Claude",
+    "date": "2026-10-16",
+    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:ecdsa-curve-origins",
+    "title": "Claude reveals ECDSA curve origins",
+    "date": "2026-10-16",
+    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:an-update-on-independent-evaluators",
     "title": "An update on independent evaluators",
     "date": "2026-10-15",
