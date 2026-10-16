@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "ollama:reflection-beam",
+    "title": "Reflection's Beam is freely available on Ollama for a limited time",
+    "date": "2026-10-16",
+    "url": "https://ollama.com/blog/reflection-beam",
+    "source": "ollama",
+    "description": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud."
+  },
+  {
     "id": "claude:an-update-on-independent-evaluators",
     "title": "An update on independent evaluators",
     "date": "2026-10-15",
