@@ -32,6 +32,30 @@
     "description": ""
   },
   {
+    "id": "claude:ai-expectations-gap",
+    "title": "The AI expectations gap",
+    "date": "2026-10-16",
+    "url": "https://www.anthropic.com/research/ai-expectations-gap",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:employment-at-anthropic",
+    "title": "How employment is changing at Anthropic",
+    "date": "2026-10-16",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:expectations-for-the-future",
+    "title": "Working at the frontier shapes expectations for the future",
+    "date": "2026-10-16",
+    "url": "https://www.anthropic.com/research/expectations-for-the-future",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:an-update-on-independent-evaluators",
     "title": "An update on independent evaluators",
     "date": "2026-10-15",
