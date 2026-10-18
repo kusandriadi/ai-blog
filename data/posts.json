@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:public-benefit-fund",
+    "title": "Investing in the public benefit",
+    "date": "2026-10-18",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "ollama:reflection-beam",
     "title": "Reflection's Beam is freely available on Ollama for a limited time",
     "date": "2026-10-16",
