@@ -64,6 +64,14 @@
     "description": ""
   },
   {
+    "id": "cursor:navan",
+    "title": "Navan cuts a month-long migration down to a week, without freezing the codebase",
+    "date": "2026-10-16",
+    "url": "https://cursor.com/blog/navan",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "claude:an-update-on-independent-evaluators",
     "title": "An update on independent evaluators",
     "date": "2026-10-15",
