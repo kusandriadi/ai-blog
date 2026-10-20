@@ -13,6 +13,14 @@
     "date": "2026-10-20",
     "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
     "source": "claude",
+    "description": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins."
+  },
+  {
+    "id": "xai:incident-sweep",
+    "title": "Using Grok Bot to detect and respond to incidents",
+    "date": "2026-10-20",
+    "url": "https://x.ai/news/incident-sweep",
+    "source": "xai",
     "description": ""
   },
   {
@@ -45,7 +53,7 @@
     "date": "2026-10-16",
     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
     "source": "claude",
-    "description": ""
+    "description": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated."
   },
   {
     "id": "claude:ecdsa-curve-origins",
@@ -53,7 +61,7 @@
     "date": "2026-10-16",
     "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
     "source": "claude",
-    "description": ""
+    "description": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained."
   },
   {
     "id": "claude:ai-expectations-gap",
@@ -61,7 +69,7 @@
     "date": "2026-10-16",
     "url": "https://www.anthropic.com/research/ai-expectations-gap",
     "source": "claude",
-    "description": ""
+    "description": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions."
   },
   {
     "id": "claude:employment-at-anthropic",
@@ -69,7 +77,7 @@
     "date": "2026-10-16",
     "url": "https://www.anthropic.com/research/employment-at-anthropic",
     "source": "claude",
-    "description": ""
+    "description": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy."
   },
   {
     "id": "claude:expectations-for-the-future",
@@ -77,7 +85,7 @@
     "date": "2026-10-16",
     "url": "https://www.anthropic.com/research/expectations-for-the-future",
     "source": "claude",
-    "description": ""
+    "description": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy."
   },
   {
     "id": "cursor:navan",
@@ -102,6 +110,14 @@
     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
     "source": "gemma",
     "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+  },
+  {
+    "id": "claude:policy",
+    "title": "An update on independent evaluators",
+    "date": "2026-10-15",
+    "url": "https://www.anthropic.com/news/policy",
+    "source": "claude",
+    "description": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face."
   },
   {
     "id": "gemma:on-device-ai-scam-detection-mddi",
@@ -136,6 +152,14 @@
     "description": "Oct 14, 2026"
   },
   {
+    "id": "claude:safeguards",
+    "title": "Preparing for the 2026 US midterms",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/safeguards",
+    "source": "claude",
+    "description": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
+  },
+  {
     "id": "gemma:developing-gemini-4-argon-responsibly-and-safely",
     "title": "Developing Gemini 4 Argon responsibly and safely",
     "date": "2026-10-13",
@@ -168,18 +192,26 @@
     "description": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers."
   },
   {
+    "id": "claude:redesigning-source-control",
+    "title": "Redesigning source control at Anthropic",
+    "date": "2026-10-13",
+    "url": "https://www.anthropic.com/research/redesigning-source-control",
+    "source": "claude",
+    "description": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
+  },
+  {
     "id": "claude:self-replicating-ai",
     "title": "AI models may be capable of self-replicating without access to a datacenter",
     "date": "2026-10-12",
     "url": "https://www.anthropic.com/research/self-replicating-ai",
     "source": "claude",
-    "description": ""
+    "description": "Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens."
   },
   {
     "id": "claude:distillation-defenses",
     "title": "Strengthening our defenses against distillation attacks",
     "date": "2026-10-12",
-    "url": "https://www.anthropic.com/research/distillation-defenses",
+    "url": "https://www.anthropic.com/news/distillation-defenses",
     "source": "claude",
     "description": ""
   },
@@ -197,7 +229,7 @@
     "date": "2026-10-09",
     "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
     "source": "claude",
-    "description": ""
+    "description": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude."
   },
   {
     "id": "claude:2026-usage-policy-update",
@@ -237,7 +269,15 @@
     "date": "2026-10-08",
     "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
     "source": "claude",
-    "description": ""
+    "description": "We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing."
+  },
+  {
+    "id": "claude:security",
+    "title": "Introducing the Anthropic Cyber Mission",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/security",
+    "source": "claude",
+    "description": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
   },
   {
     "id": "claude:cyber-verification-program",
@@ -293,7 +333,7 @@
     "date": "2026-10-01",
     "url": "https://www.anthropic.com/research/claude-shaped-science",
     "source": "claude",
-    "description": ""
+    "description": "Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts."
   },
   {
     "id": "claude:how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
@@ -309,7 +349,7 @@
     "date": "2026-09-30",
     "url": "https://www.anthropic.com/research/what-work-can-robots-do",
     "source": "claude",
-    "description": ""
+    "description": "We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them."
   },
   {
     "id": "gemma:introducing-synthid-bio",
@@ -357,7 +397,7 @@
     "date": "2026-09-29",
     "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
     "source": "claude",
-    "description": ""
+    "description": "Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse."
   },
   {
     "id": "ollama:ollama-now-supports-jev-style-decision-models",
@@ -397,7 +437,7 @@
     "date": "2026-09-25",
     "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
     "source": "claude",
-    "description": ""
+    "description": "Guest writer and physicist Matt von Hippel shares what happened when he issued a challenge to AI companies to solve a problem in his former subfield of theoretical physics."
   },
   {
     "id": "claude:claude-tag-now-supports-personal-connectors-in-channels",
@@ -467,9 +507,9 @@
     "id": "claude:claude-discovers-novel-enzyme-system",
     "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
     "date": "2026-09-23",
-    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
     "source": "claude",
-    "description": ""
+    "description": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR."
   },
   {
     "id": "gemma:advancing-private-ai-compute-with-secure-server-side-memory",
@@ -512,12 +552,28 @@
     "description": ""
   },
   {
+    "id": "claude:announcements",
+    "title": "Announcements",
+    "date": "2026-09-22",
+    "url": "https://www.anthropic.com/news/announcements",
+    "source": "claude",
+    "description": "Announcements"
+  },
+  {
     "id": "xai:grok-4-7",
     "title": "Introducing Grok 4.7",
     "date": "2026-09-21",
     "url": "https://x.ai/news/grok-4-7",
     "source": "xai",
-    "description": "Sep 21, 2026"
+    "description": "SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models."
+  },
+  {
+    "id": "claude:partnerships",
+    "title": "Partnerships",
+    "date": "2026-09-21",
+    "url": "https://www.anthropic.com/news/partnerships",
+    "source": "claude",
+    "description": "Partnerships"
   },
   {
     "id": "claude:accenture-embedded-evaluation",
@@ -557,7 +613,7 @@
     "date": "2026-09-17",
     "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
     "source": "claude",
-    "description": ""
+    "description": "Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node."
   },
   {
     "id": "claude:working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
@@ -669,7 +725,7 @@
     "date": "2026-09-10",
     "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
     "source": "claude",
-    "description": ""
+    "description": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
   },
   {
     "id": "claude:what-1-000-small-business-owners-taught-us-about-ai",
@@ -3944,6 +4000,14 @@
     "description": ""
   },
   {
+    "id": "claude:emotion-concepts-function",
+    "title": "Emotion concepts and their function in a large language model",
+    "date": "2026-04-02",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "source": "claude",
+    "description": "Research on emotion representations in LLMs."
+  },
+  {
     "id": "perplexity:computer-in-slack-from-shared-context-to-finished-work",
     "title": "Computer in Slack: From Shared Context to Finished Work",
     "date": "2026-04-01",
@@ -4438,6 +4502,14 @@
     "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
     "source": "openai",
     "description": "Guide on running long-duration tasks with Codex."
+  },
+  {
+    "id": "claude:product",
+    "title": "Product",
+    "date": "2026-02-23",
+    "url": "https://www.anthropic.com/news/product",
+    "source": "claude",
+    "description": "Product"
   },
   {
     "id": "claude:claude-code-security",
@@ -6398,14 +6470,6 @@
     "url": "https://www.anthropic.com/research/trustworthy-agents",
     "source": "claude",
     "description": "Research on building trustworthy AI agents."
-  },
-  {
-    "id": "claude:emotion-concepts-function",
-    "title": "Emotion concepts and their function in a large language model",
-    "date": "2025-04-02",
-    "url": "https://www.anthropic.com/research/emotion-concepts-function",
-    "source": "claude",
-    "description": "Research on emotion representations in LLMs."
   },
   {
     "id": "gemma:responsible-path-to-agi",
