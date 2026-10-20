@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:claude-scorpion-toxin-binder-design",
+    "title": "How Claude designed protein binders against scorpion neurotoxins",
+    "date": "2026-10-20",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "ollama:clef",
     "title": "Clef is available on Ollama's cloud",
     "date": "2026-10-19",
@@ -3573,7 +3581,7 @@
     "date": "2026-04-30",
     "url": "https://x.ai/news/grok-custom-voices",
     "source": "xai",
-    "description": "Your voice. Your brand. Clone a voice from a short recording and use it across Grok Text to Speech and Voice Agent APIs."
+    "description": "Your voice. Your brand. Clone a voice from a short recording and use it across Grok Text to Speech and Speech to Speech APIs."
   },
   {
     "id": "cursor:typescript-sdk",
