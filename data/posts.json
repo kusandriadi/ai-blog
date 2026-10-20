@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "ollama:clef",
+    "title": "Clef is available on Ollama's cloud",
+    "date": "2026-10-19",
+    "url": "https://ollama.com/blog/clef",
+    "source": "ollama",
+    "description": "Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud."
+  },
+  {
     "id": "claude:public-benefit-fund",
     "title": "Investing in the public benefit",
     "date": "2026-10-18",
