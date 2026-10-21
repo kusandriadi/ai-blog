@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:christopher-stubbs-joins-long-term-benefit-trust",
+    "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+    "date": "2026-10-21",
+    "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:claude-scorpion-toxin-binder-design",
     "title": "How Claude designed protein binders against scorpion neurotoxins",
     "date": "2026-10-20",
@@ -925,7 +933,7 @@
     "date": "2026-08-28",
     "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
     "source": "claude",
-    "description": ""
+    "description": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities."
   },
   {
     "id": "claude:how-anthropic-employees-use-claude-tag",
@@ -997,7 +1005,7 @@
     "date": "2026-08-26",
     "url": "https://www.anthropic.com/research/enabling-independent-research",
     "source": "claude",
-    "description": ""
+    "description": "We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot."
   },
   {
     "id": "gemma:intelligent-transcription-with-gemini-3-5-transcribe",
@@ -1237,7 +1245,7 @@
     "date": "2026-08-13",
     "url": "https://www.anthropic.com/research/multiagent-systems",
     "source": "claude",
-    "description": ""
+    "description": "Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks."
   },
   {
     "id": "claude:self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
