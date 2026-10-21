@@ -37,7 +37,7 @@
     "date": "2026-10-18",
     "url": "https://www.anthropic.com/news/public-benefit-fund",
     "source": "claude",
-    "description": ""
+    "description": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
   },
   {
     "id": "ollama:reflection-beam",
@@ -278,6 +278,14 @@
     "url": "https://www.anthropic.com/news/security",
     "source": "claude",
     "description": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
+  },
+  {
+    "id": "claude:partnerships",
+    "title": "Building on our commitment to American scientific discovery",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/partnerships",
+    "source": "claude",
+    "description": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
   },
   {
     "id": "claude:cyber-verification-program",
@@ -568,12 +576,12 @@
     "description": "SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models."
   },
   {
-    "id": "claude:partnerships",
-    "title": "Partnerships",
+    "id": "claude:features",
+    "title": "Features",
     "date": "2026-09-21",
-    "url": "https://www.anthropic.com/news/partnerships",
+    "url": "https://www.anthropic.com/news/features",
     "source": "claude",
-    "description": "Partnerships"
+    "description": "Features"
   },
   {
     "id": "claude:accenture-embedded-evaluation",
