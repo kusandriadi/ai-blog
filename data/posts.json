@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "gemma:beyond-tree-cover-mapping-the-worlds-forest-types",
+    "title": "Beyond tree cover: mapping the world’s forest types",
+    "date": "2026-10-22",
+    "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+    "source": "gemma",
+    "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
+  },
+  {
+    "id": "xai:partnernetworkannouncement",
+    "title": "Introducing the SpaceX Super Intelligence Partner Network",
+    "date": "2026-10-22",
+    "url": "https://x.ai/news/partnernetworkannouncement",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:christopher-stubbs-joins-long-term-benefit-trust",
     "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
     "date": "2026-10-21",
@@ -565,7 +581,7 @@
     "date": "2026-09-22",
     "url": "https://x.ai/news/grok-bot-customer-support",
     "source": "xai",
-    "description": ""
+    "description": "We rebuilt the combined SpaceXSI and Cursor support operation around Grok Bot, expanding to a much broader product portfolio without adding headcount."
   },
   {
     "id": "claude:announcements",
