@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:alignment-assessment-ukaisi",
+    "title": "An alignment assessment of the UK AISI cybertesting incident",
+    "date": "2026-10-23",
+    "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "source": "claude",
+    "description": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment."
+  },
+  {
     "id": "gemma:beyond-tree-cover-mapping-the-worlds-forest-types",
     "title": "Beyond tree cover: mapping the world’s forest types",
     "date": "2026-10-22",
