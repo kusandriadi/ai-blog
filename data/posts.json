@@ -40,6 +40,22 @@
     "description": ""
   },
   {
+    "id": "claude:open-call-guest-investigators-life-sciences",
+    "title": "Open call for guest investigators in the life sciences",
+    "date": "2026-10-22",
+    "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "claude:formal-verification",
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "date": "2026-10-22",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "source": "claude",
+    "description": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks."
+  },
+  {
     "id": "claude:christopher-stubbs-joins-long-term-benefit-trust",
     "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
     "date": "2026-10-21",
