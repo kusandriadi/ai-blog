@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "ollama:speech-models",
+    "title": "Speech models in Ollama",
+    "date": "2026-10-24",
+    "url": "https://ollama.com/blog/speech-models",
+    "source": "ollama",
+    "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
+  },
+  {
     "id": "claude:alignment-assessment-ukaisi",
     "title": "An alignment assessment of the UK AISI cybertesting incident",
     "date": "2026-10-23",
