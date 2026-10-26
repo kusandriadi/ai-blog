@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:s1-sec",
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "date": "2026-10-26",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "ollama:speech-models",
     "title": "Speech models in Ollama",
     "date": "2026-10-24",
@@ -93,6 +101,14 @@
     "date": "2026-10-20",
     "url": "https://x.ai/news/incident-sweep",
     "source": "xai",
+    "description": ""
+  },
+  {
+    "id": "cursor:agent-sdk",
+    "title": "Introducing the Agent SDK",
+    "date": "2026-10-20",
+    "url": "https://cursor.com/blog/agent-sdk",
+    "source": "cursor",
     "description": ""
   },
   {
