@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "gemma:genie-4-a-new-generation-of-world-simulation",
+    "title": "Genie 4: A new generation of world simulation",
+    "date": "2026-10-27",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+    "source": "gemma",
+    "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
+  },
+  {
+    "id": "xai:grok-bot-sales",
+    "title": "Your next sales teammate should be a Grok Bot",
+    "date": "2026-10-27",
+    "url": "https://x.ai/news/grok-bot-sales",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:s1-sec",
     "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
     "date": "2026-10-26",
@@ -517,7 +533,7 @@
     "date": "2026-09-28",
     "url": "https://x.ai/news/team-bots",
     "source": "xai",
-    "description": ""
+    "description": "Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context."
   },
   {
     "id": "claude:build-plugins-for-claude",
