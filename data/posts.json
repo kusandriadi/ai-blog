@@ -40,12 +40,28 @@
     "description": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few named the agent as a reason afterward."
   },
   {
+    "id": "claude:partnerships",
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/news/partnerships",
+    "source": "claude",
+    "description": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API."
+  },
+  {
+    "id": "claude:expanding-partnership-gsa",
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:s1-sec",
     "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
     "date": "2026-10-26",
     "url": "https://www.anthropic.com/news/s1-sec",
     "source": "claude",
-    "description": ""
+    "description": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock."
   },
   {
     "id": "ollama:speech-models",
@@ -165,7 +181,7 @@
     "date": "2026-10-16",
     "url": "https://ollama.com/blog/reflection-beam",
     "source": "ollama",
-    "description": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud."
+    "description": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama's cloud."
   },
   {
     "id": "claude:designing-efficient-quantum-circuits",
@@ -398,14 +414,6 @@
     "url": "https://www.anthropic.com/news/security",
     "source": "claude",
     "description": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
-  },
-  {
-    "id": "claude:partnerships",
-    "title": "Building on our commitment to American scientific discovery",
-    "date": "2026-10-08",
-    "url": "https://www.anthropic.com/news/partnerships",
-    "source": "claude",
-    "description": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
   },
   {
     "id": "claude:cyber-verification-program",
