@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "cursor:claude-code-extension-security-notice",
+    "title": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
+    "date": "2026-10-29",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "gemma:gemini-4-carbon-our-next-frontier-model",
     "title": "Gemini 4 Carbon: Our next frontier model",
     "date": "2026-10-28",
