@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:speeding-up-planning-decisions-with-ai",
+    "title": "Speeding up planning decisions with AI",
+    "date": "2026-10-30",
+    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
+    "source": "gemma",
+    "description": "Google DeepMind and UK government work together to reduce planning assessment times"
+  },
+  {
     "id": "cursor:claude-code-extension-security-notice",
     "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
     "date": "2026-10-29",
