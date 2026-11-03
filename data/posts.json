@@ -16,6 +16,14 @@
     "description": ""
   },
   {
+    "id": "claude:provable-inference",
+    "title": "Progress on provable inference for large language models",
+    "date": "2026-11-02",
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "source": "claude",
+    "description": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve."
+  },
+  {
     "id": "gemma:speeding-up-planning-decisions-with-ai",
     "title": "Speeding up planning decisions with AI",
     "date": "2026-10-30",
