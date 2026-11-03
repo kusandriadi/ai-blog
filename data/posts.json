@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:agentic-cheminformatics-with-google-antigravity",
+    "title": "Agentic cheminformatics with Google Antigravity",
+    "date": "2026-11-03",
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+    "source": "gemma",
+    "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
+  },
+  {
     "id": "xai:data-bot",
     "title": "Giving every team a data scientist with Grok Bot",
     "date": "2026-11-02",
