@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "xai:data-bot",
+    "title": "Giving every team a data scientist with Grok Bot",
+    "date": "2026-11-02",
+    "url": "https://x.ai/news/data-bot",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "gemma:speeding-up-planning-decisions-with-ai",
     "title": "Speeding up planning decisions with AI",
     "date": "2026-10-30",
@@ -389,7 +397,7 @@
     "date": "2026-10-12",
     "url": "https://x.ai/news/x-subscription",
     "source": "xai",
-    "description": ""
+    "description": "Grok, Grok Bot, Cursor, and X Premium, all on one plan."
   },
   {
     "id": "claude:investigating-unintended-model-actions",
