@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:investigating-vault-particles-with-claude",
+    "title": "Investigating vault particles with Claude",
+    "date": "2026-11-04",
+    "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+    "source": "claude",
+    "description": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research."
+  },
+  {
     "id": "gemma:agentic-cheminformatics-with-google-antigravity",
     "title": "Agentic cheminformatics with Google Antigravity",
     "date": "2026-11-03",
