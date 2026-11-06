@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:teaching-ai-to-build-scientific-models",
+    "title": "Teaching AI to build scientific models",
+    "date": "2026-11-06",
+    "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+    "source": "claude",
+    "description": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation."
+  },
+  {
+    "id": "claude:components-of-agent-memory",
+    "title": "The components of agent memory",
+    "date": "2026-11-06",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "source": "claude",
+    "description": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes."
+  },
+  {
     "id": "gemma:gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
     "date": "2026-11-05",
