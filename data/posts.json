@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:roadshow-launch",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "date": "2026-11-10",
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "source": "claude",
+    "description": ""
+  },
+  {
+    "id": "gemma:introducing-alphaproof-code",
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "date": "2026-11-10",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+    "source": "gemma",
+    "description": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption."
+  },
+  {
     "id": "claude:announcements",
     "title": "Announcements",
     "date": "2026-11-09",
