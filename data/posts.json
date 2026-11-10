@@ -8,6 +8,22 @@
     "description": ""
   },
   {
+    "id": "claude:announcements",
+    "title": "Announcements",
+    "date": "2026-11-09",
+    "url": "https://www.anthropic.com/news/announcements",
+    "source": "claude",
+    "description": "Announcements"
+  },
+  {
+    "id": "claude:claude-electronics-design",
+    "title": "Testing Claude on real-world electronics design",
+    "date": "2026-11-09",
+    "url": "https://www.anthropic.com/research/claude-electronics-design",
+    "source": "claude",
+    "description": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files."
+  },
+  {
     "id": "claude:teaching-ai-to-build-scientific-models",
     "title": "Teaching AI to build scientific models",
     "date": "2026-11-06",
@@ -774,14 +790,6 @@
     "url": "https://x.ai/news/grok-bot-customer-support",
     "source": "xai",
     "description": "We rebuilt the combined SpaceXSI and Cursor support operation around Grok Bot, expanding to a much broader product portfolio without adding headcount."
-  },
-  {
-    "id": "claude:announcements",
-    "title": "Announcements",
-    "date": "2026-09-22",
-    "url": "https://www.anthropic.com/news/announcements",
-    "source": "claude",
-    "description": "Announcements"
   },
   {
     "id": "xai:grok-4-7",
