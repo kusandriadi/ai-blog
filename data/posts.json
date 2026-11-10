@@ -24,6 +24,14 @@
     "description": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption."
   },
   {
+    "id": "gemma:gemini-4-carbon-is-now-available",
+    "title": "Gemini 4 Carbon is now available",
+    "date": "2026-11-10",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "claude:announcements",
     "title": "Announcements",
     "date": "2026-11-09",
@@ -38,6 +46,14 @@
     "url": "https://www.anthropic.com/research/claude-electronics-design",
     "source": "claude",
     "description": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files."
+  },
+  {
+    "id": "gemma:gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "date": "2026-11-09",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+    "source": "gemma",
+    "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety"
   },
   {
     "id": "claude:teaching-ai-to-build-scientific-models",
