@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "date": "2026-11-11",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+    "source": "gemma",
+    "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+  },
+  {
     "id": "claude:roadshow-launch",
     "title": "Anthropic launches roadshow for proposed initial public offering",
     "date": "2026-11-10",
@@ -118,6 +126,14 @@
     "url": "https://www.anthropic.com/research/provable-inference",
     "source": "claude",
     "description": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve."
+  },
+  {
+    "id": "xai:grok-bot-1-0",
+    "title": "Introducing Grok Bot 1.0",
+    "date": "2026-11-02",
+    "url": "https://x.ai/news/grok-bot-1-0",
+    "source": "xai",
+    "description": "Nov 2, 2026"
   },
   {
     "id": "gemma:speeding-up-planning-decisions-with-ai",
@@ -429,7 +445,7 @@
     "date": "2026-10-14",
     "url": "https://x.ai/news/grok-voice-3",
     "source": "xai",
-    "description": "Oct 14, 2026"
+    "description": "The world’s most intelligent voice model."
   },
   {
     "id": "claude:safeguards",
