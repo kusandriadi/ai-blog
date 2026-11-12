@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:introducing-gemini-4-hydrogen",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "date": "2026-11-12",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+    "source": "gemma",
+    "description": ""
+  },
+  {
     "id": "gemma:alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
     "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
     "date": "2026-11-11",
