@@ -56,6 +56,14 @@
     "description": ""
   },
   {
+    "id": "gemma:opening-the-datasets-behind-our-ai-weather-models",
+    "title": "Opening the datasets behind our AI weather models",
+    "date": "2026-11-10",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models",
+    "source": "gemma",
+    "description": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly."
+  },
+  {
     "id": "claude:announcements",
     "title": "Announcements",
     "date": "2026-11-09",
