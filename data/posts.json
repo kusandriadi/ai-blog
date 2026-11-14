@@ -16,6 +16,14 @@
     "description": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences."
   },
   {
+    "id": "cursor:security-incident-update",
+    "title": "An update on our recent security incident",
+    "date": "2026-11-13",
+    "url": "https://cursor.com/blog/security-incident-update",
+    "source": "cursor",
+    "description": ""
+  },
+  {
     "id": "gemma:introducing-gemini-4-hydrogen",
     "title": "Introducing Gemini 4 Hydrogen",
     "date": "2026-11-12",
