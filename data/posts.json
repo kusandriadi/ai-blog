@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:coordinated-vulnerability-disclosure-timelines",
+    "title": "Updating our coordinated vulnerability disclosure policy timelines",
+    "date": "2026-11-16",
+    "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+    "source": "claude",
+    "description": "We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues."
+  },
+  {
     "id": "claude:building-strong-safety-evaluations",
     "title": "Building strong safety evaluations",
     "date": "2026-11-13",
