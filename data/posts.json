@@ -16,6 +16,14 @@
     "description": "We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues."
   },
   {
+    "id": "xai:grok-bot-accounting",
+    "title": "Building an accounting team with Grok Bot",
+    "date": "2026-11-16",
+    "url": "https://x.ai/news/grok-bot-accounting",
+    "source": "xai",
+    "description": ""
+  },
+  {
     "id": "claude:building-strong-safety-evaluations",
     "title": "Building strong safety evaluations",
     "date": "2026-11-13",
@@ -46,6 +54,14 @@
     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
     "source": "gemma",
     "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+  },
+  {
+    "id": "xai:grok-bot-1-0",
+    "title": "Introducing Grok Bot 1.0",
+    "date": "2026-11-11",
+    "url": "https://x.ai/news/grok-bot-1-0",
+    "source": "xai",
+    "description": "Nov 11, 2026"
   },
   {
     "id": "claude:roadshow-launch",
@@ -166,14 +182,6 @@
     "url": "https://www.anthropic.com/research/provable-inference",
     "source": "claude",
     "description": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve."
-  },
-  {
-    "id": "xai:grok-bot-1-0",
-    "title": "Introducing Grok Bot 1.0",
-    "date": "2026-11-02",
-    "url": "https://x.ai/news/grok-bot-1-0",
-    "source": "xai",
-    "description": "Nov 2, 2026"
   },
   {
     "id": "gemma:speeding-up-planning-decisions-with-ai",
@@ -349,7 +357,7 @@
     "date": "2026-10-20",
     "url": "https://x.ai/news/incident-sweep",
     "source": "xai",
-    "description": ""
+    "description": "IncidentWatch spots ticket spikes before internal alerts fire. IncidentSweep clears the related backlog in an approved batch."
   },
   {
     "id": "cursor:agent-sdk",
