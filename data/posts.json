@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:ipo-close",
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+    "date": "2026-11-20",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "source": "claude",
+    "description": ""
+  },
+  {
     "id": "claude:anthropic-prices-initial-public-offering",
     "title": "Anthropic prices initial public offering",
     "date": "2026-11-18",
