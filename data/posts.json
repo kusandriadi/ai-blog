@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "gemma:finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+    "title": "Finding faster quantum algorithms with agents and formal verification",
+    "date": "2026-11-23",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+    "source": "gemma",
+    "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
+  },
+  {
     "id": "claude:ipo-close",
     "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
     "date": "2026-11-20",
