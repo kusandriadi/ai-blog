@@ -16,6 +16,14 @@
     "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
   },
   {
+    "id": "claude:working-with-ai",
+    "title": "Working with AI",
+    "date": "2026-11-23",
+    "url": "https://www.anthropic.com/research/working-with-ai",
+    "source": "claude",
+    "description": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it."
+  },
+  {
     "id": "claude:ipo-close",
     "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
     "date": "2026-11-20",
