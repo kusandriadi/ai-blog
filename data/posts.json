@@ -8,6 +8,14 @@
     "description": ""
   },
   {
+    "id": "claude:migrating-api-to-rust",
+    "title": "Migrating our Messages API to Rust",
+    "date": "2026-11-25",
+    "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+    "source": "claude",
+    "description": "How we migrated our Messages API from Python to Rust."
+  },
+  {
     "id": "gemma:finding-faster-quantum-algorithms-with-agents-and-formal-verification",
     "title": "Finding faster quantum algorithms with agents and formal verification",
     "date": "2026-11-23",
