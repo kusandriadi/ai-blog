@@ -16,6 +16,14 @@
     "description": "How we migrated our Messages API from Python to Rust."
   },
   {
+    "id": "gemma:interpreting-mass-spectra-with-google-antigravity",
+    "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+    "date": "2026-11-24",
+    "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
+    "source": "gemma",
+    "description": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra."
+  },
+  {
     "id": "gemma:finding-faster-quantum-algorithms-with-agents-and-formal-verification",
     "title": "Finding faster quantum algorithms with agents and formal verification",
     "date": "2026-11-23",
